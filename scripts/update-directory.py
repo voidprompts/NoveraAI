@@ -287,7 +287,7 @@ def normalize_candidate(candidate: dict):
     slug = slugify(candidate["name"])
     discovered = dt.date.today().isoformat()
     pricing = candidate.get("pricing", "Freemium")
-    if pricing not in {"Free", "Freemium", "Paid", "Enterprise"}:
+    if pricing not in {"Free", "Freemium", "Paid", "Enterprise", "Source-available"}:
         pricing = "Freemium"
     raw_tags = candidate.get("tags") or derive_tags(f"{candidate.get('name','')} {candidate.get('description','')}", category)
     raw_features = candidate.get("features") or FEATURES[category]

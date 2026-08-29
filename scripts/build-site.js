@@ -160,7 +160,8 @@ function categoryPageContent(category) {
 function toolPageContent(tool) {
   const category = byCategory(tool.category);
   const related = tools.filter(t => t.category === tool.category && t.slug !== tool.slug).slice(0,3);
-  return `<article><section class="tool-detail-hero"><div class="container"><h1 class="detail-title">${e(tool.name)}</h1><p class="detail-tagline">${e(tool.tagline)}</p><a class="btn btn-primary" href="${e(tool.website)}" rel="noopener">Official website</a></div></section><section class="detail-main"><div class="container"><h2>What ${e(tool.name)} does</h2><p>${e(tool.description)}</p><h2>Key features</h2><ul>${tool.features.map(f=>`<li>${e(f)}</li>`).join('')}</ul><h2>Pricing</h2><p>${e(tool.pricing)}</p><h2>Tags</h2><p>${tool.tags.map(tag=>`<a href="/all-tools/?q=${encodeURIComponent(tag)}">${e(tag)}</a>`).join(', ')}</p><h2>Related ${e(category.name)} tools</h2>${staticToolLinks(related)}</div></section></article>`;
+  const accessHeading = tool.pricing === 'Source-available' ? 'Access model' : 'Pricing';
+  return `<article><section class="tool-detail-hero"><div class="container"><h1 class="detail-title">${e(tool.name)}</h1><p class="detail-tagline">${e(tool.tagline)}</p><a class="btn btn-primary" href="${e(tool.website)}" rel="noopener">Official website</a></div></section><section class="detail-main"><div class="container"><h2>What ${e(tool.name)} does</h2><p>${e(tool.description)}</p><h2>Key features</h2><ul>${tool.features.map(f=>`<li>${e(f)}</li>`).join('')}</ul><h2>${accessHeading}</h2><p>${e(tool.pricing)}</p><h2>Tags</h2><p>${tool.tags.map(tag=>`<a href="/all-tools/?q=${encodeURIComponent(tag)}">${e(tag)}</a>`).join(', ')}</p><h2>Related ${e(category.name)} tools</h2>${staticToolLinks(related)}</div></section></article>`;
 }
 
 const infoPages = {
@@ -244,13 +245,18 @@ function generatePages() {
   for (const tool of tools) {
     const category = byCategory(tool.category);
     const software = schemaBase('SoftwareApplication',{
-      name:tool.name, description:tool.description, applicationCategory:category.name, operatingSystem:'Web', url:tool.website,
-      offers:{'@type':'Offer',price:tool.pricing === 'Free' ? '0' : undefined,priceCurrency:'USD',description:`${tool.pricing} pricing model`}
+      name:tool.name, description:tool.description, applicationCategory:category.name, operatingSystem:'Web', url:tool.website
     });
-    if (software.offers.price === undefined) delete software.offers.price;
+    if (tool.pricing !== 'Source-available') {
+      software.offers = {'@type':'Offer',price:tool.pricing === 'Free' ? '0' : undefined,priceCurrency:'USD',description:`${tool.pricing} pricing model`};
+      if (software.offers.price === undefined) delete software.offers.price;
+    }
+    const sourceAvailable = tool.pricing === 'Source-available';
     writeRoute(`/tools/${tool.slug}/`, page({
-      title:`${tool.name}: Features, Pricing & Alternatives — ${config.siteName}`,
-      description:`${tool.tagline} Review key features, ${tool.pricing.toLowerCase()} pricing, tags, and related ${category.name.toLowerCase()} tools.`,
+      title:`${tool.name}: Features, ${sourceAvailable ? 'Access' : 'Pricing'} & Alternatives — ${config.siteName}`,
+      description:sourceAvailable
+        ? `${tool.tagline} Review key features, source-available access, tags, and related ${category.name.toLowerCase()} tools.`
+        : `${tool.tagline} Review key features, ${tool.pricing.toLowerCase()} pricing, tags, and related ${category.name.toLowerCase()} tools.`,
       route:`/tools/${tool.slug}/`,pageName:'tool',bodyClass:'tool-page',dataAttr:` data-tool="${e(tool.slug)}"`,content:toolPageContent(tool),
       schema:[software,breadcrumbSchema([{name:'Home',route:'/'},{name:category.name,route:`/categories/${category.slug}/`},{name:tool.name,route:`/tools/${tool.slug}/`}])]
     }));
