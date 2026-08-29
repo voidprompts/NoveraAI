@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "name": "Hacker News — Show HN AI",
+      "type": "hn_algolia",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=Show%20HN%20AI&tags=story&hitsPerPage=50",
+      "enabled": true
+    },
+    {
+      "name": "Optional RSS feed",
+      "type": "rss",
+      "url": "",
+      "enabled": false
+    }
+  ],
+  "blockedDomains": [
+    "news.ycombinator.com",
+    "facebook.com",
+    "x.com",
+    "twitter.com",
+    "linkedin.com",
+    "apps.apple.com",
+    "play.google.com"
+  ]
+}

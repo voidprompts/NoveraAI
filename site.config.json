@@ -1,0 +1,19 @@
+{
+  "siteName": "Novera",
+  "siteUrl": "",
+  "defaultDescription": "Discover thoughtfully selected AI tools, clearly organized across 12 useful categories.",
+  "locale": "en_US",
+  "adsense": {
+    "publisherId": "",
+    "slots": {
+      "home": "",
+      "listing": "",
+      "detail": ""
+    }
+  },
+  "discovery": {
+    "autoPublish": true,
+    "minimumConfidence": 0.72,
+    "maxNewToolsPerRun": 8
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "novera-ai-directory",
+  "private": true,
+  "version": "1.1.0",
+  "description": "SEO-first, AdSense-ready AI tools directory with automated discovery and categorization.",
+  "scripts": {
+    "build": "node scripts/build-site.js",
+    "update": "python3 scripts/update-directory.py",
+    "update:local": "python3 scripts/update-directory.py --no-fetch",
+    "preview": "python3 -m http.server 4173 --bind 0.0.0.0"
+  }
+}
