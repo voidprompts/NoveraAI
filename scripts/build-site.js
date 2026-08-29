@@ -19,6 +19,8 @@ config.adsense.slots = config.adsense.slots || {};
 config.adsense.slots.home = process.env.ADSENSE_HOME_SLOT || config.adsense.slots.home || '';
 config.adsense.slots.listing = process.env.ADSENSE_LISTING_SLOT || config.adsense.slots.listing || '';
 config.adsense.slots.detail = process.env.ADSENSE_DETAIL_SLOT || config.adsense.slots.detail || '';
+config.analytics = config.analytics || {};
+config.analytics.cloudflareWebAnalyticsToken = process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN || config.analytics.cloudflareWebAnalyticsToken || '';
 const sandbox = { window: {} };
 vm.createContext(sandbox);
 vm.runInContext(fs.readFileSync(path.join(root, 'assets/data.js'), 'utf8'), sandbox);
@@ -41,6 +43,13 @@ const urlFor = route => siteUrl ? `${siteUrl}${route}` : route;
 
 function validPublisher() {
   return /^ca-pub-\d+$/.test(config.adsense?.publisherId || '');
+}
+
+function cloudflareAnalytics() {
+  const token = config.analytics?.cloudflareWebAnalyticsToken || '';
+  if (!/^[a-f0-9]{32}$/i.test(token)) return '';
+  const beaconConfig = e(JSON.stringify({token}));
+  return `  <!-- Cloudflare Web Analytics -->\n  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="${beaconConfig}"></script>\n  <!-- End Cloudflare Web Analytics -->\n`;
 }
 
 function schemaBase(type, extra = {}) {
@@ -136,7 +145,7 @@ function page({title, description, route, pageName, bodyClass, dataAttr='', cont
   <main id="main">${content}</main>
   <footer id="site-footer"></footer>
   <noscript><p class="container">JavaScript adds filters and interactions; all directory links remain available above.</p></noscript>
-</body>
+${cloudflareAnalytics()}</body>
 </html>\n`;
 }
 
@@ -165,7 +174,7 @@ function toolPageContent(tool) {
 
 const infoPages = {
   about: {title:'About Novera', description:'Learn how Novera discovers, categorizes, reviews, and presents useful AI tools.', heading:'Useful discovery, without the noise.', copy:'Novera is an independent directory that organizes AI products around the work people are trying to do. Automated discovery checks approved sources, validates URLs, removes duplicates, and categorizes qualified tools using transparent rules.'},
-  privacy: {title:'Privacy Policy', description:'Read how Novera handles submissions, hosting data, cookies, and advertising privacy.', heading:'A clear, practical privacy policy.', copy:'Novera processes limited hosting and submission information to operate the directory. When advertising is enabled, Google AdSense and its partners may use cookies or similar technologies to deliver and measure ads. Consent choices are provided where required.'},
+  privacy: {title:'Privacy Policy', description:'Read how Novera handles analytics, submissions, hosting data, cookies, and advertising privacy.', heading:'A clear, practical privacy policy.', copy:'Novera uses privacy-friendly Cloudflare Web Analytics for aggregate page and performance measurements without analytics cookies. Limited hosting and submission information may also be processed to operate the directory. If advertising is enabled later, consent choices will be provided where required.'},
   terms: {title:'Terms of Use', description:'Read the terms for using Novera and its independent AI tools directory.', heading:'Simple terms for a useful resource.', copy:'Directory content is provided for general discovery. Product details can change, so visitors should verify important information on official websites. Product names and trademarks belong to their respective owners.'},
   contact: {title:'Contact Novera', description:'Contact Novera about listing corrections, privacy, partnerships, or directory feedback.', heading:'Questions, corrections, or feedback?', copy:'Contact the directory about outdated listings, privacy requests, partnerships, or feedback. For a new product, use the structured tool submission form.'}
 };

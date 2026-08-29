@@ -3,6 +3,9 @@
   "siteUrl": "https://noveraai.noveratools.workers.dev",
   "defaultDescription": "Discover thoughtfully selected AI tools, clearly organized across 12 useful categories.",
   "locale": "en_US",
+  "analytics": {
+    "cloudflareWebAnalyticsToken": "2b526f20b15145d5b4231a51047f7c91"
+  },
   "adsense": {
     "publisherId": "",
     "slots": {
@@ -15,5 +18,13 @@
     "autoPublish": true,
     "minimumConfidence": 0.72,
     "maxNewToolsPerRun": 8
+  },
+  "contentAutomation": {
+    "enabled": true,
+    "mode": "pull_request_review",
+    "frequency": "weekly",
+    "minimumToolsPerPost": 3,
+    "maximumToolsPerPost": 8,
+    "author": "Novera Editorial"
   }
 }
