@@ -143,6 +143,12 @@ def derive_name(title: str) -> str:
 def categorize(text: str, title: str = ""):
     lower = text.lower()
     title_lower = title.lower()
+    # Clinical documentation products may mention ambient audio or transcription,
+    # but their primary use is practice productivity—not audio creation.
+    clinical_terms = ("clinical", "therapist", "therapy", "soap note", "patient")
+    workflow_terms = ("note", "documentation", "schedule", "appointment", "session")
+    if any(term in lower for term in clinical_terms) and any(term in lower for term in workflow_terms):
+        return "productivity-automation", 0.92
     title_scores = {
         slug: sum(1 for keyword in words if has_category_term(title_lower, keyword))
         for slug, words in CATEGORY_RULES.items()
@@ -373,6 +379,8 @@ def main():
                 rejection = "non_product_title"
             elif len(item["tagline"]) < 25:
                 rejection = "insufficient_description"
+            elif item["tagline"].lower().startswith("an ai tool for "):
+                rejection = "generic_fallback_description"
             if rejection:
                 log("candidate_rejected", {"name": item.get("name"), "reason": rejection})
                 continue
