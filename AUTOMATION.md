@@ -89,7 +89,28 @@ Place a record in `data/inbox.json` and run `npm run update:local`:
 ]
 ```
 
-## 4. SEO output
+## 4. Human-reviewed weekly posts
+
+The workflow in `.github/workflows/weekly-roundup.yml` runs every Sunday at **05:10 UTC / 1:10 PM Manila**. It does not publish content directly. Instead, it:
+
+1. Selects three to eight qualified tools discovered within the previous 14 days.
+2. Excludes tools already used in an earlier roundup.
+3. Creates one factual weekly roundup with category, pricing, feature, and methodology context.
+4. Generates the guide page, BlogPosting structured data, internal links, RSS item, and sitemap entry.
+5. Opens a GitHub pull request containing an editorial checklist.
+6. Waits for the site owner to review and merge the pull request.
+
+The article only becomes public after the pull request is merged. This human approval step helps prevent inaccurate, repetitive, or low-value scaled content from reaching the production site.
+
+If fewer than three unused qualified tools are available, no draft is created that week. Settings are available under `contentAutomation` in `site.config.json`.
+
+To test locally:
+
+```bash
+npm run draft:weekly
+```
+
+## 5. SEO output
 
 `npm run build` generates or refreshes:
 
@@ -105,7 +126,7 @@ Place a record in `data/inbox.json` and run `npm run update:local`:
 
 Submit `/sitemap.xml` in Google Search Console and Bing Webmaster Tools after deployment. Do not add thin, copied, or unverified descriptions merely to increase page count; useful original descriptions are more sustainable for both search and AdSense.
 
-## 5. Commands
+## 6. Commands
 
 ```bash
 npm run build          # regenerate pages and SEO assets

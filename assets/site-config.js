@@ -1,7 +1,7 @@
 // Generated from site.config.json.
 window.NOVERA_SITE_CONFIG = {
   "siteName": "Novera",
-  "siteUrl": "https://noveraai.voidprompts26.workers.dev",
+  "siteUrl": "https://noveraai.noveratools.workers.dev",
   "adsense": {
     "publisherId": "",
     "slots": {

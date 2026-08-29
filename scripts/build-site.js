@@ -26,6 +26,8 @@ vm.runInContext(fs.readFileSync(path.join(root, 'assets/auto-data.js'), 'utf8'),
 const data = sandbox.window.NOVERA_DATA;
 const categories = data.categories;
 const tools = data.tools;
+const postsPath = path.join(root, 'data/posts.json');
+const posts = fs.existsSync(postsPath) ? JSON.parse(fs.readFileSync(postsPath, 'utf8')) : [];
 const byCategory = slug => categories.find(c => c.slug === slug);
 const toolBySlug = slug => tools.find(t => t.slug === slug);
 const hasDomain = /^https:\/\/[^/]+/i.test(config.siteUrl || '') && !/your-domain|example\.com/i.test(config.siteUrl);
@@ -105,6 +107,7 @@ function head({title, description, route, type='website', schema=[]}) {
   <script src="/assets/site-config.js" defer></script>
   <script src="/assets/data.js" defer></script>
   <script src="/assets/auto-data.js" defer></script>
+  <script src="/assets/posts-data.js" defer></script>
   <script src="/assets/app.js" defer></script>
 </head>`;
 }
@@ -115,6 +118,15 @@ function staticCategoryLinks(list = categories) {
 
 function staticToolLinks(list) {
   return `<div class="tool-grid">${list.map(t => `<a class="tool-card" href="/tools/${e(t.slug)}/"><h3>${e(t.name)}</h3><p class="tagline">${e(t.tagline)}</p><span class="pricing-badge" data-price="${e(t.pricing)}">${e(t.pricing)}</span></a>`).join('')}</div>`;
+}
+
+function staticPostLinks(list) {
+  return `<div class="post-grid">${list.map(post => `<a class="post-card" href="/guides/${e(post.slug)}/"><span class="post-card-body"><span class="post-meta">${e(post.type || 'Weekly roundup')} · ${e(post.date)}</span><h3>${e(post.title)}</h3><p>${e(post.description)}</p><span class="post-card-foot"><span>${e(post.readingTime || 5)} min read</span></span></span></a>`).join('')}</div>`;
+}
+
+function staticPostContent(post) {
+  const roundupTools = (post.toolSlugs || []).map(toolBySlug).filter(Boolean);
+  return `<article class="guide-article"><header class="guide-hero"><div class="container"><div class="guide-heading"><h1>${e(post.title)}</h1><p class="lede">${e(post.description)}</p><div class="guide-byline"><span>By ${e(post.author || 'Novera Editorial')}</span><span>${e(post.date)}</span><span>${e(post.readingTime || 5)} min read</span></div></div></div></header><div class="guide-layout container"><main class="guide-content"><section class="guide-intro">${(post.intro || []).map(paragraph=>`<p>${e(paragraph)}</p>`).join('')}</section>${roundupTools.map((tool,index)=>`<section class="guide-tool"><h2>${index+1}. ${e(tool.name)}</h2><p>${e(tool.tagline)}</p><p>${e(tool.description)}</p><ul>${tool.features.slice(0,3).map(feature=>`<li>${e(feature)}</li>`).join('')}</ul><a href="/tools/${e(tool.slug)}/">Read the ${e(tool.name)} listing</a></section>`).join('')}<section class="guide-method"><h2>How this roundup was prepared</h2><p>${e(post.methodology)}</p></section></main></div></article>`;
 }
 
 function page({title, description, route, pageName, bodyClass, dataAttr='', content, schema=[]}) {
@@ -137,7 +149,7 @@ function writeRoute(route, html) {
 
 function homeContent() {
   const featured = tools.filter(t => t.featured).slice(0,6);
-  return `<section class="hero"><div class="container"><div class="hero-inner"><span class="eyebrow">Curated for useful work</span><h1>All the AI tools.<br><span class="accent">Organized.</span></h1><p class="hero-copy">Discover thoughtfully selected AI tools, clearly categorized so you can spend less time searching and more time creating.</p></div></div></section><section class="section"><div class="container"><h2>Explore AI tools by category</h2>${staticCategoryLinks()}</div></section><section class="section"><div class="container"><h2>Featured AI tools</h2>${staticToolLinks(featured)}</div></section>`;
+  return `<section class="hero"><div class="container"><div class="hero-inner"><span class="eyebrow">Curated for useful work</span><h1>All the AI tools.<br><span class="accent">Organized.</span></h1><p class="hero-copy">Discover thoughtfully selected AI tools, clearly categorized so you can spend less time searching and more time creating.</p></div></div></section><section class="section"><div class="container"><h2>Explore AI tools by category</h2>${staticCategoryLinks()}</div></section><section class="section"><div class="container"><h2>Featured AI tools</h2>${staticToolLinks(featured)}</div></section>${posts.length ? `<section class="section"><div class="container"><h2>Latest AI tool guides</h2>${staticPostLinks(posts.slice(0,3))}</div></section>` : ''}`;
 }
 
 function categoryPageContent(category) {
@@ -198,6 +210,24 @@ function generatePages() {
     content:`<section class="page-hero"><div class="container"><h1>New tools, thoughtfully placed.</h1><p class="lede">Fresh AI products discovered and organized by Novera.</p></div></section><section class="discovery-area"><div class="container">${staticToolLinks(newList)}</div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:'New AI tools',route:'/new/'}])]
   }));
 
+  const blogSchema = schemaBase('Blog',{name:`${config.siteName} AI tool guides`,description:'Human-reviewed weekly AI tool roundups and practical comparisons',blogPost:posts.map(post=>({'@type':'BlogPosting',headline:post.title,url:urlFor(`/guides/${post.slug}/`),datePublished:post.date}))});
+  writeRoute('/guides/', page({
+    title:`AI Tool Guides & Weekly Roundups — ${config.siteName}`,description:'Explore human-reviewed weekly AI tool roundups with clear categories, practical context, and transparent selection notes.',route:'/guides/',pageName:'guides',bodyClass:'guides-page',
+    content:`<section class="page-hero"><div class="container"><h1>Useful context for choosing AI tools.</h1><p class="lede">Weekly roundups created from qualified directory additions and reviewed before publication.</p></div></section><section class="discovery-area"><div class="container">${posts.length ? staticPostLinks(posts) : '<p>The first roundup is being prepared.</p>'}</div></section>`,schema:[blogSchema,breadcrumbSchema([{name:'Home',route:'/'},{name:'Guides',route:'/guides/'}])]
+  }));
+
+  for (const post of posts) {
+    const articleSchema = schemaBase('BlogPosting',{
+      headline:post.title,description:post.description,datePublished:post.date,dateModified:post.updated || post.date,
+      author:{'@type':'Organization',name:post.author || 'Novera Editorial'},publisher:{'@type':'Organization',name:config.siteName},
+      mainEntityOfPage:urlFor(`/guides/${post.slug}/`),about:(post.toolSlugs || []).map(slug=>toolBySlug(slug)?.name).filter(Boolean)
+    });
+    writeRoute(`/guides/${post.slug}/`, page({
+      title:`${post.title} — ${config.siteName}`,description:post.description,route:`/guides/${post.slug}/`,pageName:'post',bodyClass:'post-page',dataAttr:` data-post="${e(post.slug)}"`,content:staticPostContent(post),
+      schema:[articleSchema,breadcrumbSchema([{name:'Home',route:'/'},{name:'Guides',route:'/guides/'},{name:post.title,route:`/guides/${post.slug}/`}])]
+    }));
+  }
+
   writeRoute('/submit/', page({
     title:`Submit an AI Tool — ${config.siteName}`,description:'Submit a useful AI product for inclusion in the Novera directory.',route:'/submit/',pageName:'submit',bodyClass:'submit-page',
     content:`<section class="page-hero"><div class="container"><h1>Know a tool worth sharing?</h1><p class="lede">Submit an AI tool for automated quality checks and categorization.</p></div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:'Submit a tool',route:'/submit/'}])]
@@ -230,15 +260,17 @@ function generatePages() {
 function generateMachineFiles() {
   const runtimeConfig = {siteName:config.siteName,siteUrl:siteUrl,adsense:config.adsense || {publisherId:'',slots:{}}};
   fs.writeFileSync(path.join(root,'assets/site-config.js'),`// Generated from site.config.json.\nwindow.NOVERA_SITE_CONFIG = ${JSON.stringify(runtimeConfig,null,2)};\n`);
+  fs.writeFileSync(path.join(root,'assets/posts-data.js'),`// Generated from data/posts.json.\nwindow.NOVERA_POSTS = ${JSON.stringify(posts,null,2)};\n`);
 
-  const routes = ['/', '/categories/', ...categories.map(c=>`/categories/${c.slug}/`), '/all-tools/', '/new/', '/submit/', ...Object.keys(infoPages).map(key=>`/${key}/`), ...tools.map(t=>`/tools/${t.slug}/`)];
+  const routes = ['/', '/categories/', ...categories.map(c=>`/categories/${c.slug}/`), '/all-tools/', '/new/', '/guides/', ...posts.map(post=>`/guides/${post.slug}/`), '/submit/', ...Object.keys(infoPages).map(key=>`/${key}/`), ...tools.map(t=>`/tools/${t.slug}/`)];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${routes.map(route=>`  <url><loc>${xml(urlFor(route))}</loc><lastmod>${today}</lastmod><changefreq>${route==='/new/'?'daily':route.startsWith('/categories/')?'weekly':'monthly'}</changefreq><priority>${route==='/'?'1.0':route.startsWith('/tools/')?'0.7':'0.8'}</priority></url>`).join('\n')}\n</urlset>\n`;
   fs.writeFileSync(path.join(root,'sitemap.xml'),sitemap);
   fs.writeFileSync(path.join(root,'robots.txt'),`User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /scripts/\n${siteUrl ? `Sitemap: ${siteUrl}/sitemap.xml\n` : ''}`);
 
   const recent = tools.filter(t=>t.discoveredAt).sort((a,b)=>String(b.discoveredAt).localeCompare(String(a.discoveredAt))).slice(0,30);
-  const feedItems = recent.map(t=>`<item><title>${xml(t.name)}</title><link>${xml(urlFor(`/tools/${t.slug}/`))}</link><guid>${xml(urlFor(`/tools/${t.slug}/`))}</guid><pubDate>${new Date(`${t.discoveredAt}T12:00:00Z`).toUTCString()}</pubDate><description>${xml(t.description)}</description></item>`).join('');
-  fs.writeFileSync(path.join(root,'feed.xml'),`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>${xml(config.siteName)} new AI tools</title><link>${xml(siteUrl || '/')}</link><description>${xml(config.defaultDescription)}</description>${feedItems}</channel></rss>\n`);
+  const postFeedItems = posts.slice(0,20).map(post=>`<item><title>${xml(post.title)}</title><link>${xml(urlFor(`/guides/${post.slug}/`))}</link><guid>${xml(urlFor(`/guides/${post.slug}/`))}</guid><pubDate>${new Date(`${post.date}T12:00:00Z`).toUTCString()}</pubDate><description>${xml(post.description)}</description></item>`).join('');
+  const toolFeedItems = recent.map(t=>`<item><title>${xml(t.name)}</title><link>${xml(urlFor(`/tools/${t.slug}/`))}</link><guid>${xml(urlFor(`/tools/${t.slug}/`))}</guid><pubDate>${new Date(`${t.discoveredAt}T12:00:00Z`).toUTCString()}</pubDate><description>${xml(t.description)}</description></item>`).join('');
+  fs.writeFileSync(path.join(root,'feed.xml'),`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>${xml(config.siteName)} AI tool guides and updates</title><link>${xml(siteUrl || '/')}</link><description>${xml(config.defaultDescription)}</description>${postFeedItems}${toolFeedItems}</channel></rss>\n`);
 
   const adsText = validPublisher() ? `google.com, ${config.adsense.publisherId.replace('ca-','')}, DIRECT, f08c47fec0942fa0\n` : '# Add a valid AdSense publisherId in site.config.json, then run npm run build.\n';
   fs.writeFileSync(path.join(root,'ads.txt'),adsText);

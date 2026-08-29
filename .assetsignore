@@ -9,6 +9,7 @@ site.config.json
 package.json
 package-lock.json
 bun.lock
+wrangler.jsonc
 AUTOMATION.md
 .gitignore
 .assetsignore

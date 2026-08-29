@@ -3,6 +3,7 @@
   const siteConfig = window.NOVERA_SITE_CONFIG || { siteName: 'Novera', siteUrl: '', adsense: { publisherId: '', slots: {} } };
   const categories = data.categories;
   const tools = data.tools;
+  const posts = window.NOVERA_POSTS || [];
   const bySlug = (slug) => categories.find(c => c.slug === slug);
   const toolBySlug = (slug) => tools.find(t => t.slug === slug);
   const page = document.body.dataset.page || 'home';
@@ -88,7 +89,7 @@
         <div class="footer-brand">${brand()}<p>A calm, carefully organized place to discover the right AI tool for the work in front of you.</p></div>
         <div class="footer-links">
           ${columns.map((col, i) => `<div class="footer-column"><h3>${i === 0 ? 'Create' : i === 1 ? 'Work' : 'Explore'}</h3>${col.map(c => `<a href="/categories/${c.slug}/">${c.name}</a>`).join('')}</div>`).join('')}
-          <div class="footer-column"><h3>Directory</h3><a href="/all-tools/">All tools</a><a href="/new/">New this week</a><a href="/categories/">Categories</a><a href="/submit/">Submit a tool</a></div>
+          <div class="footer-column"><h3>Directory</h3><a href="/all-tools/">All tools</a><a href="/new/">New this week</a><a href="/guides/">Guides & comparisons</a><a href="/categories/">Categories</a><a href="/submit/">Submit a tool</a></div>
         </div>
       </div>
       <div class="footer-bottom"><span>© 2026 Novera. Designed for clear decisions.</span><span class="footer-legal"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></span><span class="footer-status"><i class="status-dot"></i>Directory refreshed daily</span></div>
@@ -110,6 +111,15 @@
       <h3>${t.name}</h3><p class="tagline">${t.tagline}</p>
       <span class="tool-card-bottom"><span class="tool-cat">${c.name}</span><span class="visit-link">View tool ${arrow()}</span></span>
     </a>`;
+  }
+
+  function formatDate(value) {
+    return new Intl.DateTimeFormat('en', { month: 'long', day: 'numeric', year: 'numeric' }).format(new Date(`${value}T12:00:00`));
+  }
+
+  function postCard(post) {
+    const relatedTools = (post.toolSlugs || []).map(toolBySlug).filter(Boolean);
+    return `<a class="post-card" href="/guides/${post.slug}/"><span class="post-card-art"><span class="post-art-orbit"></span><span class="post-art-count">${relatedTools.length}</span><span class="post-art-label">AI TOOLS</span></span><span class="post-card-body"><span class="post-meta">${post.type || 'Weekly roundup'} · ${formatDate(post.date)}</span><h3>${post.title}</h3><p>${post.description}</p><span class="post-card-foot"><span>${post.readingTime || 5} min read</span><span class="text-link">Read guide ${arrow()}</span></span></span></a>`;
   }
 
   function adUnit(placement) {
@@ -166,7 +176,8 @@
     <section class="section section-tint"><div class="container">
       <div class="section-heading"><div><span class="eyebrow">Quietly capable</span><h2>Tools worth knowing</h2><p>A small selection of trusted, useful tools across the directory.</p></div><a class="text-link" href="/all-tools/">Browse all tools ${arrow()}</a></div>
       <div class="tool-grid">${featured.map(toolCard).join('')}</div>
-    </div></section>`;
+    </div></section>
+    ${posts.length ? `<section class="section"><div class="container"><div class="section-heading"><div><span class="eyebrow">Editorially reviewed</span><h2>Latest guides</h2><p>Useful roundups prepared from the directory and approved before publication.</p></div><a class="text-link" href="/guides/">All guides ${arrow()}</a></div><div class="post-grid">${posts.slice(0,3).map(postCard).join('')}</div></div></section>` : ''}`;
   }
 
   function renderCategories() {
@@ -296,6 +307,24 @@
     <section class="related-section"><div class="container"><div class="section-heading"><div><span class="eyebrow">Keep exploring</span><h2>Related tools</h2><p>More carefully selected options in ${c.name}.</p></div><a class="text-link" href="/categories/${c.slug}/">View category ${arrow()}</a></div><div class="tool-grid">${related.map(toolCard).join('')}</div></div></section>`;
   }
 
+  function renderGuides() {
+    document.title = `AI Tool Guides & Weekly Roundups — ${siteConfig.siteName || 'Novera'}`;
+    document.getElementById('main').innerHTML = `<section class="page-hero compact"><div class="container">${breadcrumbs([{label:'Guides'}])}<div class="page-heading-wrap reveal"><span class="eyebrow">Human-approved publishing</span><h1>Useful context for choosing AI tools.</h1><p class="lede">Weekly roundups created from qualified directory additions, then reviewed before they become part of Novera.</p></div></div></section><section class="discovery-area"><div class="container">${posts.length ? `<div class="post-grid">${posts.map(postCard).join('')}</div>` : emptyState('The first roundup is being prepared', 'Novera will create a review draft after enough qualified tools are discovered this week.')}</div></section>`;
+  }
+
+  function renderPost() {
+    const slug = document.body.dataset.post;
+    const post = posts.find(item => item.slug === slug);
+    if (!post) {
+      document.title = `Guide not found — ${siteConfig.siteName || 'Novera'}`;
+      document.getElementById('main').innerHTML = `<section class="page-hero"><div class="container">${emptyState('Guide not found', 'This guide may still be awaiting editorial approval.')}</div></section>`;
+      return;
+    }
+    const roundupTools = (post.toolSlugs || []).map(toolBySlug).filter(Boolean);
+    document.title = `${post.title} — ${siteConfig.siteName || 'Novera'}`;
+    document.getElementById('main').innerHTML = `<article class="guide-article"><header class="guide-hero"><div class="container">${breadcrumbs([{label:'Guides',href:'/guides/'},{label:post.title}])}<div class="guide-heading reveal"><span class="eyebrow">${post.type || 'Weekly roundup'}</span><h1>${post.title}</h1><p class="lede">${post.description}</p><div class="guide-byline"><span>By ${post.author || 'Novera Editorial'}</span><span>${formatDate(post.date)}</span><span>${post.readingTime || 5} min read</span><span>Reviewed before publication</span></div></div></div></header><div class="guide-layout container"><main class="guide-content"><section class="guide-intro">${(post.intro || []).map(paragraph => `<p>${paragraph}</p>`).join('')}</section>${adUnit('detail')}${roundupTools.map((tool,index) => { const category=bySlug(tool.category); return `<section class="guide-tool" id="${tool.slug}"><div class="guide-tool-heading"><span class="guide-number">${String(index+1).padStart(2,'0')}</span><span class="tool-logo" style="--logo-bg:${category.color}">${initials(tool.name)}</span><div><span class="tool-cat">${category.name}</span><h2>${tool.name}</h2></div></div><p class="guide-tool-tagline">${tool.tagline}</p><p>${tool.description}</p><h3>What to know</h3><ul class="guide-feature-list">${tool.features.slice(0,3).map(feature=>`<li><span class="feature-check">${icon('check',true)}</span>${feature}</li>`).join('')}</ul><div class="guide-tool-actions"><span class="pricing-badge" data-price="${tool.pricing}">${tool.pricing}</span><a class="btn btn-secondary" href="/tools/${tool.slug}/">View ${tool.name} ${arrow()}</a></div></section>`; }).join('')}<section class="guide-method"><h2>How this roundup was prepared</h2><p>${post.methodology || 'Tools were selected from qualified additions to the Novera directory. Automated checks handled URL validation, duplicate detection, and initial categorization. The resulting draft was reviewed before publication. Inclusion is not a paid endorsement.'}</p></section></main><aside class="guide-aside"><span class="aside-label">In this guide</span><ol>${roundupTools.map(tool=>`<li><a href="#${tool.slug}">${tool.name}</a></li>`).join('')}</ol><hr class="aside-sep"><p class="aside-copy">Product information changes frequently. Confirm current features and pricing on each official website.</p></aside></div></article>`;
+  }
+
   function renderNew() {
     const discovered = tools.filter(tool => tool.discoveredAt).sort((a, b) => String(b.discoveredAt).localeCompare(String(a.discoveredAt)));
     const fallback = tools.filter(tool => tool.featured).slice(0, 8);
@@ -384,6 +413,8 @@
   if (page === 'all-tools') renderAllTools();
   if (page === 'tool') renderTool();
   if (page === 'new') renderNew();
+  if (page === 'guides') renderGuides();
+  if (page === 'post') renderPost();
   if (page === 'info') renderInfo();
   if (page === 'submit') renderSubmit();
   initGlobalInteractions();

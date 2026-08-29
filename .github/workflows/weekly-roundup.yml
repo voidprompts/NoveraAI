@@ -1,0 +1,82 @@
+name: Prepare weekly AI tools roundup
+
+on:
+  schedule:
+    # Sunday at 05:10 UTC (1:10 PM in Manila)
+    - cron: "10 5 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-editorial-draft
+  cancel-in-progress: false
+
+jobs:
+  prepare-review-draft:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out latest directory
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Create weekly branch
+        id: branch
+        shell: bash
+        run: |
+          BRANCH="automation/weekly-roundup-$(date -u +%G-W%V)"
+          echo "name=$BRANCH" >> "$GITHUB_OUTPUT"
+          if git ls-remote --exit-code origin "refs/heads/$BRANCH" >/dev/null 2>&1; then
+            echo "A review branch already exists for this week."
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git checkout -b "$BRANCH"
+          echo "exists=false" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare factual roundup and SEO pages
+        if: steps.branch.outputs.exists != 'true'
+        run: python scripts/generate-weekly-post.py
+
+      - name: Validate generated site
+        if: steps.branch.outputs.exists != 'true'
+        run: |
+          node --check assets/app.js
+          node --check assets/posts-data.js
+          node --check scripts/build-site.js
+          python -m py_compile scripts/generate-weekly-post.py
+
+      - name: Open editorial review pull request
+        if: steps.branch.outputs.exists != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ steps.branch.outputs.name }}
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Not enough unused qualified tools for a roundup this week."
+            exit 0
+          fi
+          git config user.name "Novera Editorial Bot"
+          git config user.email "directory-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "content: prepare weekly AI tools roundup"
+          git push --set-upstream origin "$BRANCH"
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "Review: weekly AI tools roundup" \
+            --body $'## Editorial review required\n\nThis pull request contains a weekly roundup prepared from qualified directory additions. It is **not live until you merge this pull request**.\n\n### Before merging\n- Open the generated guide and read every tool description.\n- Confirm each product is genuinely AI-related and in the correct category.\n- Remove any weak, unclear, or inappropriate listing.\n- Confirm pricing labels against official websites when possible.\n- Keep the disclosure and methodology section intact.\n\nWhen satisfied, select **Merge pull request**. Cloudflare will then publish the article automatically.'

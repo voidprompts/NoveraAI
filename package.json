@@ -7,6 +7,7 @@
     "build": "node scripts/build-site.js",
     "update": "python3 scripts/update-directory.py",
     "update:local": "python3 scripts/update-directory.py --no-fetch",
+    "draft:weekly": "python3 scripts/generate-weekly-post.py",
     "preview": "python3 -m http.server 4173 --bind 0.0.0.0"
   }
 }
