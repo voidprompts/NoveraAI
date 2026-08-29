@@ -129,6 +129,33 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49473959",
     "reviewStatus": "editorially-corrected"
+  },
+  {
+    "slug": "agent-qa",
+    "name": "Agent QA",
+    "category": "coding-development",
+    "tagline": "Run natural-language web and mobile application tests with an autonomous QA agent.",
+    "pricing": "Source-available",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://vostride.com/docs/agent-qa",
+    "description": "Agent QA authors, runs, and troubleshoots natural-language tests for web, Android, and iOS applications through CLI, MCP, and agent-skill interfaces. It uses execution memory to adapt tests when application interfaces change.",
+    "tags": [
+      "Application testing",
+      "MCP",
+      "Agent skills",
+      "Mobile testing"
+    ],
+    "features": [
+      "Author and run web application tests from natural-language instructions",
+      "Test Android and iOS application workflows",
+      "Invoke QA workflows through CLI, MCP, or reusable agent skills",
+      "Reuse execution memory when adapting tests to changed interfaces"
+    ],
+    "discoveredAt": "2026-08-30",
+    "sourceName": "Official Agent QA documentation",
+    "sourceUrl": "https://vostride.com/docs/agent-qa",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {
