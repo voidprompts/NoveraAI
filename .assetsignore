@@ -1,0 +1,14 @@
+**/.git
+**/.github
+**/node_modules
+**/__pycache__
+**/*.pyc
+scripts
+data
+site.config.json
+package.json
+package-lock.json
+bun.lock
+AUTOMATION.md
+.gitignore
+.assetsignore
