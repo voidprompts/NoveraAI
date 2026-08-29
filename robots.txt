@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /data/
 Disallow: /scripts/
+Sitemap: https://noveraai.voidprompts26.workers.dev/sitemap.xml
