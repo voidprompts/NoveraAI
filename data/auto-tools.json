@@ -2,125 +2,86 @@
   {
     "slug": "kith",
     "name": "Kith",
-    "category": "audio-music",
-    "tagline": "AI clinical notes for therapists from ambient session audio",
+    "category": "productivity-automation",
+    "tagline": "Ambient clinical documentation and scheduling designed for therapists.",
     "pricing": "Freemium",
-    "rating": 0.0,
+    "rating": 0,
     "featured": false,
     "website": "https://www.kith.space",
-    "description": "Kith is a newly discovered AI product for audio music. AI clinical notes for therapists from ambient session audio.",
-    "tags": [
-      "Music",
-      "Audio Music"
-    ],
-    "features": [
-      "Create or enhance spoken and musical audio",
-      "Work through a simple creative interface",
-      "Export audio for common workflows",
-      "Iterate on sound and voice ideas"
-    ],
+    "description": "Kith is an AI clinical workspace for therapists that provides ambient transcription, clinically specific SOAP notes, online-session support, scheduling, and reminders.",
+    "tags": ["Clinical notes", "Transcription", "Scheduling"],
+    "features": ["Create clinical SOAP notes from session audio", "Capture in-person and online session transcripts", "Manage appointments and recurring sessions", "Use a free plan for up to five sessions per month"],
     "discoveredAt": "2026-08-29",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49487976",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "doodle-ai",
     "name": "Doodle AI",
     "category": "image-generation",
-    "tagline": "open-source photo-to-doodle avatar generator",
+    "tagline": "Turn photos and character prompts into hand-drawn doodle artwork.",
     "pricing": "Freemium",
-    "rating": 0.0,
+    "rating": 0,
     "featured": false,
     "website": "https://doodleai.art",
-    "description": "Doodle AI is a newly discovered AI product for image generation. open-source photo-to-doodle avatar generator.",
-    "tags": [
-      "Images",
-      "Image Generation"
-    ],
-    "features": [
-      "Generate visual concepts from prompts",
-      "Explore style and composition options",
-      "Create reusable creative assets",
-      "Iterate on visual directions quickly"
-    ],
+    "description": "Doodle AI creates hand-drawn avatars, sticker packs, portraits, collages, and other illustrated variations from an uploaded photo or a character description.",
+    "tags": ["Doodle art", "Avatars", "Photo editing"],
+    "features": ["Create a doodle avatar from a photo", "Choose from multiple illustrated skills and formats", "Generate sticker, portrait, and collage variations", "Start with included testing credits"],
     "discoveredAt": "2026-08-29",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49487781",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "twing",
     "name": "Twing",
     "category": "coding-development",
-    "tagline": "We built an open sourced coordination layer for AI agents working on the same repository. Detects work duplication and design conflicts early",
+    "tagline": "Coordinate multiple AI coding agents working across the same repository.",
     "pricing": "Freemium",
-    "rating": 0.0,
+    "rating": 0,
     "featured": false,
     "website": "https://twing.dev",
-    "description": "We built an open sourced coordination layer for AI agents working on the same repository. Detects work duplication and design conflicts early.",
-    "tags": [
-      "Design",
-      "Coding Development"
-    ],
-    "features": [
-      "Accelerate common development tasks",
-      "Work with contextual code assistance",
-      "Explain and improve technical work",
-      "Move from idea to working software"
-    ],
+    "description": "Twing is a coordination layer for engineering teams using multiple AI coding agents, designed to expose duplicated work and conflicting changes before they reach review.",
+    "tags": ["Coding agents", "Coordination", "Code review"],
+    "features": ["Show shared agent work across a repository", "Detect duplicated or conflicting work early", "Preserve context behind engineering decisions", "Support review workflows for agent-generated changes"],
     "discoveredAt": "2026-08-29",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49478737",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "dmx",
     "name": "dmx",
     "category": "coding-development",
-    "tagline": "MCP server for adding configurable, gated loops to coding agents",
-    "pricing": "Freemium",
-    "rating": 0.0,
+    "tagline": "Add structured, human-gated development loops to AI coding agents.",
+    "pricing": "Free",
+    "rating": 0,
     "featured": false,
     "website": "https://dmx.deepmodel.ai",
-    "description": "dmx is a newly discovered AI product for coding development. MCP server for adding configurable, gated loops to coding agents.",
-    "tags": [
-      "Coding Development"
-    ],
-    "features": [
-      "Accelerate common development tasks",
-      "Work with contextual code assistance",
-      "Explain and improve technical work",
-      "Move from idea to working software"
-    ],
+    "description": "dmx is an open-source MCP server that adds specifications, plans, validation policies, persistent state, and explicit human approval gates to AI-assisted development workflows.",
+    "tags": ["MCP", "Coding agents", "Open source"],
+    "features": ["Sequence AI work through spec, plan, build, validate, and release phases", "Pause at explicit human approval gates", "Run required and optional validation policies", "Preserve project context and job state across sessions"],
     "discoveredAt": "2026-08-29",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49478619",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "h3max",
     "name": "H3Max",
     "category": "video-generation",
-    "tagline": "An AI tool for video generation workflows.",
+    "tagline": "Generate short videos from text or images with configurable frame controls.",
     "pricing": "Freemium",
-    "rating": 0.0,
+    "rating": 0,
     "featured": false,
     "website": "https://h3max.app",
-    "description": "H3Max is a newly discovered AI product for video generation. An AI tool for video generation workflows.",
-    "tags": [
-      "Video",
-      "Video Generation"
-    ],
-    "features": [
-      "Create video concepts with AI assistance",
-      "Speed up editing and production",
-      "Repurpose content for new formats",
-      "Build shareable visual stories"
-    ],
+    "description": "H3Max is a browser-based workspace for creating 5–15 second AI videos from written directions or source images, with prompt expansion and optional first- and end-frame controls.",
+    "tags": ["Text to video", "Image to video", "Frame control"],
+    "features": ["Generate video from text or a source image", "Create clips between 5 and 15 seconds", "Choose 480p or 768p output", "Guide motion with optional first and end frames"],
     "discoveredAt": "2026-08-29",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49473959",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   }
 ]
