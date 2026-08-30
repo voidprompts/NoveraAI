@@ -32,7 +32,14 @@
 </head>
 <body class="submit-page" data-page="submit">
   <header id="site-header"></header>
-  <main id="main"><section class="page-hero"><div class="container"><h1>Know a tool worth sharing?</h1><p class="lede">Submit an AI tool for automated quality checks and categorization.</p></div></section></main>
+  <main id="main"><section class="page-hero"><div class="container"><h1>Know a tool worth sharing?</h1><p class="lede">Tell us what makes it useful. Every submission is checked for quality, duplicates, and category fit before publication.</p></div></section><section class="discovery-area"><div class="container"><form class="form-card" id="submit-form" action="https://formspree.io/f/xjyvkjpq" method="POST">
+    <input type="hidden" name="submission_type" value="Tool submission"><input type="hidden" name="_subject" value="New Novera tool submission"><div class="hp-field" aria-hidden="true"><label>Leave this field empty<input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+    <div class="field-row"><div class="field"><label for="tool-name">Tool name</label><input id="tool-name" name="tool_name" required></div><div class="field"><label for="tool-url">Official website</label><input id="tool-url" name="official_website" type="url" required placeholder="https://"></div></div>
+    <div class="field"><label for="tool-category">Best-fit category</label><select id="tool-category" name="category" required><option value="">Select a category</option><option value="text-writing">Text &amp; Writing</option><option value="image-generation">Image Generation</option><option value="video-generation">Video Generation</option><option value="audio-music">Audio &amp; Music</option><option value="coding-development">Coding &amp; Development</option><option value="productivity-automation">Productivity &amp; Automation</option><option value="marketing-sales">Marketing &amp; Sales</option><option value="research-knowledge">Research &amp; Knowledge</option><option value="design-ux">Design &amp; UX</option><option value="data-analytics">Data &amp; Analytics</option><option value="customer-support">Customer Support</option><option value="education-learning">Education &amp; Learning</option></select></div>
+    <div class="field"><label for="tool-description">Why is it useful?</label><textarea id="tool-description" name="message" required></textarea></div>
+    <div class="field"><label for="submitter-email">Your email</label><input id="submitter-email" name="email" type="email" required></div>
+    <button class="btn btn-primary form-submit" type="submit">Send for review</button><div class="form-message" role="status" aria-live="polite"></div>
+  </form></div></section></main>
   <footer id="site-footer"></footer>
   <noscript><p class="container">JavaScript adds filters and interactions; all directory links remain available above.</p></noscript>
   <!-- Cloudflare Web Analytics -->

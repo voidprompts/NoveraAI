@@ -244,8 +244,12 @@ img, svg { display: block; }
 .field textarea { min-height:110px; padding:13px; resize:vertical; }
 .field input:focus, .field textarea:focus, .field select:focus { border-color:#BEBEEB; background:white; box-shadow:0 0 0 4px rgba(87,87,232,.07); }
 .form-submit { margin-top:23px; }
-.form-message { display:none; margin-top:18px; padding:13px; border-radius:12px; color:#466650; background:#EEF6EF; font-size:12px; }
+.form-message { display:none; margin-top:18px; padding:13px; border-radius:12px; color:#466650; background:#EEF6EF; font-size:12px; line-height:1.55; }
 .form-message.show { display:block; }
+.form-message.error { color:#824B45; background:#FFF0EE; }
+.form-fine-print { margin-top:18px !important; padding-top:16px; border-top:1px solid rgba(32,39,35,.09); font-size:11px !important; }
+.hp-field { position:absolute !important; left:-10000px !important; width:1px !important; height:1px !important; overflow:hidden !important; }
+.contact-form-wrap { max-width:820px; margin-top:24px; }
 
 /* Guides and reviewed weekly roundups */
 .post-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }

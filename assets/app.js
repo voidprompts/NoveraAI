@@ -4,6 +4,8 @@
   const categories = data.categories;
   const tools = data.tools;
   const posts = window.NOVERA_POSTS || [];
+  const configuredFormEndpoint = siteConfig.forms?.formspreeEndpoint || '';
+  const formEndpoint = /^https:\/\/formspree\.io\/f\/[a-z0-9]+$/i.test(configuredFormEndpoint) ? configuredFormEndpoint : '';
   const bySlug = (slug) => categories.find(c => c.slug === slug);
   const toolBySlug = (slug) => tools.find(t => t.slug === slug);
   const page = document.body.dataset.page || 'home';
@@ -334,6 +336,52 @@
     document.getElementById('main').innerHTML = `<section class="page-hero compact"><div class="container">${breadcrumbs([{label:'New this week'}])}<div class="page-heading-wrap reveal"><span class="eyebrow">Freshly discovered</span><h1>New tools, thoughtfully placed.</h1><p class="lede">${isLiveFeed ? 'New AI products discovered by Novera’s monitored sources and automatically organized into the right category.' : 'Our latest reviewed highlights. Automated discoveries will appear here as soon as the first scheduled refresh finds a qualified tool.'}</p><div class="page-stats"><span class="soft-chip"><i class="dot"></i>Daily discovery scan</span><span class="soft-chip">Automatic categorization</span><span class="soft-chip">Duplicate protection</span></div></div></div></section><section class="discovery-area"><div class="container"><div class="section-heading"><div><span class="eyebrow">${isLiveFeed ? 'Latest arrivals' : 'Recently reviewed'}</span><h2>${isLiveFeed ? `${discovered.length} new additions` : 'Current highlights'}</h2></div><a class="text-link" href="/all-tools/">Browse all tools ${arrow()}</a></div><div class="tool-grid">${shown.map(toolCard).join('')}</div></div></section>`;
   }
 
+  function honeypotField() {
+    return `<div class="hp-field" aria-hidden="true"><label>Leave this field empty<input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>`;
+  }
+
+  function contactForm() {
+    if (!formEndpoint) return `<div class="form-card"><p>Contact messages are temporarily unavailable. Please try again later.</p></div>`;
+    return `<form class="form-card" id="contact-form" action="${escapeHTML(formEndpoint)}" method="POST">
+      <input type="hidden" name="submission_type" value="Contact message"><input type="hidden" name="_subject" value="New Novera contact message">${honeypotField()}
+      <div class="field-row"><div class="field"><label for="contact-name">Your name</label><input id="contact-name" name="name" required autocomplete="name"></div><div class="field"><label for="contact-email">Your email</label><input id="contact-email" name="email" type="email" required autocomplete="email"></div></div>
+      <div class="field"><label for="contact-topic">Topic</label><select id="contact-topic" name="topic" required><option value="">Choose a topic</option><option>Listing correction</option><option>Privacy request</option><option>Partnership</option><option>General feedback</option></select></div>
+      <div class="field"><label for="contact-message">Message</label><textarea id="contact-message" name="message" required placeholder="How can we help?"></textarea></div>
+      <button class="btn btn-primary form-submit" type="submit">Send message ${arrow()}</button><div class="form-message" role="status" aria-live="polite"></div>
+    </form>`;
+  }
+
+  function connectForm(form, successText) {
+    if (!form || !formEndpoint) return;
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      const button = form.querySelector('button[type="submit"]');
+      const message = form.querySelector('.form-message');
+      const originalLabel = button.innerHTML;
+      button.disabled = true;
+      button.textContent = 'Sending…';
+      message.classList.remove('show', 'error');
+      message.textContent = '';
+      try {
+        const response = await fetch(formEndpoint, {
+          method:'POST',
+          body:new FormData(form),
+          headers:{Accept:'application/json'}
+        });
+        if (!response.ok) throw new Error(`Form service returned ${response.status}`);
+        form.reset();
+        message.textContent = successText;
+        message.classList.add('show');
+        button.textContent = 'Sent';
+      } catch (error) {
+        message.textContent = 'We could not send your message. Please check your connection and try again.';
+        message.classList.add('show', 'error');
+        button.disabled = false;
+        button.innerHTML = originalLabel;
+      }
+    });
+  }
+
   function renderInfo() {
     const key = document.body.dataset.info || 'about';
     const pages = {
@@ -349,6 +397,7 @@
         eyebrow: 'Your privacy', title: 'A clear, practical privacy policy.', lede: 'This policy explains the limited information Novera may process when you browse the directory or submit a tool.',
         sections: [
           ['Information we receive', 'Standard hosting logs may contain an IP address, browser details, requested pages, and timestamps. Tool submissions may include a name, email address, product URL, and description. We use this information to operate, secure, and improve the directory.'],
+          ['Form processing', 'Contact messages and tool submissions are processed by Formspree so they can be delivered, screened for spam, and reviewed. Do not submit passwords, payment details, health information, or other sensitive data.'],
           ['Privacy-friendly analytics', 'Novera uses Cloudflare Web Analytics to understand aggregate page views and site performance. This analytics service does not use cookies or local storage, does not fingerprint individual visitors, and does not track people across Cloudflare customers’ websites.'],
           ['Advertising and cookies', 'When advertising is enabled, Google AdSense and its partners may use cookies or similar technologies to deliver, measure, and limit ads. Depending on your location, a consent message may be shown before personalized advertising or storage is enabled. You can manage ad personalization through Google’s advertising settings.'],
           ['Retention and choices', 'Submission details are retained only as long as needed for review and directory maintenance. You may ask to access, correct, or delete information you submitted by using the contact page. We do not sell submitted contact information.'],
@@ -365,23 +414,32 @@
         ]
       },
       contact: {
-        eyebrow: 'Get in touch', title: 'Questions, corrections, or feedback?', lede: 'Tell us about an outdated listing, a privacy request, a partnership question, or an idea that would make Novera more useful.',
+        eyebrow: 'Get in touch', title: 'Questions, corrections, or feedback?', lede: 'Send an outdated-listing report, privacy request, partnership question, or idea that would make Novera more useful.',
         sections: [
           ['Listing corrections', 'Include the tool name, official URL, and the specific information that should be updated. Verified correction requests are prioritized.'],
-          ['Privacy and policy', 'Use the contact channel provided by the site owner for privacy requests and policy questions. Add the production support email in site.config.json before launch.'],
-          ['Submit a new tool', 'For new products, use the structured submission form so the directory has the information needed to categorize and review it.']
+          ['Privacy and policy', 'Choose Privacy request in the form below to ask about, access, correct, or delete information you submitted.'],
+          ['Partnerships and feedback', 'Use the same form for partnership questions or practical suggestions. Paid relationships do not determine directory inclusion or category placement.']
         ]
       }
     };
     const info = pages[key] || pages.about;
     document.title = `${info.title} — ${siteConfig.siteName || 'Novera'}`;
-    document.getElementById('main').innerHTML = `<section class="page-hero compact"><div class="container">${breadcrumbs([{label:key[0].toUpperCase()+key.slice(1)}])}<div class="page-heading-wrap reveal"><span class="eyebrow">${info.eyebrow}</span><h1>${info.title}</h1><p class="lede">${info.lede}</p></div></div></section><section class="legal-content"><div class="container"><article class="legal-card">${info.sections.map(section => `<section><h2>${section[0]}</h2><p>${section[1]}</p></section>`).join('')}${key === 'contact' ? `<a class="btn btn-primary" href="/submit/">Submit a tool ${arrow()}</a>` : ''}<p class="policy-date">Last updated: August 29, 2026</p></article></div></section>`;
+    document.getElementById('main').innerHTML = `<section class="page-hero compact"><div class="container">${breadcrumbs([{label:key[0].toUpperCase()+key.slice(1)}])}<div class="page-heading-wrap reveal"><span class="eyebrow">${info.eyebrow}</span><h1>${info.title}</h1><p class="lede">${info.lede}</p></div></div></section><section class="legal-content"><div class="container"><article class="legal-card">${info.sections.map(section => `<section><h2>${section[0]}</h2><p>${section[1]}</p></section>`).join('')}${key === 'contact' ? `<a class="btn btn-secondary" href="/submit/">Submitting a new tool? Use the tool form ${arrow()}</a>` : ''}<p class="policy-date">Last updated: August 30, 2026</p></article>${key === 'contact' ? `<div class="contact-form-wrap">${contactForm()}</div>` : ''}</div></section>`;
+    if (key === 'contact') connectForm(document.getElementById('contact-form'), 'Thank you. Your message was sent to Novera.');
   }
 
   function renderSubmit() {
+    const form = formEndpoint ? `<form class="form-card" id="submit-form" action="${escapeHTML(formEndpoint)}" method="POST">
+      <input type="hidden" name="submission_type" value="Tool submission"><input type="hidden" name="_subject" value="New Novera tool submission">${honeypotField()}
+      <div class="field-row"><div class="field"><label for="tool-name">Tool name</label><input id="tool-name" name="tool_name" required placeholder="e.g. Paperwise"></div><div class="field"><label for="tool-url">Official website</label><input id="tool-url" name="official_website" type="url" required placeholder="https://"></div></div>
+      <div class="field"><label for="tool-category">Best-fit category</label><select id="tool-category" name="category" required><option value="">Select a category</option>${categories.map(c=>`<option value="${c.slug}">${c.name}</option>`).join('')}</select></div>
+      <div class="field"><label for="tool-description">Why is it useful?</label><textarea id="tool-description" name="message" required placeholder="A short, clear description of what it helps people do."></textarea></div>
+      <div class="field"><label for="submitter-email">Your email</label><input id="submitter-email" name="email" type="email" required autocomplete="email" placeholder="you@company.com"></div>
+      <button class="btn btn-primary form-submit" type="submit">Send for review ${arrow()}</button><div class="form-message" role="status" aria-live="polite"></div>
+    </form>` : `<div class="form-card"><p>Tool submissions are temporarily unavailable. Please try again later.</p></div>`;
     document.getElementById('main').innerHTML = `<section class="page-hero compact"><div class="container">${breadcrumbs([{label:'Submit a tool'}])}<div class="page-heading-wrap reveal"><span class="eyebrow">Help the directory grow</span><h1>Know a tool worth sharing?</h1><p class="lede">Tell us what makes it useful. Every submission is checked for quality, duplicates, and category fit before publication.</p></div></div></section>
-    <section class="discovery-area"><div class="container"><div class="submit-layout"><form class="form-card" id="submit-form"><div class="field-row"><div class="field"><label for="tool-name">Tool name</label><input id="tool-name" required placeholder="e.g. Paperwise"></div><div class="field"><label for="tool-url">Official website</label><input id="tool-url" type="url" required placeholder="https://"></div></div><div class="field"><label for="tool-category">Best-fit category</label><select id="tool-category" required><option value="">Select a category</option>${categories.map(c=>`<option>${c.name}</option>`).join('')}</select></div><div class="field"><label for="tool-description">Why is it useful?</label><textarea id="tool-description" required placeholder="A short, clear description of what it helps people do."></textarea></div><div class="field"><label for="submitter-email">Your email</label><input id="submitter-email" type="email" required placeholder="you@company.com"></div><button class="btn btn-primary form-submit" type="submit">Send for review ${arrow()}</button><div class="form-message" role="status">Thank you. Your tool has been added to our review queue.</div></form><aside class="submit-note"><h3>A careful quality gate</h3><p>Automated checks look for tools that solve a real problem, explain themselves clearly, and have a valid official website.</p><ul class="submit-points"><li><span class="feature-check">${icon('check',true)}</span>Duplicate and URL checks</li><li><span class="feature-check">${icon('check',true)}</span>One clear category per listing</li><li><span class="feature-check">${icon('clock',true)}</span>Daily publishing refresh</li><li><span class="feature-check">${icon('shield',true)}</span>No payment for placement</li></ul></aside></div></div></section>`;
-    document.getElementById('submit-form')?.addEventListener('submit', e => { e.preventDefault(); e.currentTarget.querySelector('.form-message').classList.add('show'); e.currentTarget.querySelector('button').disabled = true; e.currentTarget.querySelector('button').textContent = 'Submitted'; });
+    <section class="discovery-area"><div class="container"><div class="submit-layout">${form}<aside class="submit-note"><h3>A careful quality gate</h3><p>Submissions are delivered securely for review before they can become part of the directory.</p><ul class="submit-points"><li><span class="feature-check">${icon('check',true)}</span>Duplicate and URL checks</li><li><span class="feature-check">${icon('check',true)}</span>One clear category per listing</li><li><span class="feature-check">${icon('clock',true)}</span>Human review before acceptance</li><li><span class="feature-check">${icon('shield',true)}</span>No payment for placement</li></ul><p class="form-fine-print">Submission does not guarantee publication. Do not include passwords or other sensitive information.</p></aside></div></div></section>`;
+    connectForm(document.getElementById('submit-form'), 'Thank you. Your tool submission was sent to Novera for review.');
   }
 
   function escapeHTML(value) {

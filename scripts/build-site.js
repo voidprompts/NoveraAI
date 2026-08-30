@@ -21,6 +21,8 @@ config.adsense.slots.listing = process.env.ADSENSE_LISTING_SLOT || config.adsens
 config.adsense.slots.detail = process.env.ADSENSE_DETAIL_SLOT || config.adsense.slots.detail || '';
 config.analytics = config.analytics || {};
 config.analytics.cloudflareWebAnalyticsToken = process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN || config.analytics.cloudflareWebAnalyticsToken || '';
+config.forms = config.forms || {};
+config.forms.formspreeEndpoint = process.env.FORMSPREE_ENDPOINT || config.forms.formspreeEndpoint || '';
 const sandbox = { window: {} };
 vm.createContext(sandbox);
 vm.runInContext(fs.readFileSync(path.join(root, 'assets/data.js'), 'utf8'), sandbox);
@@ -43,6 +45,11 @@ const urlFor = route => siteUrl ? `${siteUrl}${route}` : route;
 
 function validPublisher() {
   return /^ca-pub-\d+$/.test(config.adsense?.publisherId || '');
+}
+
+function formspreeEndpoint() {
+  const endpoint = config.forms?.formspreeEndpoint || '';
+  return /^https:\/\/formspree\.io\/f\/[a-z0-9]+$/i.test(endpoint) ? endpoint : '';
 }
 
 function cloudflareAnalytics() {
@@ -138,6 +145,35 @@ function staticPostContent(post) {
   return `<article class="guide-article"><header class="guide-hero"><div class="container"><div class="guide-heading"><h1>${e(post.title)}</h1><p class="lede">${e(post.description)}</p><div class="guide-byline"><span>By ${e(post.author || 'Novera Editorial')}</span><span>${e(post.date)}</span><span>${e(post.readingTime || 5)} min read</span></div></div></div></header><div class="guide-layout container"><main class="guide-content"><section class="guide-intro">${(post.intro || []).map(paragraph=>`<p>${e(paragraph)}</p>`).join('')}</section>${roundupTools.map((tool,index)=>`<section class="guide-tool"><h2>${index+1}. ${e(tool.name)}</h2><p>${e(tool.tagline)}</p><p>${e(tool.description)}</p><ul>${tool.features.slice(0,3).map(feature=>`<li>${e(feature)}</li>`).join('')}</ul><a href="/tools/${e(tool.slug)}/">Read the ${e(tool.name)} listing</a></section>`).join('')}<section class="guide-method"><h2>How this roundup was prepared</h2><p>${e(post.methodology)}</p></section></main></div></article>`;
 }
 
+function honeypotField() {
+  return `<div class="hp-field" aria-hidden="true"><label>Leave this field empty<input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>`;
+}
+
+function staticSubmitContent() {
+  const endpoint = formspreeEndpoint();
+  const form = endpoint ? `<form class="form-card" id="submit-form" action="${e(endpoint)}" method="POST">
+    <input type="hidden" name="submission_type" value="Tool submission"><input type="hidden" name="_subject" value="New Novera tool submission">${honeypotField()}
+    <div class="field-row"><div class="field"><label for="tool-name">Tool name</label><input id="tool-name" name="tool_name" required></div><div class="field"><label for="tool-url">Official website</label><input id="tool-url" name="official_website" type="url" required placeholder="https://"></div></div>
+    <div class="field"><label for="tool-category">Best-fit category</label><select id="tool-category" name="category" required><option value="">Select a category</option>${categories.map(c=>`<option value="${e(c.slug)}">${e(c.name)}</option>`).join('')}</select></div>
+    <div class="field"><label for="tool-description">Why is it useful?</label><textarea id="tool-description" name="message" required></textarea></div>
+    <div class="field"><label for="submitter-email">Your email</label><input id="submitter-email" name="email" type="email" required></div>
+    <button class="btn btn-primary form-submit" type="submit">Send for review</button><div class="form-message" role="status" aria-live="polite"></div>
+  </form>` : `<div class="form-card"><p>Tool submissions are temporarily unavailable. Please try again later.</p></div>`;
+  return `<section class="page-hero"><div class="container"><h1>Know a tool worth sharing?</h1><p class="lede">Tell us what makes it useful. Every submission is checked for quality, duplicates, and category fit before publication.</p></div></section><section class="discovery-area"><div class="container">${form}</div></section>`;
+}
+
+function staticContactContent() {
+  const endpoint = formspreeEndpoint();
+  const form = endpoint ? `<form class="form-card" id="contact-form" action="${e(endpoint)}" method="POST">
+    <input type="hidden" name="submission_type" value="Contact message"><input type="hidden" name="_subject" value="New Novera contact message">${honeypotField()}
+    <div class="field-row"><div class="field"><label for="contact-name">Your name</label><input id="contact-name" name="name" required></div><div class="field"><label for="contact-email">Your email</label><input id="contact-email" name="email" type="email" required></div></div>
+    <div class="field"><label for="contact-topic">Topic</label><select id="contact-topic" name="topic" required><option value="">Choose a topic</option><option>Listing correction</option><option>Privacy request</option><option>Partnership</option><option>General feedback</option></select></div>
+    <div class="field"><label for="contact-message">Message</label><textarea id="contact-message" name="message" required></textarea></div>
+    <button class="btn btn-primary form-submit" type="submit">Send message</button><div class="form-message" role="status" aria-live="polite"></div>
+  </form>` : `<div class="form-card"><p>Contact messages are temporarily unavailable. Please try again later.</p></div>`;
+  return `<section class="page-hero"><div class="container"><h1>Questions, corrections, or feedback?</h1><p class="lede">Send a listing correction, privacy request, partnership question, or general message.</p></div></section><section class="legal-content"><div class="container">${form}</div></section>`;
+}
+
 function page({title, description, route, pageName, bodyClass, dataAttr='', content, schema=[]}) {
   return `${head({title,description,route,schema})}
 <body class="${e(bodyClass)}" data-page="${e(pageName)}"${dataAttr}>
@@ -174,9 +210,9 @@ function toolPageContent(tool) {
 
 const infoPages = {
   about: {title:'About Novera', description:'Learn how Novera discovers, categorizes, reviews, and presents useful AI tools.', heading:'Useful discovery, without the noise.', copy:'Novera is an independent directory that organizes AI products around the work people are trying to do. Automated discovery checks approved sources, validates URLs, removes duplicates, and categorizes qualified tools using transparent rules.'},
-  privacy: {title:'Privacy Policy', description:'Read how Novera handles analytics, submissions, hosting data, cookies, and advertising privacy.', heading:'A clear, practical privacy policy.', copy:'Novera uses privacy-friendly Cloudflare Web Analytics for aggregate page and performance measurements without analytics cookies. Limited hosting and submission information may also be processed to operate the directory. If advertising is enabled later, consent choices will be provided where required.'},
+  privacy: {title:'Privacy Policy', description:'Read how Novera handles analytics, form submissions, hosting data, cookies, and advertising privacy.', heading:'A clear, practical privacy policy.', copy:'Novera uses privacy-friendly Cloudflare Web Analytics for aggregate measurements. Contact and tool-submission forms are processed by Formspree for message delivery and spam screening. If advertising is enabled later, consent choices will be provided where required.'},
   terms: {title:'Terms of Use', description:'Read the terms for using Novera and its independent AI tools directory.', heading:'Simple terms for a useful resource.', copy:'Directory content is provided for general discovery. Product details can change, so visitors should verify important information on official websites. Product names and trademarks belong to their respective owners.'},
-  contact: {title:'Contact Novera', description:'Contact Novera about listing corrections, privacy, partnerships, or directory feedback.', heading:'Questions, corrections, or feedback?', copy:'Contact the directory about outdated listings, privacy requests, partnerships, or feedback. For a new product, use the structured tool submission form.'}
+  contact: {title:'Contact Novera', description:'Send Novera a listing correction, privacy request, partnership question, or directory feedback.', heading:'Questions, corrections, or feedback?', copy:'Use the contact form for listing corrections, privacy requests, partnerships, or general feedback. For a new product, use the structured tool submission form.'}
 };
 
 function generatePages() {
@@ -239,14 +275,14 @@ function generatePages() {
 
   writeRoute('/submit/', page({
     title:`Submit an AI Tool — ${config.siteName}`,description:'Submit a useful AI product for inclusion in the Novera directory.',route:'/submit/',pageName:'submit',bodyClass:'submit-page',
-    content:`<section class="page-hero"><div class="container"><h1>Know a tool worth sharing?</h1><p class="lede">Submit an AI tool for automated quality checks and categorization.</p></div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:'Submit a tool',route:'/submit/'}])]
+    content:staticSubmitContent(),schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:'Submit a tool',route:'/submit/'}])]
   }));
 
   for (const [key, info] of Object.entries(infoPages)) {
     const route = `/${key}/`;
     writeRoute(route, page({
       title:`${info.title} — ${config.siteName}`,description:info.description,route,pageName:'info',bodyClass:'info-page',dataAttr:` data-info="${key}"`,
-      content:`<section class="page-hero"><div class="container"><h1>${e(info.heading)}</h1><p class="lede">${e(info.copy)}</p></div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:info.title,route}])]
+      content:key === 'contact' ? staticContactContent() : `<section class="page-hero"><div class="container"><h1>${e(info.heading)}</h1><p class="lede">${e(info.copy)}</p></div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:info.title,route}])]
     }));
   }
 
@@ -267,7 +303,13 @@ function generatePages() {
 }
 
 function generateMachineFiles() {
-  const runtimeConfig = {siteName:config.siteName,siteUrl:siteUrl,adsense:config.adsense || {publisherId:'',slots:{}}};
+  const runtimeConfig = {
+    siteName:config.siteName,
+    siteUrl:siteUrl,
+    analytics:config.analytics || {},
+    forms:{formspreeEndpoint:formspreeEndpoint()},
+    adsense:config.adsense || {publisherId:'',slots:{}}
+  };
   fs.writeFileSync(path.join(root,'assets/site-config.js'),`// Generated from site.config.json.\nwindow.NOVERA_SITE_CONFIG = ${JSON.stringify(runtimeConfig,null,2)};\n`);
   fs.writeFileSync(path.join(root,'assets/posts-data.js'),`// Generated from data/posts.json.\nwindow.NOVERA_POSTS = ${JSON.stringify(posts,null,2)};\n`);
 
