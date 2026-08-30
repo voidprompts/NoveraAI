@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Prepare one factual weekly roundup for editorial review.
+"""Prepare one factual new-tools roundup for editorial review.
 
 The script never publishes directly. It updates data/posts.json on an automation
-branch; the weekly GitHub workflow opens a pull request. Merging that pull
+branch; the scheduled GitHub workflow opens a pull request. Merging that pull
 request is the human approval step that makes the article public.
 """
 from __future__ import annotations
@@ -38,10 +38,6 @@ def load(path: Path, default):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
 
 
-def monday_for(day: dt.date) -> dt.date:
-    return day - dt.timedelta(days=day.weekday())
-
-
 def human_list(items: list[str]) -> str:
     if not items:
         return "several categories"
@@ -61,7 +57,7 @@ def main():
     today = dt.date.fromisoformat(args.date) if args.date else dt.date.today()
     config = load(CONFIG_PATH, {}).get("contentAutomation", {})
     if not config.get("enabled", True):
-        print("Weekly content automation is disabled.")
+        print("Roundup content automation is disabled.")
         return
 
     posts = load(POSTS_PATH, [])
@@ -88,8 +84,9 @@ def main():
         print(f"No draft created: {len(candidates)} unused recent tools; {minimum} required.")
         return
 
-    week = monday_for(today)
-    slug = f"new-ai-tools-week-of-{week.isoformat()}"
+    # Each scheduled run gets a date-specific route so up to three independent
+    # review drafts can be prepared in one week without branch or slug clashes.
+    slug = f"new-ai-tools-{today.isoformat()}"
     if any(post.get("slug") == slug for post in posts):
         print(f"No draft created: {slug} already exists.")
         return
@@ -101,11 +98,12 @@ def main():
             category_labels.append(label)
 
     count = len(candidates)
-    title = f"{count} New AI Tools to Explore — Week of {week.strftime('%B %-d, %Y')}"
+    formatted_date = f"{today.strftime('%B')} {today.day}, {today.year}"
+    title = f"{count} New AI Tools to Explore — {formatted_date}"
     category_summary = human_list(category_labels[:4])
-    description = f"A reviewed weekly look at {count} newly discovered AI tools across {category_summary}, with clear features, pricing models, and links to detailed listings."
+    description = f"A reviewed look at {count} newly discovered AI tools across {category_summary}, with clear features, pricing models, and links to detailed listings."
     intro = [
-        f"This week’s directory review surfaced {count} products with clearly defined use cases across {category_summary}. Rather than ranking unfamiliar products, this roundup explains what each tool is designed to do and where it fits.",
+        f"This directory review surfaced {count} products with clearly defined use cases across {category_summary}. Rather than ranking unfamiliar products, this roundup explains what each tool is designed to do and where it fits.",
         "Every product below passed Novera’s automated URL, duplicate, and category checks before entering this editorial draft. Product capabilities and pricing can change, so use each detailed listing as a starting point and confirm important information on the official website.",
     ]
     methodology = (
@@ -119,7 +117,7 @@ def main():
         "date": today.isoformat(),
         "updated": today.isoformat(),
         "author": config.get("author", "Novera Editorial"),
-        "type": "Weekly roundup",
+        "type": "New tools roundup",
         "readingTime": max(4, min(9, 2 + count)),
         "toolSlugs": [tool["slug"] for tool in candidates],
         "intro": intro,

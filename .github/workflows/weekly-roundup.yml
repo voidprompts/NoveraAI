@@ -1,9 +1,9 @@
-name: Prepare weekly AI tools roundup
+name: Prepare AI tools roundup for review
 
 on:
   schedule:
-    # Sunday at 05:10 UTC (1:10 PM in Manila)
-    - cron: "10 5 * * 0"
+    # Monday, Wednesday, and Friday at 05:10 UTC (1:10 PM in Manila)
+    - cron: "10 5 * * 1,3,5"
   workflow_dispatch:
 
 permissions:
@@ -11,7 +11,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: weekly-editorial-draft
+  group: editorial-roundup-draft
   cancel-in-progress: false
 
 jobs:
@@ -33,14 +33,14 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Create weekly branch
+      - name: Create date-specific review branch
         id: branch
         shell: bash
         run: |
-          BRANCH="automation/weekly-roundup-$(date -u +%G-W%V)"
+          BRANCH="automation/roundup-$(date -u +%F)"
           echo "name=$BRANCH" >> "$GITHUB_OUTPUT"
           if git ls-remote --exit-code origin "refs/heads/$BRANCH" >/dev/null 2>&1; then
-            echo "A review branch already exists for this week."
+            echo "A review branch already exists for this date."
             echo "exists=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -67,16 +67,17 @@ jobs:
         shell: bash
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo "Not enough unused qualified tools for a roundup this week."
+            echo "Not enough unused qualified tools for a new roundup."
             exit 0
           fi
+          RUN_DATE="$(date -u +%F)"
           git config user.name "Novera Editorial Bot"
           git config user.email "directory-bot@users.noreply.github.com"
           git add -A
-          git commit -m "content: prepare weekly AI tools roundup"
+          git commit -m "content: prepare AI tools roundup for $RUN_DATE"
           git push --set-upstream origin "$BRANCH"
           gh pr create \
             --base main \
             --head "$BRANCH" \
-            --title "Review: weekly AI tools roundup" \
-            --body $'## Editorial review required\n\nThis pull request contains a weekly roundup prepared from qualified directory additions. It is **not live until you merge this pull request**.\n\n### Before merging\n- Open the generated guide and read every tool description.\n- Confirm each product is genuinely AI-related and in the correct category.\n- Remove any weak, unclear, or inappropriate listing.\n- Confirm pricing labels against official websites when possible.\n- Keep the disclosure and methodology section intact.\n\nWhen satisfied, select **Merge pull request**. Cloudflare will then publish the article automatically.'
+            --title "Review: AI tools roundup — $RUN_DATE" \
+            --body $'## Editorial review required\n\nThis pull request contains a new-tools roundup prepared from qualified directory additions. It is **not live until you merge this pull request**.\n\n### Before merging\n- Open the generated guide and read every tool description.\n- Confirm each product is genuinely AI-related and in the correct category.\n- Remove any weak, unclear, or inappropriate listing.\n- Confirm pricing labels against official websites when possible.\n- Keep the disclosure and methodology section intact.\n\nWhen satisfied, select **Merge pull request**. Cloudflare will then publish the article automatically.'

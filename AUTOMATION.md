@@ -89,25 +89,25 @@ Place a record in `data/inbox.json` and run `npm run update:local`:
 ]
 ```
 
-## 4. Human-reviewed weekly posts
+## 4. Human-reviewed roundup posts
 
-The workflow in `.github/workflows/weekly-roundup.yml` runs every Sunday at **05:10 UTC / 1:10 PM Manila**. It does not publish content directly. Instead, it:
+The workflow in `.github/workflows/weekly-roundup.yml` runs every **Monday, Wednesday, and Friday at 05:10 UTC / 1:10 PM Manila**. It does not publish content directly. Instead, it:
 
 1. Selects three to eight qualified tools discovered within the previous 14 days.
 2. Excludes tools already used in an earlier roundup.
-3. Creates one factual weekly roundup with category, pricing, feature, and methodology context.
+3. Creates one factual, date-specific roundup with category, pricing, feature, and methodology context.
 4. Generates the guide page, BlogPosting structured data, internal links, RSS item, and sitemap entry.
 5. Opens a GitHub pull request containing an editorial checklist.
 6. Waits for the site owner to review and merge the pull request.
 
 The article only becomes public after the pull request is merged. This human approval step helps prevent inaccurate, repetitive, or low-value scaled content from reaching the production site.
 
-If fewer than three unused qualified tools are available, no draft is created that week. Settings are available under `contentAutomation` in `site.config.json`.
+If fewer than three unused qualified tools are available, that scheduled run exits successfully without creating a draft. The system never reuses tools merely to meet the three-times-per-week schedule. Settings are available under `contentAutomation` in `site.config.json`.
 
 To test locally:
 
 ```bash
-npm run draft:weekly
+npm run draft:roundup
 ```
 
 ## 5. SEO output

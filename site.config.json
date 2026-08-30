@@ -25,7 +25,7 @@
   "contentAutomation": {
     "enabled": true,
     "mode": "pull_request_review",
-    "frequency": "weekly",
+    "frequency": "monday_wednesday_friday",
     "minimumToolsPerPost": 3,
     "maximumToolsPerPost": 8,
     "author": "Novera Editorial"

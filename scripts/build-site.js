@@ -142,7 +142,7 @@ function staticToolLinks(list) {
 }
 
 function staticPostLinks(list) {
-  return `<div class="post-grid">${list.map(post => `<a class="post-card" href="/guides/${e(post.slug)}/"><span class="post-card-body"><span class="post-meta">${e(post.type || 'Weekly roundup')} · ${e(post.date)}</span><h3>${e(post.title)}</h3><p>${e(post.description)}</p><span class="post-card-foot"><span>${e(post.readingTime || 5)} min read</span></span></span></a>`).join('')}</div>`;
+  return `<div class="post-grid">${list.map(post => `<a class="post-card" href="/guides/${e(post.slug)}/"><span class="post-card-body"><span class="post-meta">${e(post.type || 'New tools roundup')} · ${e(post.date)}</span><h3>${e(post.title)}</h3><p>${e(post.description)}</p><span class="post-card-foot"><span>${e(post.readingTime || 5)} min read</span></span></span></a>`).join('')}</div>`;
 }
 
 function staticPostContent(post) {
@@ -260,10 +260,10 @@ function generatePages() {
     content:`<section class="page-hero"><div class="container"><h1>New tools, thoughtfully placed.</h1><p class="lede">Fresh AI products discovered and organized by Novera.</p></div></section><section class="discovery-area"><div class="container">${staticToolLinks(newList)}</div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:'New AI tools',route:'/new/'}])]
   }));
 
-  const blogSchema = schemaBase('Blog',{name:`${config.siteName} AI tool guides`,description:'Human-reviewed weekly AI tool roundups and practical comparisons',blogPost:posts.map(post=>({'@type':'BlogPosting',headline:post.title,url:urlFor(`/guides/${post.slug}/`),datePublished:post.date}))});
+  const blogSchema = schemaBase('Blog',{name:`${config.siteName} AI tool guides`,description:'Human-reviewed new AI tool roundups with transparent selection context',blogPost:posts.map(post=>({'@type':'BlogPosting',headline:post.title,url:urlFor(`/guides/${post.slug}/`),datePublished:post.date}))});
   writeRoute('/guides/', page({
-    title:`AI Tool Guides & Weekly Roundups — ${config.siteName}`,description:'Explore human-reviewed weekly AI tool roundups with clear categories, practical context, and transparent selection notes.',route:'/guides/',pageName:'guides',bodyClass:'guides-page',
-    content:`<section class="page-hero"><div class="container"><h1>Useful context for choosing AI tools.</h1><p class="lede">Weekly roundups created from qualified directory additions and reviewed before publication.</p></div></section><section class="discovery-area"><div class="container">${posts.length ? staticPostLinks(posts) : '<p>The first roundup is being prepared.</p>'}</div></section>`,schema:[blogSchema,breadcrumbSchema([{name:'Home',route:'/'},{name:'Guides',route:'/guides/'}])]
+    title:`AI Tool Guides & New Tool Roundups — ${config.siteName}`,description:'Explore human-reviewed new AI tool roundups with clear categories, practical context, and transparent selection notes.',route:'/guides/',pageName:'guides',bodyClass:'guides-page',
+    content:`<section class="page-hero"><div class="container"><h1>Useful context for choosing AI tools.</h1><p class="lede">New-tool roundups can be prepared up to three times per week when enough qualified additions are available, then reviewed before publication.</p></div></section><section class="discovery-area"><div class="container">${posts.length ? staticPostLinks(posts) : '<p>The first roundup is being prepared.</p>'}</div></section>`,schema:[blogSchema,breadcrumbSchema([{name:'Home',route:'/'},{name:'Guides',route:'/guides/'}])]
   }));
 
   for (const post of posts) {
