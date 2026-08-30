@@ -129,6 +129,31 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49473959",
     "reviewStatus": "editorially-corrected"
+  },
+  {
+    "slug": "itsuki",
+    "name": "Itsuki",
+    "category": "coding-development",
+    "tagline": "shared memory for Claude Code, Cursor and 24 other AI tools",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://itsuki.app",
+    "description": "Itsuki is a newly discovered AI product for coding development. shared memory for Claude Code, Cursor and 24 other AI tools.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-08-30",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49487838",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {

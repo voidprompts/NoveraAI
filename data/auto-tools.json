@@ -9,8 +9,17 @@
     "featured": false,
     "website": "https://www.kith.space",
     "description": "Kith is an AI clinical workspace for therapists that provides ambient transcription, clinically specific SOAP notes, online-session support, scheduling, and reminders.",
-    "tags": ["Clinical notes", "Transcription", "Scheduling"],
-    "features": ["Create clinical SOAP notes from session audio", "Capture in-person and online session transcripts", "Manage appointments and recurring sessions", "Use a free plan for up to five sessions per month"],
+    "tags": [
+      "Clinical notes",
+      "Transcription",
+      "Scheduling"
+    ],
+    "features": [
+      "Create clinical SOAP notes from session audio",
+      "Capture in-person and online session transcripts",
+      "Manage appointments and recurring sessions",
+      "Use a free plan for up to five sessions per month"
+    ],
     "discoveredAt": "2026-08-29",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49487976",
@@ -26,8 +35,17 @@
     "featured": false,
     "website": "https://doodleai.art",
     "description": "Doodle AI creates hand-drawn avatars, sticker packs, portraits, collages, and other illustrated variations from an uploaded photo or a character description.",
-    "tags": ["Doodle art", "Avatars", "Photo editing"],
-    "features": ["Create a doodle avatar from a photo", "Choose from multiple illustrated skills and formats", "Generate sticker, portrait, and collage variations", "Start with included testing credits"],
+    "tags": [
+      "Doodle art",
+      "Avatars",
+      "Photo editing"
+    ],
+    "features": [
+      "Create a doodle avatar from a photo",
+      "Choose from multiple illustrated skills and formats",
+      "Generate sticker, portrait, and collage variations",
+      "Start with included testing credits"
+    ],
     "discoveredAt": "2026-08-29",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49487781",
@@ -43,8 +61,17 @@
     "featured": false,
     "website": "https://twing.dev",
     "description": "Twing is a coordination layer for engineering teams using multiple AI coding agents, designed to expose duplicated work and conflicting changes before they reach review.",
-    "tags": ["Coding agents", "Coordination", "Code review"],
-    "features": ["Show shared agent work across a repository", "Detect duplicated or conflicting work early", "Preserve context behind engineering decisions", "Support review workflows for agent-generated changes"],
+    "tags": [
+      "Coding agents",
+      "Coordination",
+      "Code review"
+    ],
+    "features": [
+      "Show shared agent work across a repository",
+      "Detect duplicated or conflicting work early",
+      "Preserve context behind engineering decisions",
+      "Support review workflows for agent-generated changes"
+    ],
     "discoveredAt": "2026-08-29",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49478737",
@@ -60,8 +87,17 @@
     "featured": false,
     "website": "https://dmx.deepmodel.ai",
     "description": "dmx is an open-source MCP server that adds specifications, plans, validation policies, persistent state, and explicit human approval gates to AI-assisted development workflows.",
-    "tags": ["MCP", "Coding agents", "Open source"],
-    "features": ["Sequence AI work through spec, plan, build, validate, and release phases", "Pause at explicit human approval gates", "Run required and optional validation policies", "Preserve project context and job state across sessions"],
+    "tags": [
+      "MCP",
+      "Coding agents",
+      "Open source"
+    ],
+    "features": [
+      "Sequence AI work through spec, plan, build, validate, and release phases",
+      "Pause at explicit human approval gates",
+      "Run required and optional validation policies",
+      "Preserve project context and job state across sessions"
+    ],
     "discoveredAt": "2026-08-29",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49478619",
@@ -77,11 +113,45 @@
     "featured": false,
     "website": "https://h3max.app",
     "description": "H3Max is a browser-based workspace for creating 5–15 second AI videos from written directions or source images, with prompt expansion and optional first- and end-frame controls.",
-    "tags": ["Text to video", "Image to video", "Frame control"],
-    "features": ["Generate video from text or a source image", "Create clips between 5 and 15 seconds", "Choose 480p or 768p output", "Guide motion with optional first and end frames"],
+    "tags": [
+      "Text to video",
+      "Image to video",
+      "Frame control"
+    ],
+    "features": [
+      "Generate video from text or a source image",
+      "Create clips between 5 and 15 seconds",
+      "Choose 480p or 768p output",
+      "Guide motion with optional first and end frames"
+    ],
     "discoveredAt": "2026-08-29",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49473959",
     "reviewStatus": "editorially-corrected"
+  },
+  {
+    "slug": "itsuki",
+    "name": "Itsuki",
+    "category": "coding-development",
+    "tagline": "shared memory for Claude Code, Cursor and 24 other AI tools",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://itsuki.app",
+    "description": "Itsuki is a newly discovered AI product for coding development. shared memory for Claude Code, Cursor and 24 other AI tools.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-08-30",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49487838",
+    "reviewStatus": "auto-discovered"
   }
 ]
