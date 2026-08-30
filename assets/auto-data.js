@@ -137,6 +137,6 @@ if (window.NOVERA_DATA) {
     if (!existing.has(tool.slug)) window.NOVERA_DATA.tools.push(tool);
   });
   window.NOVERA_DATA.categories.forEach(category => {
-    category.count += window.NOVERA_AUTO_TOOLS.filter(tool => tool.category === category.slug).length;
+    category.count = window.NOVERA_DATA.tools.filter(tool => tool.category === category.slug).length;
   });
 }

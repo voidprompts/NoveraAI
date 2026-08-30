@@ -167,7 +167,7 @@
           <button type="submit">Search tools</button>
         </form>
         <a class="btn btn-primary hero-cta" href="/categories/">Browse Categories ${arrow()}</a>
-        <div class="hero-proof"><span><i class="proof-dot"></i>1,239 tools indexed</span><span>12 clear categories</span><span>Quality-checked daily</span></div>
+        <div class="hero-proof"><span><i class="proof-dot"></i>${tools.length} tools indexed</span><span>${categories.length} clear categories</span><span>Quality-checked daily</span></div>
       </div></div>
     </section>
     <section class="section"><div class="container">
@@ -195,6 +195,11 @@
     const slug = document.body.dataset.category;
     const c = bySlug(slug) || categories[0];
     const categoryTools = tools.filter(t => t.category === c.slug);
+    const recentCutoff = Date.now() - (14 * 24 * 60 * 60 * 1000);
+    const recentCount = categoryTools.filter(tool => tool.discoveredAt && Date.parse(`${tool.discoveredAt}T00:00:00Z`) >= recentCutoff).length;
+    const featuredCount = categoryTools.filter(tool => tool.featured).length;
+    const recencyLabel = recentCount ? `${recentCount} recent addition${recentCount === 1 ? '' : 's'}` : 'Curated selection';
+    const featuredLabel = featuredCount ? `${featuredCount} featured pick${featuredCount === 1 ? '' : 's'}` : 'Independently organized';
     document.title = `${c.name} AI Tools — Novera`;
     const main = document.getElementById('main');
     main.innerHTML = `<section class="page-hero compact"><div class="container">
@@ -202,7 +207,7 @@
       <div class="page-heading-wrap reveal">
         <div class="page-heading-row"><span class="category-icon" style="background:${c.color}">${icon(c.icon)}</span><div><span class="eyebrow">Curated category</span><h1>${c.name}</h1></div></div>
         <p class="lede">${c.description} Explore a clear, considered selection for individuals and teams.</p>
-        <div class="page-stats"><span class="soft-chip"><i class="dot"></i>${c.count} tools indexed</span><span class="soft-chip">Updated this week</span><span class="soft-chip">${categoryTools.length} editor picks shown</span></div>
+        <div class="page-stats"><span class="soft-chip"><i class="dot"></i>${categoryTools.length} tools listed</span><span class="soft-chip">${recencyLabel}</span><span class="soft-chip">${featuredLabel}</span></div>
       </div>
     </div></section>
     <section class="discovery-area"><div class="container">

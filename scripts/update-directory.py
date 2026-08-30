@@ -321,7 +321,7 @@ def write_auto_js(records: list[dict]):
         "    if (!existing.has(tool.slug)) window.NOVERA_DATA.tools.push(tool);\n"
         "  });\n"
         "  window.NOVERA_DATA.categories.forEach(category => {\n"
-        "    category.count += window.NOVERA_AUTO_TOOLS.filter(tool => tool.category === category.slug).length;\n"
+        "    category.count = window.NOVERA_DATA.tools.filter(tool => tool.category === category.slug).length;\n"
         "  });\n"
         "}\n",
         encoding="utf-8",

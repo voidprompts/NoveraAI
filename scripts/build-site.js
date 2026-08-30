@@ -30,6 +30,11 @@ vm.runInContext(fs.readFileSync(path.join(root, 'assets/auto-data.js'), 'utf8'),
 const data = sandbox.window.NOVERA_DATA;
 const categories = data.categories;
 const tools = data.tools;
+// Counts are derived from the actual records so category labels can never drift
+// away from the number of tools visitors can browse.
+categories.forEach(category => {
+  category.count = tools.filter(tool => tool.category === category.slug).length;
+});
 const postsPath = path.join(root, 'data/posts.json');
 const posts = fs.existsSync(postsPath) ? JSON.parse(fs.readFileSync(postsPath, 'utf8')) : [];
 const byCategory = slug => categories.find(c => c.slug === slug);
