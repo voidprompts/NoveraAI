@@ -64,3 +64,36 @@
 {"timestamp": "2026-08-30T09:56:20.310529+00:00", "event": "candidate_rejected", "name": "InferCrane", "reason": "low_confidence"}
 {"timestamp": "2026-08-30T09:56:20.310615+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
 {"timestamp": "2026-08-30T09:56:20.311015+00:00", "event": "tool_published", "slug": "itsuki", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-08-31T10:50:50.688975+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 32}
+{"timestamp": "2026-08-31T10:50:50.694153+00:00", "event": "candidate_rejected", "name": "VajraClaw", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.694421+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-08-31T10:50:50.694550+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-08-31T10:50:50.694668+00:00", "event": "candidate_rejected", "name": "Growtics", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.694831+00:00", "event": "candidate_rejected", "name": "Umer9538", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.695143+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-08-31T10:50:50.695251+00:00", "event": "candidate_rejected", "name": "Cogram Studio", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.695347+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-08-31T10:50:50.695443+00:00", "event": "candidate_rejected", "name": "Claude Skills Starter Kit", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.695534+00:00", "event": "candidate_rejected", "name": "CardGo", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.695687+00:00", "event": "candidate_rejected", "name": "Open SAR-COP", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.695830+00:00", "event": "candidate_rejected", "name": "1endpoint", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.695933+00:00", "event": "candidate_rejected", "name": "Visiscan", "reason": "generic_fallback_description"}
+{"timestamp": "2026-08-31T10:50:50.696031+00:00", "event": "candidate_rejected", "name": "Ringlochid", "reason": "generic_fallback_description"}
+{"timestamp": "2026-08-31T10:50:50.696119+00:00", "event": "candidate_rejected", "name": "AgentGate", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.696212+00:00", "event": "candidate_rejected", "name": "VelocityNote", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.696309+00:00", "event": "candidate_rejected", "name": "ScriptTap", "reason": "blocked_or_invalid_url"}
+{"timestamp": "2026-08-31T10:50:50.696404+00:00", "event": "candidate_rejected", "name": "Claypot", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.696498+00:00", "event": "candidate_rejected", "name": "Cardwall", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.696598+00:00", "event": "candidate_rejected", "name": "VibeGuard", "reason": "duplicate"}
+{"timestamp": "2026-08-31T10:50:50.696685+00:00", "event": "candidate_rejected", "name": "Tv", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.696821+00:00", "event": "candidate_rejected", "name": "AI Agents for Osint/Sigint", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.696914+00:00", "event": "candidate_rejected", "name": "Documentation.ai.md", "reason": "duplicate"}
+{"timestamp": "2026-08-31T10:50:50.697000+00:00", "event": "candidate_rejected", "name": "Seiseiai", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.697098+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.697184+00:00", "event": "candidate_rejected", "name": "Lumify", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.697293+00:00", "event": "candidate_rejected", "name": "Toolchestrator", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.697394+00:00", "event": "candidate_rejected", "name": "Ai Rush", "reason": "outside_directory_scope"}
+{"timestamp": "2026-08-31T10:50:50.697484+00:00", "event": "candidate_rejected", "name": "AgentBridge", "reason": "low_confidence"}
+{"timestamp": "2026-08-31T10:50:50.697574+00:00", "event": "candidate_rejected", "name": "Kith", "reason": "duplicate"}
+{"timestamp": "2026-08-31T10:50:50.698019+00:00", "event": "tool_published", "slug": "academa", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-08-31T10:50:50.698068+00:00", "event": "tool_published", "slug": "finbridge", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
