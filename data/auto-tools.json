@@ -203,5 +203,55 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49499026",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "choosecompute",
+    "name": "ChooseCompute",
+    "category": "data-analytics",
+    "tagline": "Clean NAS and hard drive database for AI",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://choosecompute.com",
+    "description": "ChooseCompute is a newly discovered AI product for data analytics. Clean NAS and hard drive database for AI.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-09-01",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49519555",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "edify",
+    "name": "Edify",
+    "category": "video-generation",
+    "tagline": "a Windows NLE with local AI subtitles/dubbing and OpenFX",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://apps.microsoft.com/detail/9nkkk5k5s4ct",
+    "description": "Edify is a newly discovered AI product for video generation. a Windows NLE with local AI subtitles/dubbing and OpenFX.",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-09-01",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49519285",
+    "reviewStatus": "auto-discovered"
   }
 ]
