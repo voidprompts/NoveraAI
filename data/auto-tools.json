@@ -253,5 +253,154 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49519285",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "aiimageto3d",
+    "name": "Aiimageto3D",
+    "category": "image-generation",
+    "tagline": "I built image3D AI to make it easier to try and compare different image to 3d models in one place",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.aiimageto3d.com",
+    "description": "I built image3D AI to make it easier to try and compare different image to 3d models in one place.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-09-02",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49533428",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "1dial",
+    "name": "1Dial",
+    "category": "productivity-automation",
+    "tagline": "I built 1Dial because LLMs have become great at telling you what to do, but I still find myself making calls, waiting on hold, finding appointments, getting quotes, etc. With 1Dial",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.1dial.ai",
+    "description": "I built 1Dial because LLMs have become great at telling you what to do, but I still find myself making calls, waiting on hold, finding appointments, getting quotes, etc. With 1Dial, you call or text one number and tell it what you need. It can search, call businesses, follow up and coordinate the task. We've processed about 100+ tasks in our early beta so far. 81% were completed better than what a human would have do",
+    "tags": [
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-09-02",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49531946",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "weedout",
+    "name": "Weedout",
+    "category": "video-generation",
+    "tagline": "Safari extension that hides YouTube AI-labeled videos",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://masteranza.github.io/weedout",
+    "description": "I'm the developer. I built this because AI-generated conspiracy videos were getting out of control in my own YouTube feed. Weedout is a $1.99 Safari extension for macOS that removes videos YouTube labels “Made with AI” from feed, search, related videos, playlists and Shorts. It uses YouTube's label rather than AI detection, runs locally, and does not catch unlabeled videos. Source for developers who want to fork or b",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-09-02",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49528895",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "compilr-dev-studio",
+    "name": "Compilr.dev Studio",
+    "category": "text-writing",
+    "tagline": "A project brain AI agents write to and people read",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://studio.compilr.dev/welcome",
+    "description": "I built a platform to help project and product owners record vision, objectives, decisions, risks, assumptions, and requirements as a connected graph with the help of AI. So, how does it work? The platform offers a set of MCP tools so it is compatible with any AI application that lets you define a custom MCP. I use it with Claude AI on my phone or using the Claude plugin on Chrome (main Studio page on the browser wit",
+    "tags": [
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-09-02",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49528310",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "calprep",
+    "name": "CalPrep",
+    "category": "productivity-automation",
+    "tagline": "AI calendar agent with human-in-the-loop confirmation",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://calprep.app",
+    "description": "CalPrep is a newly discovered AI product for productivity automation. AI calendar agent with human-in-the-loop confirmation.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-09-02",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49520806",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "rxlab-market",
+    "name": "Rxlab market",
+    "category": "research-knowledge",
+    "tagline": "a research agent for stocks market",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://finance.bots.rxlab.app",
+    "description": "Rxlab market is a newly discovered AI product for research knowledge. a research agent for stocks market.",
+    "tags": [
+      "Research",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-02",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49519789",
+    "reviewStatus": "auto-discovered"
   }
 ]
