@@ -402,5 +402,132 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49519789",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "openhelper-ai-chatbot",
+    "name": "OpenHelper AI Chatbot",
+    "category": "customer-support",
+    "tagline": "The Free and Open Source AI Chatbot",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://techambient.github.io/HybridAI",
+    "description": "OpenHelper AI Chatbot is a newly discovered AI product for customer support. The Free and Open Source AI Chatbot.",
+    "tags": [
+      "Customer support",
+      "Customer Support"
+    ],
+    "features": [
+      "Answer common customer questions",
+      "Assist human support workflows",
+      "Organize and route conversations",
+      "Improve service response time"
+    ],
+    "discoveredAt": "2026-09-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49547229",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "coos",
+    "name": "CoOS",
+    "category": "marketing-sales",
+    "tagline": "desktop app where an agent builds your CRM/ERP as local plugins",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://pirol.ai",
+    "description": "CoOS is a newly discovered AI product for marketing sales. desktop app where an agent builds your CRM/ERP as local plugins.",
+    "tags": [
+      "Marketing",
+      "Sales",
+      "Marketing Sales"
+    ],
+    "features": [
+      "Create campaign-ready material",
+      "Support prospect and customer research",
+      "Personalize outreach at scale",
+      "Improve repeatable growth workflows"
+    ],
+    "discoveredAt": "2026-09-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49543931",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "dehurdle",
+    "name": "Dehurdle",
+    "category": "audio-music",
+    "tagline": "Real-Time AI Voice Simulations for High-Stakes Conversations",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://dehurdle.com/register",
+    "description": "Dehurdle is a newly discovered AI product for audio music. Real-Time AI Voice Simulations for High-Stakes Conversations.",
+    "tags": [
+      "Voice",
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-09-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49542430",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "supercov",
+    "name": "Supercov",
+    "category": "coding-development",
+    "tagline": "Hello HN! Code just became cheaper with AI but review and verification is as hard as it was. Tests are great, but current AI slop needs much more exhaustive testing. I built a test",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://supercov.com",
+    "description": "Supercov is a newly discovered AI product for coding development. Hello HN! Code just became cheaper with AI but review and verification is as hard as it was. Tests are great, but current AI slop needs much more exhaustive testing. I built a test coverage tool for coding agents so they.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49534948",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "os-ios-farm-automation",
+    "name": "OS iOS Farm Automation",
+    "category": "productivity-automation",
+    "tagline": "iOS phone farm - register real iPhones, watch + control them live in the browser, schedule TikTok on a postgres-backed scheduler. free, self-hosted, apache-2.0. git: github.com/Git",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://gethandler.ai/ios-farm",
+    "description": "iOS phone farm - register real iPhones, watch + control them live in the browser, schedule TikTok on a postgres-backed scheduler. free, self-hosted, apache-2.0. git: github.com/Git-Agni/prod-FARM-IOS-Core DIY steps: gethandler.ai/ios-farm gg.",
+    "tags": [
+      "Automation",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-09-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49533979",
+    "reviewStatus": "auto-discovered"
   }
 ]

@@ -170,3 +170,36 @@
 {"timestamp": "2026-09-02T08:46:22.308934+00:00", "event": "tool_published", "slug": "compilr-dev-studio", "category": "text-writing", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-02T08:46:22.308964+00:00", "event": "tool_published", "slug": "calprep", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-02T08:46:22.308992+00:00", "event": "tool_published", "slug": "rxlab-market", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-03T08:55:38.415153+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 32}
+{"timestamp": "2026-09-03T08:55:38.421424+00:00", "event": "candidate_rejected", "name": "Theyfell", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-03T08:55:38.421528+00:00", "event": "candidate_rejected", "name": "Room", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.421588+00:00", "event": "candidate_rejected", "name": "Theainewsreport", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.421685+00:00", "event": "candidate_rejected", "name": "Rizin", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.421737+00:00", "event": "candidate_rejected", "name": "Stealthos", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.421788+00:00", "event": "candidate_rejected", "name": "AI-Native Boilerplate", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.421835+00:00", "event": "candidate_rejected", "name": "Otaku.sh", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.421894+00:00", "event": "candidate_rejected", "name": "Fixture", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.421942+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-03T08:55:38.421988+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.422034+00:00", "event": "candidate_rejected", "name": "Subpool", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.422086+00:00", "event": "candidate_rejected", "name": "Windrunner", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.422197+00:00", "event": "candidate_rejected", "name": "Reports", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-03T08:55:38.422248+00:00", "event": "candidate_rejected", "name": "Apply AI", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.422316+00:00", "event": "candidate_rejected", "name": "Longtermemory", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.422421+00:00", "event": "candidate_rejected", "name": "Aiimageto3D", "reason": "duplicate"}
+{"timestamp": "2026-09-03T08:55:38.422476+00:00", "event": "candidate_rejected", "name": "Ringlochid", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-03T08:55:38.422526+00:00", "event": "candidate_rejected", "name": "IP/fal", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.422591+00:00", "event": "candidate_rejected", "name": "1Dial", "reason": "duplicate"}
+{"timestamp": "2026-09-03T08:55:38.422639+00:00", "event": "candidate_rejected", "name": "Markdown Gatekeeper", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.422686+00:00", "event": "candidate_rejected", "name": "Anjadhe", "reason": "article_not_product"}
+{"timestamp": "2026-09-03T08:55:38.422755+00:00", "event": "candidate_rejected", "name": "Weedout", "reason": "duplicate"}
+{"timestamp": "2026-09-03T08:55:38.422816+00:00", "event": "candidate_rejected", "name": "Compilr.dev Studio", "reason": "duplicate"}
+{"timestamp": "2026-09-03T08:55:38.422879+00:00", "event": "candidate_rejected", "name": "Indextkn", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.422927+00:00", "event": "candidate_rejected", "name": "Personal AI Use Policies", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.422985+00:00", "event": "candidate_rejected", "name": "Kaden Terminal", "reason": "duplicate"}
+{"timestamp": "2026-09-03T08:55:38.423040+00:00", "event": "candidate_rejected", "name": "Wife", "reason": "low_confidence"}
+{"timestamp": "2026-09-03T08:55:38.423499+00:00", "event": "tool_published", "slug": "openhelper-ai-chatbot", "category": "customer-support", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-03T08:55:38.423524+00:00", "event": "tool_published", "slug": "coos", "category": "marketing-sales", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-03T08:55:38.423539+00:00", "event": "tool_published", "slug": "dehurdle", "category": "audio-music", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-03T08:55:38.423552+00:00", "event": "tool_published", "slug": "supercov", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-03T08:55:38.423565+00:00", "event": "tool_published", "slug": "os-ios-farm-automation", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
