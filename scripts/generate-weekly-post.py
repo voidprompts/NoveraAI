@@ -69,6 +69,10 @@ def main():
     for tool in tools:
         if tool.get("slug") in already_used:
             continue
+        # Some records can remain useful in the directory while lacking enough
+        # independently verifiable detail for an editorial roundup.
+        if tool.get("reviewStatus") in {"directory-only", "rejected"}:
+            continue
         try:
             discovered = dt.date.fromisoformat(tool.get("discoveredAt", "1900-01-01"))
         except ValueError:

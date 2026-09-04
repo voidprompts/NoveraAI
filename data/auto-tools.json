@@ -406,27 +406,28 @@
   {
     "slug": "openhelper-ai-chatbot",
     "name": "OpenHelper AI Chatbot",
-    "category": "customer-support",
-    "tagline": "The Free and Open Source AI Chatbot",
-    "pricing": "Freemium",
+    "category": "productivity-automation",
+    "tagline": "Use a free, open-source browser chatbot with local chat history and no advertising.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://techambient.github.io/HybridAI",
-    "description": "OpenHelper AI Chatbot is a newly discovered AI product for customer support. The Free and Open Source AI Chatbot.",
+    "description": "OpenHelper is a general-purpose, open-source browser chatbot rather than a dedicated customer-support platform. Its published interface emphasizes unlimited use, local chat history, responsive device support, dynamic themes, and an ad- and tracking-free experience. Novera keeps it as a directory-only listing because its broader AI capabilities could not be independently verified in enough detail for this roundup.",
     "tags": [
-      "Customer support",
-      "Customer Support"
+      "General assistant",
+      "Open source",
+      "Browser chat"
     ],
     "features": [
-      "Answer common customer questions",
-      "Assist human support workflows",
-      "Organize and route conversations",
-      "Improve service response time"
+      "Ask general questions in a browser chat interface",
+      "Keep chat history locally in the browser",
+      "Use the responsive interface across device sizes",
+      "Access the project without ads or platform tracking"
     ],
     "discoveredAt": "2026-09-03",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49547229",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "directory-only"
   },
   {
     "slug": "coos",
@@ -484,26 +485,27 @@
     "slug": "supercov",
     "name": "Supercov",
     "category": "coding-development",
-    "tagline": "Hello HN! Code just became cheaper with AI but review and verification is as hard as it was. Tests are great, but current AI slop needs much more exhaustive testing. I built a test",
-    "pricing": "Freemium",
+    "tagline": "Turn code-coverage gaps into focused testing tasks for AI coding agents.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://supercov.com",
-    "description": "Supercov is a newly discovered AI product for coding development. Hello HN! Code just became cheaper with AI but review and verification is as hard as it was. Tests are great, but current AI slop needs much more exhaustive testing. I built a test coverage tool for coding agents so they.",
+    "description": "Supercov is a free, MIT-licensed coverage tool designed to give coding agents actionable testing gaps. It wraps an existing test command, reports uncovered paths, and lets the agent add focused tests and repeat the loop while useful gaps remain. It supports line, branch, and MC/DC coverage across common JavaScript, TypeScript, Rust, and Python test suites.",
     "tags": [
-      "Developer",
-      "Coding Development"
+      "Code coverage",
+      "Automated testing",
+      "Open source"
     ],
     "features": [
-      "Accelerate common development tasks",
-      "Work with contextual code assistance",
-      "Explain and improve technical work",
-      "Move from idea to working software"
+      "Wrap an existing test command with npx supercov",
+      "Return uncovered paths that an agent can act on",
+      "Measure line, branch, and MC/DC coverage",
+      "Work with Playwright, Vitest, Jest, Cargo, pytest, unittest, and more"
     ],
     "discoveredAt": "2026-09-03",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49534948",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "os-ios-farm-automation",
@@ -534,148 +536,156 @@
     "slug": "videm",
     "name": "Videm",
     "category": "image-generation",
-    "tagline": "An AI image generator with 3 free daily images",
+    "tagline": "Create AI images from text with free guest generations and no platform watermark.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://videm.ai",
-    "description": "Videm is a newly discovered AI product for image generation. An AI image generator with 3 free daily images.",
+    "description": "Videm is a browser-based text-to-image generator for visual concepts, product scenes, social creative, and editorial images. Guests can generate up to three images per day without signing in, save the results, and use outputs without a platform watermark. Additional models become available after login.",
     "tags": [
-      "Images",
-      "Image Generation"
+      "Text to image",
+      "No sign-up",
+      "Creative assets"
     ],
     "features": [
-      "Generate visual concepts from prompts",
-      "Explore style and composition options",
-      "Create reusable creative assets",
-      "Iterate on visual directions quickly"
+      "Generate images from natural-language prompts",
+      "Create up to three guest images per day without signing in",
+      "Download results without a platform watermark",
+      "Choose an aspect ratio, resolution, and available image model"
     ],
     "discoveredAt": "2026-09-04",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49562099",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "drawdb-pro",
     "name": "DrawDB Pro",
-    "category": "data-analytics",
-    "tagline": "design database schemas for your team and agents",
+    "category": "coding-development",
+    "tagline": "Design database schemas visually with an AI assistant, collaboration, and DDL export.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://www.drawdb.app",
-    "description": "2 years ago I launched drawDB on here. It was my very first project that I open-sourced and it ended up going kinda viral. A month ago I launched drawDB Pro for solo devs and teams. It was actually my manager that encouraged me to go build it to help with my promotion :3 The project has come a long long way. It started as a simple canvas with local storage and now we have proper cloud storage, team permissions, real-",
+    "description": "DrawDB is a visual database-schema and entity-relationship diagram tool for developers. Its AI schema assistant can draft tables, relationships, and types from a description. The free, open-source editor works without an account and stores diagrams locally, while Pro adds cloud storage, team permissions, versioning, and real-time collaboration.",
     "tags": [
-      "Data Analytics"
+      "Database design",
+      "AI schema assistant",
+      "Developer tools"
     ],
     "features": [
-      "Ask natural-language questions of data",
-      "Find patterns and useful signals",
-      "Create clear charts and summaries",
-      "Share insights with a wider team"
+      "Draft tables, relationships, and types with an AI assistant",
+      "Import DDL to reverse-engineer an existing schema",
+      "Export diagrams as DDL, DBML, JSON, or images",
+      "Collaborate through cloud storage, roles, versioning, and live editing"
     ],
     "discoveredAt": "2026-09-04",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49557688",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "context",
-    "name": "Context",
+    "name": "APIMatic Context",
     "category": "coding-development",
-    "tagline": "Hi HN. We built an API context registry to help coding agents (like Claude Code) generate production-ready API integration code without blowing through token limits. We build a lot",
-    "pricing": "Freemium",
+    "tagline": "Give coding agents typed, API-specific context for more reliable integrations.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://context.apimatic.io",
-    "description": "Context is a newly discovered AI product for coding development. Hi HN. We built an API context registry to help coding agents (like Claude Code) generate production-ready API integration code without blowing through token limits. We build a lot of API integrations. In our experience,.",
+    "description": "APIMatic Context is a registry of installable Context Plugins for AI coding agents. Each plugin combines guidance with typed, language-specific SDK reference code so an agent can handle details such as authentication, retries, rate limits, migrations, and provider changes. The public catalog covers APIs across payments, communications, data, media, and developer tooling.",
     "tags": [
-      "Developer",
-      "Coding Development"
+      "API integration",
+      "Coding agents",
+      "Developer context"
     ],
     "features": [
-      "Accelerate common development tasks",
-      "Work with contextual code assistance",
-      "Explain and improve technical work",
-      "Move from idea to working software"
+      "Install API-specific context in a supported coding agent",
+      "Use typed SDK references alongside written guidance",
+      "Support new integrations, upgrades, migrations, and provider switches",
+      "Browse plugins for APIs across several languages and industries"
     ],
     "discoveredAt": "2026-09-04",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49552209",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "aietalks",
-    "name": "Aietalks",
+    "name": "AIE Talks",
     "category": "research-knowledge",
-    "tagline": "I love the videos and talks that appear on my feed ever day from the AI Engineer conferences. Unfortunately, there are so many of them it's often hard to find the time to keep up,",
-    "pricing": "Freemium",
+    "tagline": "Search summaries, timestamps, quotes, and topic packs across AI Engineer talks.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://aietalks.com",
-    "description": "I love the videos and talks that appear on my feed ever day from the AI Engineer conferences. Unfortunately, there are so many of them it's often hard to find the time to keep up, or to watch what I'd like. So I built aietalks.com, a searchable written index and archive of all the talks on the AI Engineer Youtube channel. We currently cover 1,124 talks. The individual talk pages offer tl;dr summaries, key quotes and.",
+    "description": "AIE Talks is a searchable written index of more than 1,100 presentations from AI Engineer conferences. It helps visitors find relevant moments through semantic search, concise summaries, timestamps, quotations, speakers, topics, and curated packs. Talk and pack pages are also available as plain Markdown, and the collection is updated as new presentations appear.",
     "tags": [
-      "Video",
-      "Research Knowledge"
+      "Semantic search",
+      "Talk summaries",
+      "AI engineering"
     ],
     "features": [
-      "Find and synthesize useful information",
-      "Explore questions through natural language",
-      "Organize research into clear outputs",
-      "Move from sources to understanding"
+      "Search talks by meaning using complete questions or phrases",
+      "Read summaries, key points, quotations, and timestamps",
+      "Browse curated packs, conferences, speakers, and topics",
+      "Access talk and pack pages as plain Markdown"
     ],
     "discoveredAt": "2026-09-04",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49550578",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "jern-cloud",
     "name": "Jern Cloud",
     "category": "coding-development",
-    "tagline": "a coding agent bound by a policy file in your repository",
-    "pricing": "Freemium",
+    "tagline": "Run governed cloud coding sessions under repository-owned policies and hard limits.",
+    "pricing": "Paid",
     "rating": 0.0,
     "featured": false,
     "website": "https://jern.ai",
-    "description": "Jern Cloud is a newly discovered AI product for coding development. a coding agent bound by a policy file in your repository.",
+    "description": "Jern Cloud runs coding-agent tasks on isolated machines under a policy pinned for the entire session. It applies hard token and runtime limits, keeps model and repository credentials outside the agent process, records encrypted evidence, and returns work as a pull request for human review. The service includes a 30-day trial, then costs $19 per month per workspace; model usage is billed through the user’s own provider key.",
     "tags": [
-      "Coding Development"
+      "Coding agents",
+      "Governance",
+      "Pull requests"
     ],
     "features": [
-      "Accelerate common development tasks",
-      "Work with contextual code assistance",
-      "Explain and improve technical work",
-      "Move from idea to working software"
+      "Pin repository-owned policies for each session",
+      "Run attempts on temporary isolated machines",
+      "Set hard token, runtime, process, and output limits",
+      "Receive encrypted execution evidence and a reviewable pull request"
     ],
     "discoveredAt": "2026-09-04",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49548975",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "stillmade",
     "name": "StillMade",
     "category": "video-generation",
-    "tagline": "Programmable AI video pipeline; Chat to video (now)",
+    "tagline": "Develop consistent AI video projects with guided creation and reusable visual elements.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://www.stillmade.shop",
-    "description": "Six months of 7+ hour days building this because video production is still a multi-tool mess. Describe what you want to make and StillMade guides you through making it with its tools. I wanted full control without the platform I'm using holding me back or jumping to another (sometimes paid) tool every time I needed something specific. What I'm building toward: every step becomes a programmable block. Build any Adobe,",
+    "description": "StillMade is an AI-assisted video workspace built around guided project creation. Its current experience lets creators start image-panel, whiteboard-motion, or blank projects and build a reusable library of characters, locations, and styles to keep visual elements consistent across scenes. The product offers limited free usage and supports bringing your own model API keys.",
     "tags": [
-      "Video",
-      "Video Generation"
+      "AI video",
+      "Visual consistency",
+      "Creator workflow"
     ],
     "features": [
-      "Create video concepts with AI assistance",
-      "Speed up editing and production",
-      "Repurpose content for new formats",
-      "Build shareable visual stories"
+      "Start guided video projects from several project types",
+      "Reuse characters, locations, and styles across scenes",
+      "Organize work into projects and folders",
+      "Use a free allowance or connect supported API keys"
     ],
     "discoveredAt": "2026-09-04",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49548847",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   }
 ]
