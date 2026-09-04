@@ -530,6 +530,154 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49533979",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "videm",
+    "name": "Videm",
+    "category": "image-generation",
+    "tagline": "An AI image generator with 3 free daily images",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://videm.ai",
+    "description": "Videm is a newly discovered AI product for image generation. An AI image generator with 3 free daily images.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-09-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49562099",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "drawdb-pro",
+    "name": "DrawDB Pro",
+    "category": "data-analytics",
+    "tagline": "design database schemas for your team and agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.drawdb.app",
+    "description": "2 years ago I launched drawDB on here. It was my very first project that I open-sourced and it ended up going kinda viral. A month ago I launched drawDB Pro for solo devs and teams. It was actually my manager that encouraged me to go build it to help with my promotion :3 The project has come a long long way. It started as a simple canvas with local storage and now we have proper cloud storage, team permissions, real-",
+    "tags": [
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-09-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49557688",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "context",
+    "name": "Context",
+    "category": "coding-development",
+    "tagline": "Hi HN. We built an API context registry to help coding agents (like Claude Code) generate production-ready API integration code without blowing through token limits. We build a lot",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://context.apimatic.io",
+    "description": "Context is a newly discovered AI product for coding development. Hi HN. We built an API context registry to help coding agents (like Claude Code) generate production-ready API integration code without blowing through token limits. We build a lot of API integrations. In our experience,.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49552209",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "aietalks",
+    "name": "Aietalks",
+    "category": "research-knowledge",
+    "tagline": "I love the videos and talks that appear on my feed ever day from the AI Engineer conferences. Unfortunately, there are so many of them it's often hard to find the time to keep up,",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://aietalks.com",
+    "description": "I love the videos and talks that appear on my feed ever day from the AI Engineer conferences. Unfortunately, there are so many of them it's often hard to find the time to keep up, or to watch what I'd like. So I built aietalks.com, a searchable written index and archive of all the talks on the AI Engineer Youtube channel. We currently cover 1,124 talks. The individual talk pages offer tl;dr summaries, key quotes and.",
+    "tags": [
+      "Video",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49550578",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "jern-cloud",
+    "name": "Jern Cloud",
+    "category": "coding-development",
+    "tagline": "a coding agent bound by a policy file in your repository",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://jern.ai",
+    "description": "Jern Cloud is a newly discovered AI product for coding development. a coding agent bound by a policy file in your repository.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49548975",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "stillmade",
+    "name": "StillMade",
+    "category": "video-generation",
+    "tagline": "Programmable AI video pipeline; Chat to video (now)",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.stillmade.shop",
+    "description": "Six months of 7+ hour days building this because video production is still a multi-tool mess. Describe what you want to make and StillMade guides you through making it with its tools. I wanted full control without the platform I'm using holding me back or jumping to another (sometimes paid) tool every time I needed something specific. What I'm building toward: every step becomes a programmable block. Build any Adobe,",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-09-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49548847",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {

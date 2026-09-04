@@ -203,3 +203,33 @@
 {"timestamp": "2026-09-03T08:55:38.423539+00:00", "event": "tool_published", "slug": "dehurdle", "category": "audio-music", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-03T08:55:38.423552+00:00", "event": "tool_published", "slug": "supercov", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-03T08:55:38.423565+00:00", "event": "tool_published", "slug": "os-ios-farm-automation", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-04T08:50:30.691807+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 29}
+{"timestamp": "2026-09-04T08:50:30.693285+00:00", "event": "candidate_rejected", "name": "Aurict", "reason": "duplicate"}
+{"timestamp": "2026-09-04T08:50:30.693385+00:00", "event": "candidate_rejected", "name": "AI game builder and editor built with Rails and Godot", "reason": "outside_directory_scope"}
+{"timestamp": "2026-09-04T08:50:30.693516+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-04T08:50:30.693591+00:00", "event": "candidate_rejected", "name": "Addom", "reason": "duplicate"}
+{"timestamp": "2026-09-04T08:50:30.693650+00:00", "event": "candidate_rejected", "name": "Engram", "reason": "duplicate"}
+{"timestamp": "2026-09-04T08:50:30.693716+00:00", "event": "candidate_rejected", "name": "Ocam", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.693828+00:00", "event": "candidate_rejected", "name": "Agentkind", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.693890+00:00", "event": "candidate_rejected", "name": "Airplane AI", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.693980+00:00", "event": "candidate_rejected", "name": "Ardent", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.694108+00:00", "event": "candidate_rejected", "name": "Aibriefs", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.694180+00:00", "event": "candidate_rejected", "name": "Mu", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.694237+00:00", "event": "candidate_rejected", "name": "Simple", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.694296+00:00", "event": "candidate_rejected", "name": "DumbDetector", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.694362+00:00", "event": "candidate_rejected", "name": "Pangolin", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.694417+00:00", "event": "candidate_rejected", "name": "Openvurp", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.694477+00:00", "event": "candidate_rejected", "name": "Vericommand", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-04T08:50:30.694531+00:00", "event": "candidate_rejected", "name": "Hotdogbenchmark", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.694586+00:00", "event": "candidate_rejected", "name": "AI Usage Ball", "reason": "duplicate"}
+{"timestamp": "2026-09-04T08:50:30.694638+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.694731+00:00", "event": "candidate_rejected", "name": "Oconee Runtime", "reason": "article_not_product"}
+{"timestamp": "2026-09-04T08:50:30.694836+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-04T08:50:30.694890+00:00", "event": "candidate_rejected", "name": "Getfemail", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.694956+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-04T08:50:30.695567+00:00", "event": "tool_published", "slug": "videm", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-04T08:50:30.695602+00:00", "event": "tool_published", "slug": "drawdb-pro", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-04T08:50:30.695627+00:00", "event": "tool_published", "slug": "context", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-04T08:50:30.695649+00:00", "event": "tool_published", "slug": "aietalks", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-04T08:50:30.695670+00:00", "event": "tool_published", "slug": "jern-cloud", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-04T08:50:30.695692+00:00", "event": "tool_published", "slug": "stillmade", "category": "video-generation", "source": "Hacker News — Show HN AI"}
