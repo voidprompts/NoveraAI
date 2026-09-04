@@ -33,7 +33,22 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Check for an existing roundup review
+        id: pending
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          COUNT="$(gh pr list --state open --base main --json headRefName --jq '[.[] | select(.headRefName | startswith("automation/roundup-"))] | length')"
+          if [ "$COUNT" -gt 0 ]; then
+            echo "An editorial roundup pull request is already awaiting review. Skipping this run to avoid reusing reserved tools."
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Create date-specific review branch
+        if: steps.pending.outputs.exists != 'true'
         id: branch
         shell: bash
         run: |
@@ -48,11 +63,11 @@ jobs:
           echo "exists=false" >> "$GITHUB_OUTPUT"
 
       - name: Prepare factual roundup and SEO pages
-        if: steps.branch.outputs.exists != 'true'
+        if: steps.pending.outputs.exists != 'true' && steps.branch.outputs.exists != 'true'
         run: python scripts/generate-weekly-post.py
 
       - name: Validate generated site
-        if: steps.branch.outputs.exists != 'true'
+        if: steps.pending.outputs.exists != 'true' && steps.branch.outputs.exists != 'true'
         run: |
           node --check assets/app.js
           node --check assets/posts-data.js
@@ -60,7 +75,7 @@ jobs:
           python -m py_compile scripts/generate-weekly-post.py
 
       - name: Open editorial review pull request
-        if: steps.branch.outputs.exists != 'true'
+        if: steps.pending.outputs.exists != 'true' && steps.branch.outputs.exists != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           BRANCH: ${{ steps.branch.outputs.name }}
