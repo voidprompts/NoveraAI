@@ -687,5 +687,156 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49548847",
     "reviewStatus": "editorially-corrected"
+  },
+  {
+    "slug": "tesoro-help",
+    "name": "Tesoro.help",
+    "category": "customer-support",
+    "tagline": "rogue AI helpdesk for my kid's high school",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://tesoro.help",
+    "description": "My kid just started high school. The way they communicate information is absolutely insane. So I built a web scraper + MCP to aggregate it all, then layered on a snarky chatbot with a PG-13 Dave Chappelle personality. The number of communication channels are just insane: - email - Google Docs - Canvas - PDFs - School Messenger - the official school website - 5 different other websites that they don't tell you about (",
+    "tags": [
+      "Customer Support"
+    ],
+    "features": [
+      "Answer common customer questions",
+      "Assist human support workflows",
+      "Organize and route conversations",
+      "Improve service response time"
+    ],
+    "discoveredAt": "2026-09-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49569854",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "sageling",
+    "name": "Sageling",
+    "category": "productivity-automation",
+    "tagline": "a local AI agent for Mac, Qwen 3.5 9B in-process via MLX",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://sageling.ai",
+    "description": "A lot of my non-developer friends still think that AI is basically just Google or something you ask to write something and then copy paste it around... if they use it at all. When I ask them why they don't use the good stuff like Claude Cowork or its competitors, they tell me a few things: 1. Well, I don't wanna pay a bunch of money for it, and the $20 plans run out real fast. 2. I'm dealing with sensitive info (stud",
+    "tags": [
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-09-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49569136",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "myhandler",
+    "name": "MyHandler",
+    "category": "productivity-automation",
+    "tagline": "Local-first AI assistant for Windows, llama.cpp on Vulkan",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://myhandler.ai",
+    "description": "MyHandler is a newly discovered AI product for productivity automation. Local-first AI assistant for Windows, llama.cpp on Vulkan.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-09-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49568847",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "floyi",
+    "name": "Floyi",
+    "category": "text-writing",
+    "tagline": "Hi HN! I'm an SEO and AI search consultant. I've spent years creating topical maps and content strategies for brands and that led me to building Floyi. I’ve seen over the years, lo",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://floyi.com",
+    "description": "Floyi is a newly discovered AI product for text writing. Hi HN! I'm an SEO and AI search consultant. I've spent years creating topical maps and content strategies for brands and that led me to building Floyi. I’ve seen over the years, long before AI-generated content, how cont.",
+    "tags": [
+      "SEO",
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-09-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49565003",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "audioreality-ai",
+    "name": "Audioreality.ai",
+    "category": "audio-music",
+    "tagline": "email to private daily podcast summary show",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.audioreality.ai",
+    "description": "Audioreality.ai is a newly discovered AI product for audio music. email to private daily podcast summary show.",
+    "tags": [
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-09-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49564980",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "viasocket",
+    "name": "viaSocket",
+    "category": "productivity-automation",
+    "tagline": "AI-built workflows, and your apps as an MCP server",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://viasocket.com",
+    "description": "viaSocket is a newly discovered AI product for productivity automation. AI-built workflows, and your apps as an MCP server.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-09-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49562701",
+    "reviewStatus": "auto-discovered"
   }
 ]

@@ -233,3 +233,32 @@
 {"timestamp": "2026-09-04T08:50:30.695649+00:00", "event": "tool_published", "slug": "aietalks", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-04T08:50:30.695670+00:00", "event": "tool_published", "slug": "jern-cloud", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-04T08:50:30.695692+00:00", "event": "tool_published", "slug": "stillmade", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-05T08:20:46.217417+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-09-05T08:20:46.218970+00:00", "event": "candidate_rejected", "name": "Mu", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.219115+00:00", "event": "candidate_rejected", "name": "RagLeap Core", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.219334+00:00", "event": "candidate_rejected", "name": "Rubato", "reason": "duplicate"}
+{"timestamp": "2026-09-05T08:20:46.219687+00:00", "event": "candidate_rejected", "name": "Airuncode", "reason": "outside_directory_scope"}
+{"timestamp": "2026-09-05T08:20:46.219787+00:00", "event": "candidate_rejected", "name": "Covenant", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.219954+00:00", "event": "candidate_rejected", "name": "Getpostingboard", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.220070+00:00", "event": "candidate_rejected", "name": "Crossstitchpatternmaker", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.220183+00:00", "event": "candidate_rejected", "name": "Context Engine", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.220273+00:00", "event": "candidate_rejected", "name": "Vise", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.220450+00:00", "event": "candidate_rejected", "name": "Casefile", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.220594+00:00", "event": "candidate_rejected", "name": "Sentrint", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.220685+00:00", "event": "candidate_rejected", "name": "Kovavue", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.220772+00:00", "event": "candidate_rejected", "name": "BullSniff", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.220870+00:00", "event": "candidate_rejected", "name": "OpenHelper AI", "reason": "duplicate"}
+{"timestamp": "2026-09-05T08:20:46.220957+00:00", "event": "candidate_rejected", "name": "MRDown", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.221070+00:00", "event": "candidate_rejected", "name": "Antiagent", "reason": "low_confidence"}
+{"timestamp": "2026-09-05T08:20:46.221232+00:00", "event": "candidate_rejected", "name": "TERMy", "reason": "duplicate"}
+{"timestamp": "2026-09-05T08:20:46.221322+00:00", "event": "candidate_rejected", "name": "Videm", "reason": "duplicate"}
+{"timestamp": "2026-09-05T08:20:46.221406+00:00", "event": "candidate_rejected", "name": "Aurict", "reason": "duplicate"}
+{"timestamp": "2026-09-05T08:20:46.221502+00:00", "event": "candidate_rejected", "name": "AI game builder and editor built with Rails and Godot", "reason": "outside_directory_scope"}
+{"timestamp": "2026-09-05T08:20:46.221605+00:00", "event": "candidate_rejected", "name": "DrawDB Pro", "reason": "duplicate"}
+{"timestamp": "2026-09-05T08:20:46.221690+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-05T08:20:46.222527+00:00", "event": "tool_published", "slug": "tesoro-help", "category": "customer-support", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-05T08:20:46.222577+00:00", "event": "tool_published", "slug": "sageling", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-05T08:20:46.222616+00:00", "event": "tool_published", "slug": "myhandler", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-05T08:20:46.222652+00:00", "event": "tool_published", "slug": "floyi", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-05T08:20:46.222686+00:00", "event": "tool_published", "slug": "audioreality-ai", "category": "audio-music", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-05T08:20:46.222720+00:00", "event": "tool_published", "slug": "viasocket", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
