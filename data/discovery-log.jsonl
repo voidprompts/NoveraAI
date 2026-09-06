@@ -262,3 +262,31 @@
 {"timestamp": "2026-09-05T08:20:46.222652+00:00", "event": "tool_published", "slug": "floyi", "category": "text-writing", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-05T08:20:46.222686+00:00", "event": "tool_published", "slug": "audioreality-ai", "category": "audio-music", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-05T08:20:46.222720+00:00", "event": "tool_published", "slug": "viasocket", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-06T08:39:30.005009+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 27}
+{"timestamp": "2026-09-06T08:39:30.006733+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-06T08:39:30.006883+00:00", "event": "candidate_rejected", "name": "Xlogic", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.007151+00:00", "event": "candidate_rejected", "name": "Screenshotify", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.007243+00:00", "event": "candidate_rejected", "name": "P(doom)", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.007331+00:00", "event": "candidate_rejected", "name": "Moltybeeai", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.007402+00:00", "event": "candidate_rejected", "name": "Mu", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.007457+00:00", "event": "candidate_rejected", "name": "RagLeap Core", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.007512+00:00", "event": "candidate_rejected", "name": "Rubato", "reason": "duplicate"}
+{"timestamp": "2026-09-06T08:39:30.007587+00:00", "event": "candidate_rejected", "name": "Tesoro.help", "reason": "duplicate"}
+{"timestamp": "2026-09-06T08:39:30.007653+00:00", "event": "candidate_rejected", "name": "Sageling", "reason": "duplicate"}
+{"timestamp": "2026-09-06T08:39:30.007722+00:00", "event": "candidate_rejected", "name": "Airuncode", "reason": "outside_directory_scope"}
+{"timestamp": "2026-09-06T08:39:30.007777+00:00", "event": "candidate_rejected", "name": "Covenant", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.007830+00:00", "event": "candidate_rejected", "name": "MyHandler", "reason": "duplicate"}
+{"timestamp": "2026-09-06T08:39:30.007880+00:00", "event": "candidate_rejected", "name": "Getpostingboard", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.007929+00:00", "event": "candidate_rejected", "name": "Crossstitchpatternmaker", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.008006+00:00", "event": "candidate_rejected", "name": "Context Engine", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.008057+00:00", "event": "candidate_rejected", "name": "Vise", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.008131+00:00", "event": "candidate_rejected", "name": "Floyi", "reason": "duplicate"}
+{"timestamp": "2026-09-06T08:39:30.008196+00:00", "event": "candidate_rejected", "name": "Casefile", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.008249+00:00", "event": "candidate_rejected", "name": "Audioreality.ai", "reason": "duplicate"}
+{"timestamp": "2026-09-06T08:39:30.008298+00:00", "event": "candidate_rejected", "name": "Sentrint", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.008347+00:00", "event": "candidate_rejected", "name": "Kovavue", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.008394+00:00", "event": "candidate_rejected", "name": "BullSniff", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.008445+00:00", "event": "candidate_rejected", "name": "OpenHelper AI", "reason": "duplicate"}
+{"timestamp": "2026-09-06T08:39:30.008496+00:00", "event": "candidate_rejected", "name": "MRDown", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.008545+00:00", "event": "candidate_rejected", "name": "Antiagent", "reason": "low_confidence"}
+{"timestamp": "2026-09-06T08:39:30.009259+00:00", "event": "tool_published", "slug": "phntm-one", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}

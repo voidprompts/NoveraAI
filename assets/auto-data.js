@@ -839,6 +839,30 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49562701",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "phntm-one",
+    "name": "Phntm-ONE",
+    "category": "productivity-automation",
+    "tagline": "I built a local AI desk assistant",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.phntmcore.com",
+    "description": "I've spent the past several months building something I call PHNTM-One. And I am really curious what HN thinks of the idea and the product I've built. The basic concept is an AI appliance that lives on your desk, is your personal assistant and is totally local running on your own hardware with the option for a boosted mode to reach claude for more demanding tasks. The idea is to have your own local AI assistant that.",
+    "tags": [
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-09-06",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49580654",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {
