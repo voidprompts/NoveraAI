@@ -1,6 +1,32 @@
 // Generated from data/posts.json.
 window.NOVERA_POSTS = [
   {
+    "slug": "new-ai-tools-2026-09-07",
+    "title": "8 New AI Tools to Explore — September 7, 2026",
+    "description": "An editorially reviewed look at eight new tools for video editing, local assistance, workflow automation, education, SEO, and private audio.",
+    "date": "2026-09-07",
+    "updated": "2026-09-07",
+    "author": "Novera Editorial",
+    "type": "New tools roundup",
+    "readingTime": 9,
+    "toolSlugs": [
+      "object-remover",
+      "phntm-one",
+      "viasocket",
+      "tesoro-help",
+      "sageling",
+      "myhandler",
+      "floyi",
+      "audioreality-ai"
+    ],
+    "intro": [
+      "This directory review covers eight recently discovered products across Video Generation, Productivity & Automation, Education & Learning, Marketing & Sales, and Audio & Music. The selection includes browser tools, local AI hardware and software, connected workflow systems, a school-information project, and a private podcast generator.",
+      "Novera checked the products’ official pages and corrected the automated descriptions, categories, features, and pricing labels before publication. Product availability, allowances, and prices can change, so confirm important details with the provider."
+    ],
+    "methodology": "This roundup began with newly discovered Novera directory entries. Automated checks validated URLs and removed duplicate domains. Editorial review then checked official product pages, corrected categories and pricing, replaced source-post excerpts with neutral product summaries, and documented specific capabilities and limitations. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
+    "reviewStatus": "approved-by-merge"
+  },
+  {
     "slug": "new-ai-tools-2026-09-04",
     "title": "7 New AI Tools to Explore — September 4, 2026",
     "description": "An editorially reviewed look at seven newly discovered tools for image creation, video production, software development, and AI research.",
