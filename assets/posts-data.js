@@ -3,7 +3,7 @@ window.NOVERA_POSTS = [
   {
     "slug": "new-ai-tools-2026-09-07",
     "title": "8 New AI Tools to Explore — September 7, 2026",
-    "description": "A reviewed look at 8 newly discovered AI tools across Video Generation, Productivity & Automation, Customer Support, and Text & Writing, with clear features, pricing models, and links to detailed listings.",
+    "description": "An editorially reviewed look at eight new tools for video editing, local assistance, workflow automation, education, SEO, and private audio.",
     "date": "2026-09-07",
     "updated": "2026-09-07",
     "author": "Novera Editorial",
@@ -20,10 +20,10 @@ window.NOVERA_POSTS = [
       "audioreality-ai"
     ],
     "intro": [
-      "This directory review surfaced 8 products with clearly defined use cases across Video Generation, Productivity & Automation, Customer Support, and Text & Writing. Rather than ranking unfamiliar products, this roundup explains what each tool is designed to do and where it fits.",
-      "Every product below passed Novera’s automated URL, duplicate, and category checks before entering this editorial draft. Product capabilities and pricing can change, so use each detailed listing as a starting point and confirm important information on the official website."
+      "This directory review covers eight recently discovered products across Video Generation, Productivity & Automation, Education & Learning, Marketing & Sales, and Audio & Music. The selection includes browser tools, local AI hardware and software, connected workflow systems, a school-information project, and a private podcast generator.",
+      "Novera checked the products’ official pages and corrected the automated descriptions, categories, features, and pricing labels before publication. Product availability, allowances, and prices can change, so confirm important details with the provider."
     ],
-    "methodology": "This roundup was generated from newly qualified Novera directory entries. Automated checks validated URLs, removed duplicate domains, and assigned an initial category. A person reviewed this draft before publication. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
+    "methodology": "This roundup began with newly discovered Novera directory entries. Automated checks validated URLs and removed duplicate domains. Editorial review then checked official product pages, corrected categories and pricing, replaced source-post excerpts with neutral product summaries, and documented specific capabilities and limitations. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
     "reviewStatus": "approved-by-merge"
   },
   {

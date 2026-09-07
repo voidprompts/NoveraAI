@@ -691,203 +691,211 @@ window.NOVERA_AUTO_TOOLS = [
   },
   {
     "slug": "tesoro-help",
-    "name": "Tesoro.help",
-    "category": "customer-support",
-    "tagline": "rogue AI helpdesk for my kid's high school",
-    "pricing": "Freemium",
+    "name": "tesoro.help",
+    "category": "education-learning",
+    "tagline": "Search public Tesoro High School information through a grounded chatbot and MCP server.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://tesoro.help",
-    "description": "My kid just started high school. The way they communicate information is absolutely insane. So I built a web scraper + MCP to aggregate it all, then layered on a snarky chatbot with a PG-13 Dave Chappelle personality. The number of communication channels are just insane: - email - Google Docs - Canvas - PDFs - School Messenger - the official school website - 5 different other websites that they don't tell you about (",
+    "description": "tesoro.help is an unofficial information service for the Tesoro High School community. It indexes public school and district webpages, PDFs, calendars, and linked documents, then answers questions with source pages and freshness dates. A read-only MCP endpoint lets supported AI assistants search the same material. It does not access grades, homework, or information behind a login.",
     "tags": [
-      "Customer Support"
+      "School information",
+      "Grounded search",
+      "MCP"
     ],
     "features": [
-      "Answer common customer questions",
-      "Assist human support workflows",
-      "Organize and route conversations",
-      "Improve service response time"
+      "Search public school and district pages from one interface",
+      "Receive answers with the source page and the date it was read",
+      "Browse information covering calendars, counseling, transport, food, and athletics",
+      "Connect supported AI assistants to its read-only MCP endpoint"
     ],
     "discoveredAt": "2026-09-05",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49569854",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "sageling",
     "name": "Sageling",
     "category": "productivity-automation",
-    "tagline": "a local AI agent for Mac, Qwen 3.5 9B in-process via MLX",
-    "pricing": "Freemium",
+    "tagline": "Run private, long-form AI work locally on an Apple silicon Mac.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://sageling.ai",
-    "description": "A lot of my non-developer friends still think that AI is basically just Google or something you ask to write something and then copy paste it around... if they use it at all. When I ask them why they don't use the good stuff like Claude Cowork or its competitors, they tell me a few things: 1. Well, I don't wanna pay a bunch of money for it, and the $20 plans run out real fast. 2. I'm dealing with sensitive info (stud",
+    "description": "Sageling is a free local AI assistant for Apple silicon Macs with at least 16 GB of memory. It runs its model on the computer, keeps conversations, files, and memories on the Mac, and accesses the internet only when a requested task needs it. The assistant can work with local documents, transcribe media, research information, and complete longer multi-step tasks without cloud usage limits.",
     "tags": [
-      "Productivity Automation"
+      "Local AI",
+      "Mac assistant",
+      "Private workflows"
     ],
     "features": [
-      "Reduce repetitive manual work",
-      "Connect tasks into clear workflows",
-      "Organize information and priorities",
-      "Save time across everyday operations"
+      "Run AI tasks locally on an Apple silicon Mac",
+      "Work with documents, audio, video, and folders on the computer",
+      "Keep conversations, files, and memories on the local device",
+      "Use the web only when a task explicitly requires external information"
     ],
     "discoveredAt": "2026-09-05",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49569136",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "myhandler",
     "name": "MyHandler",
     "category": "productivity-automation",
-    "tagline": "Local-first AI assistant for Windows, llama.cpp on Vulkan",
+    "tagline": "Search and draft from locally stored screen, file, meeting, and messaging context on Windows.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://myhandler.ai",
-    "description": "MyHandler is a newly discovered AI product for productivity automation. Local-first AI assistant for Windows, llama.cpp on Vulkan.",
+    "description": "MyHandler is a Windows AI assistant that builds an encrypted, on-device memory from selected screen text, files, meetings, calendars, and connected communication channels. It can answer recall questions, draft replies without sending them, and provide local voice dictation. A local model is available by default, while optional cloud processing uses plan credits; a free tier and paid plans are offered.",
     "tags": [
-      "Automation",
-      "Productivity",
-      "Productivity Automation"
+      "Windows assistant",
+      "Local memory",
+      "Voice dictation"
     ],
     "features": [
-      "Reduce repetitive manual work",
-      "Connect tasks into clear workflows",
-      "Organize information and priorities",
-      "Save time across everyday operations"
+      "Search selected screen activity, files, meetings, and messages",
+      "Draft context-aware replies without automatically sending them",
+      "Dictate into Windows applications with on-device transcription",
+      "Keep an encrypted local archive and optionally disable cloud AI"
     ],
     "discoveredAt": "2026-09-05",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49568847",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "floyi",
     "name": "Floyi",
-    "category": "text-writing",
-    "tagline": "Hi HN! I'm an SEO and AI search consultant. I've spent years creating topical maps and content strategies for brands and that led me to building Floyi. I’ve seen over the years, lo",
+    "category": "marketing-sales",
+    "tagline": "Plan, produce, and measure topic-focused content for Google and AI search.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://floyi.com",
-    "description": "Floyi is a newly discovered AI product for text writing. Hi HN! I'm an SEO and AI search consultant. I've spent years creating topical maps and content strategies for brands and that led me to building Floyi. I’ve seen over the years, long before AI-generated content, how cont.",
+    "description": "Floyi is a content-strategy platform for building topical authority across traditional and AI search. It carries brand and audience context through topical research, maps, content briefs, article drafts, optimization, publishing, and performance measurement. A free pay-as-you-go tier includes strategy essentials and limited credits, while Pro and Scale plans add production, auditing, visibility, team, and publishing features.",
     "tags": [
-      "SEO",
-      "Writing",
-      "Text Writing"
+      "SEO strategy",
+      "Content planning",
+      "AI search"
     ],
     "features": [
-      "Create and refine written content",
-      "Summarize and restructure text",
-      "Adapt voice for different audiences",
-      "Move from prompt to draft quickly"
+      "Create a reusable brand foundation and audience context",
+      "Build topical maps from search behavior and intent",
+      "Generate research-backed briefs and brand-aware article drafts",
+      "Track rankings, topical coverage, and visibility in AI search"
     ],
     "discoveredAt": "2026-09-05",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49565003",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "audioreality-ai",
-    "name": "Audioreality.ai",
+    "name": "AudioReality.ai",
     "category": "audio-music",
-    "tagline": "email to private daily podcast summary show",
-    "pricing": "Freemium",
+    "tagline": "Turn selected emails and agent reports into scheduled, private multi-host podcasts.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://www.audioreality.ai",
-    "description": "Audioreality.ai is a newly discovered AI product for audio music. email to private daily podcast summary show.",
+    "description": "AudioReality.ai converts material sent to a private email address into scheduled podcast episodes. Users can forward newsletters, work updates, or agent reports; choose one to three AI hosts; and receive a chaptered conversation through a private podcast feed. Accounts can configure up to three separate shows. The service is free during its private preview and does not connect directly to the user’s primary inbox.",
     "tags": [
-      "Music",
-      "Audio Music"
+      "Podcast generation",
+      "Email summaries",
+      "Private audio"
     ],
     "features": [
-      "Create or enhance spoken and musical audio",
-      "Work through a simple creative interface",
-      "Export audio for common workflows",
-      "Iterate on sound and voice ideas"
+      "Forward selected newsletters and reports to a private show address",
+      "Generate single- or multi-host conversational podcast episodes",
+      "Schedule separate shows with their own topics, casts, and private feeds",
+      "Send episodes to podcast apps that support private RSS"
     ],
     "discoveredAt": "2026-09-05",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49564980",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "viasocket",
     "name": "viaSocket",
     "category": "productivity-automation",
-    "tagline": "AI-built workflows, and your apps as an MCP server",
+    "tagline": "Describe cross-app workflows in plain language and let AI assemble the automation.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://viasocket.com",
-    "description": "viaSocket is a newly discovered AI product for productivity automation. AI-built workflows, and your apps as an MCP server.",
+    "description": "viaSocket is a no-code automation platform that uses AI to build workflows across more than 2,200 app integrations. Users can describe a process, connect services, add decision-making agents, store workflow data in tables, and expose connected apps through MCP. Its free plan currently includes 10,000 tasks and 500 AI credits each month, with paid usage and expert services available.",
     "tags": [
-      "Automation",
-      "Productivity",
-      "Productivity Automation"
+      "Workflow automation",
+      "App integrations",
+      "MCP"
     ],
     "features": [
-      "Reduce repetitive manual work",
-      "Connect tasks into clear workflows",
-      "Organize information and priorities",
-      "Save time across everyday operations"
+      "Generate multi-step automations from a plain-language request",
+      "Connect workflows across more than 2,200 supported applications",
+      "Add AI agents, decisions, and persistent workflow tables",
+      "Use a recurring free allowance before purchasing additional usage"
     ],
     "discoveredAt": "2026-09-05",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49562701",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "phntm-one",
-    "name": "Phntm-ONE",
+    "name": "PHNTM One",
     "category": "productivity-automation",
-    "tagline": "I built a local AI desk assistant",
-    "pricing": "Freemium",
+    "tagline": "Use a private desktop AI assistant that runs primarily on dedicated local hardware.",
+    "pricing": "Paid",
     "rating": 0.0,
     "featured": false,
     "website": "https://www.phntmcore.com",
-    "description": "I've spent the past several months building something I call PHNTM-One. And I am really curious what HN thinks of the idea and the product I've built. The basic concept is an AI appliance that lives on your desk, is your personal assistant and is totally local running on your own hardware with the option for a boosted mode to reach claude for more demanding tasks. The idea is to have your own local AI assistant that.",
+    "description": "PHNTM One is a made-to-order desktop AI appliance built around a Raspberry Pi 5, touchscreen, local language model, speech tools, document retrieval, and persistent memory. Private mode runs on the device without an account or subscription. An optional boosted mode can use a frontier model through the owner’s API key. The published price is $549 as a one-time hardware purchase.",
     "tags": [
-      "Productivity Automation"
+      "Local AI",
+      "AI hardware",
+      "Private assistant"
     ],
     "features": [
-      "Reduce repetitive manual work",
-      "Connect tasks into clear workflows",
-      "Organize information and priorities",
-      "Save time across everyday operations"
+      "Run the default assistant and its memory on dedicated local hardware",
+      "Use voice, touchscreen, or a phone-based interface served by the device",
+      "Search locally stored documents through on-device retrieval",
+      "Optionally connect a personal API key for more demanding requests"
     ],
     "discoveredAt": "2026-09-06",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49580654",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "object-remover",
     "name": "Object Remover",
     "category": "video-generation",
-    "tagline": "AI Video Object Remover Online",
+    "tagline": "Remove unwanted objects from videos and images with AI tracking and inpainting.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://objectremover.online",
-    "description": "Object Remover is a newly discovered AI product for video generation. AI Video Object Remover Online.",
+    "description": "Object Remover is a browser tool for removing people, logos, text, watermarks, and other distractions from videos or images. Users can identify a target with a prompt or brush, track it across moving frames, rebuild the covered background, and export the cleaned media while retaining the original audio. Free previews are available, with credit packs for higher-volume processing.",
     "tags": [
-      "Video",
-      "Video Generation"
+      "Video editing",
+      "Object removal",
+      "AI inpainting"
     ],
     "features": [
-      "Create video concepts with AI assistance",
-      "Speed up editing and production",
-      "Repurpose content for new formats",
-      "Build shareable visual stories"
+      "Remove selected objects from MP4, MOV, JPG, and PNG files",
+      "Identify a target with natural language or a brush mask",
+      "Track moving objects across frames without masking each frame",
+      "Start with limited free processing and purchase credits as needed"
     ],
     "discoveredAt": "2026-09-07",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49586328",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   }
 ];
 if (window.NOVERA_DATA) {
