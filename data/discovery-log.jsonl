@@ -290,3 +290,24 @@
 {"timestamp": "2026-09-06T08:39:30.008496+00:00", "event": "candidate_rejected", "name": "MRDown", "reason": "low_confidence"}
 {"timestamp": "2026-09-06T08:39:30.008545+00:00", "event": "candidate_rejected", "name": "Antiagent", "reason": "low_confidence"}
 {"timestamp": "2026-09-06T08:39:30.009259+00:00", "event": "tool_published", "slug": "phntm-one", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-07T09:19:31.952836+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 20}
+{"timestamp": "2026-09-07T09:19:31.954125+00:00", "event": "candidate_rejected", "name": "Befailproof", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-07T09:19:31.954217+00:00", "event": "candidate_rejected", "name": "Yurei", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.954270+00:00", "event": "candidate_rejected", "name": "Engrim", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.954320+00:00", "event": "candidate_rejected", "name": "GuidedReview", "reason": "duplicate"}
+{"timestamp": "2026-09-07T09:19:31.954366+00:00", "event": "candidate_rejected", "name": "Chrome-bridge", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.954423+00:00", "event": "candidate_rejected", "name": "MaskShift", "reason": "duplicate"}
+{"timestamp": "2026-09-07T09:19:31.954471+00:00", "event": "candidate_rejected", "name": "Deviant", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.954511+00:00", "event": "candidate_rejected", "name": "Piceditor", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.954607+00:00", "event": "candidate_rejected", "name": "Wayfinder", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.954648+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-07T09:19:31.954701+00:00", "event": "candidate_rejected", "name": "Xlogic", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.954759+00:00", "event": "candidate_rejected", "name": "Phntm-ONE", "reason": "duplicate"}
+{"timestamp": "2026-09-07T09:19:31.954796+00:00", "event": "candidate_rejected", "name": "Screenshotify", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.954844+00:00", "event": "candidate_rejected", "name": "P(doom)", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.954914+00:00", "event": "candidate_rejected", "name": "Moltybeeai", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.954967+00:00", "event": "candidate_rejected", "name": "Mu", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.955011+00:00", "event": "candidate_rejected", "name": "RagLeap Core", "reason": "low_confidence"}
+{"timestamp": "2026-09-07T09:19:31.955049+00:00", "event": "candidate_rejected", "name": "Rubato", "reason": "duplicate"}
+{"timestamp": "2026-09-07T09:19:31.955098+00:00", "event": "candidate_rejected", "name": "Tesoro.help", "reason": "duplicate"}
+{"timestamp": "2026-09-07T09:19:31.955681+00:00", "event": "tool_published", "slug": "object-remover", "category": "video-generation", "source": "Hacker News — Show HN AI"}

@@ -863,6 +863,31 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49580654",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "object-remover",
+    "name": "Object Remover",
+    "category": "video-generation",
+    "tagline": "AI Video Object Remover Online",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://objectremover.online",
+    "description": "Object Remover is a newly discovered AI product for video generation. AI Video Object Remover Online.",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-09-07",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49586328",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {
