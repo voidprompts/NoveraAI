@@ -311,3 +311,25 @@
 {"timestamp": "2026-09-07T09:19:31.955049+00:00", "event": "candidate_rejected", "name": "Rubato", "reason": "duplicate"}
 {"timestamp": "2026-09-07T09:19:31.955098+00:00", "event": "candidate_rejected", "name": "Tesoro.help", "reason": "duplicate"}
 {"timestamp": "2026-09-07T09:19:31.955681+00:00", "event": "tool_published", "slug": "object-remover", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-08T08:51:30.132894+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 21}
+{"timestamp": "2026-09-08T08:51:30.134419+00:00", "event": "candidate_rejected", "name": "Am I replacable", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.134530+00:00", "event": "candidate_rejected", "name": "Brw", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.134608+00:00", "event": "candidate_rejected", "name": "Socialsimbench", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.134660+00:00", "event": "candidate_rejected", "name": "Beseen", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.134755+00:00", "event": "candidate_rejected", "name": "Buildyard", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.134914+00:00", "event": "candidate_rejected", "name": "Benzi", "reason": "duplicate"}
+{"timestamp": "2026-09-08T08:51:30.134993+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-08T08:51:30.135045+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.135096+00:00", "event": "candidate_rejected", "name": "Idea", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.135142+00:00", "event": "candidate_rejected", "name": "NoMac.App", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.135195+00:00", "event": "candidate_rejected", "name": "Pod", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.135310+00:00", "event": "candidate_rejected", "name": "Befailproof", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-08T08:51:30.135371+00:00", "event": "candidate_rejected", "name": "Yurei", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.135422+00:00", "event": "candidate_rejected", "name": "Engrim", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.135472+00:00", "event": "candidate_rejected", "name": "GuidedReview", "reason": "duplicate"}
+{"timestamp": "2026-09-08T08:51:30.135519+00:00", "event": "candidate_rejected", "name": "Chrome-bridge", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.135578+00:00", "event": "candidate_rejected", "name": "MaskShift", "reason": "duplicate"}
+{"timestamp": "2026-09-08T08:51:30.135630+00:00", "event": "candidate_rejected", "name": "Deviant", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.135676+00:00", "event": "candidate_rejected", "name": "Piceditor", "reason": "low_confidence"}
+{"timestamp": "2026-09-08T08:51:30.135735+00:00", "event": "candidate_rejected", "name": "Object Remover", "reason": "duplicate"}
+{"timestamp": "2026-09-08T08:51:30.135808+00:00", "event": "candidate_rejected", "name": "Wayfinder", "reason": "low_confidence"}
