@@ -333,3 +333,29 @@
 {"timestamp": "2026-09-08T08:51:30.135676+00:00", "event": "candidate_rejected", "name": "Piceditor", "reason": "low_confidence"}
 {"timestamp": "2026-09-08T08:51:30.135735+00:00", "event": "candidate_rejected", "name": "Object Remover", "reason": "duplicate"}
 {"timestamp": "2026-09-08T08:51:30.135808+00:00", "event": "candidate_rejected", "name": "Wayfinder", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.491323+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 25}
+{"timestamp": "2026-09-09T08:57:36.493090+00:00", "event": "candidate_rejected", "name": "Thread", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.493240+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.493335+00:00", "event": "candidate_rejected", "name": "Llmfootprint", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.493582+00:00", "event": "candidate_rejected", "name": "Freeaiimage", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-09T08:57:36.493675+00:00", "event": "candidate_rejected", "name": "Aish", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.493755+00:00", "event": "candidate_rejected", "name": "AI Stack Selector Tool", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.493828+00:00", "event": "candidate_rejected", "name": "SagaShield", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.493917+00:00", "event": "candidate_rejected", "name": "Routi Bot", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.493997+00:00", "event": "candidate_rejected", "name": "PortraitDesk", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.494085+00:00", "event": "candidate_rejected", "name": "Remarc", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.494172+00:00", "event": "candidate_rejected", "name": "Felan", "reason": "duplicate"}
+{"timestamp": "2026-09-09T08:57:36.494272+00:00", "event": "candidate_rejected", "name": "Apps", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.494353+00:00", "event": "candidate_rejected", "name": "Sparrow-2", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.494421+00:00", "event": "candidate_rejected", "name": "Posterlet", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.494488+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.494604+00:00", "event": "candidate_rejected", "name": "Croplock", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.494732+00:00", "event": "candidate_rejected", "name": "SiteTell", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.494803+00:00", "event": "candidate_rejected", "name": "Grith", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.494873+00:00", "event": "candidate_rejected", "name": "Inspyry", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.494973+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.495040+00:00", "event": "candidate_rejected", "name": "Iindex", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.495114+00:00", "event": "candidate_rejected", "name": "Unfetch", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-09T08:57:36.495196+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-09T08:57:36.496227+00:00", "event": "tool_published", "slug": "pollium", "category": "education-learning", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-09T08:57:36.496284+00:00", "event": "tool_published", "slug": "endframe", "category": "video-generation", "source": "Hacker News — Show HN AI"}

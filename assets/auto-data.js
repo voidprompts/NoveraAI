@@ -896,6 +896,56 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49586328",
     "reviewStatus": "editorially-corrected"
+  },
+  {
+    "slug": "pollium",
+    "name": "Pollium",
+    "category": "education-learning",
+    "tagline": "A new way to study with AI",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://learn.pollium.io",
+    "description": "Pollium is a newly discovered AI product for education learning. A new way to study with AI.",
+    "tags": [
+      "Education",
+      "Education Learning"
+    ],
+    "features": [
+      "Create guided learning experiences",
+      "Personalize practice and explanations",
+      "Support educators and learners",
+      "Turn material into study activities"
+    ],
+    "discoveredAt": "2026-09-09",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49611974",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "endframe",
+    "name": "EndFrame",
+    "category": "video-generation",
+    "tagline": "Demos, launch videos, shorts from the AI plan you pay for",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://endframe.ai",
+    "description": "EndFrame is a newly discovered AI product for video generation. Demos, launch videos, shorts from the AI plan you pay for.",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-09-09",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49611174",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {
