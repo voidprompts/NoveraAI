@@ -1,5 +1,29 @@
 [
   {
+    "slug": "new-ai-tools-2026-09-09",
+    "title": "6 New AI Tools to Explore — September 9, 2026",
+    "description": "An editorially reviewed look at six new tools for adaptive learning, agent-assisted video, conversation practice, business workflows, market research, and project knowledge.",
+    "date": "2026-09-09",
+    "updated": "2026-09-10",
+    "author": "Novera Editorial",
+    "type": "New tools roundup",
+    "readingTime": 9,
+    "toolSlugs": [
+      "pollium",
+      "endframe",
+      "dehurdle",
+      "coos",
+      "rxlab-market",
+      "compilr-dev-studio"
+    ],
+    "intro": [
+      "This review covers six recently discovered AI products across Education & Learning, Video Generation, Productivity & Automation, and Research & Knowledge. The selection ranges from adaptive course building and conversation practice to agent-assisted video editing, local-first business software, cited market research, and connected project records.",
+      "Novera checked the products’ official pages, corrected the automated descriptions, categories, features, and pricing labels, and removed two false positives from the public directory. Product availability, allowances, and prices can change, so confirm important details with each provider."
+    ],
+    "methodology": "This roundup began with newly discovered Novera directory records. Automated checks validated URLs and removed duplicate domains. Editorial review then checked official product pages, corrected categories and pricing, replaced generic or truncated text with product-specific summaries, and excluded two records that did not provide AI functionality. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
+    "reviewStatus": "approved-by-merge"
+  },
+  {
     "slug": "new-ai-tools-2026-09-07",
     "title": "8 New AI Tools to Explore — September 7, 2026",
     "description": "An editorially reviewed look at eight new tools for video editing, local assistance, workflow automation, education, SEO, and private audio.",

@@ -305,53 +305,32 @@ window.NOVERA_AUTO_TOOLS = [
     "reviewStatus": "auto-discovered"
   },
   {
-    "slug": "weedout",
-    "name": "Weedout",
-    "category": "video-generation",
-    "tagline": "Safari extension that hides YouTube AI-labeled videos",
-    "pricing": "Freemium",
-    "rating": 0.0,
-    "featured": false,
-    "website": "https://masteranza.github.io/weedout",
-    "description": "I'm the developer. I built this because AI-generated conspiracy videos were getting out of control in my own YouTube feed. Weedout is a $1.99 Safari extension for macOS that removes videos YouTube labels “Made with AI” from feed, search, related videos, playlists and Shorts. It uses YouTube's label rather than AI detection, runs locally, and does not catch unlabeled videos. Source for developers who want to fork or b",
-    "tags": [
-      "Video",
-      "Video Generation"
-    ],
-    "features": [
-      "Create video concepts with AI assistance",
-      "Speed up editing and production",
-      "Repurpose content for new formats",
-      "Build shareable visual stories"
-    ],
-    "discoveredAt": "2026-09-02",
-    "sourceName": "Hacker News — Show HN AI",
-    "sourceUrl": "https://news.ycombinator.com/item?id=49528895",
-    "reviewStatus": "auto-discovered"
-  },
-  {
     "slug": "compilr-dev-studio",
     "name": "Compilr.dev Studio",
-    "category": "text-writing",
-    "tagline": "A project brain AI agents write to and people read",
-    "pricing": "Freemium",
+    "category": "productivity-automation",
+    "tagline": "Connect project goals, requirements, decisions, risks, and assumptions in an AI-readable graph.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://studio.compilr.dev/welcome",
-    "description": "I built a platform to help project and product owners record vision, objectives, decisions, risks, assumptions, and requirements as a connected graph with the help of AI. So, how does it work? The platform offers a set of MCP tools so it is compatible with any AI application that lets you define a custom MCP. I use it with Claude AI on my phone or using the Claude plugin on Chrome (main Studio page on the browser wit",
+    "description": "Compilr.dev Studio is a private-beta project record for product and project owners. It stores vision, objectives, requirements, work, decisions, risks, assumptions, and open questions as linked nodes. Through an MCP connection, a compatible AI assistant can record decisions, navigate the graph, explain why a choice was made, assess the impact of a change, and identify gaps or stale items. Access is currently invite-only, and the developer states that beta users can try it free with an MCP-compatible AI app.",
     "tags": [
-      "Text Writing"
+      "Project knowledge",
+      "MCP server",
+      "Decision records",
+      "Requirements traceability"
     ],
     "features": [
-      "Create and refine written content",
-      "Summarize and restructure text",
-      "Adapt voice for different audiences",
-      "Move from prompt to draft quickly"
+      "Connect vision, objectives, requirements, work, decisions, risks, and assumptions",
+      "Give an MCP-compatible AI assistant tools to read and update the project graph",
+      "Trace why a decision was made and what a proposed change could affect",
+      "Surface orphaned requirements, open decisions, stale assumptions, and other gaps",
+      "Use the browser workspace across desktop and mobile during the invite-only beta"
     ],
     "discoveredAt": "2026-09-02",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49528310",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "calprep",
@@ -381,28 +360,31 @@ window.NOVERA_AUTO_TOOLS = [
   },
   {
     "slug": "rxlab-market",
-    "name": "Rxlab market",
+    "name": "rxlab market assistant",
     "category": "research-knowledge",
-    "tagline": "a research agent for stocks market",
-    "pricing": "Freemium",
+    "tagline": "Research stocks and markets with an agent that cites quotes, filings, news, and prediction odds.",
+    "pricing": "Paid",
     "rating": 0.0,
     "featured": false,
     "website": "https://finance.bots.rxlab.app",
-    "description": "Rxlab market is a newly discovered AI product for research knowledge. a research agent for stocks market.",
+    "description": "rxlab market assistant researches equities, crypto, prediction markets, SEC filings, and financial news in a threaded workspace. It can resolve company names to tickers, retrieve timestamped market data, read source pages and filings, and present figures as charts, metrics, or comparison tables with source links. Reports can be saved as private Markdown documents, and conversations can continue on the web or WhatsApp. The Plus plan is listed at $13.99 per month; it is a research aid, not a licensed financial adviser.",
     "tags": [
-      "Research",
-      "Research Knowledge"
+      "Market research",
+      "SEC filings",
+      "Source citations",
+      "Financial analysis"
     ],
     "features": [
-      "Find and synthesize useful information",
-      "Explore questions through natural language",
-      "Organize research into clear outputs",
-      "Move from sources to understanding"
+      "Research equities, crypto, prediction markets, filings, and financial news",
+      "Show timestamped quotes, historical ranges, and source-linked figures",
+      "Read relevant articles and filing pages before producing a synthesis",
+      "Render charts, metrics, probability bars, and comparison tables in the thread",
+      "Save private Markdown reports and continue research through web or WhatsApp"
     ],
     "discoveredAt": "2026-09-02",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49519789",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "openhelper-ai-chatbot",
@@ -433,54 +415,58 @@ window.NOVERA_AUTO_TOOLS = [
   {
     "slug": "coos",
     "name": "CoOS",
-    "category": "marketing-sales",
-    "tagline": "desktop app where an agent builds your CRM/ERP as local plugins",
+    "category": "productivity-automation",
+    "tagline": "A local-first business workspace where an AI agent builds and operates custom apps.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
-    "website": "https://pirol.ai",
-    "description": "CoOS is a newly discovered AI product for marketing sales. desktop app where an agent builds your CRM/ERP as local plugins.",
+    "website": "https://pirol.ai/coos",
+    "description": "CoOS is a desktop business workspace where an AI agent can build and operate internal tools such as CRM, ERP, HR, goals, SOP, and knowledge-base apps. Users describe a workflow in plain language, and the agent creates software that works with data stored locally in a file the user owns. CoOS supports macOS and Windows, can use local models or external models through Pirol, and offers a free solo mode alongside paid plans for broader model access and features.",
     "tags": [
-      "Marketing",
-      "Sales",
-      "Marketing Sales"
+      "Business apps",
+      "Local-first AI",
+      "Agent workflows",
+      "CRM and ERP"
     ],
     "features": [
-      "Create campaign-ready material",
-      "Support prospect and customer research",
-      "Personalize outreach at scale",
-      "Improve repeatable growth workflows"
+      "Build internal CRM, ERP, HR, SOP, and knowledge tools from plain-language requests",
+      "Let an agent operate apps and business data inside one desktop workspace",
+      "Keep company data in a local file that can be copied, backed up, or exported",
+      "Use local models offline or route supported external models through Pirol",
+      "Start with the free solo mode or choose a paid plan for additional services"
     ],
     "discoveredAt": "2026-09-03",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49543931",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "dehurdle",
     "name": "Dehurdle",
-    "category": "audio-music",
-    "tagline": "Real-Time AI Voice Simulations for High-Stakes Conversations",
+    "category": "education-learning",
+    "tagline": "Practice sales, support, and leadership conversations with responsive AI voice simulations.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
-    "website": "https://dehurdle.com/register",
-    "description": "Dehurdle is a newly discovered AI product for audio music. Real-Time AI Voice Simulations for High-Stakes Conversations.",
+    "website": "https://dehurdle.com",
+    "description": "Dehurdle provides spoken role-play simulations for preparing for sales calls, negotiations, support interactions, and leadership conversations. Learners practice against responsive AI personas, can present slides during a session, and receive feedback on delivery, phrasing, pacing, and composure. Teams can also create scenarios from their own guidelines or documents. The free plan includes 15 practice minutes per month; Pro and organization plans add more personas, minutes, history, and administration features.",
     "tags": [
-      "Voice",
-      "Music",
-      "Audio Music"
+      "Conversation practice",
+      "AI role-play",
+      "Sales training",
+      "Communication coaching"
     ],
     "features": [
-      "Create or enhance spoken and musical audio",
-      "Work through a simple creative interface",
-      "Export audio for common workflows",
-      "Iterate on sound and voice ideas"
+      "Practice live voice conversations against responsive AI personas",
+      "Create custom drills from playbooks, decks, call recordings, or notes",
+      "Present slides and receive private on-device feedback on eye contact and composure",
+      "Review session scorecards covering delivery, pacing, and suggested phrasing",
+      "Start with 15 practice minutes per month on the free plan"
     ],
     "discoveredAt": "2026-09-03",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49542430",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "supercov",
@@ -507,31 +493,6 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49534948",
     "reviewStatus": "editorially-corrected"
-  },
-  {
-    "slug": "os-ios-farm-automation",
-    "name": "OS iOS Farm Automation",
-    "category": "productivity-automation",
-    "tagline": "iOS phone farm - register real iPhones, watch + control them live in the browser, schedule TikTok on a postgres-backed scheduler. free, self-hosted, apache-2.0. git: github.com/Git",
-    "pricing": "Freemium",
-    "rating": 0.0,
-    "featured": false,
-    "website": "https://gethandler.ai/ios-farm",
-    "description": "iOS phone farm - register real iPhones, watch + control them live in the browser, schedule TikTok on a postgres-backed scheduler. free, self-hosted, apache-2.0. git: github.com/Git-Agni/prod-FARM-IOS-Core DIY steps: gethandler.ai/ios-farm gg.",
-    "tags": [
-      "Automation",
-      "Productivity Automation"
-    ],
-    "features": [
-      "Reduce repetitive manual work",
-      "Connect tasks into clear workflows",
-      "Organize information and priorities",
-      "Save time across everyday operations"
-    ],
-    "discoveredAt": "2026-09-03",
-    "sourceName": "Hacker News — Show HN AI",
-    "sourceUrl": "https://news.ycombinator.com/item?id=49533979",
-    "reviewStatus": "auto-discovered"
   },
   {
     "slug": "videm",
@@ -901,51 +862,57 @@ window.NOVERA_AUTO_TOOLS = [
     "slug": "pollium",
     "name": "Pollium",
     "category": "education-learning",
-    "tagline": "A new way to study with AI",
+    "tagline": "Build adaptive courses with AI-generated lessons, practice, and mastery tracking.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://learn.pollium.io",
-    "description": "Pollium is a newly discovered AI product for education learning. A new way to study with AI.",
+    "description": "Pollium turns a topic, syllabus PDF, or whiteboard photo into an editable course roadmap, then creates lessons and skill-based practice. Written answers are graded as evidence of mastery, reviews are spaced over time, and completed courses can issue public certificates. A free monthly token allowance covers core course and practice features; paid plans add formats such as slide decks, podcast episodes, and voice tutoring.",
     "tags": [
-      "Education",
-      "Education Learning"
+      "Course creation",
+      "AI tutoring",
+      "Practice and mastery",
+      "Certificates"
     ],
     "features": [
-      "Create guided learning experiences",
-      "Personalize practice and explanations",
-      "Support educators and learners",
-      "Turn material into study activities"
+      "Create a course roadmap from a prompt, syllabus PDF, or whiteboard photo",
+      "Edit the learning plan before Pollium generates individual lessons",
+      "Grade written practice and use weighted evidence to track skill mastery",
+      "Schedule reviews and issue a public certificate after every skill is cleared",
+      "Add slide decks, podcast episodes, and voice tutoring on eligible paid plans"
     ],
     "discoveredAt": "2026-09-09",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49611974",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "endframe",
     "name": "EndFrame",
     "category": "video-generation",
-    "tagline": "Demos, launch videos, shorts from the AI plan you pay for",
-    "pricing": "Freemium",
+    "tagline": "Mac video editor where AI coding agents build editable scenes on a timeline.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://endframe.ai",
-    "description": "EndFrame is a newly discovered AI product for video generation. Demos, launch videos, shorts from the AI plan you pay for.",
+    "description": "EndFrame is a macOS video editor that lets Claude, ChatGPT, Grok, and other coding agents assemble launch videos, product demos, tutorials, and social clips. An agent can read a repository or use tagged images, clips, logos, and audio to build editable, code-driven scenes on a timeline. Users can revise frames, restore versions, and render 1080p or 4K exports locally. It is free during early access and currently requires Apple silicon with macOS 15 or later.",
     "tags": [
-      "Video",
-      "Video Generation"
+      "AI video editing",
+      "Motion graphics",
+      "macOS",
+      "Agent workflows"
     ],
     "features": [
-      "Create video concepts with AI assistance",
-      "Speed up editing and production",
-      "Repurpose content for new formats",
-      "Build shareable visual stories"
+      "Build videos from a prompt, a product repository, or tagged media assets",
+      "Create editable code-driven scenes, typography, charts, and transitions",
+      "Render frames for agent review and check them against a 33-rule quality gate",
+      "Trim and reorder timeline clips or restore an earlier version of a project",
+      "Export locally in 1080p or 4K on a compatible Apple silicon Mac"
     ],
     "discoveredAt": "2026-09-09",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49611174",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "autoshade",
