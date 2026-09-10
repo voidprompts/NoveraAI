@@ -359,3 +359,34 @@
 {"timestamp": "2026-09-09T08:57:36.495196+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
 {"timestamp": "2026-09-09T08:57:36.496227+00:00", "event": "tool_published", "slug": "pollium", "category": "education-learning", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-09T08:57:36.496284+00:00", "event": "tool_published", "slug": "endframe", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-10T08:56:26.131591+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 30}
+{"timestamp": "2026-09-10T08:56:26.133162+00:00", "event": "candidate_rejected", "name": "Botbin.io", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.133287+00:00", "event": "candidate_rejected", "name": "Doogi", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.133486+00:00", "event": "candidate_rejected", "name": "Kin", "reason": "duplicate"}
+{"timestamp": "2026-09-10T08:56:26.133585+00:00", "event": "candidate_rejected", "name": "Botbin", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.133701+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-10T08:56:26.133798+00:00", "event": "candidate_rejected", "name": "BiNeuron", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.133938+00:00", "event": "candidate_rejected", "name": "Colliepwa", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.134190+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-10T08:56:26.134295+00:00", "event": "candidate_rejected", "name": "AI Burn Clock", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.134385+00:00", "event": "candidate_rejected", "name": "A90", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.134475+00:00", "event": "candidate_rejected", "name": "Mushrooms", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.134561+00:00", "event": "candidate_rejected", "name": "Moral", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.134648+00:00", "event": "candidate_rejected", "name": "Geiger", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.134735+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-10T08:56:26.134860+00:00", "event": "candidate_rejected", "name": "Tripwire", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.135023+00:00", "event": "candidate_rejected", "name": "Bear", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.135209+00:00", "event": "candidate_rejected", "name": "Starwell", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.135343+00:00", "event": "candidate_rejected", "name": "Buymydeadstartup.com", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.135441+00:00", "event": "candidate_rejected", "name": "Remove Ai Watermark", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-10T08:56:26.135562+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.135661+00:00", "event": "candidate_rejected", "name": "Thread", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.135751+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.135871+00:00", "event": "candidate_rejected", "name": "Llmfootprint", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.135973+00:00", "event": "candidate_rejected", "name": "Freeaiimage", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-10T08:56:26.136063+00:00", "event": "candidate_rejected", "name": "Aish", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.136152+00:00", "event": "candidate_rejected", "name": "AI Stack Selector Tool", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.136239+00:00", "event": "candidate_rejected", "name": "SagaShield", "reason": "low_confidence"}
+{"timestamp": "2026-09-10T08:56:26.137213+00:00", "event": "tool_published", "slug": "autoshade", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-10T08:56:26.137262+00:00", "event": "tool_published", "slug": "castforge", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-10T08:56:26.137300+00:00", "event": "tool_published", "slug": "parlel", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
