@@ -37,6 +37,9 @@ categories.forEach(category => {
 });
 const postsPath = path.join(root, 'data/posts.json');
 const posts = fs.existsSync(postsPath) ? JSON.parse(fs.readFileSync(postsPath, 'utf8')) : [];
+const autoToolsPath = path.join(root, 'data/auto-tools.json');
+const autoToolRecords = fs.existsSync(autoToolsPath) ? JSON.parse(fs.readFileSync(autoToolsPath, 'utf8')) : [];
+const rejectedTools = autoToolRecords.filter(tool => tool.reviewStatus === 'rejected');
 const byCategory = slug => categories.find(c => c.slug === slug);
 const toolBySlug = slug => tools.find(t => t.slug === slug);
 const hasDomain = /^https:\/\/[^/]+/i.test(config.siteUrl || '') && !/your-domain|example\.com/i.test(config.siteUrl);
@@ -289,6 +292,19 @@ function generatePages() {
       title:`${info.title} — ${config.siteName}`,description:info.description,route,pageName:'info',bodyClass:'info-page',dataAttr:` data-info="${key}"`,
       content:key === 'contact' ? staticContactContent() : `<section class="page-hero"><div class="container"><h1>${e(info.heading)}</h1><p class="lede">${e(info.copy)}</p></div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:info.title,route}])]
     }));
+  }
+
+  // Rejected records stay in the audit data to prevent rediscovery. Their
+  // former routes become noindex notices and are excluded from browse pages,
+  // feeds, counts, structured tool data, and the sitemap.
+  for (const tool of rejectedTools) {
+    const notice = page({
+      title:`Listing unavailable — ${config.siteName}`,
+      description:'This listing is not part of the Novera AI tools directory.',
+      route:`/tools/${tool.slug}/`,pageName:'removed-tool',bodyClass:'info-page',
+      content:`<section class="page-hero"><div class="container"><h1>Listing unavailable.</h1><p class="lede">After editorial review, this product did not meet Novera’s AI-tool scope.</p><a class="btn btn-primary" href="/all-tools/">Browse verified AI tools</a></div></section>`
+    }).replace('<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">','<meta name="robots" content="noindex,follow">');
+    writeRoute(`/tools/${tool.slug}/`, notice);
   }
 
   for (const tool of tools) {
