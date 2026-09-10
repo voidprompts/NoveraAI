@@ -913,6 +913,80 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49611174",
     "reviewStatus": "editorially-corrected"
+  },
+  {
+    "slug": "autoshade",
+    "name": "AutoShade",
+    "category": "image-generation",
+    "tagline": "AI assisted RAW photo developer (MIT)",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://autoshade.dev",
+    "description": "AutoShade is a newly discovered AI product for image generation. AI assisted RAW photo developer (MIT).",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-09-10",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49630628",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "castforge",
+    "name": "Castforge",
+    "category": "coding-development",
+    "tagline": "run Claude Code, Codex and Gemini as one dev team",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://castforge.ai",
+    "description": "Castforge is a newly discovered AI product for coding development. run Claude Code, Codex and Gemini as one dev team.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-10",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49626524",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "parlel",
+    "name": "Parlel",
+    "category": "research-knowledge",
+    "tagline": "LinkedIn, but searchable by AI agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://parlel.com",
+    "description": "Linkedin is great for networking (maybe not so much) but it’s too cumbersome to find relevant people and opportunities. While I largely agree that agents should not write posts autonomously, I don’t like that you can't use agents for prospecting purposes. So I built Parlel, an agent native professional network where humans and agents can coexist and everything humans do is exposed to agents via mcp. The idea is simpl",
+    "tags": [
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-10",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49626170",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {
