@@ -987,6 +987,56 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49626170",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "papiers",
+    "name": "Papiers",
+    "category": "research-knowledge",
+    "tagline": "Hey HN, I built http://papiers.ai , a new workspace for everything you read. As AI gets better at writing, there will be far more worth reading, even in technical domains like scie",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://papiers.ai",
+    "description": "Papiers is a newly discovered AI product for research knowledge. Hey HN, I built http://papiers.ai , a new workspace for everything you read. As AI gets better at writing, there will be far more worth reading, even in technical domains like scientific research. Our time and attention.",
+    "tags": [
+      "Research",
+      "Writing",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-11",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49651351",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "aidcrew-v0-3",
+    "name": "AIDCrew v0.3",
+    "category": "coding-development",
+    "tagline": "conding agents, terminal and web UIs",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://aidcrew.dev/cases/skyforge-islands",
+    "description": "AIDCrew v0.3 is a newly discovered AI product for coding development. conding agents, terminal and web UIs.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-11",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49644034",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {

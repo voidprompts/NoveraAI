@@ -390,3 +390,39 @@
 {"timestamp": "2026-09-10T08:56:26.137213+00:00", "event": "tool_published", "slug": "autoshade", "category": "image-generation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-10T08:56:26.137262+00:00", "event": "tool_published", "slug": "castforge", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-10T08:56:26.137300+00:00", "event": "tool_published", "slug": "parlel", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-11T08:54:45.189426+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 35}
+{"timestamp": "2026-09-11T08:54:45.253905+00:00", "event": "candidate_rejected", "name": "Blender Agent", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.254086+00:00", "event": "candidate_rejected", "name": "SideNote Pro", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.254158+00:00", "event": "candidate_rejected", "name": "Pact0", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.254231+00:00", "event": "candidate_rejected", "name": "Swiftime", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.254312+00:00", "event": "candidate_rejected", "name": "CertArena", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.254372+00:00", "event": "candidate_rejected", "name": "Kern Agent", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.254430+00:00", "event": "candidate_rejected", "name": "TIL in AI", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.254489+00:00", "event": "candidate_rejected", "name": "Botbin.io", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.254554+00:00", "event": "candidate_rejected", "name": "X402Socks", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.254831+00:00", "event": "candidate_rejected", "name": "Twitter", "reason": "blocked_or_invalid_url"}
+{"timestamp": "2026-09-11T08:54:45.254912+00:00", "event": "candidate_rejected", "name": "Stitchwink", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.254997+00:00", "event": "candidate_rejected", "name": "Charter", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255066+00:00", "event": "candidate_rejected", "name": "Natively", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255123+00:00", "event": "candidate_rejected", "name": "Founder", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255180+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-11T08:54:45.255253+00:00", "event": "candidate_rejected", "name": "PromptSign", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255330+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255406+00:00", "event": "candidate_rejected", "name": "Sendroq", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255468+00:00", "event": "candidate_rejected", "name": "Nola", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255524+00:00", "event": "candidate_rejected", "name": "Tryworthit", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255579+00:00", "event": "candidate_rejected", "name": "Symphony", "reason": "duplicate"}
+{"timestamp": "2026-09-11T08:54:45.255648+00:00", "event": "candidate_rejected", "name": "Talleyrand", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255702+00:00", "event": "candidate_rejected", "name": "Tryworthit", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255766+00:00", "event": "candidate_rejected", "name": "ObserverBench", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255831+00:00", "event": "candidate_rejected", "name": "ShipCheck", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255888+00:00", "event": "candidate_rejected", "name": "Xfinlab", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.255943+00:00", "event": "candidate_rejected", "name": "MaruCheck", "reason": "duplicate"}
+{"timestamp": "2026-09-11T08:54:45.256050+00:00", "event": "candidate_rejected", "name": "Waiting", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.256137+00:00", "event": "candidate_rejected", "name": "AI Brand Visibility for Free Forever", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.256200+00:00", "event": "candidate_rejected", "name": "Swiftcruit", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.256273+00:00", "event": "candidate_rejected", "name": "Isittrainingonme", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.256329+00:00", "event": "candidate_rejected", "name": "Oracle Forms to Java", "reason": "low_confidence"}
+{"timestamp": "2026-09-11T08:54:45.256404+00:00", "event": "candidate_rejected", "name": "Security Cards", "reason": "article_not_product"}
+{"timestamp": "2026-09-11T08:54:45.257349+00:00", "event": "tool_published", "slug": "papiers", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-11T08:54:45.257384+00:00", "event": "tool_published", "slug": "aidcrew-v0-3", "category": "coding-development", "source": "Hacker News — Show HN AI"}
