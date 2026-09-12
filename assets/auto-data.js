@@ -1037,6 +1037,129 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49644034",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "sharpniq",
+    "name": "Sharpniq",
+    "category": "image-generation",
+    "tagline": "AI-powered tool to unblur images online",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://unblurimage.me",
+    "description": "Sharpniq is an AI-powered unblur image tool that sharpens blurry photos and restores image clarity online in seconds, with no software installation required.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-09-12",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49670159",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "viaduct",
+    "name": "Viaduct",
+    "category": "coding-development",
+    "tagline": "Architecture change sets for AI coding agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://c4.quietgridlabs.com",
+    "description": "Viaduct is a newly discovered AI product for coding development. Architecture change sets for AI coding agents.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-12",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49662336",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "socratix",
+    "name": "Socratix",
+    "category": "education-learning",
+    "tagline": "an AI tutor for proving mastery, not memorizing",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://socratix-nine.vercel.app",
+    "description": "The idea for Socratix was formed from constant \"completion\" of online courses and videos without the ability to actually use the material. How it works: give it a learning objective, and it creates an personalized curriculum in the form of a DAG of prerequisite concepts rather than a list of videos. Each concept comes with theory and interactive practice (with actual code running in browser for technical subjects), a",
+    "tags": [
+      "Video",
+      "Developer",
+      "Education Learning"
+    ],
+    "features": [
+      "Create guided learning experiences",
+      "Personalize practice and explanations",
+      "Support educators and learners",
+      "Turn material into study activities"
+    ],
+    "discoveredAt": "2026-09-12",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49661638",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "usero",
+    "name": "Usero",
+    "category": "coding-development",
+    "tagline": "Usero is a feedback tool: widget, email, Slack and app reviews into one clustered inbox. I recently put an MCP server in front of it at https://usero.io/mcp , which has been really",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://usero.io/docs/mcp",
+    "description": "Usero is a feedback tool: widget, email, Slack and app reviews into one clustered inbox. I recently put an MCP server in front of it at https://usero.io/mcp , which has been really useful in my own workflow. To-date there are 36 tools (signup, clients, feedback, clusters, forms and theming, user tests, AI test runs). E.g. `list_clusters` returns clusters biggest first with up to three verbatim user quotes each. `requ",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-12",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49658898",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "bitroad",
+    "name": "Bitroad",
+    "category": "customer-support",
+    "tagline": "Infra for Agent-to-Agent Services",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://bitroad.ai",
+    "description": "In the summer YC RFS, Aaron Epstien said ‘The next trillion users on the internet won't be people, they'll be AI agents. And now is the time to \"Make Something Agents Want\".’ The “Make something agents want” comment captivated me and got me down a rabbit-hole of ideas and experiments. Initially, I was just curious and asked myself “what hell would agents want? It doesn’t make any sense”, but I became obsessed and spe",
+    "tags": [
+      "Customer Support"
+    ],
+    "features": [
+      "Answer common customer questions",
+      "Assist human support workflows",
+      "Organize and route conversations",
+      "Improve service response time"
+    ],
+    "discoveredAt": "2026-09-12",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49657276",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {
