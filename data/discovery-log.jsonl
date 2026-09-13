@@ -458,3 +458,32 @@
 {"timestamp": "2026-09-12T08:37:55.848868+00:00", "event": "tool_published", "slug": "socratix", "category": "education-learning", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-12T08:37:55.848909+00:00", "event": "tool_published", "slug": "usero", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-12T08:37:55.848960+00:00", "event": "tool_published", "slug": "bitroad", "category": "customer-support", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-13T09:32:35.493057+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-09-13T09:32:35.494941+00:00", "event": "candidate_rejected", "name": "Understand Ai", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-13T09:32:35.495073+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.495162+00:00", "event": "candidate_rejected", "name": "Astah Pro MCP", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.495246+00:00", "event": "candidate_rejected", "name": "Codeberg", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.495348+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-13T09:32:35.495423+00:00", "event": "candidate_rejected", "name": "No_human", "reason": "duplicate"}
+{"timestamp": "2026-09-13T09:32:35.495496+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.495602+00:00", "event": "candidate_rejected", "name": "Misalignment", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.495679+00:00", "event": "candidate_rejected", "name": "Provetogether", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.495763+00:00", "event": "candidate_rejected", "name": "AI-Powered Word Guessing Game", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.495836+00:00", "event": "candidate_rejected", "name": "Tokendelivery", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.495929+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.496036+00:00", "event": "candidate_rejected", "name": "Deviantmovie", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.496115+00:00", "event": "candidate_rejected", "name": "Bloomiro", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.496236+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.496311+00:00", "event": "candidate_rejected", "name": "Sharpniq", "reason": "duplicate"}
+{"timestamp": "2026-09-13T09:32:35.496382+00:00", "event": "candidate_rejected", "name": "RagLeap v0.4.0", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.496465+00:00", "event": "candidate_rejected", "name": "Spiteware.ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.496551+00:00", "event": "candidate_rejected", "name": "Fog 2.0", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.496647+00:00", "event": "candidate_rejected", "name": "Claude Read Aloud", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.496717+00:00", "event": "candidate_rejected", "name": "HungryGPU", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.496783+00:00", "event": "candidate_rejected", "name": "Allslop", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.496849+00:00", "event": "candidate_rejected", "name": "Viaduct", "reason": "duplicate"}
+{"timestamp": "2026-09-13T09:32:35.496935+00:00", "event": "candidate_rejected", "name": "Hnslop", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.497025+00:00", "event": "candidate_rejected", "name": "Socratix", "reason": "duplicate"}
+{"timestamp": "2026-09-13T09:32:35.497096+00:00", "event": "candidate_rejected", "name": "Ethersflow", "reason": "low_confidence"}
+{"timestamp": "2026-09-13T09:32:35.497167+00:00", "event": "candidate_rejected", "name": "DearAgent", "reason": "duplicate"}
+{"timestamp": "2026-09-13T09:32:35.498368+00:00", "event": "tool_published", "slug": "tattoopreview-ai", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}

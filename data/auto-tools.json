@@ -1213,5 +1213,31 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49657276",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "tattoopreview-ai",
+    "name": "TattooPreview AI",
+    "category": "productivity-automation",
+    "tagline": "a planning workflow for tattoo artist conversations",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://tattoopreviewai.com",
+    "description": "TattooPreview AI is a newly discovered AI product for productivity automation. a planning workflow for tattoo artist conversations.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-09-13",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49671355",
+    "reviewStatus": "auto-discovered"
   }
 ]
