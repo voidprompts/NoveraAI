@@ -487,3 +487,40 @@
 {"timestamp": "2026-09-13T09:32:35.497096+00:00", "event": "candidate_rejected", "name": "Ethersflow", "reason": "low_confidence"}
 {"timestamp": "2026-09-13T09:32:35.497167+00:00", "event": "candidate_rejected", "name": "DearAgent", "reason": "duplicate"}
 {"timestamp": "2026-09-13T09:32:35.498368+00:00", "event": "tool_published", "slug": "tattoopreview-ai", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-14T09:50:48.320319+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 36}
+{"timestamp": "2026-09-14T09:50:48.321957+00:00", "event": "candidate_rejected", "name": "Socratix", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.322099+00:00", "event": "candidate_rejected", "name": "Sentralis", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.322337+00:00", "event": "candidate_rejected", "name": "Anti-AI-slop", "reason": "duplicate"}
+{"timestamp": "2026-09-14T09:50:48.322454+00:00", "event": "candidate_rejected", "name": "Kepil", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.322563+00:00", "event": "candidate_rejected", "name": "Demo", "reason": "generic_product_name"}
+{"timestamp": "2026-09-14T09:50:48.322664+00:00", "event": "candidate_rejected", "name": "3Dbae", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.322813+00:00", "event": "candidate_rejected", "name": "Replay", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.323066+00:00", "event": "candidate_rejected", "name": "Vehla", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.323170+00:00", "event": "candidate_rejected", "name": "ClientCoded", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.323284+00:00", "event": "candidate_rejected", "name": "Vaaya", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.323382+00:00", "event": "candidate_rejected", "name": "Kibble", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.323481+00:00", "event": "candidate_rejected", "name": "sengi.ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.323595+00:00", "event": "candidate_rejected", "name": "Agentspork", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.323694+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-14T09:50:48.323877+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.323978+00:00", "event": "candidate_rejected", "name": "Aihistory", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.324080+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.324179+00:00", "event": "candidate_rejected", "name": "As-an-engineer", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.324283+00:00", "event": "candidate_rejected", "name": "Understand Ai", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-14T09:50:48.324382+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.324477+00:00", "event": "candidate_rejected", "name": "Astah Pro MCP", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.324577+00:00", "event": "candidate_rejected", "name": "Codeberg", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.324695+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-14T09:50:48.324819+00:00", "event": "candidate_rejected", "name": "No_human", "reason": "duplicate"}
+{"timestamp": "2026-09-14T09:50:48.324918+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.325027+00:00", "event": "candidate_rejected", "name": "Misalignment", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.325124+00:00", "event": "candidate_rejected", "name": "Provetogether", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.325224+00:00", "event": "candidate_rejected", "name": "AI-Powered Word Guessing Game", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.325318+00:00", "event": "candidate_rejected", "name": "Tokendelivery", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.325431+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.325567+00:00", "event": "candidate_rejected", "name": "Deviantmovie", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.325674+00:00", "event": "candidate_rejected", "name": "Bloomiro", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.325791+00:00", "event": "candidate_rejected", "name": "TattooPreview AI", "reason": "duplicate"}
+{"timestamp": "2026-09-14T09:50:48.325888+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-14T09:50:48.327067+00:00", "event": "tool_published", "slug": "imageaicraft", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-14T09:50:48.327117+00:00", "event": "tool_published", "slug": "geoprompttracker", "category": "data-analytics", "source": "Hacker News — Show HN AI"}

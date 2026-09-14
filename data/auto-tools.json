@@ -1239,5 +1239,55 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49671355",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "imageaicraft",
+    "name": "Imageaicraft]",
+    "category": "image-generation",
+    "tagline": "GPT Image 2 Image Generator and Editor",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://imageaicraft.com",
+    "description": "GPT Image 2 AI Image Generator & Editor for Text-to-Image and Image-to-Image Creation.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-09-14",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49691183",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "geoprompttracker",
+    "name": "Geoprompttracker",
+    "category": "data-analytics",
+    "tagline": "robots.txt rules, IP ranges, open data",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://geoprompttracker.com/bots",
+    "description": "Geoprompttracker is a newly discovered AI product for data analytics. robots.txt rules, IP ranges, open data.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-09-14",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49685136",
+    "reviewStatus": "auto-discovered"
   }
 ]
