@@ -524,3 +524,37 @@
 {"timestamp": "2026-09-14T09:50:48.325888+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
 {"timestamp": "2026-09-14T09:50:48.327067+00:00", "event": "tool_published", "slug": "imageaicraft", "category": "image-generation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-14T09:50:48.327117+00:00", "event": "tool_published", "slug": "geoprompttracker", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-15T09:24:25.563575+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 33}
+{"timestamp": "2026-09-15T09:24:25.565058+00:00", "event": "candidate_rejected", "name": "Jinfer", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.565313+00:00", "event": "candidate_rejected", "name": "Famulor", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-15T09:24:25.565428+00:00", "event": "candidate_rejected", "name": "Sunk Cost", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.565520+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.565577+00:00", "event": "candidate_rejected", "name": "Nowdex", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.565636+00:00", "event": "candidate_rejected", "name": "Build2me", "reason": "duplicate"}
+{"timestamp": "2026-09-15T09:24:25.565703+00:00", "event": "candidate_rejected", "name": "Slowave", "reason": "duplicate"}
+{"timestamp": "2026-09-15T09:24:25.565800+00:00", "event": "candidate_rejected", "name": "Ringee", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.565963+00:00", "event": "candidate_rejected", "name": "Rebuno", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566040+00:00", "event": "candidate_rejected", "name": "AgentDrive", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566091+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566142+00:00", "event": "candidate_rejected", "name": "Botbin", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566234+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566304+00:00", "event": "candidate_rejected", "name": "Triangllabs", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566362+00:00", "event": "candidate_rejected", "name": "Vigilator", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566427+00:00", "event": "candidate_rejected", "name": "Bare-Metal AI", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566546+00:00", "event": "candidate_rejected", "name": "StemJSON", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566618+00:00", "event": "candidate_rejected", "name": "Socratix", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566679+00:00", "event": "candidate_rejected", "name": "Sentralis", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566753+00:00", "event": "candidate_rejected", "name": "Anti-AI-slop", "reason": "duplicate"}
+{"timestamp": "2026-09-15T09:24:25.566806+00:00", "event": "candidate_rejected", "name": "Kepil", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566858+00:00", "event": "candidate_rejected", "name": "Demo", "reason": "generic_product_name"}
+{"timestamp": "2026-09-15T09:24:25.566907+00:00", "event": "candidate_rejected", "name": "3Dbae", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.566967+00:00", "event": "candidate_rejected", "name": "Replay", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.567021+00:00", "event": "candidate_rejected", "name": "Imageaicraft]", "reason": "duplicate"}
+{"timestamp": "2026-09-15T09:24:25.567069+00:00", "event": "candidate_rejected", "name": "Vehla", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.567119+00:00", "event": "candidate_rejected", "name": "ClientCoded", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.567182+00:00", "event": "candidate_rejected", "name": "Vaaya", "reason": "low_confidence"}
+{"timestamp": "2026-09-15T09:24:25.568176+00:00", "event": "tool_published", "slug": "kario", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-15T09:24:25.568204+00:00", "event": "tool_published", "slug": "threshyr", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-15T09:24:25.568221+00:00", "event": "tool_published", "slug": "vedic-astrology-chart", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-15T09:24:25.568234+00:00", "event": "tool_published", "slug": "prmptree", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-15T09:24:25.568247+00:00", "event": "tool_published", "slug": "apiweiser-cli-fe", "category": "coding-development", "source": "Hacker News — Show HN AI"}
