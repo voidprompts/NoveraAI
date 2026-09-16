@@ -1415,5 +1415,80 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49695191",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "agentready",
+    "name": "AgentReady",
+    "category": "productivity-automation",
+    "tagline": "can AI assistants read your site?",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://shop.lumnika.com/lab/agentready",
+    "description": "AgentReady is a newly discovered AI product for productivity automation. can AI assistants read your site?.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-09-16",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49720850",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "biom",
+    "name": "Biom",
+    "category": "image-generation",
+    "tagline": "A visual workspace where your AI agents' work lands",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.biom.dev",
+    "description": "Biom is a newly discovered AI product for image generation. A visual workspace where your AI agents' work lands.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-09-16",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49720507",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "bulkgrid",
+    "name": "Bulkgrid",
+    "category": "research-knowledge",
+    "tagline": "Search websites and GitHub repositories from your AI agent",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://bulkgrid.com",
+    "description": "Bulkgrid gives AI agents searchable knowledge from sources you choose and trust. You can use existing public sources or index a website or GitHub repository. Bulkgrid will process the content, check for changes automatically and provide relevant passages with references for your AI agent. The sources can also be curated into collections if you have agents that are doing recurring work and need reliable knowledge for.",
+    "tags": [
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-16",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49712405",
+    "reviewStatus": "auto-discovered"
   }
 ]

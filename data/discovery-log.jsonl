@@ -558,3 +558,32 @@
 {"timestamp": "2026-09-15T09:24:25.568221+00:00", "event": "tool_published", "slug": "vedic-astrology-chart", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-15T09:24:25.568234+00:00", "event": "tool_published", "slug": "prmptree", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-15T09:24:25.568247+00:00", "event": "tool_published", "slug": "apiweiser-cli-fe", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-16T09:17:13.989769+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-09-16T09:17:13.991654+00:00", "event": "candidate_rejected", "name": "Totumai", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.991816+00:00", "event": "candidate_rejected", "name": "Nerdulator", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.992055+00:00", "event": "candidate_rejected", "name": "Thurbox", "reason": "duplicate"}
+{"timestamp": "2026-09-16T09:17:13.992318+00:00", "event": "candidate_rejected", "name": "Leo", "reason": "duplicate"}
+{"timestamp": "2026-09-16T09:17:13.992494+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.992579+00:00", "event": "candidate_rejected", "name": "Agenttik", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.992661+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-16T09:17:13.992741+00:00", "event": "candidate_rejected", "name": "Raw", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.992843+00:00", "event": "candidate_rejected", "name": "MyMarkdown", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.992949+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-16T09:17:13.993046+00:00", "event": "candidate_rejected", "name": "Airmailai", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.993129+00:00", "event": "candidate_rejected", "name": "Scoopkit", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.993208+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-16T09:17:13.993287+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.993370+00:00", "event": "candidate_rejected", "name": "Lokutor", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-16T09:17:13.993448+00:00", "event": "candidate_rejected", "name": "Pizza Bot", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.993525+00:00", "event": "candidate_rejected", "name": "Visual HTML", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.993608+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-16T09:17:13.993707+00:00", "event": "candidate_rejected", "name": "Workatloss", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.993864+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.993960+00:00", "event": "candidate_rejected", "name": "Prokop", "reason": "duplicate"}
+{"timestamp": "2026-09-16T09:17:13.994038+00:00", "event": "candidate_rejected", "name": "Nenya", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.994125+00:00", "event": "candidate_rejected", "name": "SubRunGear", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.994203+00:00", "event": "candidate_rejected", "name": "LM-Kit One", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.994277+00:00", "event": "candidate_rejected", "name": "Jinfer", "reason": "low_confidence"}
+{"timestamp": "2026-09-16T09:17:13.995741+00:00", "event": "tool_published", "slug": "agentready", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-16T09:17:13.995794+00:00", "event": "tool_published", "slug": "biom", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-16T09:17:13.995828+00:00", "event": "tool_published", "slug": "bulkgrid", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
