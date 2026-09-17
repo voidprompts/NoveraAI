@@ -1294,201 +1294,222 @@
     "slug": "kario",
     "name": "Kario",
     "category": "video-generation",
-    "tagline": "AI Native Motion Graphics Editor",
+    "tagline": "Generate layered motion graphics with AI, then edit every element on the timeline.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://www.karioai.com",
-    "description": "Kario is a newly discovered AI product for video generation. AI Native Motion Graphics Editor.",
+    "description": "Kario turns a written brief, product URL, logo, images, or product shots into an animated motion-graphics project. Unlike a flattened generated clip, the result keeps its text, shapes, media, keyframes, and timeline editable. Users can request revisions in plain language, adjust layers manually, connect Claude or ChatGPT through MCP, and export landscape or vertical MP4 files. A free plan includes monthly agent credits, with paid plans adding more credits and higher-resolution exports.",
     "tags": [
-      "Video",
-      "Video Generation"
+      "Motion graphics",
+      "AI video",
+      "Layered editing",
+      "MCP"
     ],
     "features": [
-      "Create video concepts with AI assistance",
-      "Speed up editing and production",
-      "Repurpose content for new formats",
-      "Build shareable visual stories"
+      "Create motion graphics from a brief, product URL, logo, or uploaded media",
+      "Edit generated text, shapes, images, video, audio, keyframes, and timing",
+      "Request design changes in plain language or adjust individual layers manually",
+      "Connect Claude or ChatGPT through MCP to build and remix projects from chat",
+      "Export MP4 video in landscape or vertical formats with plan-based resolution limits"
     ],
     "discoveredAt": "2026-09-15",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49702066",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "threshyr",
     "name": "Threshyr",
     "category": "productivity-automation",
-    "tagline": "An offline automatic time tracker with on-device AI",
-    "pricing": "Freemium",
+    "tagline": "Track desktop activity automatically and classify project time with an offline AI model.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://threshyr.com",
-    "description": "I've built and continuously improved Threshyr based on the problem I faced myself. I was working on more than 3 projects at one time. At the end of any day/week/month if I had to calculate how many hours I have worked on each one, I would always not be able to calculate an accurate time. Because I had to just reconstruct it from memory instead of any real record. Every tracker I tried solved this either by: - sending",
+    "description": "Threshyr is a local-first time tracker for Windows and macOS that records active applications, supported browser domains, duration, and idle periods without manual timers. Rules and an on-device model classify activity by project, while focus views and reports summarize productive time and billable work. The pre-release is free without an account or card; the developer lists a future $58 yearly license, with a discounted first year. Firefox and Linux are not currently supported.",
     "tags": [
-      "Productivity Automation"
+      "Automatic time tracking",
+      "On-device AI",
+      "Privacy",
+      "Project reporting"
     ],
     "features": [
-      "Reduce repetitive manual work",
-      "Connect tasks into clear workflows",
-      "Organize information and priorities",
-      "Save time across everyday operations"
+      "Record application and supported-browser activity without starting a timer",
+      "Classify activity into projects with local rules and an on-device model",
+      "Review or correct classifications and create reusable tagging rules",
+      "Summarize focus, distractions, productive time, and client billing totals",
+      "Run locally on Windows or macOS without an account during the free pre-release"
     ],
     "discoveredAt": "2026-09-15",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49701054",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "vedic-astrology-chart",
     "name": "Vedic Astrology Chart",
-    "category": "data-analytics",
-    "tagline": "free D1/D9 birth chart with AI insights",
+    "category": "research-knowledge",
+    "tagline": "Generate D1 and D9 Vedic astrology charts with an AI-written interpretation.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://vedicastrologychart.org",
-    "description": "Vedic Astrology Chart is a newly discovered AI product for data analytics. free D1/D9 birth chart with AI insights.",
+    "description": "Vedic Astrology Chart calculates D1 and D9 charts from birth details and generates an AI-written personality interpretation, with shareable chart cards and optional premium reports. Astrology does not have scientific support, and the product does not fit Novera’s current work-oriented directory categories, so it is excluded from the public directory.",
     "tags": [
-      "Data",
-      "Data Analytics"
+      "Astrology",
+      "AI interpretation",
+      "Birth chart",
+      "Consumer app"
     ],
     "features": [
-      "Ask natural-language questions of data",
-      "Find patterns and useful signals",
-      "Create clear charts and summaries",
-      "Share insights with a wider team"
+      "Calculate D1 and D9 charts from a birth date, time, and location",
+      "Generate an AI-written personality interpretation",
+      "Create a downloadable chart card with privacy controls",
+      "Offer a free basic report and optional premium reports"
     ],
     "discoveredAt": "2026-09-15",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49700572",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "rejected"
   },
   {
     "slug": "prmptree",
     "name": "Prmptree",
     "category": "productivity-automation",
-    "tagline": "AI email agent with a trust dial, not an on/off switch",
-    "pricing": "Freemium",
+    "tagline": "Let a Gmail agent triage messages and propose actions under adjustable human review.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://www.prmptree.com",
-    "description": "Prmptree is a newly discovered AI product for productivity automation. AI email agent with a trust dial, not an on/off switch.",
+    "description": "prmptree is a Gmail-focused AI inbox agent that continuously evaluates messages for urgency, context, relationships, and intent. It can draft replies, flag important mail, archive messages, and propose unsubscribe actions before the user opens the inbox. Adjustable trust settings keep actions available for approval, skipping, or correction so the agent can learn preferences. The official site currently offers free Gmail onboarding and does not publish a paid plan.",
     "tags": [
-      "Automation",
-      "Productivity",
-      "Productivity Automation"
+      "Email assistant",
+      "Gmail",
+      "Inbox automation",
+      "Human approval"
     ],
     "features": [
-      "Reduce repetitive manual work",
-      "Connect tasks into clear workflows",
-      "Organize information and priorities",
-      "Save time across everyday operations"
+      "Read incoming Gmail messages and assess urgency, context, and intent",
+      "Draft replies and flag important messages before the inbox is opened",
+      "Archive low-value mail and propose unsubscribe actions",
+      "Require review, approval, or adjustment according to the user’s trust settings",
+      "Learn communication style and priorities from reviewed actions over time"
     ],
     "discoveredAt": "2026-09-15",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49697407",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "apiweiser-cli-fe",
-    "name": "Apiweiser Cli Fe",
+    "name": "apiweiser-cli",
     "category": "coding-development",
-    "tagline": "Apiweiser, is a CLI tool that will manage the dependency upgrades of your repositories. This is designed for developers and teams which struggle to keep the dependencies up to date",
-    "pricing": "Freemium",
+    "tagline": "Turn breaking dependency releases into tested codemods and reviewable pull requests.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://apiweiser-cli-fe.vercel.app",
-    "description": "Apiweiser, is a CLI tool that will manage the dependency upgrades of your repositories. This is designed for developers and teams which struggle to keep the dependencies up to date regardless of security patches or API depreciation. It is AI-native by default where each changelog is interpreted by an AI agent and the code changes in the repository are done by a deterministic codemod generated by you local coding agen",
+    "description": "apiweiser-cli monitors dependency releases, uses an LLM to classify potentially breaking updates, and waits for Renovate to confirm that an upgrade is available. It maps TypeScript call sites, asks a coding agent to build and test a deterministic migration codemod, applies the version and lockfile changes, and opens a pull request for review. Codemods are cached and extended across repositories to reduce repeated work. The public repository is released under the MIT License.",
     "tags": [
-      "Developer",
-      "Design",
-      "Coding Development"
+      "Dependency upgrades",
+      "Codemods",
+      "Coding agents",
+      "Open source"
     ],
     "features": [
-      "Accelerate common development tasks",
-      "Work with contextual code assistance",
-      "Explain and improve technical work",
-      "Move from idea to working software"
+      "Watch dependency releases and classify potentially breaking updates with an LLM",
+      "Confirm available upgrades through Renovate and OSV-backed security information",
+      "Map TypeScript call sites with the compiler type checker before migration",
+      "Build, test, cache, and extend deterministic codemods with a coding agent",
+      "Apply dependency changes and open a reviewable pull request automatically"
     ],
     "discoveredAt": "2026-09-15",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49695191",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "agentready",
     "name": "AgentReady",
-    "category": "productivity-automation",
-    "tagline": "can AI assistants read your site?",
-    "pricing": "Freemium",
+    "category": "marketing-sales",
+    "tagline": "Audit whether published AI crawler user-agents can retrieve a website.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://shop.lumnika.com/lab/agentready",
-    "description": "AgentReady is a newly discovered AI product for productivity automation. can AI assistants read your site?.",
+    "description": "AgentReady sends ordinary HTTP requests with published AI-crawler user-agent strings and compares what those crawlers receive with the browser version of a page. It reports seven website-access checks and provides an embeddable score badge. The service audits access for AI systems but does not document an AI-powered capability of its own, so it does not meet Novera’s AI-tool scope.",
     "tags": [
-      "Automation",
-      "Productivity",
-      "Productivity Automation"
+      "Crawler audit",
+      "Website testing",
+      "AI visibility",
+      "Technical SEO"
     ],
     "features": [
-      "Reduce repetitive manual work",
-      "Connect tasks into clear workflows",
-      "Organize information and priorities",
-      "Save time across everyday operations"
+      "Request a page using published AI-crawler user-agent strings",
+      "Compare crawler responses with the page served to a browser",
+      "Show evidence for seven website-access checks",
+      "Generate a self-contained SVG score badge"
     ],
     "discoveredAt": "2026-09-16",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49720850",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "rejected"
   },
   {
     "slug": "biom",
     "name": "Biom",
-    "category": "image-generation",
-    "tagline": "A visual workspace where your AI agents' work lands",
-    "pricing": "Freemium",
+    "category": "productivity-automation",
+    "tagline": "Turn files written by AI agents into visual pages, dashboards, diagrams, and workflows.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://www.biom.dev",
-    "description": "Biom is a newly discovered AI product for image generation. A visual workspace where your AI agents' work lands.",
+    "description": "Biom is a visual workspace for material produced by AI agents. An agent writes into a local folder, and Biom presents the results as pages, documents, dashboards, diagrams, tables, boards, forms, or automations that people can inspect and continue editing. The local AGPL-licensed application works with agents that can write files and is free to build and run. Paid collaboration, hosted-agent, sync, web, and mobile plans are listed but were not yet generally available at review time.",
     "tags": [
-      "Images",
-      "Image Generation"
+      "Visual workspace",
+      "AI agents",
+      "Local-first",
+      "Open source"
     ],
     "features": [
-      "Generate visual concepts from prompts",
-      "Explore style and composition options",
-      "Create reusable creative assets",
-      "Iterate on visual directions quickly"
+      "Turn agent-written files into visual documents, dashboards, diagrams, and forms",
+      "Work with Claude Code, Codex, OpenClaw, and other agents that can write files",
+      "Keep pages, data, boards, roadmaps, and automations together in one folder",
+      "Build and run the AGPL-licensed local application on macOS or Windows",
+      "Use the free local workspace while hosted collaboration plans remain on a waitlist"
     ],
     "discoveredAt": "2026-09-16",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49720507",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "bulkgrid",
     "name": "Bulkgrid",
     "category": "research-knowledge",
-    "tagline": "Search websites and GitHub repositories from your AI agent",
+    "tagline": "Give AI agents fresh, searchable context from websites and GitHub repositories.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://bulkgrid.com",
-    "description": "Bulkgrid gives AI agents searchable knowledge from sources you choose and trust. You can use existing public sources or index a website or GitHub repository. Bulkgrid will process the content, check for changes automatically and provide relevant passages with references for your AI agent. The sources can also be curated into collections if you have agents that are doing recurring work and need reliable knowledge for.",
+    "description": "Bulkgrid indexes selected websites and public or private GitHub repositories so AI agents can retrieve current passages with verifiable references. It handles crawling, content processing, change detection, scheduled refreshes, and search access through MCP, a REST API, SDKs, or a CLI. The free plan searches existing public sources with monthly limits; Pro adds source creation, private sources, larger allowances, and configurable refresh schedules.",
     "tags": [
-      "Research Knowledge"
+      "Knowledge retrieval",
+      "MCP",
+      "Source indexing",
+      "RAG"
     ],
     "features": [
-      "Find and synthesize useful information",
-      "Explore questions through natural language",
-      "Organize research into clear outputs",
-      "Move from sources to understanding"
+      "Index websites and public or private GitHub repositories for agent retrieval",
+      "Track additions, updates, and removals through scheduled source refreshes",
+      "Retrieve relevant passages with references through MCP or a REST API",
+      "Connect with TypeScript and Python SDKs or manage sources from a CLI",
+      "Use existing public sources on the free plan or create private sources on Pro"
     ],
     "discoveredAt": "2026-09-16",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49712405",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   }
 ]
