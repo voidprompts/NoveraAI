@@ -1404,6 +1404,107 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49712405",
     "reviewStatus": "editorially-corrected"
+  },
+  {
+    "slug": "tabmail",
+    "name": "Tabmail",
+    "category": "productivity-automation",
+    "tagline": "Hi all, I'm the sole developer of TabMail. I wanted my email client to have AI features, and ended up making a Thunderbird add-on and an iPhone app. I've now open-sourced both unde",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://tabmail.ai",
+    "description": "Tabmail is a newly discovered AI product for productivity automation. Hi all, I'm the sole developer of TabMail. I wanted my email client to have AI features, and ended up making a Thunderbird add-on and an iPhone app. I've now open-sourced both under MPL 2.0, and I wanted to share them he.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-09-17",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49730649",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "slaunt",
+    "name": "Slaunt",
+    "category": "coding-development",
+    "tagline": "Hey HN, ask me anything. A few months into this",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://slaunt.ai",
+    "description": "Slaunt is a newly discovered AI product for coding development. Hey HN, ask me anything. A few months into this.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-17",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49730225",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "blog",
+    "name": "Blog",
+    "category": "coding-development",
+    "tagline": "I saw a post about building a coding agent from \"first principles\" and that inspired me to create my own. I used my own custom Rust-based ML DSL to implement this. The blog post in",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://blog.softwarewrighter.com/2026/09/16/ai-tools-coding-agent-in-mlpl",
+    "description": "I saw a post about building a coding agent from \"first principles\" and that inspired me to create my own. I used my own custom Rust-based ML DSL to implement this. The blog post includes link to the repos (MIT Licensed), a video of the agent in action, sample code produced, and an Emacs org-mode literate programming document explaining the implementation and tests. There are links to an interactive playground for the",
+    "tags": [
+      "Video",
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-17",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49729456",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "legion",
+    "name": "Legion",
+    "category": "text-writing",
+    "tagline": "AI agents that write sandboxed Lua inside your Elixir app",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://legion.swmansion.com",
+    "description": "Legion is a newly discovered AI product for text writing. AI agents that write sandboxed Lua inside your Elixir app.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-09-17",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49726662",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {

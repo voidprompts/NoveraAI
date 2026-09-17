@@ -587,3 +587,33 @@
 {"timestamp": "2026-09-16T09:17:13.995741+00:00", "event": "tool_published", "slug": "agentready", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-16T09:17:13.995794+00:00", "event": "tool_published", "slug": "biom", "category": "image-generation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-16T09:17:13.995828+00:00", "event": "tool_published", "slug": "bulkgrid", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-17T09:25:53.107323+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 29}
+{"timestamp": "2026-09-17T09:25:53.109080+00:00", "event": "candidate_rejected", "name": "Compute", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.109226+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.109340+00:00", "event": "candidate_rejected", "name": "Agora", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.109606+00:00", "event": "candidate_rejected", "name": "Echodot", "reason": "duplicate"}
+{"timestamp": "2026-09-17T09:25:53.109738+00:00", "event": "candidate_rejected", "name": "Fastrecall", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.109849+00:00", "event": "candidate_rejected", "name": "Interakt", "reason": "duplicate"}
+{"timestamp": "2026-09-17T09:25:53.110035+00:00", "event": "candidate_rejected", "name": "Agent", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-17T09:25:53.110146+00:00", "event": "candidate_rejected", "name": "Friday", "reason": "duplicate"}
+{"timestamp": "2026-09-17T09:25:53.110329+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.110467+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-17T09:25:53.110649+00:00", "event": "candidate_rejected", "name": "Ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.110837+00:00", "event": "candidate_rejected", "name": "Cleanroom Qvq1Xbb8O Ag3497120S Projects", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.110940+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.111055+00:00", "event": "candidate_rejected", "name": "Inwom", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.111169+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-17T09:25:53.111267+00:00", "event": "candidate_rejected", "name": "Zigpoll", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.111366+00:00", "event": "candidate_rejected", "name": "Cleanroom", "reason": "duplicate"}
+{"timestamp": "2026-09-17T09:25:53.111490+00:00", "event": "candidate_rejected", "name": "Wenlan", "reason": "duplicate"}
+{"timestamp": "2026-09-17T09:25:53.111600+00:00", "event": "candidate_rejected", "name": "Sharednet", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-17T09:25:53.111701+00:00", "event": "candidate_rejected", "name": "Pluralistic", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.111815+00:00", "event": "candidate_rejected", "name": "Twigg", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.111977+00:00", "event": "candidate_rejected", "name": "AI Subtools", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.112088+00:00", "event": "candidate_rejected", "name": "Sloptris", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.112187+00:00", "event": "candidate_rejected", "name": "Stale", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.112311+00:00", "event": "candidate_rejected", "name": "Freeform", "reason": "low_confidence"}
+{"timestamp": "2026-09-17T09:25:53.113755+00:00", "event": "tool_published", "slug": "tabmail", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-17T09:25:53.113807+00:00", "event": "tool_published", "slug": "slaunt", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-17T09:25:53.113848+00:00", "event": "tool_published", "slug": "blog", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-17T09:25:53.113882+00:00", "event": "tool_published", "slug": "legion", "category": "text-writing", "source": "Hacker News — Show HN AI"}
