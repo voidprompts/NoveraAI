@@ -2,28 +2,26 @@
 window.NOVERA_POSTS = [
   {
     "slug": "new-ai-tools-2026-09-16",
-    "title": "8 New AI Tools to Explore — September 16, 2026",
-    "description": "A reviewed look at 8 newly discovered AI tools across Research & Knowledge, Image Generation, Productivity & Automation, and Data & Analytics, with clear features, pricing models, and links to detailed listings.",
+    "title": "6 New AI Tools to Explore — September 16, 2026",
+    "description": "An editorially reviewed look at six new tools for trusted agent knowledge, visual workspaces, private time tracking, email automation, motion graphics, and dependency upgrades.",
     "date": "2026-09-16",
-    "updated": "2026-09-16",
+    "updated": "2026-09-17",
     "author": "Novera Editorial",
     "type": "New tools roundup",
     "readingTime": 9,
     "toolSlugs": [
       "bulkgrid",
       "biom",
-      "agentready",
-      "vedic-astrology-chart",
       "threshyr",
       "prmptree",
       "kario",
       "apiweiser-cli-fe"
     ],
     "intro": [
-      "This directory review surfaced 8 products with clearly defined use cases across Research & Knowledge, Image Generation, Productivity & Automation, and Data & Analytics. Rather than ranking unfamiliar products, this roundup explains what each tool is designed to do and where it fits.",
-      "Every product below passed Novera’s automated URL, duplicate, and category checks before entering this editorial draft. Product capabilities and pricing can change, so use each detailed listing as a starting point and confirm important information on the official website."
+      "This review covers six recently discovered products across Research & Knowledge, Productivity & Automation, Video Generation, and Coding & Development. The selection includes source-grounding infrastructure for agents, an open visual workspace, local AI time tracking, a supervised email agent, editable motion graphics, and automated dependency migrations.",
+      "Novera checked each official product page and corrected the automated descriptions, categories, features, and pricing labels. Two false positives were removed from the public directory because they did not fit the site’s AI capability and category requirements. Availability, allowances, and pricing can change, so confirm important details with each provider."
     ],
-    "methodology": "This roundup was generated from newly qualified Novera directory entries. Automated checks validated URLs, removed duplicate domains, and assigned an initial category. A person reviewed this draft before publication. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
+    "methodology": "This roundup began with newly discovered Novera directory records. Automated checks validated URLs and removed duplicate domains. Editorial review then checked official product pages and public repositories, corrected categories and pricing, replaced generic or truncated text with product-specific summaries, and excluded two records that did not meet Novera’s AI-tool scope and category standards. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
     "reviewStatus": "approved-by-merge"
   },
   {
