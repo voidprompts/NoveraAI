@@ -1505,6 +1505,155 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49726662",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "agentmemoryleaderboard",
+    "name": "Agentmemoryleaderboard",
+    "category": "research-knowledge",
+    "tagline": "Hi HN, We are trying to make different Agent Memory systems comparable without letting each team choose its own answer model and evaluation pipeline",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://agentmemoryleaderboard.ai",
+    "description": "Agentmemoryleaderboard is a newly discovered AI product for research knowledge. Hi HN, We are trying to make different Agent Memory systems comparable without letting each team choose its own answer model and evaluation pipeline.",
+    "tags": [
+      "Research",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-18",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49749689",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "cleverhack",
+    "name": "Cleverhack",
+    "category": "research-knowledge",
+    "tagline": "Nine sections covering: research programs, research orgs, evaluators and red-teaming, policy and governance, career-changers, funding, courses, directories, reading. With dates and",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://cleverhack.com/ai-research-ai-safety-ai-talent",
+    "description": "Nine sections covering: research programs, research orgs, evaluators and red-teaming, policy and governance, career-changers, funding, courses, directories, reading. With dates and stipends checked against primary sources.",
+    "tags": [
+      "Research",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-18",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49745641",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "s-roll",
+    "name": "S-Roll",
+    "category": "video-generation",
+    "tagline": "local AI video understanding and clipping for Mac",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://saliency.dev/s-roll",
+    "description": "S-Roll is a newly discovered AI product for video generation. local AI video understanding and clipping for Mac.",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-09-18",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49743661",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "aclif",
+    "name": "Aclif",
+    "category": "text-writing",
+    "tagline": "Agent CLI framework: one grammar, canonical names across SaaS",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.aclif.ai",
+    "description": "Simple discovery of the provider's default schemas is possible without any credentials (since they are built into the binary). If you want it to fetch customizations of your specific instance, give it credentials to your org. The repo has more details. https://github.com/agent-cli-framework/aclif.",
+    "tags": [
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-09-18",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49743382",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "die-with-me",
+    "name": "Die With Me",
+    "category": "coding-development",
+    "tagline": "Claude and Codex rate limits as AIM away messages",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://diewithme.co/join",
+    "description": "Die With Me is a newly discovered AI product for coding development. Claude and Codex rate limits as AIM away messages.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-18",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49743095",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "facefork",
+    "name": "Facefork",
+    "category": "image-generation",
+    "tagline": "A tree interface to AI edit photos for fun",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://facefork.com",
+    "description": "Facefork is a newly discovered AI product for image generation. A tree interface to AI edit photos for fun.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-09-18",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49739445",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {
