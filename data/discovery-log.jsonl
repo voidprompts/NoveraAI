@@ -652,3 +652,31 @@
 {"timestamp": "2026-09-18T08:59:36.798372+00:00", "event": "tool_published", "slug": "aclif", "category": "text-writing", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-18T08:59:36.798441+00:00", "event": "tool_published", "slug": "die-with-me", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-18T08:59:36.798484+00:00", "event": "tool_published", "slug": "facefork", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-19T08:47:45.211059+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 27}
+{"timestamp": "2026-09-19T08:47:45.212702+00:00", "event": "candidate_rejected", "name": "GGG", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.212834+00:00", "event": "candidate_rejected", "name": "Agentgit", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.212944+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.213048+00:00", "event": "candidate_rejected", "name": "Computesdk", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.213163+00:00", "event": "candidate_rejected", "name": "Turnpanel", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.213264+00:00", "event": "candidate_rejected", "name": "Agent Bbs", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.213362+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.213474+00:00", "event": "candidate_rejected", "name": "Forcefield", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.213569+00:00", "event": "candidate_rejected", "name": "Rawhq", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.213688+00:00", "event": "candidate_rejected", "name": "Jawz", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.213964+00:00", "event": "candidate_rejected", "name": "Neruva", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-19T08:47:45.214080+00:00", "event": "candidate_rejected", "name": "Open-Source Alternative to TypeSafe.ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.214182+00:00", "event": "candidate_rejected", "name": "Continuity", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.214286+00:00", "event": "candidate_rejected", "name": "Agentmemoryleaderboard", "reason": "duplicate"}
+{"timestamp": "2026-09-19T08:47:45.214384+00:00", "event": "candidate_rejected", "name": "Asiaai", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.214481+00:00", "event": "candidate_rejected", "name": "Respawn", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.214584+00:00", "event": "candidate_rejected", "name": "Unmute", "reason": "duplicate"}
+{"timestamp": "2026-09-19T08:47:45.214713+00:00", "event": "candidate_rejected", "name": "Salt", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.214818+00:00", "event": "candidate_rejected", "name": "AI crawler honeypot", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.214921+00:00", "event": "candidate_rejected", "name": "Radio", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.215032+00:00", "event": "candidate_rejected", "name": "Easiest", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.215132+00:00", "event": "candidate_rejected", "name": "Cleverhack", "reason": "duplicate"}
+{"timestamp": "2026-09-19T08:47:45.215258+00:00", "event": "candidate_rejected", "name": "Gotincan", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.215361+00:00", "event": "candidate_rejected", "name": "Founder.best", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.215454+00:00", "event": "candidate_rejected", "name": "S-Roll", "reason": "duplicate"}
+{"timestamp": "2026-09-19T08:47:45.215567+00:00", "event": "candidate_rejected", "name": "AutoBot", "reason": "low_confidence"}
+{"timestamp": "2026-09-19T08:47:45.215699+00:00", "event": "candidate_rejected", "name": "Skillbay", "reason": "low_confidence"}
