@@ -680,3 +680,27 @@
 {"timestamp": "2026-09-19T08:47:45.215454+00:00", "event": "candidate_rejected", "name": "S-Roll", "reason": "duplicate"}
 {"timestamp": "2026-09-19T08:47:45.215567+00:00", "event": "candidate_rejected", "name": "AutoBot", "reason": "low_confidence"}
 {"timestamp": "2026-09-19T08:47:45.215699+00:00", "event": "candidate_rejected", "name": "Skillbay", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.355154+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 23}
+{"timestamp": "2026-09-20T09:16:32.357068+00:00", "event": "candidate_rejected", "name": "Faceanalysisai", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.357384+00:00", "event": "candidate_rejected", "name": "Pastezero", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-20T09:16:32.357533+00:00", "event": "candidate_rejected", "name": "ManifestGo", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.357706+00:00", "event": "candidate_rejected", "name": "Website Auditor", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.357816+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.357921+00:00", "event": "candidate_rejected", "name": "Text-me", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.358042+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.358148+00:00", "event": "candidate_rejected", "name": "OpenWand", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.358269+00:00", "event": "candidate_rejected", "name": "Reader", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.358470+00:00", "event": "candidate_rejected", "name": "AgentMeasure", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.358628+00:00", "event": "candidate_rejected", "name": "GGG", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.358745+00:00", "event": "candidate_rejected", "name": "Agentgit", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.358859+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.358977+00:00", "event": "candidate_rejected", "name": "Computesdk", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.359107+00:00", "event": "candidate_rejected", "name": "Turnpanel", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.359212+00:00", "event": "candidate_rejected", "name": "Agent Bbs", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.359324+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.359464+00:00", "event": "candidate_rejected", "name": "Forcefield", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.359609+00:00", "event": "candidate_rejected", "name": "Rawhq", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.359739+00:00", "event": "candidate_rejected", "name": "Jawz", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.359871+00:00", "event": "candidate_rejected", "name": "Neruva", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-20T09:16:32.360009+00:00", "event": "candidate_rejected", "name": "Open-Source Alternative to TypeSafe.ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-20T09:16:32.361719+00:00", "event": "tool_published", "slug": "kuvu", "category": "video-generation", "source": "Hacker News — Show HN AI"}

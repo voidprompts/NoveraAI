@@ -1654,6 +1654,31 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49739445",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "kuvu",
+    "name": "Kuvu",
+    "category": "video-generation",
+    "tagline": "We've built an AI UGC Video Creator,Free for one month",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://kuvu.ai/marketing/ai-ugc",
+    "description": "Kuvu is a newly discovered AI product for video generation. We've built an AI UGC Video Creator,Free for one month.",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-09-20",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49766639",
+    "reviewStatus": "auto-discovered"
   }
 ];
 if (window.NOVERA_DATA) {
