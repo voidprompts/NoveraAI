@@ -1786,5 +1786,55 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49766639",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "ai-hack-watch",
+    "name": "AI Hack Watch",
+    "category": "data-analytics",
+    "tagline": "timeline and dataset of hacking incidents(JSON/RSS)",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://aihackwatch.com",
+    "description": "AI Hack Watch is a newly discovered AI product for data analytics. timeline and dataset of hacking incidents(JSON/RSS).",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-09-21",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49776873",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "delightful-cells",
+    "name": "Delightful Cells",
+    "category": "data-analytics",
+    "tagline": "reliable AI batch processing for spreadsheets",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://delightfulcells.com",
+    "description": "Delightful Cells is a newly discovered AI product for data analytics. reliable AI batch processing for spreadsheets.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-09-21",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49774124",
+    "reviewStatus": "auto-discovered"
   }
 ]
