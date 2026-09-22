@@ -17,8 +17,17 @@
       "detail": ""
     }
   },
+  "contentDates": {
+    "siteLaunch": "2026-08-29",
+    "staticPages": "2026-08-30",
+    "publicationGate": "2026-09-22"
+  },
   "discovery": {
-    "autoPublish": true,
+    "autoPublish": false,
+    "publicationStatuses": [
+      "editorially-corrected",
+      "directory-only"
+    ],
     "minimumConfidence": 0.72,
     "maxNewToolsPerRun": 8
   },
@@ -28,6 +37,7 @@
     "frequency": "monday_wednesday_friday",
     "minimumToolsPerPost": 3,
     "maximumToolsPerPost": 8,
+    "candidateWindowDays": 60,
     "author": "Novera Editorial"
   }
 }

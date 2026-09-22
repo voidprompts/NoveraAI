@@ -94,7 +94,7 @@
           <div class="footer-column"><h3>Directory</h3><a href="/all-tools/">All tools</a><a href="/new/">New this week</a><a href="/guides/">Guides & comparisons</a><a href="/categories/">Categories</a><a href="/submit/">Submit a tool</a></div>
         </div>
       </div>
-      <div class="footer-bottom"><span>© 2026 Novera. Designed for clear decisions.</span><span class="footer-legal"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></span><span class="footer-status"><i class="status-dot"></i>Directory refreshed daily</span></div>
+      <div class="footer-bottom"><span>© 2026 Novera. Designed for clear decisions.</span><span class="footer-legal"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></span><span class="footer-status"><i class="status-dot"></i>Discovery monitored daily</span></div>
     </div>`;
   }
 
@@ -120,8 +120,8 @@
   }
 
   function postCard(post) {
-    const relatedTools = (post.toolSlugs || []).map(toolBySlug).filter(Boolean);
-    return `<a class="post-card" href="/guides/${post.slug}/"><span class="post-card-art"><span class="post-art-orbit"></span><span class="post-art-count">${relatedTools.length}</span><span class="post-art-label">AI TOOLS</span></span><span class="post-card-body"><span class="post-meta">${post.type || 'New tools roundup'} · ${formatDate(post.date)}</span><h3>${post.title}</h3><p>${post.description}</p><span class="post-card-foot"><span>${post.readingTime || 5} min read</span><span class="text-link">Read guide ${arrow()}</span></span></span></a>`;
+    const toolCount = (post.toolSlugs || []).length;
+    return `<a class="post-card" href="/guides/${post.slug}/"><span class="post-card-art"><span class="post-art-orbit"></span><span class="post-art-count">${toolCount}</span><span class="post-art-label">AI TOOLS</span></span><span class="post-card-body"><span class="post-meta">${post.type || 'New tools roundup'} · ${formatDate(post.date)}</span><h3>${post.title}</h3><p>${post.description}</p><span class="post-card-foot"><span>${post.readingTime || 5} min read</span><span class="text-link">Read guide ${arrow()}</span></span></span></a>`;
   }
 
   function adUnit(placement) {
@@ -167,7 +167,7 @@
           <button type="submit">Search tools</button>
         </form>
         <a class="btn btn-primary hero-cta" href="/categories/">Browse Categories ${arrow()}</a>
-        <div class="hero-proof"><span><i class="proof-dot"></i>${tools.length} tools indexed</span><span>${categories.length} clear categories</span><span>Quality-checked daily</span></div>
+        <div class="hero-proof"><span><i class="proof-dot"></i>${tools.length} tools indexed</span><span>${categories.length} clear categories</span><span>Editorial publication gate</span></div>
       </div></div>
     </section>
     <section class="section"><div class="container">
@@ -338,7 +338,7 @@
     const shown = discovered.length ? discovered : fallback;
     const isLiveFeed = discovered.length > 0;
     document.title = `New AI Tools — ${siteConfig.siteName || 'Novera'}`;
-    document.getElementById('main').innerHTML = `<section class="page-hero compact"><div class="container">${breadcrumbs([{label:'New this week'}])}<div class="page-heading-wrap reveal"><span class="eyebrow">Freshly discovered</span><h1>New tools, thoughtfully placed.</h1><p class="lede">${isLiveFeed ? 'New AI products discovered by Novera’s monitored sources and automatically organized into the right category.' : 'Our latest reviewed highlights. Automated discoveries will appear here as soon as the first scheduled refresh finds a qualified tool.'}</p><div class="page-stats"><span class="soft-chip"><i class="dot"></i>Daily discovery scan</span><span class="soft-chip">Automatic categorization</span><span class="soft-chip">Duplicate protection</span></div></div></div></section><section class="discovery-area"><div class="container"><div class="section-heading"><div><span class="eyebrow">${isLiveFeed ? 'Latest arrivals' : 'Recently reviewed'}</span><h2>${isLiveFeed ? `${discovered.length} new additions` : 'Current highlights'}</h2></div><a class="text-link" href="/all-tools/">Browse all tools ${arrow()}</a></div><div class="tool-grid">${shown.map(toolCard).join('')}</div></div></section>`;
+    document.getElementById('main').innerHTML = `<section class="page-hero compact"><div class="container">${breadcrumbs([{label:'New this week'}])}<div class="page-heading-wrap reveal"><span class="eyebrow">Freshly reviewed</span><h1>New tools, thoughtfully placed.</h1><p class="lede">${isLiveFeed ? 'New AI products found through Novera’s monitored sources and published only after editorial review.' : 'Our latest reviewed highlights. New discoveries remain staged until they pass the editorial publication gate.'}</p><div class="page-stats"><span class="soft-chip"><i class="dot"></i>Daily discovery scan</span><span class="soft-chip">Editorial quality gate</span><span class="soft-chip">Duplicate protection</span></div></div></div></section><section class="discovery-area"><div class="container"><div class="section-heading"><div><span class="eyebrow">${isLiveFeed ? 'Latest reviewed arrivals' : 'Recently reviewed'}</span><h2>${isLiveFeed ? `${discovered.length} reviewed additions` : 'Current highlights'}</h2></div><a class="text-link" href="/all-tools/">Browse all tools ${arrow()}</a></div><div class="tool-grid">${shown.map(toolCard).join('')}</div></div></section>`;
   }
 
   function honeypotField() {
@@ -394,7 +394,7 @@
         eyebrow: 'How Novera works', title: 'Useful discovery, without the noise.', lede: 'Novera is an independent directory designed to make AI products easier to find, understand, and compare.',
         sections: [
           ['Our approach', 'We organize tools around the work people are trying to do. Every listing has one primary category, a concise original description, transparent pricing language, and links to related options.'],
-          ['Discovery and review', 'Our automated discovery system monitors approved public sources, checks for duplicates, validates product URLs, and assigns categories using transparent rules. Automated entries are labeled in the data and can be reviewed, corrected, or removed.'],
+          ['Discovery and review', 'Our automated discovery system monitors approved public sources, checks for duplicates, validates product URLs, and proposes categories using transparent rules. New records stay outside public browse pages, counts, feeds, structured data, and the sitemap until they pass editorial review.'],
           ['Editorial independence', 'Listings are not endorsements. Paid advertising never changes category placement, directory scores, or whether a tool is included. Official websites remain the source of truth for product availability and pricing.']
         ]
       },
@@ -479,6 +479,8 @@
   if (page === 'new') renderNew();
   if (page === 'guides') renderGuides();
   if (page === 'post') renderPost();
+  // Editorial-review guides use the separate review-post page type and retain
+  // their build-time preview without exposing staged tools in public data.
   if (page === 'info') renderInfo();
   if (page === 'submit') renderSubmit();
   initGlobalInteractions();

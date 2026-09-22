@@ -1,4 +1,4 @@
-// Generated from data/posts.json.
+// Generated from published records in data/posts.json.
 window.NOVERA_POSTS = [
   {
     "slug": "new-ai-tools-2026-09-18",
@@ -22,7 +22,8 @@ window.NOVERA_POSTS = [
       "Novera checked official product pages, documentation, repositories, and marketplace listings before correcting the generated descriptions, categories, features, and pricing labels. Two AI-adjacent discoveries were removed from the public directory because their official sources did not demonstrate AI-powered or agent-operating functionality. Pricing and platform requirements can change, so confirm important details with each provider."
     ],
     "methodology": "This roundup began with newly discovered Novera directory records. Automated checks validated URLs and removed duplicate domains. Editorial review then checked official product pages, documentation, repositories, and marketplace listings; corrected categories and pricing; replaced generic or truncated text with product-specific summaries; and excluded two records that did not meet Novera’s AI-tool scope. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
-    "reviewStatus": "approved-by-merge"
+    "reviewStatus": "approved-by-merge",
+    "publicationStatus": "published"
   },
   {
     "slug": "new-ai-tools-2026-09-16",
@@ -46,7 +47,8 @@ window.NOVERA_POSTS = [
       "Novera checked each official product page and corrected the automated descriptions, categories, features, and pricing labels. Two false positives were removed from the public directory because they did not fit the site’s AI capability and category requirements. Availability, allowances, and pricing can change, so confirm important details with each provider."
     ],
     "methodology": "This roundup began with newly discovered Novera directory records. Automated checks validated URLs and removed duplicate domains. Editorial review then checked official product pages and public repositories, corrected categories and pricing, replaced generic or truncated text with product-specific summaries, and excluded two records that did not meet Novera’s AI-tool scope and category standards. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
-    "reviewStatus": "approved-by-merge"
+    "reviewStatus": "approved-by-merge",
+    "publicationStatus": "published"
   },
   {
     "slug": "new-ai-tools-2026-09-09",
@@ -70,7 +72,8 @@ window.NOVERA_POSTS = [
       "Novera checked the products’ official pages, corrected the automated descriptions, categories, features, and pricing labels, and removed two false positives from the public directory. Product availability, allowances, and prices can change, so confirm important details with each provider."
     ],
     "methodology": "This roundup began with newly discovered Novera directory records. Automated checks validated URLs and removed duplicate domains. Editorial review then checked official product pages, corrected categories and pricing, replaced generic or truncated text with product-specific summaries, and excluded two records that did not provide AI functionality. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
-    "reviewStatus": "approved-by-merge"
+    "reviewStatus": "approved-by-merge",
+    "publicationStatus": "published"
   },
   {
     "slug": "new-ai-tools-2026-09-07",
@@ -96,7 +99,8 @@ window.NOVERA_POSTS = [
       "Novera checked the products’ official pages and corrected the automated descriptions, categories, features, and pricing labels before publication. Product availability, allowances, and prices can change, so confirm important details with the provider."
     ],
     "methodology": "This roundup began with newly discovered Novera directory entries. Automated checks validated URLs and removed duplicate domains. Editorial review then checked official product pages, corrected categories and pricing, replaced source-post excerpts with neutral product summaries, and documented specific capabilities and limitations. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
-    "reviewStatus": "approved-by-merge"
+    "reviewStatus": "approved-by-merge",
+    "publicationStatus": "published"
   },
   {
     "slug": "new-ai-tools-2026-09-04",
@@ -121,7 +125,8 @@ window.NOVERA_POSTS = [
       "Novera checked each official product page and corrected the initial automated category, pricing, description, and feature data where necessary. Capabilities and prices can change, so confirm important details on the official website before adopting a tool."
     ],
     "methodology": "This roundup began with newly discovered Novera directory entries. Automated checks validated URLs and removed duplicate domains, while an editorial review checked official product pages, corrected categories and pricing, rewrote product-specific summaries, and excluded an entry that lacked enough verifiable detail for this article. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
-    "reviewStatus": "approved-by-merge"
+    "reviewStatus": "approved-by-merge",
+    "publicationStatus": "published"
   },
   {
     "slug": "new-ai-tools-week-of-2026-08-24",
@@ -144,6 +149,7 @@ window.NOVERA_POSTS = [
       "Every product below passed Novera’s automated URL, duplicate, and category checks before entering this editorial draft. Product capabilities and pricing can change, so use each detailed listing as a starting point and confirm important information on the official website."
     ],
     "methodology": "This roundup was generated from newly qualified Novera directory entries. Automated checks validated URLs, removed duplicate domains, and assigned an initial category. A person reviewed and corrected product details before publication. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
-    "reviewStatus": "approved-by-merge"
+    "reviewStatus": "approved-by-merge",
+    "publicationStatus": "published"
   }
 ];

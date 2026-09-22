@@ -47,15 +47,16 @@ The scheduled workflow in `.github/workflows/refresh-directory.yml` runs daily a
 
 1. Checks enabled sources in `data/discovery-sources.json`.
 2. Detects likely AI products.
-3. Validates the official URL and description.
+3. Validates the official URL and source description.
 4. Removes duplicate names, slugs, and domains.
-5. Categorizes each tool using transparent keyword scoring.
+5. Proposes a category using transparent keyword scoring.
 6. Rejects records below the configured confidence threshold.
-7. Publishes up to eight qualified tools per run.
-8. Generates a detail page and adds the tool to its category, search, sitemap, feed, and `/new/` page.
-9. Commits the update back to the repository.
+7. Stages up to eight qualified discoveries per run with `reviewStatus: auto-discovered`.
+8. Keeps staged records out of browse pages, category and directory counts, browser-facing tool data, structured data, feeds, and the sitemap.
+9. Writes a `noindex,follow` editorial-review notice at each staged route, which also safely replaces any route left by an older deployment.
+10. Commits the staged audit update back to the repository.
 
-Change the confidence threshold, run limit, or auto-publishing behavior in `site.config.json`.
+Discovery is not publication. Only `editorially-corrected` and intentional `directory-only` records enter the public directory. Rejected records remain in the audit JSON to prevent rediscovery and receive a distinct `noindex,follow` unavailable notice. Change the confidence threshold, run limit, or allowed publication statuses in `site.config.json`. Do not set `autoPublish` to true.
 
 ### Add more discovery sources
 
@@ -89,18 +90,27 @@ Place a record in `data/inbox.json` and run `npm run update:local`:
 ]
 ```
 
+The local update stages this record; it does not make it public. After checking official sources and replacing all generic copy, an editor can assign one of these statuses in `data/auto-tools.json`:
+
+- `editorially-corrected` — verified and rewritten for a full public listing;
+- `directory-only` — intentionally public in the directory but excluded from automated roundups;
+- `rejected` — retained only in the audit data with an unavailable notice.
+
+Leave uncertain records as `auto-discovered`. Add an `updatedAt` date whenever an accepted listing receives a substantial editorial change, then run `npm run validate`.
+
 ## 4. Human-reviewed roundup posts
 
 The workflow in `.github/workflows/weekly-roundup.yml` runs every **Monday, Wednesday, and Friday at 05:10 UTC / 1:10 PM Manila**. It does not publish content directly. Instead, it:
 
-1. Selects three to eight qualified tools discovered within the previous 14 days.
-2. Excludes tools already used in an earlier roundup.
-3. Creates one factual, date-specific roundup with category, pricing, feature, and methodology context.
-4. Generates the guide page, BlogPosting structured data, internal links, RSS item, and sitemap entry.
-5. Opens a GitHub pull request containing an editorial checklist.
-6. Waits for the site owner to review and merge the pull request.
+1. Selects three to eight unused qualified records from the configured 60-day editorial window.
+2. Excludes tools already used in an earlier roundup and intentional `directory-only` or rejected records.
+3. Creates one factual, date-specific roundup draft with category, pricing, feature, and methodology context.
+4. Marks the guide `publicationStatus: editorial-review` and generates a direct preview route with `noindex,follow`.
+5. Excludes the draft from the public Guides index, browser-facing post data, BlogPosting structured data, RSS, and the sitemap.
+6. Opens a GitHub pull request containing an editorial checklist.
+7. Waits for an editor to verify and correct each record, then mark accepted tools public and change the guide to `publicationStatus: published`.
 
-The article only becomes public after the pull request is merged. This human approval step helps prevent inaccurate, repetitive, or low-value scaled content from reaching the production site.
+Merging an untouched automation pull request does not publish the guide or its staged listings. The build also fails if a guide marked `published` references any non-public tool. These safeguards help prevent inaccurate, repetitive, or low-value scaled content from reaching indexable production pages.
 
 If fewer than three unused qualified tools are available, that scheduled run exits successfully without creating a draft. The system never reuses tools merely to meet the three-times-per-week schedule. Settings are available under `contentAutomation` in `site.config.json`.
 
@@ -120,17 +130,22 @@ npm run draft:roundup
 - Open Graph and Twitter metadata;
 - `WebSite`, `SoftwareApplication`, `ItemList`, and `BreadcrumbList` JSON-LD;
 - `sitemap.xml`, `robots.txt`, and `feed.xml`;
+- stable route-specific sitemap `lastmod` dates derived from launch, discovery, editorial-update, and guide dates rather than the build date;
+- public-only category counts, search data, feeds, schemas, and sitemap entries;
+- `noindex,follow` review or unavailable notices for pending and rejected audit records;
 - internal category, related-tool, tag, and breadcrumb links;
 - a 1200×630 social sharing card;
-- human-readable URLs for every category and tool.
+- human-readable URLs for every public category and tool.
 
 Submit `/sitemap.xml` in Google Search Console and Bing Webmaster Tools after deployment. Do not add thin, copied, or unverified descriptions merely to increase page count; useful original descriptions are more sustainable for both search and AdSense.
 
 ## 6. Commands
 
 ```bash
-npm run build          # regenerate pages and SEO assets
-npm run update         # fetch sources, qualify tools, publish, and rebuild
-npm run update:local   # publish inbox data and rebuild without network fetching
+npm run build          # regenerate pages and public-only SEO assets
+npm run audit          # verify publication boundaries, routes, counts, links, feeds, and sitemap dates
+npm run validate       # rebuild and run the full publication/SEO audit
+npm run update         # fetch sources, qualify tools, stage for review, and rebuild
+npm run update:local   # stage inbox data and rebuild without network fetching
 npm run preview        # preview on port 4173
 ```
