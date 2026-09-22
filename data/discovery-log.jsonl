@@ -727,3 +727,34 @@
 {"timestamp": "2026-09-21T09:55:05.186635+00:00", "event": "candidate_rejected", "name": "GGG", "reason": "low_confidence"}
 {"timestamp": "2026-09-21T09:55:05.188308+00:00", "event": "tool_published", "slug": "ai-hack-watch", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-21T09:55:05.188361+00:00", "event": "tool_published", "slug": "delightful-cells", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-22T09:17:34.200108+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 30}
+{"timestamp": "2026-09-22T09:17:34.202047+00:00", "event": "candidate_rejected", "name": "aSPARK", "reason": "duplicate"}
+{"timestamp": "2026-09-22T09:17:34.202186+00:00", "event": "candidate_rejected", "name": "Praxos", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.202295+00:00", "event": "candidate_rejected", "name": "Emote", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.202404+00:00", "event": "candidate_rejected", "name": "Factlabel", "reason": "duplicate"}
+{"timestamp": "2026-09-22T09:17:34.202518+00:00", "event": "candidate_rejected", "name": "FearGate", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.202619+00:00", "event": "candidate_rejected", "name": "Agent Chaperone", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.202717+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.202823+00:00", "event": "candidate_rejected", "name": "Gingerpal", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-22T09:17:34.202952+00:00", "event": "candidate_rejected", "name": "Ishamf", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-22T09:17:34.203057+00:00", "event": "candidate_rejected", "name": "Jev Ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.203160+00:00", "event": "candidate_rejected", "name": "PokerTools Arena", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.203297+00:00", "event": "candidate_rejected", "name": "Nanosamur.ai", "reason": "duplicate"}
+{"timestamp": "2026-09-22T09:17:34.203404+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-22T09:17:34.203506+00:00", "event": "candidate_rejected", "name": "Jev-CLI", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.203605+00:00", "event": "candidate_rejected", "name": "Callwitness", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.203706+00:00", "event": "candidate_rejected", "name": "Lossless-memory", "reason": "duplicate"}
+{"timestamp": "2026-09-22T09:17:34.203816+00:00", "event": "candidate_rejected", "name": "Kelriva", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.203945+00:00", "event": "candidate_rejected", "name": "Ukaiseoconsultant", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-22T09:17:34.204116+00:00", "event": "candidate_rejected", "name": "Skillgesture", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.204236+00:00", "event": "candidate_rejected", "name": "Open Source AI Employees", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.204335+00:00", "event": "candidate_rejected", "name": "Citegraph", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.204436+00:00", "event": "candidate_rejected", "name": "AI Adoption Survey (Census)", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.204532+00:00", "event": "candidate_rejected", "name": "jevals", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.204628+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.204736+00:00", "event": "candidate_rejected", "name": "Autopoiesis", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.204836+00:00", "event": "candidate_rejected", "name": "Storeready", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.204957+00:00", "event": "candidate_rejected", "name": "AI Hack Watch", "reason": "duplicate"}
+{"timestamp": "2026-09-22T09:17:34.205061+00:00", "event": "candidate_rejected", "name": "Preuve", "reason": "low_confidence"}
+{"timestamp": "2026-09-22T09:17:34.206711+00:00", "event": "tool_staged_for_review", "slug": "z8log", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-22T09:17:34.206763+00:00", "event": "tool_staged_for_review", "slug": "witdem", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
