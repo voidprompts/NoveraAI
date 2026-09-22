@@ -63,7 +63,8 @@ def main():
     posts = load(POSTS_PATH, [])
     tools = load(TOOLS_PATH, [])
     already_used = {slug for post in posts for slug in post.get("toolSlugs", [])}
-    cutoff = today - dt.timedelta(days=14)
+    candidate_window = int(config.get("candidateWindowDays", 60))
+    cutoff = today - dt.timedelta(days=candidate_window)
 
     candidates = []
     for tool in tools:
@@ -85,7 +86,7 @@ def main():
     maximum = int(config.get("maximumToolsPerPost", 8))
     candidates = candidates[:maximum]
     if len(candidates) < minimum:
-        print(f"No draft created: {len(candidates)} unused recent tools; {minimum} required.")
+        print(f"No draft created: {len(candidates)} unused qualified tools in the {candidate_window}-day review window; {minimum} required.")
         return
 
     # Each scheduled run gets a date-specific route so up to three independent
@@ -105,14 +106,14 @@ def main():
     formatted_date = f"{today.strftime('%B')} {today.day}, {today.year}"
     title = f"{count} New AI Tools to Explore — {formatted_date}"
     category_summary = human_list(category_labels[:4])
-    description = f"A reviewed look at {count} newly discovered AI tools across {category_summary}, with clear features, pricing models, and links to detailed listings."
+    description = f"A closer look at {count} newly discovered AI tools across {category_summary}, with clear features, pricing models, and links to detailed listings."
     intro = [
         f"This directory review surfaced {count} products with clearly defined use cases across {category_summary}. Rather than ranking unfamiliar products, this roundup explains what each tool is designed to do and where it fits.",
         "Every product below passed Novera’s automated URL, duplicate, and category checks before entering this editorial draft. Product capabilities and pricing can change, so use each detailed listing as a starting point and confirm important information on the official website.",
     ]
     methodology = (
         "This roundup was generated from newly qualified Novera directory entries. Automated checks validated URLs, removed duplicate domains, and assigned an initial category. "
-        "A person reviewed this draft before publication. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement."
+        "Publication requires a person to verify every included record and approve this draft. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement."
     )
     post = {
         "slug": slug,
@@ -126,7 +127,8 @@ def main():
         "toolSlugs": [tool["slug"] for tool in candidates],
         "intro": intro,
         "methodology": methodology,
-        "reviewStatus": "approved-by-merge",
+        "reviewStatus": "editorial-review-required",
+        "publicationStatus": "editorial-review",
     }
     posts.insert(0, post)
     POSTS_PATH.write_text(json.dumps(posts, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

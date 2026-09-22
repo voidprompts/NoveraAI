@@ -72,7 +72,8 @@ jobs:
           node --check assets/app.js
           node --check assets/posts-data.js
           node --check scripts/build-site.js
-          python -m py_compile scripts/generate-weekly-post.py
+          python -m py_compile scripts/generate-weekly-post.py scripts/audit-site.py
+          python scripts/audit-site.py
 
       - name: Open editorial review pull request
         if: steps.pending.outputs.exists != 'true' && steps.branch.outputs.exists != 'true'
@@ -95,4 +96,4 @@ jobs:
             --base main \
             --head "$BRANCH" \
             --title "Review: AI tools roundup — $RUN_DATE" \
-            --body $'## Editorial review required\n\nThis pull request contains a new-tools roundup prepared from qualified directory additions. It is **not live until you merge this pull request**.\n\n### Before merging\n- Open the generated guide and read every tool description.\n- Confirm each product is genuinely AI-related and in the correct category.\n- Remove any weak, unclear, or inappropriate listing.\n- Confirm pricing labels against official websites when possible.\n- Keep the disclosure and methodology section intact.\n\nWhen satisfied, select **Merge pull request**. Cloudflare will then publish the article automatically.'
+            --body $'## Editorial review required\n\nThis pull request contains a **noindex review draft** prepared from staged discoveries. The draft is excluded from public guide lists, counts, feeds, structured data, and the sitemap. Merging it without editorial approval will **not** publish the guide or its staged tool listings.\n\n### Before publication\n- Open the generated draft and verify every claim against official sources.\n- Confirm each product is genuinely AI-related and in the correct category.\n- Rewrite generic descriptions, features, and pricing labels.\n- Reject weak, unclear, unavailable, or inappropriate records.\n- Change accepted tool records to `editorially-corrected` or intentional `directory-only`.\n- Change the guide to `publicationStatus: published` only after every included tool is public.\n- Keep the disclosure and methodology section intact.\n\nAsk for help applying the editorial corrections if needed. The build audit blocks a guide marked published when any included tool is still pending.'

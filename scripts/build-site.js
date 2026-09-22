@@ -26,25 +26,48 @@ config.forms.formspreeEndpoint = process.env.FORMSPREE_ENDPOINT || config.forms.
 const sandbox = { window: {} };
 vm.createContext(sandbox);
 vm.runInContext(fs.readFileSync(path.join(root, 'assets/data.js'), 'utf8'), sandbox);
-vm.runInContext(fs.readFileSync(path.join(root, 'assets/auto-data.js'), 'utf8'), sandbox);
 const data = sandbox.window.NOVERA_DATA;
 const categories = data.categories;
-const tools = data.tools;
-// Counts are derived from the actual records so category labels can never drift
-// away from the number of tools visitors can browse.
+const postsPath = path.join(root, 'data/posts.json');
+const allPosts = fs.existsSync(postsPath) ? JSON.parse(fs.readFileSync(postsPath, 'utf8')) : [];
+const posts = allPosts.filter(post => post.publicationStatus === 'published');
+const reviewPosts = allPosts.filter(post => post.publicationStatus === 'editorial-review');
+const autoToolsPath = path.join(root, 'data/auto-tools.json');
+const autoToolRecords = fs.existsSync(autoToolsPath) ? JSON.parse(fs.readFileSync(autoToolsPath, 'utf8')) : [];
+const publicStatuses = new Set(config.discovery?.publicationStatuses || ['editorially-corrected', 'directory-only']);
+const autoTools = autoToolRecords.filter(tool => publicStatuses.has(tool.reviewStatus));
+const pendingTools = autoToolRecords.filter(tool => !publicStatuses.has(tool.reviewStatus) && tool.reviewStatus !== 'rejected');
+const rejectedTools = autoToolRecords.filter(tool => tool.reviewStatus === 'rejected');
+const tools = [...data.tools, ...autoTools];
+// Counts are derived from the actual public records so category labels can
+// never include tools that are still awaiting editorial review.
 categories.forEach(category => {
   category.count = tools.filter(tool => tool.category === category.slug).length;
 });
-const postsPath = path.join(root, 'data/posts.json');
-const posts = fs.existsSync(postsPath) ? JSON.parse(fs.readFileSync(postsPath, 'utf8')) : [];
-const autoToolsPath = path.join(root, 'data/auto-tools.json');
-const autoToolRecords = fs.existsSync(autoToolsPath) ? JSON.parse(fs.readFileSync(autoToolsPath, 'utf8')) : [];
-const rejectedTools = autoToolRecords.filter(tool => tool.reviewStatus === 'rejected');
 const byCategory = slug => categories.find(c => c.slug === slug);
 const toolBySlug = slug => tools.find(t => t.slug === slug);
+const auditToolBySlug = slug => autoToolRecords.find(t => t.slug === slug) || toolBySlug(slug);
 const hasDomain = /^https:\/\/[^/]+/i.test(config.siteUrl || '') && !/your-domain|example\.com/i.test(config.siteUrl);
 const siteUrl = hasDomain ? config.siteUrl.replace(/\/$/, '') : '';
-const today = new Date().toISOString().slice(0, 10);
+const launchDate = config.contentDates?.siteLaunch || '2026-08-29';
+const staticPagesDate = config.contentDates?.staticPages || launchDate;
+const publicationGateDate = config.contentDates?.publicationGate || staticPagesDate;
+const validDate = value => /^\d{4}-\d{2}-\d{2}$/.test(String(value || '')) ? String(value) : '';
+const maxDate = values => values.map(validDate).filter(Boolean).sort().at(-1) || launchDate;
+const postDateByTool = new Map();
+for (const post of posts) {
+  const date = maxDate([post.updated, post.date]);
+  for (const slug of post.toolSlugs || []) {
+    postDateByTool.set(slug, maxDate([postDateByTool.get(slug), date]));
+  }
+}
+const toolLastmod = tool => maxDate([tool.updatedAt, tool.discoveredAt, postDateByTool.get(tool.slug), launchDate]);
+const directoryLastmod = maxDate([...tools.map(toolLastmod), ...posts.map(post => post.updated || post.date), publicationGateDate, launchDate]);
+const categoryLastmod = slug => maxDate([
+  ...tools.filter(tool => tool.category === slug).map(toolLastmod),
+  ...(pendingTools.some(tool => tool.category === slug) ? [publicationGateDate] : []),
+  launchDate
+]);
 
 const e = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const xml = value => e(value);
@@ -98,7 +121,7 @@ function breadcrumbSchema(items) {
   });
 }
 
-function head({title, description, route, type='website', schema=[]}) {
+function head({title, description, route, type='website', schema=[], robots='index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1'}) {
   const canonical = siteUrl ? `${siteUrl}${route}` : '';
   const adMeta = validPublisher() ? `<meta name="google-adsense-account" content="${e(config.adsense.publisherId)}">` : '';
   const socialImage = siteUrl ? `${siteUrl}/assets/social-card.png` : '';
@@ -109,7 +132,7 @@ function head({title, description, route, type='website', schema=[]}) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#F8F7F4">
   <meta name="description" content="${e(description)}">
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="robots" content="${e(robots)}">
   <meta name="author" content="${e(config.siteName)}">
   ${canonical ? `<link rel="canonical" href="${e(canonical)}">` : ''}
   <meta property="og:type" content="${type}">
@@ -149,7 +172,9 @@ function staticPostLinks(list) {
 }
 
 function staticPostContent(post) {
-  const roundupTools = (post.toolSlugs || []).map(toolBySlug).filter(Boolean);
+  // Review drafts can render staged records without adding those records to
+  // public browse data, feeds, schemas, counts, or the sitemap.
+  const roundupTools = (post.toolSlugs || []).map(auditToolBySlug).filter(Boolean);
   return `<article class="guide-article"><header class="guide-hero"><div class="container"><div class="guide-heading"><h1>${e(post.title)}</h1><p class="lede">${e(post.description)}</p><div class="guide-byline"><span>By ${e(post.author || 'Novera Editorial')}</span><span>${e(post.date)}</span><span>${e(post.readingTime || 5)} min read</span></div></div></div></header><div class="guide-layout container"><main class="guide-content"><section class="guide-intro">${(post.intro || []).map(paragraph=>`<p>${e(paragraph)}</p>`).join('')}</section>${roundupTools.map((tool,index)=>`<section class="guide-tool"><h2>${index+1}. ${e(tool.name)}</h2><p>${e(tool.tagline)}</p><p>${e(tool.description)}</p><ul>${tool.features.slice(0,3).map(feature=>`<li>${e(feature)}</li>`).join('')}</ul><a href="/tools/${e(tool.slug)}/">Read the ${e(tool.name)} listing</a></section>`).join('')}<section class="guide-method"><h2>How this roundup was prepared</h2><p>${e(post.methodology)}</p></section></main></div></article>`;
 }
 
@@ -182,8 +207,8 @@ function staticContactContent() {
   return `<section class="page-hero"><div class="container"><h1>Questions, corrections, or feedback?</h1><p class="lede">Send a listing correction, privacy request, partnership question, or general message.</p></div></section><section class="legal-content"><div class="container">${form}</div></section>`;
 }
 
-function page({title, description, route, pageName, bodyClass, dataAttr='', content, schema=[]}) {
-  return `${head({title,description,route,schema})}
+function page({title, description, route, pageName, bodyClass, dataAttr='', content, schema=[], robots}) {
+  return `${head({title,description,route,schema,robots})}
 <body class="${e(bodyClass)}" data-page="${e(pageName)}"${dataAttr}>
   <header id="site-header"></header>
   <main id="main">${content}</main>
@@ -217,7 +242,7 @@ function toolPageContent(tool) {
 }
 
 const infoPages = {
-  about: {title:'About Novera', description:'Learn how Novera discovers, categorizes, reviews, and presents useful AI tools.', heading:'Useful discovery, without the noise.', copy:'Novera is an independent directory that organizes AI products around the work people are trying to do. Automated discovery checks approved sources, validates URLs, removes duplicates, and categorizes qualified tools using transparent rules.'},
+  about: {title:'About Novera', description:'Learn how Novera discovers, categorizes, reviews, and presents useful AI tools.', heading:'Useful discovery, without the noise.', copy:'Novera is an independent directory that organizes AI products around the work people are trying to do. Automated discovery checks approved sources, validates URLs, removes duplicates, and stages candidates outside the public directory until they pass editorial review.'},
   privacy: {title:'Privacy Policy', description:'Read how Novera handles analytics, form submissions, hosting data, cookies, and advertising privacy.', heading:'A clear, practical privacy policy.', copy:'Novera uses privacy-friendly Cloudflare Web Analytics for aggregate measurements. Contact and tool-submission forms are processed by Formspree for message delivery and spam screening. If advertising is enabled later, consent choices will be provided where required.'},
   terms: {title:'Terms of Use', description:'Read the terms for using Novera and its independent AI tools directory.', heading:'Simple terms for a useful resource.', copy:'Directory content is provided for general discovery. Product details can change, so visitors should verify important information on official websites. Product names and trademarks belong to their respective owners.'},
   contact: {title:'Contact Novera', description:'Send Novera a listing correction, privacy request, partnership question, or directory feedback.', heading:'Questions, corrections, or feedback?', copy:'Use the contact form for listing corrections, privacy requests, partnerships, or general feedback. For a new product, use the structured tool submission form.'}
@@ -259,8 +284,8 @@ function generatePages() {
   const discovered = tools.filter(t=>t.discoveredAt).sort((a,b)=>String(b.discoveredAt).localeCompare(String(a.discoveredAt)));
   const newList = discovered.length ? discovered : tools.filter(t=>t.featured).slice(0,8);
   writeRoute('/new/', page({
-    title:`New AI Tools — ${config.siteName}`,description:'See newly discovered AI tools, automatically organized into clear, useful categories.',route:'/new/',pageName:'new',bodyClass:'new-page',
-    content:`<section class="page-hero"><div class="container"><h1>New tools, thoughtfully placed.</h1><p class="lede">Fresh AI products discovered and organized by Novera.</p></div></section><section class="discovery-area"><div class="container">${staticToolLinks(newList)}</div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:'New AI tools',route:'/new/'}])]
+    title:`New AI Tools — ${config.siteName}`,description:'See recently reviewed AI tools, clearly organized into useful categories.',route:'/new/',pageName:'new',bodyClass:'new-page',
+    content:`<section class="page-hero"><div class="container"><h1>New tools, thoughtfully placed.</h1><p class="lede">Fresh AI products discovered by Novera and published after editorial review.</p></div></section><section class="discovery-area"><div class="container">${staticToolLinks(newList)}</div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:'New AI tools',route:'/new/'}])]
   }));
 
   const blogSchema = schemaBase('Blog',{name:`${config.siteName} AI tool guides`,description:'Human-reviewed new AI tool roundups with transparent selection context',blogPost:posts.map(post=>({'@type':'BlogPosting',headline:post.title,url:urlFor(`/guides/${post.slug}/`),datePublished:post.date}))});
@@ -270,6 +295,10 @@ function generatePages() {
   }));
 
   for (const post of posts) {
+    const unavailableSlugs = (post.toolSlugs || []).filter(slug => !toolBySlug(slug));
+    if (unavailableSlugs.length) {
+      throw new Error(`Published guide ${post.slug} references non-public tools: ${unavailableSlugs.join(', ')}`);
+    }
     const articleSchema = schemaBase('BlogPosting',{
       headline:post.title,description:post.description,datePublished:post.date,dateModified:post.updated || post.date,
       author:{'@type':'Organization',name:post.author || 'Novera Editorial'},publisher:{'@type':'Organization',name:config.siteName},
@@ -278,6 +307,15 @@ function generatePages() {
     writeRoute(`/guides/${post.slug}/`, page({
       title:`${post.title} — ${config.siteName}`,description:post.description,route:`/guides/${post.slug}/`,pageName:'post',bodyClass:'post-page',dataAttr:` data-post="${e(post.slug)}"`,content:staticPostContent(post),
       schema:[articleSchema,breadcrumbSchema([{name:'Home',route:'/'},{name:'Guides',route:'/guides/'},{name:post.title,route:`/guides/${post.slug}/`}])]
+    }));
+  }
+
+  for (const post of reviewPosts) {
+    writeRoute(`/guides/${post.slug}/`, page({
+      title:`Editorial review draft: ${post.title} — ${config.siteName}`,
+      description:'This draft is awaiting editorial review and is not part of Novera’s published guide collection.',
+      route:`/guides/${post.slug}/`,pageName:'review-post',bodyClass:'post-page',dataAttr:` data-post="${e(post.slug)}"`,robots:'noindex,follow',
+      content:`<section class="page-hero compact"><div class="container"><span class="eyebrow">Editorial review draft</span><p class="lede">This page is excluded from search, feeds, guide listings, and public structured data until an editor approves every included tool.</p></div></section>${staticPostContent(post)}`
     }));
   }
 
@@ -294,6 +332,19 @@ function generatePages() {
     }));
   }
 
+  // Staged records remain in the audit queue and roundup-review workflow. Any
+  // route that was public in an earlier build is overwritten with a noindex
+  // notice while the record awaits editorial review.
+  for (const tool of pendingTools) {
+    const notice = page({
+      title:`Listing under editorial review — ${config.siteName}`,
+      description:'This discovery is being checked before it can join the public Novera directory.',
+      route:`/tools/${tool.slug}/`,pageName:'pending-tool',bodyClass:'info-page',robots:'noindex,follow',
+      content:`<section class="page-hero"><div class="container"><span class="eyebrow">Editorial review</span><h1>Listing under editorial review.</h1><p class="lede">Novera discovered this product automatically. Its claims, category, pricing, and directory fit are still being checked, so it is not part of the public directory yet.</p><a class="btn btn-primary" href="/all-tools/">Browse reviewed AI tools</a></div></section>`
+    });
+    writeRoute(`/tools/${tool.slug}/`, notice);
+  }
+
   // Rejected records stay in the audit data to prevent rediscovery. Their
   // former routes become noindex notices and are excluded from browse pages,
   // feeds, counts, structured tool data, and the sitemap.
@@ -301,9 +352,9 @@ function generatePages() {
     const notice = page({
       title:`Listing unavailable — ${config.siteName}`,
       description:'This listing is not part of the Novera AI tools directory.',
-      route:`/tools/${tool.slug}/`,pageName:'removed-tool',bodyClass:'info-page',
+      route:`/tools/${tool.slug}/`,pageName:'removed-tool',bodyClass:'info-page',robots:'noindex,follow',
       content:`<section class="page-hero"><div class="container"><h1>Listing unavailable.</h1><p class="lede">After editorial review, this product did not meet Novera’s AI-tool scope.</p><a class="btn btn-primary" href="/all-tools/">Browse verified AI tools</a></div></section>`
-    }).replace('<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">','<meta name="robots" content="noindex,follow">');
+    });
     writeRoute(`/tools/${tool.slug}/`, notice);
   }
 
@@ -332,10 +383,29 @@ function generateMachineFiles() {
     adsense:config.adsense || {publisherId:'',slots:{}}
   };
   fs.writeFileSync(path.join(root,'assets/site-config.js'),`// Generated from site.config.json.\nwindow.NOVERA_SITE_CONFIG = ${JSON.stringify(runtimeConfig,null,2)};\n`);
-  fs.writeFileSync(path.join(root,'assets/posts-data.js'),`// Generated from data/posts.json.\nwindow.NOVERA_POSTS = ${JSON.stringify(posts,null,2)};\n`);
+  fs.writeFileSync(path.join(root,'assets/posts-data.js'),`// Generated from published records in data/posts.json.\nwindow.NOVERA_POSTS = ${JSON.stringify(posts,null,2)};\n`);
+  const autoPayload = JSON.stringify(autoTools, null, 2);
+  fs.writeFileSync(path.join(root,'assets/auto-data.js'),
+    `// Generated from editorially approved records in data/auto-tools.json.\nwindow.NOVERA_AUTO_TOOLS = ${autoPayload};\n` +
+    `if (window.NOVERA_DATA) {\n` +
+    `  const existing = new Set(window.NOVERA_DATA.tools.map(tool => tool.slug));\n` +
+    `  window.NOVERA_AUTO_TOOLS.forEach(tool => { if (!existing.has(tool.slug)) window.NOVERA_DATA.tools.push(tool); });\n` +
+    `  window.NOVERA_DATA.categories.forEach(category => { category.count = window.NOVERA_DATA.tools.filter(tool => tool.category === category.slug).length; });\n` +
+    `}\n`);
 
-  const routes = ['/', '/categories/', ...categories.map(c=>`/categories/${c.slug}/`), '/all-tools/', '/new/', '/guides/', ...posts.map(post=>`/guides/${post.slug}/`), '/submit/', ...Object.keys(infoPages).map(key=>`/${key}/`), ...tools.map(t=>`/tools/${t.slug}/`)];
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${routes.map(route=>`  <url><loc>${xml(urlFor(route))}</loc><lastmod>${today}</lastmod><changefreq>${route==='/new/'?'daily':route.startsWith('/categories/')?'weekly':'monthly'}</changefreq><priority>${route==='/'?'1.0':route.startsWith('/tools/')?'0.7':'0.8'}</priority></url>`).join('\n')}\n</urlset>\n`;
+  const routes = [
+    {route:'/', lastmod:directoryLastmod},
+    {route:'/categories/', lastmod:directoryLastmod},
+    ...categories.map(category => ({route:`/categories/${category.slug}/`, lastmod:categoryLastmod(category.slug)})),
+    {route:'/all-tools/', lastmod:directoryLastmod},
+    {route:'/new/', lastmod:directoryLastmod},
+    {route:'/guides/', lastmod:maxDate(posts.map(post => post.updated || post.date).concat(launchDate))},
+    ...posts.map(post => ({route:`/guides/${post.slug}/`, lastmod:maxDate([post.updated, post.date])})),
+    {route:'/submit/', lastmod:staticPagesDate},
+    ...Object.keys(infoPages).map(key => ({route:`/${key}/`, lastmod:key === 'about' ? publicationGateDate : staticPagesDate})),
+    ...tools.map(tool => ({route:`/tools/${tool.slug}/`, lastmod:toolLastmod(tool)}))
+  ];
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${routes.map(({route,lastmod})=>`  <url><loc>${xml(urlFor(route))}</loc><lastmod>${lastmod}</lastmod><changefreq>${route==='/new/'?'daily':route.startsWith('/categories/')?'weekly':'monthly'}</changefreq><priority>${route==='/'?'1.0':route.startsWith('/tools/')?'0.7':'0.8'}</priority></url>`).join('\n')}\n</urlset>\n`;
   fs.writeFileSync(path.join(root,'sitemap.xml'),sitemap);
   fs.writeFileSync(path.join(root,'robots.txt'),`User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /scripts/\n${siteUrl ? `Sitemap: ${siteUrl}/sitemap.xml\n` : ''}`);
 
