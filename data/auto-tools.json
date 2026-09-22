@@ -1514,53 +1514,59 @@
   },
   {
     "slug": "tabmail",
-    "name": "Tabmail",
+    "name": "TabMail",
     "category": "productivity-automation",
-    "tagline": "Hi all, I'm the sole developer of TabMail. I wanted my email client to have AI features, and ended up making a Thunderbird add-on and an iPhone app. I've now open-sourced both unde",
+    "tagline": "Add AI summaries, drafting, triage, search, and approved actions to existing email accounts.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://tabmail.ai",
-    "description": "Tabmail is a newly discovered AI product for productivity automation. Hi all, I'm the sole developer of TabMail. I wanted my email client to have AI features, and ended up making a Thunderbird add-on and an iPhone app. I've now open-sourced both under MPL 2.0, and I wanted to share them he.",
+    "description": "TabMail is an AI email client available as a Thunderbird extension and an iPhone app for Gmail, Outlook, iCloud, and generic IMAP accounts. It summarizes messages, prepares replies, rewrites drafts from conversational instructions, tags mail for triage, searches the inbox, works with calendar data, and can propose actions that require confirmation. Search and personalization data stay on the device; email or calendar content may be sent temporarily for AI processing under the service’s zero-data-retention policy. The MPL-2.0 clients are open source, while the hosted AI backend is proprietary. The iOS app is free to download with a trial and paid in-app plans.",
     "tags": [
-      "Automation",
-      "Productivity",
-      "Productivity Automation"
+      "Email assistant",
+      "Inbox automation",
+      "Thunderbird",
+      "Open source"
     ],
     "features": [
-      "Reduce repetitive manual work",
-      "Connect tasks into clear workflows",
-      "Organize information and priorities",
-      "Save time across everyday operations"
+      "Summarize messages and extract key points, action items, and deadlines",
+      "Prepare replies, autocomplete drafts, and apply conversational edits",
+      "Chat with email and calendar data, then confirm proposed actions before execution",
+      "Triage messages with AI-generated reply, archive, delete, and no-action labels",
+      "Use open-source Thunderbird and iPhone clients with local search and on-device personalization"
     ],
     "discoveredAt": "2026-09-17",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49730649",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "slaunt",
     "name": "Slaunt",
-    "category": "coding-development",
-    "tagline": "Hey HN, ask me anything. A few months into this",
+    "category": "productivity-automation",
+    "tagline": "Give workplace agents shared context, governance controls, and auditable execution boundaries.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://slaunt.ai",
-    "description": "Slaunt is a newly discovered AI product for coding development. Hey HN, ask me anything. A few months into this.",
+    "description": "Slaunt is a work-intelligence and agent-control platform that turns conversations, decisions, incidents, GitHub events, customer notes, and agent activity into shared organizational context. Connected agents such as Claude Code and Codex can query that context before acting, while administrators can scope access, require approvals, set spending limits, monitor runs, route handoffs, pause agents, or stop risky work. The platform records agent actions in an audit trail and states that workspace data is encrypted and not used to train models. Its official structured pricing lists a free Starter tier, a Professional tier at $29 per seat each month, and custom Enterprise pricing.",
     "tags": [
-      "Coding Development"
+      "Agent governance",
+      "Organizational memory",
+      "Work intelligence",
+      "Automation"
     ],
     "features": [
-      "Accelerate common development tasks",
-      "Work with contextual code assistance",
-      "Explain and improve technical work",
-      "Move from idea to working software"
+      "Ingest work signals and agent activity into a live shared context log",
+      "Provide connected agents with relevant decisions, tasks, incidents, and project updates",
+      "Apply scoped permissions, approval requirements, tool restrictions, and spending limits",
+      "Monitor, route, pause, resume, or stop agent runs from a centralized control plane",
+      "Record agent activity in an immutable, queryable audit trail"
     ],
     "discoveredAt": "2026-09-17",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49730225",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "blog",
@@ -1615,152 +1621,169 @@
   },
   {
     "slug": "agentmemoryleaderboard",
-    "name": "Agentmemoryleaderboard",
+    "name": "Agent Memory Leaderboard",
     "category": "research-knowledge",
-    "tagline": "Hi HN, We are trying to make different Agent Memory systems comparable without letting each team choose its own answer model and evaluation pipeline",
-    "pricing": "Freemium",
+    "tagline": "Compare agent-memory systems through a consistent public Add/Search evaluation framework.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://agentmemoryleaderboard.ai",
-    "description": "Agentmemoryleaderboard is a newly discovered AI product for research knowledge. Hi HN, We are trying to make different Agent Memory systems comparable without letting each team choose its own answer model and evaluation pipeline.",
+    "description": "Agent Memory Leaderboard is a public evaluation platform for textual, multimodal, and coding-agent memory systems. Participants expose fixed Add and Search endpoints, pass a smoke test, and submit formal jobs that use the platform’s standardized answer, scoring, review, and publication flow. Public boards separate open-source methods from commercial products and break results down across recall, inference, temporal reasoning, governance, personalization, context execution, safety, and privacy. Participation is free, although entrants pay for their own APIs, databases, bandwidth, and compute.",
     "tags": [
-      "Research",
-      "Research Knowledge"
+      "Agent memory",
+      "AI evaluation",
+      "Benchmarking",
+      "Leaderboards"
     ],
     "features": [
-      "Find and synthesize useful information",
-      "Explore questions through natural language",
-      "Organize research into clear outputs",
-      "Move from sources to understanding"
+      "Evaluate memory systems through a fixed Add and Search API contract",
+      "Use separate tracks for textual, multimodal, and coding-agent memory",
+      "Run private smoke tests before submitting a complete formal evaluation",
+      "Compare systems with standardized capability-level and overall scores",
+      "Publish approved results on separate open-source and commercial leaderboards"
     ],
     "discoveredAt": "2026-09-18",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49749689",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "cleverhack",
     "name": "Cleverhack",
     "category": "research-knowledge",
-    "tagline": "Nine sections covering: research programs, research orgs, evaluators and red-teaming, policy and governance, career-changers, funding, courses, directories, reading. With dates and",
-    "pricing": "Freemium",
+    "tagline": "Browse a maintained map of AI-safety research programs, organizations, funding, and courses.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://cleverhack.com/ai-research-ai-safety-ai-talent",
-    "description": "Nine sections covering: research programs, research orgs, evaluators and red-teaming, policy and governance, career-changers, funding, courses, directories, reading. With dates and stipends checked against primary sources.",
+    "description": "Cleverhack’s AI Research and AI Safety Programs Map is a manually maintained reference page covering fellowships, research organizations, evaluators, policy programs, career-change routes, funding, courses, directories, and reading. It is useful AI-related editorial content, but its official page does not document an AI-powered tool or interactive AI functionality, so it does not meet Novera’s directory scope.",
     "tags": [
-      "Research",
-      "Research Knowledge"
+      "AI safety",
+      "Research programs",
+      "Career resources",
+      "Reference guide"
     ],
     "features": [
-      "Find and synthesize useful information",
-      "Explore questions through natural language",
-      "Organize research into clear outputs",
-      "Move from sources to understanding"
+      "List structured entry points into AI and AI-safety research",
+      "Record application timing, funding, stipends, and eligibility notes",
+      "Cover technical research, governance, evaluations, courses, and career-change routes",
+      "Link readers to primary program and application sources"
     ],
     "discoveredAt": "2026-09-18",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49745641",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "rejected"
   },
   {
     "slug": "s-roll",
     "name": "S-Roll",
     "category": "video-generation",
-    "tagline": "local AI video understanding and clipping for Mac",
-    "pricing": "Freemium",
+    "tagline": "Find, reframe, caption, and export strong clips from long videos entirely on your Mac.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://saliency.dev/s-roll",
-    "description": "S-Roll is a newly discovered AI product for video generation. local AI video understanding and clipping for Mac.",
+    "description": "S-Roll is a local AI clipping editor for long-form video on Apple silicon Macs. It transcribes and analyzes footage on-device, scores promising moments, and lets users describe a moment in chat to locate and cut it. Automatic subject tracking reframes clips for vertical video, while the editor supports trimming, captions, titles, and reusable brand presets before MP4 export. Videos, transcripts, chats, project names, and exports stay on the Mac; sign-in, updates, and the initial model download use the internet. The app is currently free with no watermark.",
     "tags": [
-      "Video",
-      "Video Generation"
+      "AI video clipping",
+      "Local processing",
+      "Subject tracking",
+      "macOS"
     ],
     "features": [
-      "Create video concepts with AI assistance",
-      "Speed up editing and production",
-      "Repurpose content for new formats",
-      "Build shareable visual stories"
+      "Score long videos and review candidate clips with titles, summaries, and previews",
+      "Find a specific action, moment, or topic by chatting with the video",
+      "Track a subject automatically while reframing footage for vertical clips",
+      "Trim cuts and style captions, titles, and reusable brand presets before export",
+      "Process source videos, transcripts, chats, and exported clips locally on Apple silicon Macs"
     ],
     "discoveredAt": "2026-09-18",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49743661",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "aclif",
-    "name": "Aclif",
-    "category": "text-writing",
-    "tagline": "Agent CLI framework: one grammar, canonical names across SaaS",
-    "pricing": "Freemium",
+    "name": "aclif",
+    "category": "coding-development",
+    "tagline": "Give AI agents one inspectable command grammar across multiple SaaS providers.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://www.aclif.ai",
-    "description": "Simple discovery of the provider's default schemas is possible without any credentials (since they are built into the binary). If you want it to fetch customizations of your specific instance, give it credentials to your org. The repo has more details. https://github.com/agent-cli-framework/aclif.",
+    "description": "aclif is an MIT-licensed command-line framework built for AI agents that need to work across SaaS APIs. Instead of loading a fixed catalog of tool definitions into every model turn, an agent discovers a provider and requests a command’s schema, examples, shape, cost estimate, and safety metadata only when needed. Commands share one JSON envelope and error vocabulary, support dry runs and confirmation rules, and can run from an agent process, an embedding host, or a credential-holding gateway. The reference TypeScript CLI is free on npm and currently includes providers such as Salesforce and ServiceNow.",
     "tags": [
-      "Text Writing"
+      "AI agent tooling",
+      "CLI",
+      "SaaS APIs",
+      "Open source"
     ],
     "features": [
-      "Create and refine written content",
-      "Summarize and restructure text",
-      "Adapt voice for different audiences",
-      "Move from prompt to draft quickly"
+      "Expose multiple SaaS providers through one command grammar and JSON response envelope",
+      "Load command schemas and examples on demand instead of keeping every tool in model context",
+      "Resolve canonical names against tenant-specific objects and fields",
+      "Declare mutability, blast radius, reversibility, idempotency, and confirmation requirements",
+      "Run as an agent-spawned CLI, an embedded runtime, or a gateway that keeps credentials away from agents"
     ],
     "discoveredAt": "2026-09-18",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49743382",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "die-with-me",
     "name": "Die With Me",
-    "category": "coding-development",
-    "tagline": "Claude and Codex rate limits as AIM away messages",
-    "pricing": "Freemium",
+    "category": "productivity-automation",
+    "tagline": "Show friends’ remaining Claude and Codex usage and open a social chat when limits run low.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://diewithme.co/join",
-    "description": "Die With Me is a newly discovered AI product for coding development. Claude and Codex rate limits as AIM away messages.",
+    "description": "Die With Me is a free macOS social utility that displays friends’ remaining Claude and Codex usage and opens a shared chatroom when token allowances run low. It integrates with AI-product usage data but does not document an AI-powered capability of its own, so it does not meet Novera’s AI-tool scope.",
     "tags": [
-      "Developer",
-      "Coding Development"
+      "Usage monitor",
+      "Claude",
+      "Codex",
+      "Social utility"
     ],
     "features": [
-      "Accelerate common development tasks",
-      "Work with contextual code assistance",
-      "Explain and improve technical work",
-      "Move from idea to working software"
+      "Display participating friends and their remaining Claude or Codex usage",
+      "Show mascots becoming tired as an allowance approaches its limit",
+      "Open a shared chatroom when usage reaches the low-token threshold",
+      "Run on macOS 13 or later with Windows listed as a waitlist"
     ],
     "discoveredAt": "2026-09-18",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49743095",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "rejected"
   },
   {
     "slug": "facefork",
     "name": "Facefork",
     "category": "image-generation",
-    "tagline": "A tree interface to AI edit photos for fun",
-    "pricing": "Freemium",
+    "tagline": "Explore branching AI photo edits on a visual canvas using your own OpenRouter key.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://facefork.com",
-    "description": "Facefork is a newly discovered AI product for image generation. A tree interface to AI edit photos for fun.",
+    "description": "facefork is a browser-based canvas for branching AI photo edits. Each prompt creates a child node under the selected image, making it possible to compare alternatives, continue from any result, or combine two photos. Trees are saved in the browser and can be exported as a project file or turned into shareable before-and-after images, magazine covers, polaroids, and short loops. The static open-source app is free and requires the user’s own OpenRouter key; model-provider usage charges apply. Photos remain in the browser until an edit sends the selected prompt and references directly to OpenRouter.",
     "tags": [
-      "Images",
-      "Image Generation"
+      "AI photo editing",
+      "Branching canvas",
+      "BYOK",
+      "Open source"
     ],
     "features": [
-      "Generate visual concepts from prompts",
-      "Explore style and composition options",
-      "Create reusable creative assets",
-      "Iterate on visual directions quickly"
+      "Create a new branch for every prompted photo edit",
+      "Continue from any result or combine two selected photos in one edit",
+      "Compare a node with its parent and star preferred results",
+      "Save projects in browser storage or export a portable tree file",
+      "Generate through a user-supplied OpenRouter key without sending photos to the site host"
     ],
     "discoveredAt": "2026-09-18",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49739445",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "kuvu",
