@@ -758,3 +758,34 @@
 {"timestamp": "2026-09-22T09:17:34.205061+00:00", "event": "candidate_rejected", "name": "Preuve", "reason": "low_confidence"}
 {"timestamp": "2026-09-22T09:17:34.206711+00:00", "event": "tool_staged_for_review", "slug": "z8log", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-22T09:17:34.206763+00:00", "event": "tool_staged_for_review", "slug": "witdem", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-23T09:17:59.632409+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 30}
+{"timestamp": "2026-09-23T09:17:59.634542+00:00", "event": "candidate_rejected", "name": "Gwae", "reason": "duplicate"}
+{"timestamp": "2026-09-23T09:17:59.634696+00:00", "event": "candidate_rejected", "name": "use-citations", "reason": "duplicate"}
+{"timestamp": "2026-09-23T09:17:59.634869+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.634979+00:00", "event": "candidate_rejected", "name": "Kern.md", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.635137+00:00", "event": "candidate_rejected", "name": "junkDrawer.ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.635293+00:00", "event": "candidate_rejected", "name": "a0flow", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.635378+00:00", "event": "candidate_rejected", "name": "Notes on Agentic AI", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.635468+00:00", "event": "candidate_rejected", "name": "Launch HN", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.635565+00:00", "event": "candidate_rejected", "name": "Wmcp", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.636056+00:00", "event": "candidate_rejected", "name": "AI·rete·RAG", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.636228+00:00", "event": "candidate_rejected", "name": "SwarmSay", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.636311+00:00", "event": "candidate_rejected", "name": "ScopeLock", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.636384+00:00", "event": "candidate_rejected", "name": "Memanto.ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.636456+00:00", "event": "candidate_rejected", "name": "Piary", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.636528+00:00", "event": "candidate_rejected", "name": "Parserail", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.636602+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.636697+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-23T09:17:59.636851+00:00", "event": "candidate_rejected", "name": "Relay", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.636930+00:00", "event": "candidate_rejected", "name": "AI-Free PC", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.637020+00:00", "event": "candidate_rejected", "name": "Nimblegate", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.637103+00:00", "event": "candidate_rejected", "name": "OmniUil AI", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.637180+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-23T09:17:59.637247+00:00", "event": "candidate_rejected", "name": "Z8Log", "reason": "duplicate"}
+{"timestamp": "2026-09-23T09:17:59.637321+00:00", "event": "candidate_rejected", "name": "aSPARK", "reason": "duplicate"}
+{"timestamp": "2026-09-23T09:17:59.639029+00:00", "event": "tool_staged_for_review", "slug": "reweaver-ai-driftdetector", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-23T09:17:59.639073+00:00", "event": "tool_staged_for_review", "slug": "ceptile", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-23T09:17:59.639100+00:00", "event": "tool_staged_for_review", "slug": "jade", "category": "customer-support", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-23T09:17:59.639122+00:00", "event": "tool_staged_for_review", "slug": "lightdrift", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-23T09:17:59.639143+00:00", "event": "tool_staged_for_review", "slug": "kado", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-23T09:17:59.639164+00:00", "event": "tool_staged_for_review", "slug": "arxiv", "category": "text-writing", "source": "Hacker News — Show HN AI"}

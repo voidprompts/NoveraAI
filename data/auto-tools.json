@@ -1909,5 +1909,155 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49785664",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "reweaver-ai-driftdetector",
+    "name": "ReWeaver AI DriftDetector",
+    "category": "coding-development",
+    "tagline": "score a GitHub repo's production readiness",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://drift.reweaver.ai",
+    "description": "ReWeaver AI DriftDetector is a newly discovered AI product for coding development. score a GitHub repo's production readiness.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-23",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49813096",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "ceptile",
+    "name": "Ceptile",
+    "category": "research-knowledge",
+    "tagline": "I built Ceptile because I wanted a search tool that could combine the convenience of an AI answer with the ability to inspect the actual web pages behind it. A Ceptile search retri",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.ceptile.com",
+    "description": "I built Ceptile because I wanted a search tool that could combine the convenience of an AI answer with the ability to inspect the actual web pages behind it. A Ceptile search retrieves pages from the web, ranks the retrieved sources, and uses them to produce an answer with links back to the sources. You can open the sources and continue researching from there. I've also been building some things around the search wor",
+    "tags": [
+      "Research",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-23",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49812270",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "jade",
+    "name": "Jade",
+    "category": "customer-support",
+    "tagline": "Hello HN! I've spent the last 4 years building Jade.email, an email service, and it's now better than any email service I've used. I'm incredibly proud of it and have a small group",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://jade.email",
+    "description": "Jade is a newly discovered AI product for customer support. Hello HN! I've spent the last 4 years building Jade.email, an email service, and it's now better than any email service I've used. I'm incredibly proud of it and have a small group of paying customers already. It's simil.",
+    "tags": [
+      "Customer support",
+      "Customer Support"
+    ],
+    "features": [
+      "Answer common customer questions",
+      "Assist human support workflows",
+      "Organize and route conversations",
+      "Improve service response time"
+    ],
+    "discoveredAt": "2026-09-23",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49808620",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "lightdrift",
+    "name": "Lightdrift",
+    "category": "image-generation",
+    "tagline": "Greetings HN, I'm Jackson, the founder of Lightdrift. It's an image search API and MCP that lets agents retrieve real images, along with natural language descriptions, metadata, pr",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://lightdrift.ai",
+    "description": "Greetings HN, I'm Jackson, the founder of Lightdrift. It's an image search API and MCP that lets agents retrieve real images, along with natural language descriptions, metadata, provenance, and license conditions. I built this because I kept having the same problem and it was pissing me off. About a year ago, I was vibe coding on edibles. I decided to build a pipeline that generated educational, short form videos abo",
+    "tags": [
+      "Video",
+      "Images",
+      "Data"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-09-23",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49806244",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "kado",
+    "name": "Kado",
+    "category": "research-knowledge",
+    "tagline": "Search to Allow Personal Agents to Find Agent Apps",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://kado.so",
+    "description": "Kado is a newly discovered AI product for research knowledge. Search to Allow Personal Agents to Find Agent Apps.",
+    "tags": [
+      "Research",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-23",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49803059",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "arxiv",
+    "name": "Arxiv",
+    "category": "text-writing",
+    "tagline": "Hey HN! We’re Vincent and Jochen from Sitefire ( https://sitefire.ai ). We have been working together for years, with backgrounds in RL/optimization at Stanford and software engine",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://arxiv.org/abs/2609.15369",
+    "description": "Arxiv is a newly discovered AI product for text writing. Hey HN! We’re Vincent and Jochen from Sitefire ( https://sitefire.ai ). We have been working together for years, with backgrounds in RL/optimization at Stanford and software engineering from Technical University Munich (.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-09-23",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49800566",
+    "reviewStatus": "auto-discovered"
   }
 ]
