@@ -1,5 +1,32 @@
 [
   {
+    "slug": "new-ai-tools-2026-09-23",
+    "title": "8 New AI Tools to Explore — September 23, 2026",
+    "description": "A closer look at 8 newly discovered AI tools across Coding & Development, Image Generation, Research & Knowledge, and Customer Support, with clear features, pricing models, and links to detailed listings.",
+    "date": "2026-09-23",
+    "updated": "2026-09-23",
+    "author": "Novera Editorial",
+    "type": "New tools roundup",
+    "readingTime": 9,
+    "toolSlugs": [
+      "reweaver-ai-driftdetector",
+      "lightdrift",
+      "kado",
+      "jade",
+      "ceptile",
+      "arxiv",
+      "z8log",
+      "witdem"
+    ],
+    "intro": [
+      "This directory review surfaced 8 products with clearly defined use cases across Coding & Development, Image Generation, Research & Knowledge, and Customer Support. Rather than ranking unfamiliar products, this roundup explains what each tool is designed to do and where it fits.",
+      "Every product below passed Novera’s automated URL, duplicate, and category checks before entering this editorial draft. Product capabilities and pricing can change, so use each detailed listing as a starting point and confirm important information on the official website."
+    ],
+    "methodology": "This roundup was generated from newly qualified Novera directory entries. Automated checks validated URLs, removed duplicate domains, and assigned an initial category. Publication requires a person to verify every included record and approve this draft. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
+    "reviewStatus": "editorial-review-required",
+    "publicationStatus": "editorial-review"
+  },
+  {
     "slug": "new-ai-tools-2026-09-18",
     "title": "6 New AI Tools to Explore — September 18, 2026",
     "description": "An editorially reviewed look at six tools for local video clipping, branching photo edits, agent-memory evaluation, SaaS command access, AI email, and agent governance.",
