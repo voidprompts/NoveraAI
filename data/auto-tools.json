@@ -2059,5 +2059,80 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49800566",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "vibe-coder-ladder-round-2",
+    "name": "Vibe-coder ladder round 2",
+    "category": "coding-development",
+    "tagline": "the AI ran 38 minutes past the deadline",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://vibeladder.dev/results/r2.html",
+    "description": "Vibe-coder ladder round 2 is a newly discovered AI product for coding development. the AI ran 38 minutes past the deadline.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-24",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49817230",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "ax",
+    "name": "Ax",
+    "category": "coding-development",
+    "tagline": "Let Claude, Codex and OpenCode talk to each other locally",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://useax.dev",
+    "description": "Ax is a newly discovered AI product for coding development. Let Claude, Codex and OpenCode talk to each other locally.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-24",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49816738",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "filmstudio",
+    "name": "Filmstudio",
+    "category": "video-generation",
+    "tagline": "Hi HN, I built RxFilm Studio, a video workspace that lets you create and revise videos with AI agent. The reason I started this project is simple: I’ve noticed that many independen",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://filmstudio.rxlab.app",
+    "description": "Filmstudio is a newly discovered AI product for video generation. Hi HN, I built RxFilm Studio, a video workspace that lets you create and revise videos with AI agent. The reason I started this project is simple: I’ve noticed that many independent developers and small teams want to cre.",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-09-24",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49815095",
+    "reviewStatus": "auto-discovered"
   }
 ]

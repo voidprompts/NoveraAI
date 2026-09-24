@@ -789,3 +789,33 @@
 {"timestamp": "2026-09-23T09:17:59.639122+00:00", "event": "tool_staged_for_review", "slug": "lightdrift", "category": "image-generation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-23T09:17:59.639143+00:00", "event": "tool_staged_for_review", "slug": "kado", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-23T09:17:59.639164+00:00", "event": "tool_staged_for_review", "slug": "arxiv", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-24T09:17:30.021643+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 29}
+{"timestamp": "2026-09-24T09:17:30.023108+00:00", "event": "candidate_rejected", "name": "CastTake", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.023211+00:00", "event": "candidate_rejected", "name": "CubeLV", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.023372+00:00", "event": "candidate_rejected", "name": "Oncroft", "reason": "article_not_product"}
+{"timestamp": "2026-09-24T09:17:30.023473+00:00", "event": "candidate_rejected", "name": "Chatlo", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.023565+00:00", "event": "candidate_rejected", "name": "Hosted JayBase", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.023632+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.023696+00:00", "event": "candidate_rejected", "name": "Varkos", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.023758+00:00", "event": "candidate_rejected", "name": "AgentRun", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.023835+00:00", "event": "candidate_rejected", "name": "Ceptile", "reason": "duplicate"}
+{"timestamp": "2026-09-24T09:17:30.023903+00:00", "event": "candidate_rejected", "name": "Almostright.ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.023965+00:00", "event": "candidate_rejected", "name": "TTM", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.024043+00:00", "event": "candidate_rejected", "name": "Ox", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.024107+00:00", "event": "candidate_rejected", "name": "Watch Newsletters by AI", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.024235+00:00", "event": "candidate_rejected", "name": "Foundinghires", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-24T09:17:30.024396+00:00", "event": "candidate_rejected", "name": "HackDigest", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.024480+00:00", "event": "candidate_rejected", "name": "Karada.ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.024543+00:00", "event": "candidate_rejected", "name": "Attention", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.024599+00:00", "event": "candidate_rejected", "name": "Pawtonomy", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.024719+00:00", "event": "candidate_rejected", "name": "Red-team your AI agent", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.024782+00:00", "event": "candidate_rejected", "name": "Life Forge", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.024839+00:00", "event": "candidate_rejected", "name": "ReWeaver AI DriftDetector", "reason": "duplicate"}
+{"timestamp": "2026-09-24T09:17:30.024898+00:00", "event": "candidate_rejected", "name": "Gwae", "reason": "duplicate"}
+{"timestamp": "2026-09-24T09:17:30.024970+00:00", "event": "candidate_rejected", "name": "use-citations", "reason": "duplicate"}
+{"timestamp": "2026-09-24T09:17:30.025042+00:00", "event": "candidate_rejected", "name": "Ceptile", "reason": "duplicate"}
+{"timestamp": "2026-09-24T09:17:30.025099+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.025157+00:00", "event": "candidate_rejected", "name": "Kern.md", "reason": "low_confidence"}
+{"timestamp": "2026-09-24T09:17:30.026837+00:00", "event": "tool_staged_for_review", "slug": "vibe-coder-ladder-round-2", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-24T09:17:30.026876+00:00", "event": "tool_staged_for_review", "slug": "ax", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-24T09:17:30.026903+00:00", "event": "tool_staged_for_review", "slug": "filmstudio", "category": "video-generation", "source": "Hacker News — Show HN AI"}
