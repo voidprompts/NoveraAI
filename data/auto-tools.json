@@ -2134,5 +2134,129 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49815095",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "proxima-forma",
+    "name": "Proxima Forma",
+    "category": "design-ux",
+    "tagline": "Designs that my AI agents understand",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://proximaforma.com",
+    "description": "Proxima Forma is a newly discovered AI product for design ux. Designs that my AI agents understand.",
+    "tags": [
+      "Design",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-09-25",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49842063",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "reteach",
+    "name": "Reteach",
+    "category": "education-learning",
+    "tagline": "AI tutor that feels human",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.reteach.study",
+    "description": "Reteach is a newly discovered AI product for education learning. AI tutor that feels human.",
+    "tags": [
+      "Education",
+      "Education Learning"
+    ],
+    "features": [
+      "Create guided learning experiences",
+      "Personalize practice and explanations",
+      "Support educators and learners",
+      "Turn material into study activities"
+    ],
+    "discoveredAt": "2026-09-25",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49840850",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "canary-yc",
+    "name": "Canary (YC)",
+    "category": "coding-development",
+    "tagline": "Independent verification for AI code",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.runcanary.ai",
+    "description": "Canary (YC) is a newly discovered AI product for coding development. Independent verification for AI code.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-25",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49836632",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "critic",
+    "name": "Critic",
+    "category": "coding-development",
+    "tagline": "Review code with the agent that wrote it",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.critic.run",
+    "description": "Critic is a newly discovered AI product for coding development. Review code with the agent that wrote it.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-25",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49834098",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "forkbench",
+    "name": "Forkbench",
+    "category": "coding-development",
+    "tagline": "boundaries and supervision for AI coding agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://forkbench.com/l/FAUiWl3f",
+    "description": "Forkbench is a newly discovered AI product for coding development. boundaries and supervision for AI coding agents.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-25",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49828775",
+    "reviewStatus": "auto-discovered"
   }
 ]

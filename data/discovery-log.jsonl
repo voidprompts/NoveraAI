@@ -819,3 +819,32 @@
 {"timestamp": "2026-09-24T09:17:30.026837+00:00", "event": "tool_staged_for_review", "slug": "vibe-coder-ladder-round-2", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-24T09:17:30.026876+00:00", "event": "tool_staged_for_review", "slug": "ax", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-24T09:17:30.026903+00:00", "event": "tool_staged_for_review", "slug": "filmstudio", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-25T09:35:57.811096+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-09-25T09:35:57.813325+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-25T09:35:57.813489+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.813678+00:00", "event": "candidate_rejected", "name": "Vons", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.813854+00:00", "event": "candidate_rejected", "name": "Zephclick", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-25T09:35:57.813962+00:00", "event": "candidate_rejected", "name": "Rig", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.814093+00:00", "event": "candidate_rejected", "name": "DrawCMS", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.814255+00:00", "event": "candidate_rejected", "name": "bananabread AI", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.814444+00:00", "event": "candidate_rejected", "name": "Brevn", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.814554+00:00", "event": "candidate_rejected", "name": "Trify3D", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.814651+00:00", "event": "candidate_rejected", "name": "Potluck", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.814749+00:00", "event": "candidate_rejected", "name": "Enclawed", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.814849+00:00", "event": "candidate_rejected", "name": "Local First AI Calculator", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.814948+00:00", "event": "candidate_rejected", "name": "CraftCX", "reason": "article_not_product"}
+{"timestamp": "2026-09-25T09:35:57.815044+00:00", "event": "candidate_rejected", "name": "Zrevick", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.815166+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-25T09:35:57.815264+00:00", "event": "candidate_rejected", "name": "Site MCP", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.815363+00:00", "event": "candidate_rejected", "name": "Thought Is Free", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.815491+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-25T09:35:57.815595+00:00", "event": "candidate_rejected", "name": "Szept", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.815777+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-25T09:35:57.815879+00:00", "event": "candidate_rejected", "name": "CastTake", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.815976+00:00", "event": "candidate_rejected", "name": "CubeLV", "reason": "low_confidence"}
+{"timestamp": "2026-09-25T09:35:57.816073+00:00", "event": "candidate_rejected", "name": "Oncroft", "reason": "article_not_product"}
+{"timestamp": "2026-09-25T09:35:57.818179+00:00", "event": "tool_staged_for_review", "slug": "proxima-forma", "category": "design-ux", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-25T09:35:57.818232+00:00", "event": "tool_staged_for_review", "slug": "reteach", "category": "education-learning", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-25T09:35:57.818273+00:00", "event": "tool_staged_for_review", "slug": "canary-yc", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-25T09:35:57.818309+00:00", "event": "tool_staged_for_review", "slug": "critic", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-25T09:35:57.818355+00:00", "event": "tool_staged_for_review", "slug": "forkbench", "category": "coding-development", "source": "Hacker News — Show HN AI"}
