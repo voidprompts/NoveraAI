@@ -1,10 +1,10 @@
 [
   {
     "slug": "new-ai-tools-2026-09-23",
-    "title": "8 New AI Tools to Explore — September 23, 2026",
-    "description": "A closer look at 8 newly discovered AI tools across Coding & Development, Image Generation, Research & Knowledge, and Customer Support, with clear features, pricing models, and links to detailed listings.",
+    "title": "6 New AI Workflow Tools to Explore — September 23, 2026",
+    "description": "A reviewed roundup of six tools for AI-assisted development, agent-ready media search, service discovery, cited research, structured logging, and outcome analytics.",
     "date": "2026-09-23",
-    "updated": "2026-09-23",
+    "updated": "2026-09-24",
     "author": "Novera Editorial",
     "type": "New tools roundup",
     "readingTime": 9,
@@ -12,19 +12,17 @@
       "reweaver-ai-driftdetector",
       "lightdrift",
       "kado",
-      "jade",
       "ceptile",
-      "arxiv",
       "z8log",
       "witdem"
     ],
     "intro": [
-      "This directory review surfaced 8 products with clearly defined use cases across Coding & Development, Image Generation, Research & Knowledge, and Customer Support. Rather than ranking unfamiliar products, this roundup explains what each tool is designed to do and where it fits.",
-      "Every product below passed Novera’s automated URL, duplicate, and category checks before entering this editorial draft. Product capabilities and pricing can change, so use each detailed listing as a starting point and confirm important information on the official website."
+      "This edition brings together six newly reviewed tools that support practical AI workflows—from preparing repositories for coding agents and supplying licensed images to discovering agent services, researching the live web, inspecting logs, and measuring whether agents achieve product goals.",
+      "The mix includes free and open-source options alongside usage-based and tiered services. Each listing below was rewritten from primary product pages, documentation, public repositories, and published plan information rather than copied from its discovery post."
     ],
-    "methodology": "This roundup was generated from newly qualified Novera directory entries. Automated checks validated URLs, removed duplicate domains, and assigned an initial category. Publication requires a person to verify every included record and approve this draft. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
-    "reviewStatus": "editorial-review-required",
-    "publicationStatus": "editorial-review"
+    "methodology": "Novera checked each official product site, available documentation, public repository, published pricing or plan data, and the original discovery source on September 24, 2026. Pricing labels summarize the access model visible at review time; limits and rates can change, so confirm them with the provider before adopting a tool. ReWeaver AI DriftDetector is included as a deterministic companion for AI-assisted development and does not itself call an LLM. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
+    "reviewStatus": "approved-by-merge",
+    "publicationStatus": "published"
   },
   {
     "slug": "new-ai-tools-2026-09-18",

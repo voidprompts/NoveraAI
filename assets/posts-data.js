@@ -1,6 +1,31 @@
 // Generated from published records in data/posts.json.
 window.NOVERA_POSTS = [
   {
+    "slug": "new-ai-tools-2026-09-23",
+    "title": "6 New AI Workflow Tools to Explore — September 23, 2026",
+    "description": "A reviewed roundup of six tools for AI-assisted development, agent-ready media search, service discovery, cited research, structured logging, and outcome analytics.",
+    "date": "2026-09-23",
+    "updated": "2026-09-24",
+    "author": "Novera Editorial",
+    "type": "New tools roundup",
+    "readingTime": 9,
+    "toolSlugs": [
+      "reweaver-ai-driftdetector",
+      "lightdrift",
+      "kado",
+      "ceptile",
+      "z8log",
+      "witdem"
+    ],
+    "intro": [
+      "This edition brings together six newly reviewed tools that support practical AI workflows—from preparing repositories for coding agents and supplying licensed images to discovering agent services, researching the live web, inspecting logs, and measuring whether agents achieve product goals.",
+      "The mix includes free and open-source options alongside usage-based and tiered services. Each listing below was rewritten from primary product pages, documentation, public repositories, and published plan information rather than copied from its discovery post."
+    ],
+    "methodology": "Novera checked each official product site, available documentation, public repository, published pricing or plan data, and the original discovery source on September 24, 2026. Pricing labels summarize the access model visible at review time; limits and rates can change, so confirm them with the provider before adopting a tool. ReWeaver AI DriftDetector is included as a deterministic companion for AI-assisted development and does not itself call an LLM. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement.",
+    "reviewStatus": "approved-by-merge",
+    "publicationStatus": "published"
+  },
+  {
     "slug": "new-ai-tools-2026-09-18",
     "title": "6 New AI Tools to Explore — September 18, 2026",
     "description": "An editorially reviewed look at six tools for local video clipping, branching photo edits, agent-memory evaluation, SaaS command access, AI email, and agent governance.",
