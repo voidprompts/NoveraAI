@@ -2258,5 +2258,54 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49828775",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "pixelsniff",
+    "name": "PixelSniff",
+    "category": "image-generation",
+    "tagline": "Check if a photo is AI-generated, no sign-up",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://pixelsniff.com",
+    "description": "PixelSniff is a newly discovered AI product for image generation. Check if a photo is AI-generated, no sign-up.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-09-26",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49845249",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "stackreplay",
+    "name": "StackReplay",
+    "category": "coding-development",
+    "tagline": "analyze and replay your AI coding history locally",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://stackreplay.com",
+    "description": "StackReplay is a newly discovered AI product for coding development. analyze and replay your AI coding history locally.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-26",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49843535",
+    "reviewStatus": "auto-discovered"
   }
 ]

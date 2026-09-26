@@ -848,3 +848,36 @@
 {"timestamp": "2026-09-25T09:35:57.818273+00:00", "event": "tool_staged_for_review", "slug": "canary-yc", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-25T09:35:57.818309+00:00", "event": "tool_staged_for_review", "slug": "critic", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-25T09:35:57.818355+00:00", "event": "tool_staged_for_review", "slug": "forkbench", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-26T09:20:32.420510+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 32}
+{"timestamp": "2026-09-26T09:20:32.422161+00:00", "event": "candidate_rejected", "name": "Botbin.io", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.422347+00:00", "event": "candidate_rejected", "name": "Gaiabot", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.422464+00:00", "event": "candidate_rejected", "name": "Wallstreetclaws.com", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.422563+00:00", "event": "candidate_rejected", "name": "MyA11yReport MCP", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.422664+00:00", "event": "candidate_rejected", "name": "Oomu", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.422749+00:00", "event": "candidate_rejected", "name": "NerfWatch()", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.422830+00:00", "event": "candidate_rejected", "name": "Piloxa", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.423075+00:00", "event": "candidate_rejected", "name": "Nokku", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-26T09:20:32.423176+00:00", "event": "candidate_rejected", "name": "Aidash", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-26T09:20:32.423283+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.423388+00:00", "event": "candidate_rejected", "name": "Doom Or Bloom", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.423473+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-26T09:20:32.423550+00:00", "event": "candidate_rejected", "name": "Agentjesse", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.423629+00:00", "event": "candidate_rejected", "name": "Tancky", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-26T09:20:32.423757+00:00", "event": "candidate_rejected", "name": "Sifthound", "reason": "duplicate"}
+{"timestamp": "2026-09-26T09:20:32.423835+00:00", "event": "candidate_rejected", "name": "Hard Stop", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.423913+00:00", "event": "candidate_rejected", "name": "Prepd", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-26T09:20:32.424054+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.424131+00:00", "event": "candidate_rejected", "name": "Agririgo", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.424205+00:00", "event": "candidate_rejected", "name": "AtlasBurn", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.424296+00:00", "event": "candidate_rejected", "name": "Proxima Forma", "reason": "duplicate"}
+{"timestamp": "2026-09-26T09:20:32.424371+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-26T09:20:32.424445+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.424512+00:00", "event": "candidate_rejected", "name": "Reteach", "reason": "duplicate"}
+{"timestamp": "2026-09-26T09:20:32.424585+00:00", "event": "candidate_rejected", "name": "Vons", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.424654+00:00", "event": "candidate_rejected", "name": "Canary (YC)", "reason": "duplicate"}
+{"timestamp": "2026-09-26T09:20:32.424734+00:00", "event": "candidate_rejected", "name": "Zephclick", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-26T09:20:32.424808+00:00", "event": "candidate_rejected", "name": "Rig", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.424880+00:00", "event": "candidate_rejected", "name": "DrawCMS", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.424976+00:00", "event": "candidate_rejected", "name": "bananabread AI", "reason": "low_confidence"}
+{"timestamp": "2026-09-26T09:20:32.427338+00:00", "event": "tool_staged_for_review", "slug": "pixelsniff", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-26T09:20:32.427413+00:00", "event": "tool_staged_for_review", "slug": "stackreplay", "category": "coding-development", "source": "Hacker News — Show HN AI"}
