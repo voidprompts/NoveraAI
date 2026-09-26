@@ -167,7 +167,7 @@
           <button type="submit">Search tools</button>
         </form>
         <a class="btn btn-primary hero-cta" href="/categories/">Browse Categories ${arrow()}</a>
-        <div class="hero-proof"><span><i class="proof-dot"></i>${tools.length} tools indexed</span><span>${categories.length} clear categories</span><span>Editorial publication gate</span></div>
+        <div class="hero-proof"><span><i class="proof-dot"></i>${tools.length} reviewed tools</span><span>${categories.length} clear categories</span><span>Editorial publication gate</span></div>
       </div></div>
     </section>
     <section class="section"><div class="container">
