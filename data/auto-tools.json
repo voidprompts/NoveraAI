@@ -1864,201 +1864,224 @@
     "slug": "z8log",
     "name": "Z8Log",
     "category": "coding-development",
-    "tagline": "Structured logging your AI coding agent can query",
+    "tagline": "Send, query, and visualize structured logs through APIs and installable agent skills.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://z8log.com/welcome",
-    "description": "Z8Log is a newly discovered AI product for coding development. Structured logging your AI coding agent can query.",
+    "description": "Z8Log is a structured logging service for applications and AI-agent workflows. Developers can send JSON logs to isolated datasets, inspect a live stream, run filtered queries, and assemble dashboards from charts, counters, tables, logs, and formulas. Downloadable skills teach compatible agents how to send and query logs or administer datasets and dashboard sets through the service APIs. A free plan includes two datasets, three days of searchable history, and ten AI requests per month; paid Basic and Pro plans increase limits.",
     "tags": [
-      "Coding Development"
+      "Structured logging",
+      "Agent skills",
+      "Observability",
+      "Dashboards"
     ],
     "features": [
-      "Accelerate common development tasks",
-      "Work with contextual code assistance",
-      "Explain and improve technical work",
-      "Move from idea to working software"
+      "Ingest structured logs into separate datasets through an HTTP API",
+      "Watch live events and query searchable log history with filters",
+      "Build dashboard sets with charts, counters, tables, logs, and formulas",
+      "Install agent skills for logging, querying, and administrative tasks",
+      "Start with two datasets and three days of searchable history on the free plan"
     ],
     "discoveredAt": "2026-09-22",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49797902",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "witdem",
     "name": "Witdem",
-    "category": "productivity-automation",
-    "tagline": "Did your AI Agent accomplish its task? and at what cost?",
+    "category": "data-analytics",
+    "tagline": "Measure AI-agent outcomes, trace decisions, and connect execution costs to product goals.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://demo.witdem.com",
-    "description": "Witdem is a newly discovered AI product for productivity automation. Did your AI Agent accomplish its task? and at what cost?.",
+    "description": "Witdem is an open-source analytics platform for AI-agent products. Its SDKs and dashboard connect individual agent executions to product goals, outcomes, decision traces, supporting evidence, and cost data, helping teams evaluate whether an agent completed the work that mattered rather than only inspecting model-level traces. The self-hosted project is available under the Apache 2.0 license, while Witdem offers separate enterprise support and deployment services.",
     "tags": [
-      "Automation",
-      "Productivity",
-      "Productivity Automation"
+      "Agent analytics",
+      "Outcome tracking",
+      "Decision traces",
+      "Open source"
     ],
     "features": [
-      "Reduce repetitive manual work",
-      "Connect tasks into clear workflows",
-      "Organize information and priorities",
-      "Save time across everyday operations"
+      "Track agent executions against explicit product goals and outcomes",
+      "Inspect decision traces together with supporting evidence",
+      "Attribute model and tool costs to individual runs and outcomes",
+      "Integrate through published SDKs for agent applications",
+      "Self-host the Apache-2.0 project or use enterprise deployment services"
     ],
     "discoveredAt": "2026-09-22",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49785664",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "reweaver-ai-driftdetector",
     "name": "ReWeaver AI DriftDetector",
     "category": "coding-development",
-    "tagline": "score a GitHub repo's production readiness",
-    "pricing": "Freemium",
+    "tagline": "Audit whether a GitHub repository is ready for reliable AI-assisted development.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://drift.reweaver.ai",
-    "description": "ReWeaver AI DriftDetector is a newly discovered AI product for coding development. score a GitHub repo's production readiness.",
+    "description": "DriftDetector is a free, deterministic repository scanner from ReWeaver AI. It checks public or private GitHub repositories across nine production-readiness dimensions, including structure, testing, security, documentation, observability, dependency health, and agent readiness. Reports link findings to affected files, preserve scan history, estimate remediation effort, and calculate a readiness score. The service intentionally makes no LLM calls, so it is best understood as a quality-control companion for AI-assisted development rather than an AI code generator.",
     "tags": [
-      "Coding Development"
+      "AI-assisted development",
+      "Repository audit",
+      "Production readiness",
+      "GitHub"
     ],
     "features": [
-      "Accelerate common development tasks",
-      "Work with contextual code assistance",
-      "Explain and improve technical work",
-      "Move from idea to working software"
+      "Scan public repositories by URL or connect private GitHub repositories",
+      "Check nine production-readiness dimensions with deterministic rules",
+      "Trace findings to affected files and review changes across scan history",
+      "Estimate remediation effort and calculate a repository readiness score",
+      "Assess whether repository structure and context are suitable for coding agents"
     ],
     "discoveredAt": "2026-09-23",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49813096",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "ceptile",
     "name": "Ceptile",
     "category": "research-knowledge",
-    "tagline": "I built Ceptile because I wanted a search tool that could combine the convenience of an AI answer with the ability to inspect the actual web pages behind it. A Ceptile search retri",
-    "pricing": "Freemium",
+    "tagline": "Search the live web, compare ranked sources, and build cited research notes.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://www.ceptile.com",
-    "description": "I built Ceptile because I wanted a search tool that could combine the convenience of an AI answer with the ability to inspect the actual web pages behind it. A Ceptile search retrieves pages from the web, ranks the retrieved sources, and uses them to produce an answer with links back to the sources. You can open the sources and continue researching from there. I've also been building some things around the search wor",
+    "description": "Ceptile is a free AI search and research workspace that retrieves current web sources, ranks them for relevance and trust signals, and synthesizes cited answers. Each response keeps links back to the underlying pages so users can verify claims instead of relying on an isolated summary. Research can be saved into topic-based pages with personal notes, while built-in translation, media results, and temporary chat support multilingual and private one-off searches.",
     "tags": [
-      "Research",
-      "Research Knowledge"
+      "AI search",
+      "Cited answers",
+      "Research workspace",
+      "Live web"
     ],
     "features": [
-      "Find and synthesize useful information",
-      "Explore questions through natural language",
-      "Organize research into clear outputs",
-      "Move from sources to understanding"
+      "Retrieve and rank live web sources before generating an answer",
+      "Attach citations and a full source list to research responses",
+      "Save findings into research pages and add personal notes",
+      "Translate queries and results across supported languages",
+      "Use temporary chats when a search should not remain in history"
     ],
     "discoveredAt": "2026-09-23",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49812270",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "jade",
-    "name": "Jade",
-    "category": "customer-support",
-    "tagline": "Hello HN! I've spent the last 4 years building Jade.email, an email service, and it's now better than any email service I've used. I'm incredibly proud of it and have a small group",
+    "name": "Jade Email",
+    "category": "productivity-automation",
+    "tagline": "Give each sender a unique email address and manage messages with rules or connected agents.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://jade.email",
-    "description": "Jade is a newly discovered AI product for customer support. Hello HN! I've spent the last 4 years building Jade.email, an email service, and it's now better than any email service I've used. I'm incredibly proud of it and have a small group of paying customers already. It's simil.",
+    "description": "Jade is a privacy-focused email service built around unique addresses for individual senders and rule-based handling for categories, forwarding, unsubscribe, bounce, and scheduled deletion. The maker’s Hacker News announcement says connected AI agents can read messages and manage addresses and rules, including through a ChatGPT integration. Because those agent capabilities are not yet documented on Jade’s official product site, Novera keeps Jade as a directory-only listing rather than including it in this roundup.",
     "tags": [
-      "Customer support",
-      "Customer Support"
+      "Email privacy",
+      "AI agents",
+      "Inbox rules",
+      "Sender addresses"
     ],
     "features": [
-      "Answer common customer questions",
-      "Assist human support workflows",
-      "Organize and route conversations",
-      "Improve service response time"
+      "Create a separate email address for each sender",
+      "Categorize, forward, unsubscribe, bounce, or delete mail with rules",
+      "Limit the effect of an address leak to one sender-specific address",
+      "Connect an agent to read messages and manage addresses or rules",
+      "Start on a free plan or choose monthly, annual, or lifetime access"
     ],
     "discoveredAt": "2026-09-23",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49808620",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "directory-only"
   },
   {
     "slug": "lightdrift",
     "name": "Lightdrift",
-    "category": "image-generation",
-    "tagline": "Greetings HN, I'm Jackson, the founder of Lightdrift. It's an image search API and MCP that lets agents retrieve real images, along with natural language descriptions, metadata, pr",
+    "category": "coding-development",
+    "tagline": "Give AI agents an API and MCP server for finding real, licensed images.",
     "pricing": "Freemium",
     "rating": 0.0,
     "featured": false,
     "website": "https://lightdrift.ai",
-    "description": "Greetings HN, I'm Jackson, the founder of Lightdrift. It's an image search API and MCP that lets agents retrieve real images, along with natural language descriptions, metadata, provenance, and license conditions. I built this because I kept having the same problem and it was pissing me off. About a year ago, I was vibe coding on edibles. I decided to build a pipeline that generated educational, short form videos abo",
+    "description": "Lightdrift is an image-search service designed for AI agents and automated workflows. Its API and hosted MCP server search a licensed image library using text or reference images, then return usable image URLs, attribution data, dimensions, and source details. It performs retrieval only—it does not generate or edit images. New accounts receive free credit, while successful searches are billed pay-as-you-go at $0.005; retrieving details for a result is free.",
     "tags": [
-      "Video",
-      "Images",
-      "Data"
+      "Image search",
+      "MCP server",
+      "Agent API",
+      "Licensed media"
     ],
     "features": [
-      "Generate visual concepts from prompts",
-      "Explore style and composition options",
-      "Create reusable creative assets",
-      "Iterate on visual directions quickly"
+      "Search a licensed image library with natural-language queries",
+      "Find visually similar results from a reference image",
+      "Connect agents through a hosted MCP server or REST API",
+      "Return image URLs, dimensions, attribution, and source metadata",
+      "Pay per successful search without a seat-based subscription"
     ],
     "discoveredAt": "2026-09-23",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49806244",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "kado",
     "name": "Kado",
     "category": "research-knowledge",
-    "tagline": "Search to Allow Personal Agents to Find Agent Apps",
-    "pricing": "Freemium",
+    "tagline": "Help personal AI agents discover apps, skills, services, and experts they can use.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://kado.so",
-    "description": "Kado is a newly discovered AI product for research knowledge. Search to Allow Personal Agents to Find Agent Apps.",
+    "description": "Kado is a search and discovery layer for personal AI agents. People can search its web catalog, while agents can use the Kado CLI, installable skills, MCP support, or A2A flows to find relevant apps, agent skills, services, solutions, and experts. Results are structured so an agent can inspect what a service does and continue into supported actions. The maintained CLI and skill repository is available under the MIT license.",
     "tags": [
-      "Research",
-      "Research Knowledge"
+      "Agent discovery",
+      "AI skills",
+      "MCP",
+      "Open source"
     ],
     "features": [
-      "Find and synthesize useful information",
-      "Explore questions through natural language",
-      "Organize research into clear outputs",
-      "Move from sources to understanding"
+      "Search a catalog of agent apps, skills, services, solutions, and experts",
+      "Install Kado skills into supported personal-agent environments",
+      "Use a cross-platform CLI from interactive sessions or automation",
+      "Inspect structured results before an agent invokes a compatible service",
+      "Connect through MCP and supported agent-to-agent workflows"
     ],
     "discoveredAt": "2026-09-23",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49803059",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "editorially-corrected"
   },
   {
     "slug": "arxiv",
-    "name": "Arxiv",
-    "category": "text-writing",
-    "tagline": "Hey HN! We’re Vincent and Jochen from Sitefire ( https://sitefire.ai ). We have been working together for years, with backgrounds in RL/optimization at Stanford and software engine",
-    "pricing": "Freemium",
+    "name": "SlopShape",
+    "category": "coding-development",
+    "tagline": "Research on a benchmark for detecting AI-written web applications.",
+    "pricing": "Free",
     "rating": 0.0,
     "featured": false,
     "website": "https://arxiv.org/abs/2609.15369",
-    "description": "Arxiv is a newly discovered AI product for text writing. Hey HN! We’re Vincent and Jochen from Sitefire ( https://sitefire.ai ). We have been working together for years, with backgrounds in RL/optimization at Stanford and software engineering from Technical University Munich (.",
+    "description": "SlopShape is an arXiv research paper and benchmark about identifying AI-written web applications. The discovery record pointed to the paper’s abstract rather than to an interactive software product, so the automated name “Arxiv,” generic feature list, and freemium label were not valid product metadata. Novera is rejecting this record instead of converting an academic publication into a directory listing; Sitefire’s separate Slop Checker would require its own independently reviewed candidate record.",
     "tags": [
-      "Writing",
-      "Text Writing"
+      "Research paper",
+      "Benchmark",
+      "AI detection",
+      "Web applications"
     ],
     "features": [
-      "Create and refine written content",
-      "Summarize and restructure text",
-      "Adapt voice for different audiences",
-      "Move from prompt to draft quickly"
+      "Describe a benchmark for detecting AI-written web applications",
+      "Evaluate signals associated with generated frontend code",
+      "Report research methodology and experimental results",
+      "Provide an academic reference rather than a hosted software product"
     ],
     "discoveredAt": "2026-09-23",
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49800566",
-    "reviewStatus": "auto-discovered"
+    "reviewStatus": "rejected"
   },
   {
     "slug": "vibe-coder-ladder-round-2",

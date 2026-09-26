@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://noveraai.noveratools.workers.dev/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://noveraai.noveratools.workers.dev/categories/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/categories/</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/categories/text-writing/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/categories/image-generation/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/categories/video-generation/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/categories/audio-music/</loc><lastmod>2026-09-07</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noveraai.noveratools.workers.dev/categories/coding-development/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noveraai.noveratools.workers.dev/categories/productivity-automation/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/categories/coding-development/</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/categories/productivity-automation/</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/categories/marketing-sales/</loc><lastmod>2026-09-07</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noveraai.noveratools.workers.dev/categories/research-knowledge/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/categories/research-knowledge/</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/categories/design-ux/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noveraai.noveratools.workers.dev/categories/data-analytics/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/categories/data-analytics/</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/categories/customer-support/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/categories/education-learning/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noveraai.noveratools.workers.dev/all-tools/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noveraai.noveratools.workers.dev/new/</loc><lastmod>2026-09-22</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noveraai.noveratools.workers.dev/guides/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/all-tools/</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/new/</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/guides/</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/guides/new-ai-tools-2026-09-23/</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/guides/new-ai-tools-2026-09-18/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/guides/new-ai-tools-2026-09-16/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/guides/new-ai-tools-2026-09-09/</loc><lastmod>2026-09-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -115,4 +116,11 @@
   <url><loc>https://noveraai.noveratools.workers.dev/tools/s-roll/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/tools/aclif/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://noveraai.noveratools.workers.dev/tools/facefork/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/tools/z8log/</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/tools/witdem/</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/tools/reweaver-ai-driftdetector/</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/tools/ceptile/</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/tools/jade/</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/tools/lightdrift/</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://noveraai.noveratools.workers.dev/tools/kado/</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
