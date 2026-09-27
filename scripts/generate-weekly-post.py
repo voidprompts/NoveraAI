@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Prepare one factual new-tools roundup for editorial review.
+"""Publish one evidence-checked new-tools roundup when enough tools qualify.
 
-The script never publishes directly. It updates data/posts.json on an automation
-branch; the scheduled GitHub workflow opens a pull request. Merging that pull
-request is the human approval step that makes the article public.
+Only tools that passed the strict deterministic official-evidence reviewer are
+eligible. The script skips a scheduled guide when fewer than the configured
+minimum remain unused, and it never reuses tools from an earlier guide.
 """
 from __future__ import annotations
 
@@ -52,12 +52,15 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", help="Override today's date with YYYY-MM-DD for testing")
     parser.add_argument("--force", action="store_true", help="Ignore the discovery-date window")
+    parser.add_argument("--review-status", default="automatically-reviewed", help="Publication-gate status eligible for automated roundups")
     args = parser.parse_args()
 
     today = dt.date.fromisoformat(args.date) if args.date else dt.date.today()
-    config = load(CONFIG_PATH, {}).get("contentAutomation", {})
-    if not config.get("enabled", True):
-        print("Roundup content automation is disabled.")
+    full_config = load(CONFIG_PATH, {})
+    config = full_config.get("contentAutomation", {})
+    automated = full_config.get("automatedReview", {})
+    if not config.get("enabled", True) or not automated.get("enabled", False):
+        print("Automated roundup publication is disabled.")
         return
 
     posts = load(POSTS_PATH, [])
@@ -68,11 +71,7 @@ def main():
 
     candidates = []
     for tool in tools:
-        if tool.get("slug") in already_used:
-            continue
-        # Some records can remain useful in the directory while lacking enough
-        # independently verifiable detail for an editorial roundup.
-        if tool.get("reviewStatus") in {"directory-only", "rejected"}:
+        if tool.get("slug") in already_used or tool.get("reviewStatus") != args.review_status:
             continue
         try:
             discovered = dt.date.fromisoformat(tool.get("discoveredAt", "1900-01-01"))
@@ -81,19 +80,17 @@ def main():
         if args.force or discovered >= cutoff:
             candidates.append(tool)
 
-    candidates.sort(key=lambda tool: (tool.get("discoveredAt", ""), tool.get("name", "")), reverse=True)
+    candidates.sort(key=lambda tool: (tool.get("reviewedAt", ""), tool.get("discoveredAt", ""), tool.get("name", "")), reverse=True)
     minimum = int(config.get("minimumToolsPerPost", 3))
     maximum = int(config.get("maximumToolsPerPost", 8))
     candidates = candidates[:maximum]
     if len(candidates) < minimum:
-        print(f"No draft created: {len(candidates)} unused qualified tools in the {candidate_window}-day review window; {minimum} required.")
+        print(f"No roundup published: {len(candidates)} unused strictly reviewed tools in the {candidate_window}-day window; {minimum} required.")
         return
 
-    # Each scheduled run gets a date-specific route so up to three independent
-    # review drafts can be prepared in one week without branch or slug clashes.
     slug = f"new-ai-tools-{today.isoformat()}"
     if any(post.get("slug") == slug for post in posts):
-        print(f"No draft created: {slug} already exists.")
+        print(f"No roundup published: {slug} already exists.")
         return
 
     category_labels = []
@@ -104,16 +101,17 @@ def main():
 
     count = len(candidates)
     formatted_date = f"{today.strftime('%B')} {today.day}, {today.year}"
-    title = f"{count} New AI Tools to Explore — {formatted_date}"
     category_summary = human_list(category_labels[:4])
-    description = f"A closer look at {count} newly discovered AI tools across {category_summary}, with clear features, pricing models, and links to detailed listings."
+    title = f"{count} New AI Tools to Explore — {formatted_date}"
+    description = f"An evidence-checked roundup of {count} newly reviewed AI tools across {category_summary}, with official links, verified capabilities, and published access models."
     intro = [
-        f"This directory review surfaced {count} products with clearly defined use cases across {category_summary}. Rather than ranking unfamiliar products, this roundup explains what each tool is designed to do and where it fits.",
-        "Every product below passed Novera’s automated URL, duplicate, and category checks before entering this editorial draft. Product capabilities and pricing can change, so use each detailed listing as a starting point and confirm important information on the official website.",
+        f"This edition covers {count} newly reviewed products across {category_summary}. Each listing passed Novera’s strict automated evidence gate before entering the public directory.",
+        "The gate checks official product pages for explicit AI relevance, product-specific capabilities, category evidence, and published pricing or licensing information. Unclear candidates remain unpublished rather than being used to fill a roundup.",
     ]
     methodology = (
-        "This roundup was generated from newly qualified Novera directory entries. Automated checks validated URLs, removed duplicate domains, and assigned an initial category. "
-        "Publication requires a person to verify every included record and approve this draft. Inclusion is not a paid endorsement, and affiliate relationships do not affect selection or placement."
+        "Novera’s deterministic reviewer fetched the official product site and selected same-domain documentation or pricing pages, then required explicit evidence of AI functionality, an active software product, at least three product-specific capabilities, a clear category, and a supported pricing classification. "
+        "The reviewer uses fixed evidence rules rather than a generative model and records evidence URLs and content hashes in a private audit log. Candidates with missing or conflicting evidence stay pending for a later check; unmistakable articles or research-only records are rejected. "
+        "Inclusion is not a paid endorsement, and product capabilities, limits, and prices can change, so confirm current details with each provider."
     )
     post = {
         "slug": slug,
@@ -127,13 +125,13 @@ def main():
         "toolSlugs": [tool["slug"] for tool in candidates],
         "intro": intro,
         "methodology": methodology,
-        "reviewStatus": "editorial-review-required",
-        "publicationStatus": "editorial-review",
+        "reviewStatus": "automatically-reviewed",
+        "publicationStatus": "published",
     }
     posts.insert(0, post)
     POSTS_PATH.write_text(json.dumps(posts, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     subprocess.run(["node", str(ROOT / "scripts" / "build-site.js")], cwd=ROOT, check=True)
-    print(f"Prepared review draft: {title}")
+    print(f"Published evidence-checked roundup: {title}")
     print(f"Tools included: {', '.join(tool['name'] for tool in candidates)}")
 
 

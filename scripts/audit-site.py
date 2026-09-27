@@ -73,10 +73,57 @@ def main():
     if public_slugs & {tool["slug"] for tool in pending + rejected}:
         fail("A pending or rejected record crossed the publication gate")
 
+    allowed_statuses = {"auto-discovered", "editorially-corrected", "directory-only", "automatically-reviewed", "rejected"}
+    unknown_statuses = sorted({tool.get("reviewStatus") for tool in raw_tools} - allowed_statuses)
+    if unknown_statuses:
+        fail(f"Unknown review statuses exist: {unknown_statuses}")
+
+    tools_by_slug = {tool["slug"]: tool for tool in raw_tools}
+    automated_tools = [tool for tool in raw_tools if tool.get("reviewStatus") == "automatically-reviewed"]
+    for tool in automated_tools:
+        if tool.get("reviewMethod") != "strict-deterministic-v1":
+            fail(f"Automatically reviewed record lacks the expected review method: {tool['slug']}")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(tool.get("reviewedAt", ""))):
+            fail(f"Automatically reviewed record lacks a valid review date: {tool['slug']}")
+        if tool.get("pricing") not in {"Free", "Freemium", "Paid", "Enterprise"}:
+            fail(f"Automatically reviewed record has invalid pricing: {tool['slug']}")
+        if tool.get("category") not in {category["slug"] for category in core["categories"]}:
+            fail(f"Automatically reviewed record has invalid category: {tool['slug']}")
+        if len(tool.get("description", "")) < 260:
+            fail(f"Automatically reviewed record has a thin description: {tool['slug']}")
+        if len(tool.get("features", [])) < 3 or len(tool.get("tags", [])) < 3:
+            fail(f"Automatically reviewed record lacks product-specific fields: {tool['slug']}")
+
+    used_tool_slugs = [slug for post in all_posts for slug in post.get("toolSlugs", [])]
+    reused = sorted(slug for slug, count in Counter(used_tool_slugs).items() if count > 1)
+    if reused:
+        fail(f"Tools are reused across roundup guides: {reused}")
+
+    minimum_tools = int(config.get("contentAutomation", {}).get("minimumToolsPerPost", 3))
     for post in expected_posts:
         missing = set(post.get("toolSlugs", [])) - public_slugs
         if missing:
             fail(f"Published guide {post['slug']} references non-public tools: {sorted(missing)}")
+        if post.get("reviewStatus") == "automatically-reviewed":
+            if len(post.get("toolSlugs", [])) < minimum_tools:
+                fail(f"Automated guide is thinner than the configured minimum: {post['slug']}")
+            wrong_status = [slug for slug in post.get("toolSlugs", []) if tools_by_slug.get(slug, {}).get("reviewStatus") != "automatically-reviewed"]
+            if wrong_status:
+                fail(f"Automated guide includes tools that did not pass automated review: {wrong_status}")
+            if "deterministic reviewer" not in post.get("methodology", ""):
+                fail(f"Automated guide does not disclose its review method: {post['slug']}")
+
+    queue_path = ROOT / "data/editorial-queue.json"
+    if queue_path.exists() and not isinstance(load_json("data/editorial-queue.json"), dict):
+        fail("Editorial queue state must be a JSON object")
+    log_path = ROOT / "data/editorial-log.jsonl"
+    if log_path.exists():
+        for number, line in enumerate(log_path.read_text(encoding="utf-8").splitlines(), start=1):
+            if not line.strip():
+                continue
+            entry = json.loads(line)
+            if not entry.get("timestamp") or not entry.get("slug") or not entry.get("decision"):
+                fail(f"Invalid editorial audit log entry on line {number}")
 
     tree = ET.parse(ROOT / "sitemap.xml")
     ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}

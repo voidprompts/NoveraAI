@@ -242,7 +242,7 @@ function toolPageContent(tool) {
 }
 
 const infoPages = {
-  about: {title:'About Novera', description:'Learn how Novera discovers, categorizes, reviews, and presents useful AI tools.', heading:'Useful discovery, without the noise.', copy:'Novera is an independent directory that organizes AI products around the work people are trying to do. Automated discovery checks approved sources, validates URLs, removes duplicates, and stages candidates outside the public directory until they pass editorial review.'},
+  about: {title:'About Novera', description:'Learn how Novera discovers, categorizes, reviews, and presents useful AI tools.', heading:'Useful discovery, without the noise.', copy:'Novera is an independent directory that organizes AI products around the work people are trying to do. Automated discovery checks approved sources, validates URLs, removes duplicates, and stages candidates outside the public directory until they pass a strict official-evidence review. Clear cases can publish automatically; uncertainty remains pending.'},
   privacy: {title:'Privacy Policy', description:'Read how Novera handles analytics, form submissions, hosting data, cookies, and advertising privacy.', heading:'A clear, practical privacy policy.', copy:'Novera uses privacy-friendly Cloudflare Web Analytics for aggregate measurements. Contact and tool-submission forms are processed by Formspree for message delivery and spam screening. If advertising is enabled later, consent choices will be provided where required.'},
   terms: {title:'Terms of Use', description:'Read the terms for using Novera and its independent AI tools directory.', heading:'Simple terms for a useful resource.', copy:'Directory content is provided for general discovery. Product details can change, so visitors should verify important information on official websites. Product names and trademarks belong to their respective owners.'},
   contact: {title:'Contact Novera', description:'Send Novera a listing correction, privacy request, partnership question, or directory feedback.', heading:'Questions, corrections, or feedback?', copy:'Use the contact form for listing corrections, privacy requests, partnerships, or general feedback. For a new product, use the structured tool submission form.'}
@@ -285,13 +285,13 @@ function generatePages() {
   const newList = discovered.length ? discovered : tools.filter(t=>t.featured).slice(0,8);
   writeRoute('/new/', page({
     title:`New AI Tools — ${config.siteName}`,description:'See recently reviewed AI tools, clearly organized into useful categories.',route:'/new/',pageName:'new',bodyClass:'new-page',
-    content:`<section class="page-hero"><div class="container"><h1>New tools, thoughtfully placed.</h1><p class="lede">Fresh AI products discovered by Novera and published after editorial review.</p></div></section><section class="discovery-area"><div class="container">${staticToolLinks(newList)}</div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:'New AI tools',route:'/new/'}])]
+    content:`<section class="page-hero"><div class="container"><h1>New tools, thoughtfully placed.</h1><p class="lede">Fresh AI products discovered by Novera and published only after a strict official-evidence review.</p></div></section><section class="discovery-area"><div class="container">${staticToolLinks(newList)}</div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:'New AI tools',route:'/new/'}])]
   }));
 
-  const blogSchema = schemaBase('Blog',{name:`${config.siteName} AI tool guides`,description:'Human-reviewed new AI tool roundups with transparent selection context',blogPost:posts.map(post=>({'@type':'BlogPosting',headline:post.title,url:urlFor(`/guides/${post.slug}/`),datePublished:post.date}))});
+  const blogSchema = schemaBase('Blog',{name:`${config.siteName} AI tool guides`,description:'Evidence-checked new AI tool roundups with transparent selection context',blogPost:posts.map(post=>({'@type':'BlogPosting',headline:post.title,url:urlFor(`/guides/${post.slug}/`),datePublished:post.date}))});
   writeRoute('/guides/', page({
-    title:`AI Tool Guides & New Tool Roundups — ${config.siteName}`,description:'Explore human-reviewed new AI tool roundups with clear categories, practical context, and transparent selection notes.',route:'/guides/',pageName:'guides',bodyClass:'guides-page',
-    content:`<section class="page-hero"><div class="container"><h1>Useful context for choosing AI tools.</h1><p class="lede">New-tool roundups can be prepared up to three times per week when enough qualified additions are available, then reviewed before publication.</p></div></section><section class="discovery-area"><div class="container">${posts.length ? staticPostLinks(posts) : '<p>The first roundup is being prepared.</p>'}</div></section>`,schema:[blogSchema,breadcrumbSchema([{name:'Home',route:'/'},{name:'Guides',route:'/guides/'}])]
+    title:`AI Tool Guides & New Tool Roundups — ${config.siteName}`,description:'Explore evidence-checked new AI tool roundups with clear categories, practical context, and transparent selection notes.',route:'/guides/',pageName:'guides',bodyClass:'guides-page',
+    content:`<section class="page-hero"><div class="container"><h1>Useful context for choosing AI tools.</h1><p class="lede">New-tool roundups can publish up to three times per week when enough additions pass the strict official-evidence gate; uncertain candidates remain unpublished.</p></div></section><section class="discovery-area"><div class="container">${posts.length ? staticPostLinks(posts) : '<p>The first roundup is being prepared.</p>'}</div></section>`,schema:[blogSchema,breadcrumbSchema([{name:'Home',route:'/'},{name:'Guides',route:'/guides/'}])]
   }));
 
   for (const post of posts) {
@@ -340,7 +340,7 @@ function generatePages() {
       title:`Listing under editorial review — ${config.siteName}`,
       description:'This discovery is being checked before it can join the public Novera directory.',
       route:`/tools/${tool.slug}/`,pageName:'pending-tool',bodyClass:'info-page',robots:'noindex,follow',
-      content:`<section class="page-hero"><div class="container"><span class="eyebrow">Editorial review</span><h1>Listing under editorial review.</h1><p class="lede">Novera discovered this product automatically. Its claims, category, pricing, and directory fit are still being checked, so it is not part of the public directory yet.</p><a class="btn btn-primary" href="/all-tools/">Browse reviewed AI tools</a></div></section>`
+      content:`<section class="page-hero"><div class="container"><span class="eyebrow">Editorial review</span><h1>Listing under editorial review.</h1><p class="lede">Novera discovered this product automatically. Its official evidence is incomplete or still being checked, so it remains outside the public directory.</p><a class="btn btn-primary" href="/all-tools/">Browse reviewed AI tools</a></div></section>`
     });
     writeRoute(`/tools/${tool.slug}/`, notice);
   }
@@ -353,7 +353,7 @@ function generatePages() {
       title:`Listing unavailable — ${config.siteName}`,
       description:'This listing is not part of the Novera AI tools directory.',
       route:`/tools/${tool.slug}/`,pageName:'removed-tool',bodyClass:'info-page',robots:'noindex,follow',
-      content:`<section class="page-hero"><div class="container"><h1>Listing unavailable.</h1><p class="lede">After editorial review, this product did not meet Novera’s AI-tool scope.</p><a class="btn btn-primary" href="/all-tools/">Browse verified AI tools</a></div></section>`
+      content:`<section class="page-hero"><div class="container"><h1>Listing unavailable.</h1><p class="lede">After a strict evidence review, this record did not meet Novera’s AI-product scope.</p><a class="btn btn-primary" href="/all-tools/">Browse verified AI tools</a></div></section>`
     });
     writeRoute(`/tools/${tool.slug}/`, notice);
   }

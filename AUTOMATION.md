@@ -56,7 +56,7 @@ The scheduled workflow in `.github/workflows/refresh-directory.yml` runs daily a
 9. Writes a `noindex,follow` editorial-review notice at each staged route, which also safely replaces any route left by an older deployment.
 10. Commits the staged audit update back to the repository.
 
-Discovery is not publication. Only `editorially-corrected` and intentional `directory-only` records enter the public directory. Rejected records remain in the audit JSON to prevent rediscovery and receive a distinct `noindex,follow` unavailable notice. Change the confidence threshold, run limit, or allowed publication statuses in `site.config.json`. Do not set `autoPublish` to true.
+Discovery is not publication. Newly staged records remain private to the audit queue until they pass either a manual editorial review or the strict automated evidence gate described below. Public statuses are `editorially-corrected`, intentional `directory-only`, and `automatically-reviewed`. Rejected records remain in the audit JSON to prevent rediscovery and receive a distinct `noindex,follow` unavailable notice. Change the discovery threshold, run limit, review batch size, deferral interval, or allowed publication statuses in `site.config.json`.
 
 ### Add more discovery sources
 
@@ -90,34 +90,50 @@ Place a record in `data/inbox.json` and run `npm run update:local`:
 ]
 ```
 
-The local update stages this record; it does not make it public. After checking official sources and replacing all generic copy, an editor can assign one of these statuses in `data/auto-tools.json`:
+The local update stages this record; it does not make it public. The scheduled reviewer can later assign `automatically-reviewed` only when the official evidence passes every strict gate. Manual maintenance can still use:
 
-- `editorially-corrected` — verified and rewritten for a full public listing;
+- `editorially-corrected` — manually verified and rewritten for a full public listing;
 - `directory-only` — intentionally public in the directory but excluded from automated roundups;
 - `rejected` — retained only in the audit data with an unavailable notice.
 
-Leave uncertain records as `auto-discovered`. Add an `updatedAt` date whenever an accepted listing receives a substantial editorial change, then run `npm run validate`.
+Leave uncertain records as `auto-discovered`. Add an `updatedAt` date whenever a manually maintained listing receives a substantial editorial change, then run `npm run validate`.
 
-## 4. Human-reviewed roundup posts
+## 4. Strict hands-off review and publication
 
-The workflow in `.github/workflows/weekly-roundup.yml` runs every **Monday, Wednesday, and Friday at 05:10 UTC / 1:10 PM Manila**. It does not publish content directly. Instead, it:
+The workflow in `.github/workflows/weekly-roundup.yml` runs every **Monday, Wednesday, and Friday at 05:10 UTC / 1:10 PM Manila**. It processes the existing backlog and future discoveries in conservative batches. No paid model, API key, or generative writing service is used.
 
-1. Selects three to eight unused qualified records from the configured 60-day editorial window.
-2. Excludes tools already used in an earlier roundup and intentional `directory-only` or rejected records.
-3. Creates one factual, date-specific roundup draft with category, pricing, feature, and methodology context.
-4. Marks the guide `publicationStatus: editorial-review` and generates a direct preview route with `noindex,follow`.
-5. Excludes the draft from the public Guides index, browser-facing post data, BlogPosting structured data, RSS, and the sitemap.
-6. Opens a GitHub pull request containing an editorial checklist.
-7. Waits for an editor to verify and correct each record, then mark accepted tools public and change the guide to `publicationStatus: published`.
+For each due candidate, `scripts/auto-review-tools.py`:
 
-Merging an untouched automation pull request does not publish the guide or its staged listings. The build also fails if a guide marked `published` references any non-public tool. These safeguards help prevent inaccurate, repetitive, or low-value scaled content from reaching indexable production pages.
+1. Validates that the official URL resolves only to public internet addresses and limits redirects, content types, download size, and same-domain evidence links.
+2. Fetches the official product page and up to three relevant same-domain documentation, feature, about, or pricing pages.
+3. Requires explicit official evidence of AI functionality and an active software product.
+4. Requires at least three product-specific capability signals, a clear category, and published pricing or licensing evidence.
+5. Produces conservative original copy from fixed editorial templates tied to those capability signals; it does not copy the discovery post or ask a model to invent prose.
+6. Assigns `automatically-reviewed` only after every gate passes.
+7. Rejects only decisive non-products, such as an academic paper presented as a product record.
+8. Leaves unreachable, incomplete, ambiguous, or conflicting records as `auto-discovered`, records a reason in `data/editorial-queue.json`, and schedules a later retry.
+9. Writes evidence URLs and content hashes to the non-public `data/editorial-log.jsonl` audit trail.
 
-If fewer than three unused qualified tools are available, that scheduled run exits successfully without creating a draft. The system never reuses tools merely to meet the three-times-per-week schedule. Settings are available under `contentAutomation` in `site.config.json`.
+After reviewing a batch, the workflow:
 
-To test locally:
+1. Publishes every verified listing even when fewer than three tools qualify.
+2. Creates a roundup only when at least three unused `automatically-reviewed` tools are available in the configured 60-day window.
+3. Never reuses a tool in another roundup and never creates thin filler to satisfy the schedule.
+4. Runs offline reviewer regression tests, JavaScript and Python syntax checks, a complete rebuild, and the publication/SEO audit.
+5. Creates a fresh `automation/editorial-*` branch and pull request only when files actually changed.
+6. Restricts automatic merging to a hard allowlist of generated content and audit-data paths. Any workflow, script, configuration, or application-code change blocks the merge.
+7. Waits for the exact `Workers Builds: noveraai` preview check, requires a clean merge state and unchanged head commit, then merges and deletes the temporary branch.
+8. Leaves the pull request open and unpublished if hosting, validation, path, or merge checks fail. The next scheduled run can retry a safe pending pull request.
+
+The reviewer intentionally favors false negatives over false positives. A candidate can remain pending indefinitely when official evidence is insufficient. Settings are under `automatedReview` and `contentAutomation` in `site.config.json`.
+
+To test the reviewer and publication logic locally:
 
 ```bash
-npm run draft:roundup
+npm run test:review
+python3 scripts/auto-review-tools.py --dry-run --limit 3
+npm run publish:roundup
+npm run validate
 ```
 
 ## 5. SEO output
@@ -147,5 +163,8 @@ npm run audit          # verify publication boundaries, routes, counts, links, f
 npm run validate       # rebuild and run the full publication/SEO audit
 npm run update         # fetch sources, qualify tools, stage for review, and rebuild
 npm run update:local   # stage inbox data and rebuild without network fetching
+npm run test:review    # run offline regression tests for the strict reviewer
+npm run review:auto    # review one due backlog batch using official evidence
+npm run publish:roundup # publish only when at least three unused reviewed tools qualify
 npm run preview        # preview on port 4173
 ```
