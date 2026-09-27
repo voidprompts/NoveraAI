@@ -2330,5 +2330,56 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49843535",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "finderysearch",
+    "name": "FinderySearch",
+    "category": "research-knowledge",
+    "tagline": "The AI powered smart search engine",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://aurasearch-real-private-unlimited-search-engine-18351778012.asia-southeast1.run.app",
+    "description": "FinderySearch is a newly discovered AI product for research knowledge. The AI powered smart search engine.",
+    "tags": [
+      "Research",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-27",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49862642",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "netherite",
+    "name": "Netherite",
+    "category": "coding-development",
+    "tagline": "Netherite is your own Security Specialist. It reviews your codebase, find vulnerabilities, flaws, and other security issues before writing professional report. Also gives you fix p",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.netherite.uz",
+    "description": "Netherite is your own Security Specialist. It reviews your codebase, find vulnerabilities, flaws, and other security issues before writing professional report. Also gives you fix prompt. Free to try!.",
+    "tags": [
+      "Developer",
+      "Writing",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-27",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49857290",
+    "reviewStatus": "auto-discovered"
   }
 ]
