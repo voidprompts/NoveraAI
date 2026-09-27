@@ -168,3 +168,21 @@ npm run review:auto    # review one due backlog batch using official evidence
 npm run publish:roundup # publish only when at least three unused reviewed tools qualify
 npm run preview        # preview on port 4173
 ```
+
+## AdSense activation safety
+
+Advertising is prepared but disabled by default. A valid publisher ID is enough to generate the ownership meta tag and `ads.txt`; it does **not** activate an ad unit. Ad rendering also requires numeric slot IDs and the explicit `adsense.consentReady` switch.
+
+Before changing that switch to `true`:
+
+1. Obtain AdSense site approval and the real `ca-pub-...` identifier.
+2. Configure Google's required certified consent message for applicable EEA, UK, and Swiss visitors in AdSense Privacy & messaging.
+3. Create the home, listing, and detail ad units.
+4. Provide `ADSENSE_PUBLISHER_ID`, the three slot variables, and `ADSENSE_CONSENT_READY=true` in the build environment (or update the equivalent configuration in one reviewed PR).
+5. Rebuild and run `npm run validate`; confirm the privacy policy and `ads.txt` are correct before deployment.
+
+Novera deliberately has no ad placement on contact, submission, privacy, terms, author, editorial-policy, pending, rejected, or empty-state pages. Advertising must remain visually labeled and may not influence inclusion, wording, category placement, or review status.
+
+## Editorial transparency
+
+Every public tool page provides a best-fit statement, category-specific evaluation checks, a review label, a dated record marker, an official source, and a no-hands-on-testing disclosure. Published roundups add an at-a-glance section, provider links, product-specific verification prompts, visible organizational authorship, and a source-review disclosure. The organizational author profile is `/authors/novera-editorial/`; the governing source, testing, automation, corrections, and conflicts policy is `/editorial-policy/`.

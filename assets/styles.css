@@ -411,3 +411,60 @@ img, svg { display: block; }
   .footer-column:last-child { grid-column:1/-1; }
   .footer-bottom { align-items:flex-start; flex-direction:column; }
 }
+
+/* Editorial trust and decision-support enhancements */
+.policy-links { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }
+.policy-links .btn { width:auto; }
+.review-card,
+.guide-at-glance,
+.guide-sources {
+  padding:clamp(22px, 3vw, 34px);
+  border:1px solid var(--line);
+  border-radius:24px;
+  background:linear-gradient(145deg, rgba(255,255,255,.82), rgba(237,242,238,.72));
+  box-shadow:var(--shadow-sm);
+}
+.review-card h2,
+.guide-at-glance h2,
+.guide-sources h2 { margin-top:6px; }
+.review-facts { display:grid; gap:0; margin:22px 0; border-top:1px solid var(--line); }
+.review-facts > div { display:grid; grid-template-columns:minmax(130px, .45fr) 1fr; gap:18px; padding:14px 0; border-bottom:1px solid var(--line); }
+.review-facts dt { color:var(--muted); font-size:.82rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; }
+.review-facts dd { margin:0; font-weight:650; }
+.review-links { margin-bottom:0; }
+.decision-list { display:grid; gap:12px; padding-left:22px; }
+.decision-list li { padding-left:4px; line-height:1.65; }
+.guide-disclosure {
+  display:inline-flex;
+  margin:16px 0 0;
+  padding:9px 13px;
+  border:1px solid rgba(87,88,194,.2);
+  border-radius:999px;
+  background:rgba(167,167,255,.12);
+  color:var(--ink);
+  font-size:.82rem;
+  font-weight:650;
+}
+.guide-byline a { color:inherit; font-weight:750; text-underline-offset:3px; }
+.guide-summary-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:18px; }
+.guide-summary-card { padding:20px; border:1px solid var(--line); border-radius:18px; background:rgba(255,255,255,.72); }
+.guide-summary-card h3 { margin:5px 0 8px; font-size:1.15rem; }
+.guide-summary-card h3 a { color:var(--ink); text-decoration:none; }
+.guide-summary-card h3 a:hover { color:var(--indigo); }
+.guide-summary-card p { margin:0 0 14px; color:var(--muted); font-size:.92rem; line-height:1.6; }
+.guide-tool h3 { margin-top:24px; }
+.guide-tool-actions { flex-wrap:wrap; }
+.guide-tool-actions .text-link { margin-right:auto; }
+.guide-sources ul { columns:2; gap:34px; padding-left:20px; }
+.guide-sources li { break-inside:avoid; margin:8px 0; }
+.guide-method a,
+.guide-sources a,
+.review-card a { color:var(--indigo); text-underline-offset:3px; }
+.footer-legal { flex-wrap:wrap; }
+
+@media (max-width: 760px) {
+  .guide-summary-grid { grid-template-columns:1fr; }
+  .guide-sources ul { columns:1; }
+  .review-facts > div { grid-template-columns:1fr; gap:5px; }
+  .guide-disclosure { border-radius:16px; line-height:1.5; }
+}

@@ -145,7 +145,8 @@ def main():
 
     expected_routes = {
         "/", "/categories/", "/all-tools/", "/new/", "/guides/", "/submit/",
-        "/about/", "/privacy/", "/terms/", "/contact/",
+        "/about/", "/editorial-policy/", "/authors/novera-editorial/",
+        "/privacy/", "/terms/", "/contact/",
         *{f"/categories/{category['slug']}/" for category in core["categories"]},
         *{f"/tools/{slug}/" for slug in public_slugs},
         *{f"/guides/{post['slug']}/" for post in expected_posts},
@@ -186,6 +187,68 @@ def main():
         html = page_path.read_text(encoding="utf-8")
         if '<meta name="robots" content="index,follow' not in html:
             fail(f"Sitemap route is not indexable: {route}")
+
+    # AdSense-readiness and editorial-transparency checks. These verify the
+    # crawlable HTML rather than relying on browser JavaScript.
+    trust_routes = {
+        "/editorial-policy/": ["Source hierarchy", "Evidence review is not hands-on testing", "Corrections and updates", "Advertising, affiliates, and conflicts"],
+        "/authors/novera-editorial/": ["Novera Editorial", "Scope of work", "Review approach", "Quality controls", "ProfilePage", "publishingPrinciples"],
+        "/privacy/": ["Advertising and consent", "valid publisher ID"],
+        "/about/": ["Who is responsible", "/editorial-policy/", "/authors/novera-editorial/"],
+    }
+    for route, markers in trust_routes.items():
+        html = route_file(route).read_text(encoding="utf-8")
+        missing = [marker for marker in markers if marker not in html]
+        if missing:
+            fail(f"Trust page {route} is missing required disclosures: {missing}")
+
+    for tool in public_tools:
+        route = f"/tools/{tool['slug']}/"
+        html = route_file(route).read_text(encoding="utf-8")
+        markers = [
+            "Best fit", "Before you choose", "How this listing was reviewed",
+            "No hands-on testing claimed", "/editorial-policy/", "Primary source",
+        ]
+        missing = [marker for marker in markers if marker not in html]
+        if missing:
+            fail(f"Public tool page lacks decision or review context: {route} missing={missing}")
+        if tool.get("website", "") not in html:
+            fail(f"Public tool page lacks its official source URL: {route}")
+
+    for post in expected_posts:
+        route = f"/guides/{post['slug']}/"
+        html = route_file(route).read_text(encoding="utf-8")
+        markers = [
+            "Official-source review", "Not a hands-on product test", "Best fit",
+            "What to verify", "Official sources", "/authors/novera-editorial/",
+            "/editorial-policy/", '"citation"',
+        ]
+        missing = [marker for marker in markers if marker not in html]
+        if missing:
+            fail(f"Published guide lacks source or testing transparency: {route} missing={missing}")
+        for slug in post.get("toolSlugs", []):
+            tool = next((item for item in public_tools if item["slug"] == slug), None)
+            if not tool or tool.get("website", "") not in html:
+                fail(f"Published guide lacks an official source link for {slug}: {route}")
+
+    app_source = (ROOT / "assets/app.js").read_text(encoding="utf-8")
+    for misleading in ["Directory score", "Last reviewed</span><strong>August 2026", "Highest rated"]:
+        if misleading in app_source:
+            fail(f"Browser UI still contains an unsupported quality signal: {misleading}")
+
+    adsense = config.get("adsense", {})
+    if adsense.get("publisherId", "") == "":
+        ads = (ROOT / "ads.txt").read_text(encoding="utf-8")
+        if "google.com, pub-" in ads:
+            fail("ads.txt contains a publisher record before an AdSense ID is configured")
+        if adsense.get("consentReady") is not False:
+            fail("AdSense consent readiness must remain false before an account is configured")
+    runtime_config = (ROOT / "assets/site-config.js").read_text(encoding="utf-8")
+    if '"consentReady": false' not in runtime_config:
+        fail("Browser runtime is missing the default-off AdSense consent switch")
+    for required_guard in ["consentReady !== true", "!consentReady"]:
+        if required_guard not in app_source:
+            fail(f"AdSense loader is missing its consent guard: {required_guard}")
 
     # Verify every root-relative HTML link resolves to a generated route or a
     # known machine-readable root file. This catches stale internal links.

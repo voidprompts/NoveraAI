@@ -10,6 +10,7 @@ window.NOVERA_SITE_CONFIG = {
   },
   "adsense": {
     "publisherId": "",
+    "consentReady": false,
     "slots": {
       "home": "",
       "listing": "",

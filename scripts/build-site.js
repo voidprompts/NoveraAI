@@ -15,6 +15,7 @@ const config = JSON.parse(fs.readFileSync(path.join(root, 'site.config.json'), '
 config.siteUrl = process.env.SITE_URL || config.siteUrl;
 config.adsense = config.adsense || {publisherId:'',slots:{}};
 config.adsense.publisherId = process.env.ADSENSE_PUBLISHER_ID || config.adsense.publisherId;
+config.adsense.consentReady = /^true$/i.test(process.env.ADSENSE_CONSENT_READY || '') || config.adsense.consentReady === true;
 config.adsense.slots = config.adsense.slots || {};
 config.adsense.slots.home = process.env.ADSENSE_HOME_SLOT || config.adsense.slots.home || '';
 config.adsense.slots.listing = process.env.ADSENSE_LISTING_SLOT || config.adsense.slots.listing || '';
@@ -68,6 +69,106 @@ const categoryLastmod = slug => maxDate([
   ...(pendingTools.some(tool => tool.category === slug) ? [publicationGateDate] : []),
   launchDate
 ]);
+const editorialPolicyDate = '2026-09-27';
+
+const categoryDecisionCriteria = {
+  'text-writing': [
+    'Check factual accuracy and citation support before relying on generated text.',
+    'Review how prompts, uploads, and confidential text are stored or used.',
+    'Test whether tone, style, and export controls fit the intended workflow.'
+  ],
+  'image-generation': [
+    'Confirm commercial-use rights, attribution rules, and restrictions for generated images.',
+    'Compare prompt adherence, editing control, output resolution, and watermark policies.',
+    'Review how uploaded reference images and personal data are handled.'
+  ],
+  'video-generation': [
+    'Check output length, resolution, watermark, render-time, and export limits on the intended plan.',
+    'Confirm commercial-use rights for generated footage, voices, music, and uploaded assets.',
+    'Test motion consistency and editing control with a representative project before committing.'
+  ],
+  'audio-music': [
+    'Confirm voice-consent, licensing, attribution, and commercial-use requirements.',
+    'Compare export formats, audio quality, language support, and generation limits.',
+    'Review the provider’s rules for uploaded recordings and cloned or synthetic voices.'
+  ],
+  'coding-development': [
+    'Check supported languages, editors, repositories, and deployment environments.',
+    'Review source-code retention, model-training, access-control, and security policies.',
+    'Treat generated code as untrusted until it passes tests, dependency review, and security checks.'
+  ],
+  'productivity-automation': [
+    'Confirm required integrations, permissions, usage limits, and supported data sources.',
+    'Test failure handling, approval controls, logs, and recovery before automating important work.',
+    'Review how workspace data is stored, shared, and removed.'
+  ],
+  'marketing-sales': [
+    'Check brand controls, approval workflows, platform integrations, and export options.',
+    'Review contact-data handling and applicable consent, privacy, and outreach requirements.',
+    'Validate generated claims and campaign recommendations before publication.'
+  ],
+  'research-knowledge': [
+    'Inspect source coverage, citation quality, freshness, and the ability to open original evidence.',
+    'Verify important claims independently; confident language does not guarantee accuracy.',
+    'Review upload privacy, retention, team access, and export controls.'
+  ],
+  'design-ux': [
+    'Check editability, export formats, collaboration features, and handoff compatibility.',
+    'Confirm commercial-use rights for generated assets and uploaded references.',
+    'Test output quality and accessibility with a representative design task.'
+  ],
+  'data-analytics': [
+    'Confirm supported data connections, refresh behavior, export formats, and scale limits.',
+    'Review access controls, data retention, residency, and model-training policies.',
+    'Validate calculations and generated explanations against the underlying data.'
+  ],
+  'customer-support': [
+    'Test escalation, citation, fallback, and hallucination controls before customer-facing use.',
+    'Review conversation retention, personal-data handling, access controls, and data residency.',
+    'Confirm channel integrations, language coverage, analytics, and human handoff behavior.'
+  ],
+  'education-learning': [
+    'Review learner privacy, age requirements, accessibility, and educator or guardian controls.',
+    'Check curriculum fit, feedback quality, progress tracking, and export options.',
+    'Verify instructional explanations and generated learning materials before classroom use.'
+  ]
+};
+
+const lowerLead = value => {
+  const text = String(value || '').replace(/[.!]+$/, '').trim();
+  return text ? text[0].toLowerCase() + text.slice(1) : 'evaluate the product for a specific workflow';
+};
+const bestFitCopy = tool => `${tool.name} is most relevant to people who want to ${lowerLead(tool.features?.[0])}. It is positioned in ${byCategory(tool.category)?.name || 'its category'}; the official product should be checked against the exact workflow, data, and output requirements before adoption.`;
+const pricingConsideration = tool => ({
+  Free: 'Confirm the current license, included usage, hosting requirements, and whether paid services are needed for production use.',
+  Freemium: 'Check the current free-tier allowance, feature restrictions, watermark or export limits, and the cost of the expected paid usage.',
+  Paid: 'Confirm the current price, billing unit, trial or refund terms, usage limits, and any extra platform charges.',
+  Enterprise: 'Ask the provider about current contracts, minimum commitments, security terms, support, and deployment requirements.'
+}[tool.pricing] || 'Confirm current access, pricing, plan limits, and availability on the official website.');
+const reviewDetails = tool => {
+  const date = validDate(tool.reviewedAt) || validDate(tool.updatedAt) || validDate(postDateByTool.get(tool.slug)) || validDate(tool.discoveredAt) || launchDate;
+  if (tool.reviewStatus === 'automatically-reviewed') return {
+    label:'Automatic official-evidence review',
+    explanation:'This record passed Novera’s strict deterministic gate using the official product site and same-domain documentation. The gate requires explicit AI relevance, active-product evidence, category agreement, product-specific capabilities, and pricing or licensing evidence.',
+    dateLabel:'Evidence reviewed', date
+  };
+  if (tool.reviewStatus === 'editorially-corrected') return {
+    label:'Editorially reviewed',
+    explanation:'Novera Editorial checked official product information and corrected the description, category, capabilities, and pricing label before publication.',
+    dateLabel:'Listing updated', date
+  };
+  if (tool.reviewStatus === 'directory-only') return {
+    label:'Curated directory listing',
+    explanation:'This record was selected for the public directory after a source review. It is provided for product discovery and is not a hands-on review or endorsement.',
+    dateLabel:'Listing updated', date
+  };
+  return {
+    label:'Curated directory listing',
+    explanation:'Novera Editorial maintains this summary from publicly available product information. It is a discovery entry, not a hands-on review, ranking, or endorsement.',
+    dateLabel:'Directory record', date
+  };
+};
+const verificationPoints = tool => [pricingConsideration(tool), ...(categoryDecisionCriteria[tool.category] || [])];
 
 const e = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const xml = value => e(value);
@@ -76,6 +177,10 @@ const urlFor = route => siteUrl ? `${siteUrl}${route}` : route;
 
 function validPublisher() {
   return /^ca-pub-\d+$/.test(config.adsense?.publisherId || '');
+}
+
+function adsEnabled() {
+  return validPublisher() && config.adsense?.consentReady === true;
 }
 
 function formspreeEndpoint() {
@@ -175,7 +280,18 @@ function staticPostContent(post) {
   // Review drafts can render staged records without adding those records to
   // public browse data, feeds, schemas, counts, or the sitemap.
   const roundupTools = (post.toolSlugs || []).map(auditToolBySlug).filter(Boolean);
-  return `<article class="guide-article"><header class="guide-hero"><div class="container"><div class="guide-heading"><h1>${e(post.title)}</h1><p class="lede">${e(post.description)}</p><div class="guide-byline"><span>By ${e(post.author || 'Novera Editorial')}</span><span>${e(post.date)}</span><span>${e(post.readingTime || 5)} min read</span></div></div></div></header><div class="guide-layout container"><main class="guide-content"><section class="guide-intro">${(post.intro || []).map(paragraph=>`<p>${e(paragraph)}</p>`).join('')}</section>${roundupTools.map((tool,index)=>`<section class="guide-tool"><h2>${index+1}. ${e(tool.name)}</h2><p>${e(tool.tagline)}</p><p>${e(tool.description)}</p><ul>${tool.features.slice(0,3).map(feature=>`<li>${e(feature)}</li>`).join('')}</ul><a href="/tools/${e(tool.slug)}/">Read the ${e(tool.name)} listing</a></section>`).join('')}<section class="guide-method"><h2>How this roundup was prepared</h2><p>${e(post.methodology)}</p></section></main></div></article>`;
+  const updated = post.updated || post.date;
+  const summary = `<section class="guide-at-glance"><h2>At a glance</h2><div class="guide-summary-grid">${roundupTools.map(tool => {
+    const category = byCategory(tool.category);
+    return `<article class="guide-summary-card"><span class="tool-cat">${e(category?.name || tool.category)}</span><h3><a href="#${e(tool.slug)}">${e(tool.name)}</a></h3><p>${e(bestFitCopy(tool))}</p><span class="pricing-badge" data-price="${e(tool.pricing)}">${e(tool.pricing)}</span></article>`;
+  }).join('')}</div></section>`;
+  const sections = roundupTools.map((tool,index) => {
+    const category = byCategory(tool.category);
+    const checks = verificationPoints(tool);
+    return `<section class="guide-tool" id="${e(tool.slug)}"><span class="tool-cat">${e(category?.name || tool.category)}</span><h2>${index+1}. ${e(tool.name)}</h2><p class="guide-tool-tagline">${e(tool.tagline)}</p><p>${e(tool.description)}</p><h3>Best fit</h3><p>${e(bestFitCopy(tool))}</p><h3>What to know</h3><ul>${tool.features.slice(0,3).map(feature=>`<li>${e(feature)}</li>`).join('')}</ul><h3>What to verify</h3><ul><li>${e(checks[0])}</li><li>${e(checks[1])}</li></ul><div class="guide-tool-actions"><span class="pricing-badge" data-price="${e(tool.pricing)}">${e(tool.pricing)}</span><a href="${e(tool.website)}" rel="noopener">Official ${e(tool.name)} website</a><a href="/tools/${e(tool.slug)}/">Read the Novera listing</a></div></section>`;
+  }).join('');
+  const sources = `<section class="guide-sources"><h2>Official sources</h2><p>Product facts in this roundup were checked against these first-party pages. Links lead to external provider sites.</p><ul>${roundupTools.map(tool=>`<li><a href="${e(tool.website)}" rel="noopener">${e(tool.name)} official website</a></li>`).join('')}</ul></section>`;
+  return `<article class="guide-article"><header class="guide-hero"><div class="container"><div class="guide-heading"><h1>${e(post.title)}</h1><p class="lede">${e(post.description)}</p><div class="guide-byline"><span>By <a href="/authors/novera-editorial/">${e(post.author || 'Novera Editorial')}</a></span><span>Published ${e(post.date)}</span><span>Updated ${e(updated)}</span><span>${e(post.readingTime || 5)} min read</span></div><p class="guide-disclosure">Official-source review · Not a hands-on product test · No paid placement</p></div></div></header><div class="guide-layout container"><main class="guide-content"><section class="guide-intro">${(post.intro || []).map(paragraph=>`<p>${e(paragraph)}</p>`).join('')}</section>${summary}${sections}<section class="guide-method"><h2>How this roundup was prepared</h2><p>${e(post.methodology)}</p><p>Read the <a href="/editorial-policy/">Novera editorial and corrections policy</a> for the evidence standard, automation boundaries, and update process.</p></section>${sources}</main></div></article>`;
 }
 
 function honeypotField() {
@@ -238,15 +354,98 @@ function categoryPageContent(category) {
 function toolPageContent(tool) {
   const category = byCategory(tool.category);
   const related = tools.filter(t => t.category === tool.category && t.slug !== tool.slug).slice(0,3);
-  return `<article><section class="tool-detail-hero"><div class="container"><h1 class="detail-title">${e(tool.name)}</h1><p class="detail-tagline">${e(tool.tagline)}</p><a class="btn btn-primary" href="${e(tool.website)}" rel="noopener">Official website</a></div></section><section class="detail-main"><div class="container"><h2>What ${e(tool.name)} does</h2><p>${e(tool.description)}</p><h2>Key features</h2><ul>${tool.features.map(f=>`<li>${e(f)}</li>`).join('')}</ul><h2>Pricing</h2><p>${e(tool.pricing)}</p><h2>Tags</h2><p>${tool.tags.map(tag=>`<a href="/all-tools/?q=${encodeURIComponent(tag)}">${e(tag)}</a>`).join(', ')}</p><h2>Related ${e(category.name)} tools</h2>${staticToolLinks(related)}</div></section></article>`;
+  const review = reviewDetails(tool);
+  const checks = verificationPoints(tool);
+  return `<article><section class="tool-detail-hero"><div class="container"><h1 class="detail-title">${e(tool.name)}</h1><p class="detail-tagline">${e(tool.tagline)}</p><a class="btn btn-primary" href="${e(tool.website)}" rel="noopener">Official website</a></div></section><section class="detail-main"><div class="container"><div class="detail-layout"><article class="detail-content"><section><span class="eyebrow">Overview</span><h2>What ${e(tool.name)} does</h2><p>${e(tool.description)}</p></section><section><span class="eyebrow">Decision context</span><h2>Best fit</h2><p>${e(bestFitCopy(tool))}</p></section><section><span class="eyebrow">Capabilities</span><h2>Key features</h2><ul>${tool.features.map(f=>`<li>${e(f)}</li>`).join('')}</ul></section><section><span class="eyebrow">Evaluation checklist</span><h2>Before you choose</h2><ul>${checks.map(item=>`<li>${e(item)}</li>`).join('')}</ul></section><section class="review-card"><span class="eyebrow">Transparency</span><h2>How this listing was reviewed</h2><p><strong>${e(review.label)}.</strong> ${e(review.explanation)}</p><dl><div><dt>${e(review.dateLabel)}</dt><dd>${e(review.date)}</dd></div><div><dt>Testing disclosure</dt><dd>No hands-on testing claimed</dd></div><div><dt>Primary source</dt><dd><a href="${e(tool.website)}" rel="noopener">Official ${e(tool.name)} website</a></dd></div></dl><p>See Novera’s <a href="/editorial-policy/">editorial and corrections policy</a> or <a href="/contact/">report an outdated detail</a>.</p></section><section><span class="eyebrow">Topics</span><h2>Tags</h2><p>${tool.tags.map(tag=>`<a href="/all-tools/?q=${encodeURIComponent(tag)}">${e(tag)}</a>`).join(', ')}</p></section></article><aside class="detail-aside"><span class="aside-label">Pricing model</span><div class="price-line">${e(tool.pricing)}</div><p class="aside-copy">Plans and availability can change. Check the official website for current details.</p><hr class="aside-sep"><div class="meta-row"><span>Category</span><strong>${e(category.name)}</strong></div><div class="meta-row"><span>Review type</span><strong>${e(review.label)}</strong></div><div class="meta-row"><span>${e(review.dateLabel)}</span><strong>${e(review.date)}</strong></div><a class="btn btn-secondary aside-button" href="${e(tool.website)}" rel="noopener">Visit ${e(tool.name)}</a></aside></div><section class="related-section"><h2>Related ${e(category.name)} tools</h2>${staticToolLinks(related)}</section></div></section></article>`;
 }
 
+
 const infoPages = {
-  about: {title:'About Novera', description:'Learn how Novera discovers, categorizes, reviews, and presents useful AI tools.', heading:'Useful discovery, without the noise.', copy:'Novera is an independent directory that organizes AI products around the work people are trying to do. Automated discovery checks approved sources, validates URLs, removes duplicates, and stages candidates outside the public directory until they pass a strict official-evidence review. Clear cases can publish automatically; uncertainty remains pending.'},
-  privacy: {title:'Privacy Policy', description:'Read how Novera handles analytics, form submissions, hosting data, cookies, and advertising privacy.', heading:'A clear, practical privacy policy.', copy:'Novera uses privacy-friendly Cloudflare Web Analytics for aggregate measurements. Contact and tool-submission forms are processed by Formspree for message delivery and spam screening. If advertising is enabled later, consent choices will be provided where required.'},
-  terms: {title:'Terms of Use', description:'Read the terms for using Novera and its independent AI tools directory.', heading:'Simple terms for a useful resource.', copy:'Directory content is provided for general discovery. Product details can change, so visitors should verify important information on official websites. Product names and trademarks belong to their respective owners.'},
-  contact: {title:'Contact Novera', description:'Send Novera a listing correction, privacy request, partnership question, or directory feedback.', heading:'Questions, corrections, or feedback?', copy:'Use the contact form for listing corrections, privacy requests, partnerships, or general feedback. For a new product, use the structured tool submission form.'}
+  about: {
+    title:'About Novera', description:'Learn how Novera discovers, categorizes, reviews, and presents useful AI tools.', heading:'Useful discovery, without the noise.',
+    copy:'Novera is an independent AI-tool directory maintained by the Novera Editorial team. It combines automated discovery with explicit publication gates so uncertain records stay outside the public directory.', updated:editorialPolicyDate,
+    sections:[
+      ['What Novera publishes','Novera organizes AI products around the work people are trying to do. Public listings include a primary category, a neutral summary, capabilities, pricing context, decision checks, and an official product link. Roundups explain newly qualified additions without pretending to rank products that were not tested side by side.'],
+      ['Discovery and evidence review','Automated discovery monitors approved public sources, removes duplicates, validates URLs, and stages candidates privately. Publication requires official product evidence. Weak, ambiguous, or unreachable records remain pending rather than being guessed into the directory.'],
+      ['Who is responsible','Novera Editorial is the organizational author responsible for review standards, corrections, and publication controls. Read the team profile and the full editorial policy for sourcing, testing disclosures, and automation boundaries.'],
+      ['Independence','Listings are not endorsements. Advertising and future commercial relationships do not determine inclusion, category placement, wording, or review outcomes. Official product providers remain the source of truth for current features, availability, and prices.']
+    ]
+  },
+  'editorial-policy': {
+    title:'Editorial & Corrections Policy', description:'Read Novera’s sourcing, evidence-review, testing-disclosure, independence, automation, and corrections standards.', heading:'Evidence first. Uncertainty stays unpublished.',
+    copy:'This policy explains who is responsible for Novera’s content, what “reviewed” means, how automation is limited, and how readers or providers can request a correction.', updated:editorialPolicyDate,
+    sections:[
+      ['Editorial responsibility','Novera Editorial is the organizational author and publisher. It maintains the directory taxonomy, evidence standards, automated safety checks, correction process, and final publication rules. Novera does not invent personal credentials or imply that a product was personally tested when it was not.'],
+      ['Source hierarchy','Product claims must be supported by first-party evidence: an official product website, same-domain documentation, an official public repository, or provider-published pricing and licensing information. Discovery posts can identify candidates but are not treated as proof of capabilities, pricing, or product status.'],
+      ['Review labels','“Automatic official-evidence review” means the record passed deterministic checks for AI relevance, active-product evidence, category fit, product-specific capabilities, and pricing or licensing evidence. “Editorially reviewed” means an editor checked and corrected the record against official information. “Curated directory listing” is a discovery summary and is not a hands-on review or endorsement.'],
+      ['Evidence review is not hands-on testing','A source review evaluates documented claims. A hands-on test requires direct product use with a described task, environment, date, and limitations. Novera labels guides as official-source reviews unless that separate testing record exists; it does not convert marketing claims into personal experience.'],
+      ['Selection and presentation','Listings are organized by practical category and are not pay-to-rank. Directory order, featured placement, and roundup inclusion do not guarantee quality or suitability. Readers should evaluate products against their own security, privacy, licensing, accessibility, integration, and cost requirements.'],
+      ['Automation boundaries','Automation may discover candidates, fetch allowlisted official pages, apply deterministic evidence rules, build pages, run audits, and merge a verified subset. It must defer uncertainty, reject only decisive false positives, avoid private network addresses, prevent roundup reuse, and stop publication when validation, mergeability, or hosting checks fail.'],
+      ['Corrections and updates','Product information changes. Correction requests should identify the listing, official URL, disputed detail, and supporting first-party evidence. Verified material errors are corrected through the same build and audit process. Readers can use the contact form; providers do not receive control over independent wording.'],
+      ['Advertising, affiliates, and conflicts','Advertising is kept visually separate from publisher content and does not affect editorial decisions. Novera does not currently give products paid ranking. Any future affiliate or sponsored relationship must be disclosed near the affected content and may not bypass the evidence gate.']
+    ]
+  },
+  'authors/novera-editorial': {
+    title:'Novera Editorial Team', description:'Meet the organizational team responsible for Novera’s directory standards, official-source reviews, corrections, and automation safeguards.', heading:'The team behind Novera’s review standard.',
+    copy:'Novera Editorial is the organizational byline for the people and publication systems responsible for maintaining this independent AI-tool directory.', updated:editorialPolicyDate,
+    sections:[
+      ['Scope of work','The team defines categories, reviews first-party product evidence, maintains publication rules, prepares source-based roundups, handles correction requests, and monitors automated checks. The byline identifies editorial responsibility without inventing an individual author or credential.'],
+      ['Review approach','Novera separates discovery, official-source evidence review, and hands-on testing. Current guides are source reviews unless they explicitly describe a direct test. Important purchasing, security, legal, medical, educational, or financial decisions should be confirmed with the provider and an appropriate qualified professional.'],
+      ['Quality controls','Every release is built and audited before publication. Pending and rejected records stay outside browse pages, feeds, structured data, and the sitemap. Automated editorial changes require an allowed-path check, successful site validation, clean mergeability, and a successful Cloudflare preview.'],
+      ['Corrections and contact','Readers and product providers can report an outdated or inaccurate detail through the contact page. Include the official product URL and first-party evidence so the team can verify the request efficiently.']
+    ]
+  },
+  privacy: {
+    title:'Privacy Policy', description:'Read how Novera handles analytics, form submissions, hosting data, cookies, consent, and advertising privacy.', heading:'A clear, practical privacy policy.',
+    copy:'Novera limits data collection, uses privacy-friendly aggregate analytics, and keeps advertising disabled until valid account configuration and required consent controls are in place.', updated:editorialPolicyDate,
+    sections:[
+      ['Information we receive','Standard hosting logs may contain an IP address, browser details, requested pages, and timestamps. Tool submissions may include a name, email address, product URL, and description. Novera uses this information to operate, secure, and improve the directory.'],
+      ['Forms and service providers','Contact messages and tool submissions are processed by Formspree for delivery and spam screening. Do not submit passwords, payment details, health information, or other sensitive data. External product links are governed by each provider’s own terms and privacy policy.'],
+      ['Analytics','Novera uses Cloudflare Web Analytics for aggregate page and performance measurements. It does not use cookies or local storage for this analytics service and is not used by Novera to follow individual visitors across unrelated sites.'],
+      ['Advertising and consent','If Google AdSense is enabled, Google and its partners may use cookies or similar technologies to deliver, measure, and limit ads. Novera will configure the required Google-certified consent message for applicable visitors before activating advertising. Ad units remain disabled until a valid publisher ID, ad slots, and an explicit consent-readiness switch are configured.'],
+      ['Retention and choices','Submission details are retained only as long as needed for review, communication, security, and directory maintenance. You may ask to access, correct, or delete information you submitted through the contact page. Novera does not sell submitted contact information.']
+    ]
+  },
+  terms: {
+    title:'Terms of Use', description:'Read the terms for using Novera and its independent AI tools directory.', heading:'Simple terms for a useful resource.',
+    copy:'Directory content supports general product discovery. It is not professional advice, a product warranty, or a substitute for checking current provider information.', updated:editorialPolicyDate,
+    sections:[
+      ['Directory information','Descriptions, pricing labels, categories, decision checks, and guides are provided for general discovery. Products change frequently, so verify important details on the official website before purchasing or relying on a tool.'],
+      ['Testing and endorsements','An official-source review is not a hands-on product test. A listing or roundup inclusion is not an endorsement, certification, security assessment, or guarantee that a product fits a particular use.'],
+      ['Trademarks and ownership','Product names and trademarks belong to their respective owners. Novera does not claim affiliation with listed products unless explicitly stated. Original directory copy and site design may not be republished in bulk without permission.'],
+      ['Submissions and corrections','By submitting information, you confirm that it is accurate and that you are permitted to share it. Novera may edit, categorize, defer, decline, update, or remove records to preserve quality and safety.'],
+      ['No warranty','The directory is provided as available without warranties. Novera is not responsible for decisions, losses, service interruptions, or external content arising from use of a listed product.']
+    ]
+  },
+  contact: {
+    title:'Contact Novera', description:'Send Novera a listing correction, privacy request, partnership question, or directory feedback.', heading:'Questions, corrections, or feedback?',
+    copy:'Use the form for an outdated-listing report, privacy request, partnership question, or practical suggestion. New products should use the separate submission form.', updated:editorialPolicyDate,
+    sections:[
+      ['Listing corrections','Include the tool name, official URL, the exact detail that appears wrong, and a first-party source supporting the correction. Verified material corrections are prioritized.'],
+      ['Privacy requests','Choose “Privacy request” to ask about, access, correct, or delete information you submitted. Do not send passwords, payment details, or sensitive personal records.'],
+      ['Editorial independence','Paid relationships do not determine directory inclusion, category placement, wording, or review outcomes. Product providers may supply evidence but do not control independent editorial conclusions.']
+    ]
+  }
 };
+
+function staticInfoContent(key, info) {
+  const sections = `<article class="legal-card">${(info.sections || []).map(section=>`<section><h2>${e(section[0])}</h2><p>${e(section[1])}</p></section>`).join('')}<p class="policy-date">Last updated: ${e(info.updated || editorialPolicyDate)}</p></article>`;
+  const links = key === 'about' ? `<div class="policy-links"><a class="btn btn-secondary" href="/authors/novera-editorial/">Meet Novera Editorial</a><a class="btn btn-secondary" href="/editorial-policy/">Read the editorial policy</a></div>` : '';
+  const contact = key === 'contact' ? `<div class="contact-form-wrap">${staticContactContent()}</div>` : '';
+  return `<section class="page-hero"><div class="container"><h1>${e(info.heading)}</h1><p class="lede">${e(info.copy)}</p>${links}</div></section><section class="legal-content"><div class="container">${sections}${contact}</div></section>`;
+}
+
+function infoSchema(key, info) {
+  if (key === 'about') return schemaBase('AboutPage', {
+    name:info.title, url:urlFor('/about/'),
+    mainEntity:schemaBase('Organization', {name:config.siteName, url:urlFor('/about/'), publishingPrinciples:urlFor('/editorial-policy/')})
+  });
+  if (key === 'authors/novera-editorial') return schemaBase('ProfilePage', {
+    name:info.title, url:urlFor('/authors/novera-editorial/'), dateModified:info.updated,
+    mainEntity:schemaBase('Organization', {name:'Novera Editorial', url:urlFor('/authors/novera-editorial/'), parentOrganization:{'@type':'Organization',name:config.siteName,url:urlFor('/about/')}, publishingPrinciples:urlFor('/editorial-policy/')})
+  });
+  return schemaBase('WebPage', {name:info.title, url:urlFor(`/${key}/`), dateModified:info.updated});
+}
 
 function generatePages() {
   writeRoute('/', page({
@@ -301,8 +500,12 @@ function generatePages() {
     }
     const articleSchema = schemaBase('BlogPosting',{
       headline:post.title,description:post.description,datePublished:post.date,dateModified:post.updated || post.date,
-      author:{'@type':'Organization',name:post.author || 'Novera Editorial'},publisher:{'@type':'Organization',name:config.siteName},
-      mainEntityOfPage:urlFor(`/guides/${post.slug}/`),about:(post.toolSlugs || []).map(slug=>toolBySlug(slug)?.name).filter(Boolean)
+      author:{'@type':'Organization',name:post.author || 'Novera Editorial',url:urlFor('/authors/novera-editorial/')},
+      editor:{'@type':'Organization',name:'Novera Editorial',url:urlFor('/authors/novera-editorial/')},
+      publisher:{'@type':'Organization',name:config.siteName,url:urlFor('/about/')},
+      mainEntityOfPage:urlFor(`/guides/${post.slug}/`),
+      about:(post.toolSlugs || []).map(slug=>toolBySlug(slug)?.name).filter(Boolean),
+      citation:(post.toolSlugs || []).map(slug=>toolBySlug(slug)?.website).filter(Boolean)
     });
     writeRoute(`/guides/${post.slug}/`, page({
       title:`${post.title} — ${config.siteName}`,description:post.description,route:`/guides/${post.slug}/`,pageName:'post',bodyClass:'post-page',dataAttr:` data-post="${e(post.slug)}"`,content:staticPostContent(post),
@@ -328,7 +531,7 @@ function generatePages() {
     const route = `/${key}/`;
     writeRoute(route, page({
       title:`${info.title} — ${config.siteName}`,description:info.description,route,pageName:'info',bodyClass:'info-page',dataAttr:` data-info="${key}"`,
-      content:key === 'contact' ? staticContactContent() : `<section class="page-hero"><div class="container"><h1>${e(info.heading)}</h1><p class="lede">${e(info.copy)}</p></div></section>`,schema:[breadcrumbSchema([{name:'Home',route:'/'},{name:info.title,route}])]
+      content:staticInfoContent(key, info),schema:[infoSchema(key, info),breadcrumbSchema([{name:'Home',route:'/'},{name:info.title,route}])]
     }));
   }
 
@@ -402,7 +605,7 @@ function generateMachineFiles() {
     {route:'/guides/', lastmod:maxDate(posts.map(post => post.updated || post.date).concat(launchDate))},
     ...posts.map(post => ({route:`/guides/${post.slug}/`, lastmod:maxDate([post.updated, post.date])})),
     {route:'/submit/', lastmod:staticPagesDate},
-    ...Object.keys(infoPages).map(key => ({route:`/${key}/`, lastmod:key === 'about' ? publicationGateDate : staticPagesDate})),
+    ...Object.keys(infoPages).map(key => ({route:`/${key}/`, lastmod:infoPages[key].updated || (key === 'about' ? publicationGateDate : staticPagesDate)})),
     ...tools.map(tool => ({route:`/tools/${tool.slug}/`, lastmod:toolLastmod(tool)}))
   ];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${routes.map(({route,lastmod})=>`  <url><loc>${xml(urlFor(route))}</loc><lastmod>${lastmod}</lastmod><changefreq>${route==='/new/'?'daily':route.startsWith('/categories/')?'weekly':'monthly'}</changefreq><priority>${route==='/'?'1.0':route.startsWith('/tools/')?'0.7':'0.8'}</priority></url>`).join('\n')}\n</urlset>\n`;
