@@ -1,1 +1,86 @@
-{}
+{
+  "1dial": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "academa": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "aidcrew-v0-3": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "aiimageto3d": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "autoshade": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "calprep": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
+  "castforge": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "choosecompute": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "edify": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "finbridge": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "itsuki": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "parlel": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-27",
+    "nextReviewAt": "2026-10-11",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  }
+}
