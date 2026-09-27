@@ -11,6 +11,7 @@
   },
   "adsense": {
     "publisherId": "",
+    "consentReady": false,
     "slots": {
       "home": "",
       "listing": "",
