@@ -1,4 +1,4 @@
-name: Prepare AI tools roundup for review
+name: Review and publish AI tools automatically
 
 on:
   schedule:
@@ -9,18 +9,21 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  checks: read
 
 concurrency:
-  group: editorial-roundup-draft
+  group: automated-editorial-publication
   cancel-in-progress: false
 
 jobs:
-  prepare-review-draft:
+  review-publish-and-merge:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
-      - name: Check out latest directory
+      - name: Check out current main
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Set up Python
@@ -33,67 +36,129 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Check for an existing roundup review
-        id: pending
+      - name: Confirm strict automation is enabled
+        run: |
+          python - <<'PY'
+          import json
+          config = json.load(open('site.config.json', encoding='utf-8'))['automatedReview']
+          assert config['enabled'] is True
+          assert config['mode'] == 'strict_deterministic_official_evidence'
+          assert config['autoMerge'] is True
+          assert config['requirePricingEvidence'] is True
+          assert int(config['minimumCapabilities']) >= 3
+          PY
+
+      - name: Finish an existing automated editorial PR first
+        id: existing
         env:
           GH_TOKEN: ${{ github.token }}
+          REQUIRED_HOSTING_CHECK: "Workers Builds: noveraai"
         shell: bash
         run: |
-          COUNT="$(gh pr list --state open --base main --json headRefName --jq '[.[] | select(.headRefName | startswith("automation/roundup-"))] | length')"
-          if [ "$COUNT" -gt 0 ]; then
-            echo "An editorial roundup pull request is already awaiting review. Skipping this run to avoid reusing reserved tools."
-            echo "exists=true" >> "$GITHUB_OUTPUT"
+          set -euo pipefail
+          PR_URL="$(gh pr list --state open --base main --limit 100 --json url,headRefName --jq '[.[] | select(.headRefName | startswith("automation/editorial-"))][0].url // ""')"
+          if [ -n "$PR_URL" ]; then
+            echo "Existing automated editorial PR found: $PR_URL"
+            PR_STATE="$(gh pr view "$PR_URL" --json mergeable,mergeStateStatus --jq '[.mergeable,.mergeStateStatus] | join(" ")')"
+            if [[ "$PR_STATE" == *"CONFLICTING"* || "$PR_STATE" == *"DIRTY"* || "$PR_STATE" == *"BEHIND"* ]]; then
+              gh pr comment "$PR_URL" --body "Closing this stale automated PR without merging because main advanced or conflicts appeared. This run will rebuild the review from current main."
+              gh pr close "$PR_URL" --delete-branch
+              echo "handled=false" >> "$GITHUB_OUTPUT"
+            else
+              echo "handled=true" >> "$GITHUB_OUTPUT"
+              bash scripts/merge-automation-pr.sh "$PR_URL" 600
+            fi
           else
-            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "handled=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Create date-specific review branch
-        if: steps.pending.outputs.exists != 'true'
+      - name: Run offline reviewer regression tests
+        if: steps.existing.outputs.handled != 'true'
+        run: python scripts/test-auto-review.py
+
+      - name: Review a conservative backlog batch
+        if: steps.existing.outputs.handled != 'true'
+        env:
+          REVIEW_RESULT: ${{ runner.temp }}/editorial-result.json
+        run: python scripts/auto-review-tools.py --result-file "$REVIEW_RESULT"
+
+      - name: Publish a roundup only when at least three unused tools qualify
+        if: steps.existing.outputs.handled != 'true'
+        run: python scripts/generate-weekly-post.py
+
+      - name: Validate publication boundaries and generated site
+        if: steps.existing.outputs.handled != 'true'
+        run: |
+          node --check assets/app.js
+          node --check assets/auto-data.js
+          node --check assets/posts-data.js
+          node --check scripts/build-site.js
+          python -m py_compile scripts/update-directory.py scripts/auto-review-tools.py scripts/generate-weekly-post.py scripts/audit-site.py scripts/test-auto-review.py
+          bash -n scripts/merge-automation-pr.sh
+          npm run validate
+
+      - name: Detect review changes
+        if: steps.existing.outputs.handled != 'true'
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No candidates were due for review and no generated files changed."
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit reviewed subset on a fresh branch
+        if: steps.existing.outputs.handled != 'true' && steps.changes.outputs.has_changes == 'true'
         id: branch
         shell: bash
         run: |
-          BRANCH="automation/roundup-$(date -u +%F)"
-          echo "name=$BRANCH" >> "$GITHUB_OUTPUT"
-          if git ls-remote --exit-code origin "refs/heads/$BRANCH" >/dev/null 2>&1; then
-            echo "A review branch already exists for this date."
-            echo "exists=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
+          set -euo pipefail
+          BRANCH="automation/editorial-$(date -u +%F)-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           git checkout -b "$BRANCH"
-          echo "exists=false" >> "$GITHUB_OUTPUT"
-
-      - name: Prepare factual roundup and SEO pages
-        if: steps.pending.outputs.exists != 'true' && steps.branch.outputs.exists != 'true'
-        run: python scripts/generate-weekly-post.py
-
-      - name: Validate generated site
-        if: steps.pending.outputs.exists != 'true' && steps.branch.outputs.exists != 'true'
-        run: |
-          node --check assets/app.js
-          node --check assets/posts-data.js
-          node --check scripts/build-site.js
-          python -m py_compile scripts/generate-weekly-post.py scripts/audit-site.py
-          python scripts/audit-site.py
-
-      - name: Open editorial review pull request
-        if: steps.pending.outputs.exists != 'true' && steps.branch.outputs.exists != 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          BRANCH: ${{ steps.branch.outputs.name }}
-        shell: bash
-        run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "Not enough unused qualified tools for a new roundup."
-            exit 0
-          fi
-          RUN_DATE="$(date -u +%F)"
-          git config user.name "Novera Editorial Bot"
+          git config user.name "Novera Evidence Review Bot"
           git config user.email "directory-bot@users.noreply.github.com"
           git add -A
-          git commit -m "content: prepare AI tools roundup for $RUN_DATE"
+          git commit -m "content: publish strictly evidence-reviewed AI tools"
           git push --set-upstream origin "$BRANCH"
-          gh pr create \
+          echo "name=$BRANCH" >> "$GITHUB_OUTPUT"
+
+      - name: Open the audited publication PR
+        if: steps.existing.outputs.handled != 'true' && steps.changes.outputs.has_changes == 'true'
+        id: pull
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REVIEW_RESULT: ${{ runner.temp }}/editorial-result.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          RUN_DATE="$(date -u +%F)"
+          python - <<'PY' > "$RUNNER_TEMP/pr-body.md"
+          import json, os
+          path = os.environ["REVIEW_RESULT"]
+          result = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {"reviewed": 0, "approved": [], "rejected": [], "deferred": []}
+          print("## Strict automated evidence review")
+          print()
+          print(f"- Reviewed this run: **{result.get('reviewed', 0)}**")
+          print(f"- Approved for publication: **{len(result.get('approved', []))}**")
+          print(f"- Rejected as decisive non-products: **{len(result.get('rejected', []))}**")
+          print(f"- Deferred because evidence was incomplete or ambiguous: **{len(result.get('deferred', []))}**")
+          print()
+          print("The workflow used official product pages and same-domain documentation only. It required explicit AI relevance, active-product evidence, at least three product-specific capabilities, a clear category, and published pricing or licensing evidence. Uncertainty remained pending.")
+          print()
+          print("Before this PR can merge automatically, the full site audit, changed-path allowlist, clean merge check, and Cloudflare Workers preview must all pass.")
+          PY
+          PR_URL="$(gh pr create \
             --base main \
-            --head "$BRANCH" \
-            --title "Review: AI tools roundup — $RUN_DATE" \
-            --body $'## Editorial review required\n\nThis pull request contains a **noindex review draft** prepared from staged discoveries. The draft is excluded from public guide lists, counts, feeds, structured data, and the sitemap. Merging it without editorial approval will **not** publish the guide or its staged tool listings.\n\n### Before publication\n- Open the generated draft and verify every claim against official sources.\n- Confirm each product is genuinely AI-related and in the correct category.\n- Rewrite generic descriptions, features, and pricing labels.\n- Reject weak, unclear, unavailable, or inappropriate records.\n- Change accepted tool records to `editorially-corrected` or intentional `directory-only`.\n- Change the guide to `publicationStatus: published` only after every included tool is public.\n- Keep the disclosure and methodology section intact.\n\nAsk for help applying the editorial corrections if needed. The build audit blocks a guide marked published when any included tool is still pending.'
+            --head "${{ steps.branch.outputs.name }}" \
+            --title "[Automated] Evidence-reviewed AI tools — $RUN_DATE" \
+            --body-file "$RUNNER_TEMP/pr-body.md")"
+          echo "url=$PR_URL" >> "$GITHUB_OUTPUT"
+
+      - name: Merge only after Cloudflare preview and every safety gate passes
+        if: steps.existing.outputs.handled != 'true' && steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REQUIRED_HOSTING_CHECK: "Workers Builds: noveraai"
+        run: bash scripts/merge-automation-pr.sh "${{ steps.pull.outputs.url }}" 600

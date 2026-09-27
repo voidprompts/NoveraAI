@@ -4,7 +4,7 @@
 Sources are configured in data/discovery-sources.json. The updater uses only
 Python's standard library, keeps an audit trail, prevents duplicates, caps each
 run, and rebuilds the site. New discoveries stay out of public directory data
-until an editor assigns an approved publication status.
+until they pass the separately scheduled strict official-evidence review.
 """
 from __future__ import annotations
 
@@ -313,7 +313,7 @@ def normalize_candidate(candidate: dict):
 
 def write_auto_js(records: list[dict], public_statuses: set[str]):
     # The JSON file is the complete audit queue. Only records that have passed
-    # the editorial publication gate enter browser-facing directory data.
+    # an approved manual or strict automated evidence gate enter public data.
     public_records = [record for record in records if record.get("reviewStatus") in public_statuses]
     payload = json.dumps(public_records, ensure_ascii=False, indent=2)
     AUTO_JS_PATH.write_text(

@@ -1,8 +1,8 @@
 {
   "name": "novera-ai-directory",
   "private": true,
-  "version": "1.1.0",
-  "description": "SEO-first, AdSense-ready AI tools directory with automated discovery and categorization.",
+  "version": "1.2.0",
+  "description": "SEO-first AI tools directory with strict evidence-gated discovery, review, and publication automation.",
   "scripts": {
     "build": "node scripts/build-site.js",
     "update": "python3 scripts/update-directory.py",
@@ -11,6 +11,9 @@
     "draft:weekly": "python3 scripts/generate-weekly-post.py",
     "audit": "python3 scripts/audit-site.py",
     "validate": "npm run build && npm run audit",
-    "preview": "python3 -m http.server 4173 --bind 0.0.0.0"
+    "preview": "python3 -m http.server 4173 --bind 0.0.0.0",
+    "review:auto": "python3 scripts/auto-review-tools.py",
+    "test:review": "python3 scripts/test-auto-review.py",
+    "publish:roundup": "python3 scripts/generate-weekly-post.py"
   }
 }
