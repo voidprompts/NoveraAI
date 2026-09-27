@@ -45,7 +45,8 @@ jobs:
           node --check assets/auto-data.js
           node --check assets/app.js
           node --check scripts/build-site.js
-          python -m py_compile scripts/update-directory.py scripts/generate-weekly-post.py scripts/audit-site.py
+          python -m py_compile scripts/update-directory.py scripts/auto-review-tools.py scripts/generate-weekly-post.py scripts/audit-site.py scripts/test-auto-review.py
+          python scripts/test-auto-review.py
           python scripts/audit-site.py
 
       - name: Commit directory updates
