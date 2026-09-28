@@ -34,6 +34,20 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "bitroad": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "blog": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "ambiguous_category",
+    "state": "deferred"
+  },
   "calprep": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-27",
@@ -69,6 +83,20 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "geoprompttracker": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "imageaicraft": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "itsuki": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-27",
@@ -76,11 +104,67 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "kuvu": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "legion": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "papiers": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
   "parlel": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-27",
     "nextReviewAt": "2026-10-11",
     "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
+  "sharpniq": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "socratix": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "tattoopreview-ai": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "usero": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "viaduct": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-28",
+    "nextReviewAt": "2026-10-12",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   }
 }
