@@ -2381,5 +2381,30 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49857290",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "parkournote",
+    "name": "ParkourNote",
+    "category": "research-knowledge",
+    "tagline": "A research workspace, built solo in a month with Claude",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://note.parkourlabs.io",
+    "description": "ParkourNote is a newly discovered AI product for research knowledge. A research workspace, built solo in a month with Claude.",
+    "tags": [
+      "Research",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-28",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49872233",
+    "reviewStatus": "auto-discovered"
   }
 ]
