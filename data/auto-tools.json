@@ -2406,5 +2406,131 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49872233",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "voicecursor",
+    "name": "Voicecursor",
+    "category": "audio-music",
+    "tagline": "Hi there, Voice Cursor started as a dictation app, now Action Mode brings you a real-time Voice Agent that allows you to go AFK for good. It works across apps, does the work in gma",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://voicecursor.ai/action-mode",
+    "description": "Voicecursor is a newly discovered AI product for audio music. Hi there, Voice Cursor started as a dictation app, now Action Mode brings you a real-time Voice Agent that allows you to go AFK for good. It works across apps, does the work in gmail, linear, etc. It's beta now and Free.",
+    "tags": [
+      "Voice",
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-09-29",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49889851",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "jylus",
+    "name": "Jylus",
+    "category": "data-analytics",
+    "tagline": "give AI systems evidence from changing data",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://jylus.ai/try",
+    "description": "Jylus is a newly discovered AI product for data analytics. give AI systems evidence from changing data.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-09-29",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49886404",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "deltareview",
+    "name": "DeltaReview",
+    "category": "coding-development",
+    "tagline": "AI-powered code diff analysis tool",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://delta-review.vercel.app",
+    "description": "DeltaReview is a newly discovered AI product for coding development. AI-powered code diff analysis tool.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-29",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49883244",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "pewresearch",
+    "name": "Pewresearch",
+    "category": "research-knowledge",
+    "tagline": "and is not – using AI in our work",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.pewresearch.org/decoded/2026/09/28/how-pew-research-center-is-and-is-not-using-ai-in-our-work-2",
+    "description": "Pewresearch is a newly discovered AI product for research knowledge. and is not – using AI in our work.",
+    "tags": [
+      "Research",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-29",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49881135",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "algebrix-identity",
+    "name": "Algebrix Identity",
+    "category": "customer-support",
+    "tagline": "B2B SaaS IAM for Users, Services, and AI Agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://identity.algebrix.co",
+    "description": "Algebrix Identity is a newly discovered AI product for customer support. B2B SaaS IAM for Users, Services, and AI Agents.",
+    "tags": [
+      "Customer support",
+      "Customer Support"
+    ],
+    "features": [
+      "Answer common customer questions",
+      "Assist human support workflows",
+      "Organize and route conversations",
+      "Improve service response time"
+    ],
+    "discoveredAt": "2026-09-29",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49876415",
+    "reviewStatus": "auto-discovered"
   }
 ]

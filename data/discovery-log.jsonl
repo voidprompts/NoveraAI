@@ -947,3 +947,33 @@
 {"timestamp": "2026-09-28T10:52:55.538926+00:00", "event": "candidate_rejected", "name": "AI Agents gone rogue", "reason": "low_confidence"}
 {"timestamp": "2026-09-28T10:52:55.539020+00:00", "event": "candidate_rejected", "name": "Tokken", "reason": "low_confidence"}
 {"timestamp": "2026-09-28T10:52:55.541336+00:00", "event": "tool_staged_for_review", "slug": "parkournote", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-29T10:40:10.211826+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 29}
+{"timestamp": "2026-09-29T10:40:10.213781+00:00", "event": "candidate_rejected", "name": "Faqs.me", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.214218+00:00", "event": "candidate_rejected", "name": "Lemma.work", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.214340+00:00", "event": "candidate_rejected", "name": "Rsync.ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.214448+00:00", "event": "candidate_rejected", "name": "Problee", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.214569+00:00", "event": "candidate_rejected", "name": "Talktome", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.214717+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.214896+00:00", "event": "candidate_rejected", "name": "MuseTogether", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.215016+00:00", "event": "candidate_rejected", "name": "Vm Price Board", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.215180+00:00", "event": "candidate_rejected", "name": "Semloop", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.215281+00:00", "event": "candidate_rejected", "name": "PHNTM ONE", "reason": "duplicate"}
+{"timestamp": "2026-09-29T10:40:10.215406+00:00", "event": "candidate_rejected", "name": "Nibia Fabric", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.215583+00:00", "event": "candidate_rejected", "name": "Cordum Edge", "reason": "duplicate"}
+{"timestamp": "2026-09-29T10:40:10.215713+00:00", "event": "candidate_rejected", "name": "Android-on-Device Harness", "reason": "duplicate"}
+{"timestamp": "2026-09-29T10:40:10.215827+00:00", "event": "candidate_rejected", "name": "Pgedge", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-29T10:40:10.215928+00:00", "event": "candidate_rejected", "name": "Illucam", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.216026+00:00", "event": "candidate_rejected", "name": "OpenAPPA", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.216127+00:00", "event": "candidate_rejected", "name": "Jevpipe", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.216292+00:00", "event": "candidate_rejected", "name": "Yaystack", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-29T10:40:10.216397+00:00", "event": "candidate_rejected", "name": "Codify", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.216496+00:00", "event": "candidate_rejected", "name": "WorkContext", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.216596+00:00", "event": "candidate_rejected", "name": "Redthread", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.216715+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.216827+00:00", "event": "candidate_rejected", "name": "Museaicode", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-29T10:40:10.216953+00:00", "event": "candidate_rejected", "name": "FAB", "reason": "low_confidence"}
+{"timestamp": "2026-09-29T10:40:10.219417+00:00", "event": "tool_staged_for_review", "slug": "voicecursor", "category": "audio-music", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-29T10:40:10.219473+00:00", "event": "tool_staged_for_review", "slug": "jylus", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-29T10:40:10.219522+00:00", "event": "tool_staged_for_review", "slug": "deltareview", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-29T10:40:10.219561+00:00", "event": "tool_staged_for_review", "slug": "pewresearch", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-29T10:40:10.219597+00:00", "event": "tool_staged_for_review", "slug": "algebrix-identity", "category": "customer-support", "source": "Hacker News — Show HN AI"}
