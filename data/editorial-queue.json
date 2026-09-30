@@ -13,6 +13,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "ai-hack-watch": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
   "aidcrew-v0-3": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-27",
@@ -31,6 +38,13 @@
     "attempts": 1,
     "lastReviewedAt": "2026-09-27",
     "nextReviewAt": "2026-10-11",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "ax": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -55,6 +69,13 @@
     "reason": "insufficient_official_text",
     "state": "deferred"
   },
+  "canary-yc": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
+    "reason": "product_name_not_verified",
+    "state": "deferred"
+  },
   "castforge": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-27",
@@ -69,10 +90,31 @@
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
+  "critic": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "delightful-cells": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
   "edify": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-27",
     "nextReviewAt": "2026-10-11",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "filmstudio": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
@@ -81,6 +123,13 @@
     "lastReviewedAt": "2026-09-27",
     "nextReviewAt": "2026-10-11",
     "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "forkbench": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
+    "reason": "fetch_or_parse_error:ValueError",
     "state": "deferred"
   },
   "geoprompttracker": {
@@ -132,6 +181,27 @@
     "reason": "insufficient_official_text",
     "state": "deferred"
   },
+  "pixelsniff": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "proxima-forma": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "reteach": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
   "sharpniq": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-28",
@@ -144,6 +214,13 @@
     "lastReviewedAt": "2026-09-28",
     "nextReviewAt": "2026-10-12",
     "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "stackreplay": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "tattoopreview-ai": {
@@ -165,6 +242,13 @@
     "lastReviewedAt": "2026-09-28",
     "nextReviewAt": "2026-10-12",
     "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "vibe-coder-ladder-round-2": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-09-30",
+    "nextReviewAt": "2026-10-14",
+    "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   }
 }
