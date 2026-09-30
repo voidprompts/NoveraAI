@@ -2532,5 +2532,126 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49876415",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "layout",
+    "name": "Layout",
+    "category": "design-ux",
+    "tagline": "Order food anywhere with AI",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://layout.link",
+    "description": "Layout lets you order food anywhere with AI. Text it what you want, like \"iced americano from Starbucks,\" and it builds the cart at the restaurant, sends you the total, and securely places the order. Works at almost any restaurant in the US over SMS, the iOS app, or any MCP client like ChatGPT. Developers can integrate our infrastructure into their own platforms at developer.layout.link.",
+    "tags": [
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-09-30",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49906193",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "relay",
+    "name": "Relay",
+    "category": "coding-development",
+    "tagline": "a harness for AI coding agents that recover and verify",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://relayevals.com",
+    "description": "I'm tired of AI coding agents which are good for 30 seconds and then completely fail on the slightest hiccup: a failing test, a temporarily unavailable dependency, an incorrect assumption. Sometimes I end up having to babysit these agents anyway. Relay is a harness for coding agents which takes advantage of the fact that agents are often good at doing something slightly wrong, and not so good at doing something corre",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-30",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49898411",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "taijora",
+    "name": "Taijora",
+    "category": "data-analytics",
+    "tagline": "AI-assisted Bazi and Chinese astrology charting",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://taijora.com/zh-hant",
+    "description": "Taijora is a newly discovered AI product for data analytics. AI-assisted Bazi and Chinese astrology charting.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-09-30",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49897522",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "search2o",
+    "name": "Search2o",
+    "category": "research-knowledge",
+    "tagline": "Search that finds and runs an AI agent for each request",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://pypi.org/project/search2o",
+    "description": "I have been working on search systems for a while, and I always wondered: What if search, instead of matching documents, matched workflows and ran those workflows? I called it “Search that executes” — as opposed to search that retrieves information. When AI agents showed up a few years ago, I realized that those workflows could be agents — capable of understanding a user’s query and taking branches dynamically. That’",
+    "tags": [
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-09-30",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49892198",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "fata",
+    "name": "Fata",
+    "category": "coding-development",
+    "tagline": "My daily fata results: TypeScript / Medium ⬛⬛⬛⬛⬛⬛⬛⬛ 2:11 https://fata.app/daily?r=EyoeoEHQxjKMYxjK There are many topics and difficulty level to pick from, choose one and share you",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://fata.app/daily",
+    "description": "My daily fata results: TypeScript / Medium ⬛⬛⬛⬛⬛⬛⬛⬛ 2:11 https://fata.app/daily?r=EyoeoEHQxjKMYxjK There are many topics and difficulty level to pick from, choose one and share your results in the thread, no login required.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-09-30",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49892088",
+    "reviewStatus": "auto-discovered"
   }
 ]

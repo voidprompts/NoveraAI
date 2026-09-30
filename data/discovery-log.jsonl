@@ -977,3 +977,34 @@
 {"timestamp": "2026-09-29T10:40:10.219522+00:00", "event": "tool_staged_for_review", "slug": "deltareview", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-29T10:40:10.219561+00:00", "event": "tool_staged_for_review", "slug": "pewresearch", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-29T10:40:10.219597+00:00", "event": "tool_staged_for_review", "slug": "algebrix-identity", "category": "customer-support", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-30T10:28:40.028464+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 30}
+{"timestamp": "2026-09-30T10:28:40.029880+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-30T10:28:40.030088+00:00", "event": "candidate_rejected", "name": "HairColorChangeAI", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.030172+00:00", "event": "candidate_rejected", "name": "Instapath", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.030242+00:00", "event": "candidate_rejected", "name": "Runtape", "reason": "duplicate"}
+{"timestamp": "2026-09-30T10:28:40.030356+00:00", "event": "candidate_rejected", "name": "Moching", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.030433+00:00", "event": "candidate_rejected", "name": "InfiniHash App Store", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.030501+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.030575+00:00", "event": "candidate_rejected", "name": "Cortexformac", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.030636+00:00", "event": "candidate_rejected", "name": "Phntmcore", "reason": "duplicate"}
+{"timestamp": "2026-09-30T10:28:40.030696+00:00", "event": "candidate_rejected", "name": "Fab", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.030754+00:00", "event": "candidate_rejected", "name": "Agentcap", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.030820+00:00", "event": "candidate_rejected", "name": "Gradium", "reason": "generic_fallback_description"}
+{"timestamp": "2026-09-30T10:28:40.030972+00:00", "event": "candidate_rejected", "name": "Usesparta", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.031034+00:00", "event": "candidate_rejected", "name": "Squidbrake", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.031093+00:00", "event": "candidate_rejected", "name": "Misanthropic", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.031162+00:00", "event": "candidate_rejected", "name": "Investment Bets", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.031223+00:00", "event": "candidate_rejected", "name": "Pyunto", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.031293+00:00", "event": "candidate_rejected", "name": "Termaxa", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.031469+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-09-30T10:28:40.031532+00:00", "event": "candidate_rejected", "name": "SideKernel", "reason": "duplicate"}
+{"timestamp": "2026-09-30T10:28:40.031591+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.031650+00:00", "event": "candidate_rejected", "name": "Faqs.me", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.031724+00:00", "event": "candidate_rejected", "name": "Voicecursor", "reason": "duplicate"}
+{"timestamp": "2026-09-30T10:28:40.031790+00:00", "event": "candidate_rejected", "name": "Lemma.work", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.031849+00:00", "event": "candidate_rejected", "name": "Rsync.ai", "reason": "low_confidence"}
+{"timestamp": "2026-09-30T10:28:40.033914+00:00", "event": "tool_staged_for_review", "slug": "layout", "category": "design-ux", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-30T10:28:40.033954+00:00", "event": "tool_staged_for_review", "slug": "relay", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-30T10:28:40.033984+00:00", "event": "tool_staged_for_review", "slug": "taijora", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-30T10:28:40.034008+00:00", "event": "tool_staged_for_review", "slug": "search2o", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-09-30T10:28:40.034030+00:00", "event": "tool_staged_for_review", "slug": "fata", "category": "coding-development", "source": "Hacker News — Show HN AI"}
