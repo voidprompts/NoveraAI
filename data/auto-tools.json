@@ -2653,5 +2653,80 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49892088",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "vietnam-tender-intelligence",
+    "name": "Vietnam Tender Intelligence",
+    "category": "data-analytics",
+    "tagline": "gov procurement data, AI-agent ready",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://apify.com/donerightlabs/tender-intelligence",
+    "description": "Vietnam Tender Intelligence is a newly discovered AI product for data analytics. gov procurement data, AI-agent ready.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-10-01",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49917863",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "quiet",
+    "name": "Quiet",
+    "category": "productivity-automation",
+    "tagline": "exploring when an AI assistant should intervene",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://quiet-hci.pages.dev",
+    "description": "I’m Ruggiero, a CS student working on a research project about humanComputer interaction and AI. I built QUIET because I’ve been thinking about a problem with current AI interfaces: they usually either wait for an explicit prompt, or try to take over a task. I wanted to explore a different relationship between humans and AI: an assistant that can understand when to stay out of the way, when to point something out, wh",
+    "tags": [
+      "Research",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-01",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49912153",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "datastory",
+    "name": "Datastory",
+    "category": "research-knowledge",
+    "tagline": "Today we’re opening Datastory to everyone! Datastory is a platform for turning data, your own or the world’s open data, into charts that people can understand and trust. Please try",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.datastory.tech",
+    "description": "Today we’re opening Datastory to everyone! Datastory is a platform for turning data, your own or the world’s open data, into charts that people can understand and trust. Please try it out and let us know what we can improve! A little backstory I’ve spent my career trying to make data understandable and useful, from helping animate Hans Rosling's TED Talks at Gapminder to building data platforms for organizations in h",
+    "tags": [
+      "Data",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-10-01",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49911411",
+    "reviewStatus": "auto-discovered"
   }
 ]

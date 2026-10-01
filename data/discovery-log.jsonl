@@ -1008,3 +1008,33 @@
 {"timestamp": "2026-09-30T10:28:40.033984+00:00", "event": "tool_staged_for_review", "slug": "taijora", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-30T10:28:40.034008+00:00", "event": "tool_staged_for_review", "slug": "search2o", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-09-30T10:28:40.034030+00:00", "event": "tool_staged_for_review", "slug": "fata", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-01T10:56:22.975642+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 29}
+{"timestamp": "2026-10-01T10:56:22.983990+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.984153+00:00", "event": "candidate_rejected", "name": "Theregister", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.984513+00:00", "event": "candidate_rejected", "name": "Iwrote", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.984642+00:00", "event": "candidate_rejected", "name": "Tomasmed", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.984756+00:00", "event": "candidate_rejected", "name": "Jamb AI", "reason": "blocked_or_invalid_url"}
+{"timestamp": "2026-10-01T10:56:22.984883+00:00", "event": "candidate_rejected", "name": "Halv", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.984988+00:00", "event": "candidate_rejected", "name": "Ciao", "reason": "blocked_or_invalid_url"}
+{"timestamp": "2026-10-01T10:56:22.985182+00:00", "event": "candidate_rejected", "name": "Kyno", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.985379+00:00", "event": "candidate_rejected", "name": "Glance", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.985481+00:00", "event": "candidate_rejected", "name": "Blog", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.985601+00:00", "event": "candidate_rejected", "name": "Lathoa", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.985735+00:00", "event": "candidate_rejected", "name": "Burning Man for Agents", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.985871+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.985978+00:00", "event": "candidate_rejected", "name": "Sj", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.986083+00:00", "event": "candidate_rejected", "name": "Truverif", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-01T10:56:22.986180+00:00", "event": "candidate_rejected", "name": "AilaFlow", "reason": "duplicate"}
+{"timestamp": "2026-10-01T10:56:22.986280+00:00", "event": "candidate_rejected", "name": "Meettwins Site", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.986377+00:00", "event": "candidate_rejected", "name": "Llestia", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.986513+00:00", "event": "candidate_rejected", "name": "Mowgli", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-01T10:56:22.986663+00:00", "event": "candidate_rejected", "name": "Maverank", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.986766+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-01T10:56:22.986898+00:00", "event": "candidate_rejected", "name": "Layout", "reason": "duplicate"}
+{"timestamp": "2026-10-01T10:56:22.987000+00:00", "event": "candidate_rejected", "name": "HairColorChangeAI", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.987106+00:00", "event": "candidate_rejected", "name": "Instapath", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.987205+00:00", "event": "candidate_rejected", "name": "Runtape", "reason": "duplicate"}
+{"timestamp": "2026-10-01T10:56:22.987306+00:00", "event": "candidate_rejected", "name": "Moching", "reason": "low_confidence"}
+{"timestamp": "2026-10-01T10:56:22.990017+00:00", "event": "tool_staged_for_review", "slug": "vietnam-tender-intelligence", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-01T10:56:22.990073+00:00", "event": "tool_staged_for_review", "slug": "quiet", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-01T10:56:22.990115+00:00", "event": "tool_staged_for_review", "slug": "datastory", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
