@@ -1038,3 +1038,31 @@
 {"timestamp": "2026-10-01T10:56:22.990017+00:00", "event": "tool_staged_for_review", "slug": "vietnam-tender-intelligence", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-01T10:56:22.990073+00:00", "event": "tool_staged_for_review", "slug": "quiet", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-01T10:56:22.990115+00:00", "event": "tool_staged_for_review", "slug": "datastory", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-02T10:29:29.270140+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 27}
+{"timestamp": "2026-10-02T10:29:29.275996+00:00", "event": "candidate_rejected", "name": "Deepsense", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.276401+00:00", "event": "candidate_rejected", "name": "Nova", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-02T10:29:29.276550+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-02T10:29:29.276668+00:00", "event": "candidate_rejected", "name": "Soothsay", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.276797+00:00", "event": "candidate_rejected", "name": "Zero Slop", "reason": "duplicate"}
+{"timestamp": "2026-10-02T10:29:29.276906+00:00", "event": "candidate_rejected", "name": "Premortem", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.277016+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-02T10:29:29.277138+00:00", "event": "candidate_rejected", "name": "Innerloop", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.277270+00:00", "event": "candidate_rejected", "name": "Keel", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.277423+00:00", "event": "candidate_rejected", "name": "Call4", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.277626+00:00", "event": "candidate_rejected", "name": "Benchmark", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.277737+00:00", "event": "candidate_rejected", "name": "BananaSplit CLI", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.277839+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.277949+00:00", "event": "candidate_rejected", "name": "Nevorago", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-02T10:29:29.278190+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-02T10:29:29.278290+00:00", "event": "candidate_rejected", "name": "Sensii", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.278418+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.278521+00:00", "event": "candidate_rejected", "name": "Theregister", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.278617+00:00", "event": "candidate_rejected", "name": "Vietnam Tender Intelligence", "reason": "duplicate"}
+{"timestamp": "2026-10-02T10:29:29.278715+00:00", "event": "candidate_rejected", "name": "Iwrote", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.278829+00:00", "event": "candidate_rejected", "name": "Tomasmed", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.278929+00:00", "event": "candidate_rejected", "name": "Jamb AI", "reason": "blocked_or_invalid_url"}
+{"timestamp": "2026-10-02T10:29:29.279026+00:00", "event": "candidate_rejected", "name": "Halv", "reason": "low_confidence"}
+{"timestamp": "2026-10-02T10:29:29.279120+00:00", "event": "candidate_rejected", "name": "Ciao", "reason": "blocked_or_invalid_url"}
+{"timestamp": "2026-10-02T10:29:29.281875+00:00", "event": "tool_staged_for_review", "slug": "truescribe", "category": "audio-music", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-02T10:29:29.281931+00:00", "event": "tool_staged_for_review", "slug": "nadir", "category": "education-learning", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-02T10:29:29.281978+00:00", "event": "tool_staged_for_review", "slug": "nixm", "category": "audio-music", "source": "Hacker News — Show HN AI"}

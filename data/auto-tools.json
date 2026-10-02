@@ -2728,5 +2728,79 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49911411",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "truescribe",
+    "name": "TrueScribe",
+    "category": "audio-music",
+    "tagline": "Linux local AI transcription studio",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://truescribe.app",
+    "description": "Switched to Fedora a year ago. And because I needed to transcribe interviews offline from time to time, I was looking for something like MacWhisper for Linux. When I couldn't find one, I decided to build one. Because in this day and age, why the hell not! And yes, AI coding-agents were used. I work as a .NET Software Engineer and I despise Electron Apps, so I decided to go with a semi-native Stack, consisting of C# a",
+    "tags": [
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-10-02",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49923302",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "nadir",
+    "name": "Nadir",
+    "category": "education-learning",
+    "tagline": "Hey HN, I procrastinate looking for a job by creating side projects. This one was born when I finally decided it was time for look for a job. Naturally, I wanted to prepare for an",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://nadir.dev",
+    "description": "Nadir is a newly discovered AI product for education learning. Hey HN, I procrastinate looking for a job by creating side projects. This one was born when I finally decided it was time for look for a job. Naturally, I wanted to prepare for an eventual interview and asked Claude to d.",
+    "tags": [
+      "Education",
+      "Education Learning"
+    ],
+    "features": [
+      "Create guided learning experiences",
+      "Personalize practice and explanations",
+      "Support educators and learners",
+      "Turn material into study activities"
+    ],
+    "discoveredAt": "2026-10-02",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49921262",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "nixm",
+    "name": "Nixm",
+    "category": "audio-music",
+    "tagline": "AI chat that keeps no transcript (we measured the trade-off)",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://nixm.ai",
+    "description": "Nixm is a newly discovered AI product for audio music. AI chat that keeps no transcript (we measured the trade-off).",
+    "tags": [
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-10-02",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49921166",
+    "reviewStatus": "auto-discovered"
   }
 ]
