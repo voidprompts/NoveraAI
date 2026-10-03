@@ -1066,3 +1066,31 @@
 {"timestamp": "2026-10-02T10:29:29.281875+00:00", "event": "tool_staged_for_review", "slug": "truescribe", "category": "audio-music", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-02T10:29:29.281931+00:00", "event": "tool_staged_for_review", "slug": "nadir", "category": "education-learning", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-02T10:29:29.281978+00:00", "event": "tool_staged_for_review", "slug": "nixm", "category": "audio-music", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-03T09:51:27.839450+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 27}
+{"timestamp": "2026-10-03T09:51:27.841340+00:00", "event": "candidate_rejected", "name": "GhostBench", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.841724+00:00", "event": "candidate_rejected", "name": "Collaborative AI Engineering", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.841831+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-03T09:51:27.841988+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-03T09:51:27.842078+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.842197+00:00", "event": "candidate_rejected", "name": "Portus Gateway", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.842296+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.842398+00:00", "event": "candidate_rejected", "name": "Holderdashboard", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.842492+00:00", "event": "candidate_rejected", "name": "UseJunction", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.842571+00:00", "event": "candidate_rejected", "name": "Arda", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.842647+00:00", "event": "candidate_rejected", "name": "Agent-SDK-go", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.842728+00:00", "event": "candidate_rejected", "name": "Contextiq", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.842804+00:00", "event": "candidate_rejected", "name": "Twitter", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.842955+00:00", "event": "candidate_rejected", "name": "Outis", "reason": "duplicate"}
+{"timestamp": "2026-10-03T09:51:27.843084+00:00", "event": "candidate_rejected", "name": "Hotellobbygenerator", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.843285+00:00", "event": "candidate_rejected", "name": "AilaFlow", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.843368+00:00", "event": "candidate_rejected", "name": "Deepsense", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.843447+00:00", "event": "candidate_rejected", "name": "Nova", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-03T09:51:27.843541+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-03T09:51:27.843615+00:00", "event": "candidate_rejected", "name": "Soothsay", "reason": "low_confidence"}
+{"timestamp": "2026-10-03T09:51:27.843691+00:00", "event": "candidate_rejected", "name": "Zero Slop", "reason": "duplicate"}
+{"timestamp": "2026-10-03T09:51:27.846539+00:00", "event": "tool_staged_for_review", "slug": "usageatlas", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-03T09:51:27.846594+00:00", "event": "tool_staged_for_review", "slug": "teacher-planner", "category": "education-learning", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-03T09:51:27.846646+00:00", "event": "tool_staged_for_review", "slug": "taskrouter", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-03T09:51:27.846693+00:00", "event": "tool_staged_for_review", "slug": "bloby", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-03T09:51:27.846723+00:00", "event": "tool_staged_for_review", "slug": "spens", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-03T09:51:27.846756+00:00", "event": "tool_staged_for_review", "slug": "yokka", "category": "coding-development", "source": "Hacker News — Show HN AI"}

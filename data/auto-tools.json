@@ -2802,5 +2802,154 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49921166",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "usageatlas",
+    "name": "Usageatlas",
+    "category": "coding-development",
+    "tagline": "Track AI coding usage across 14 providers. Token history, available cost estimates, credits, and usage limits in one free, open-source desktop app",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://usageatlas.com",
+    "description": "Track AI coding usage across 14 providers. Token history, available cost estimates, credits, and usage limits in one free, open-source desktop app.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49942530",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "teacher-planner",
+    "name": "Teacher Planner",
+    "category": "education-learning",
+    "tagline": "A digital planbook with AI tools for teachers",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://teacherplanner.ai",
+    "description": "Teacher Planner is a newly discovered AI product for education learning. A digital planbook with AI tools for teachers.",
+    "tags": [
+      "Education",
+      "Education Learning"
+    ],
+    "features": [
+      "Create guided learning experiences",
+      "Personalize practice and explanations",
+      "Support educators and learners",
+      "Turn material into study activities"
+    ],
+    "discoveredAt": "2026-10-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49939688",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "taskrouter",
+    "name": "Taskrouter",
+    "category": "productivity-automation",
+    "tagline": "One API Learning to Choose Models per AI Task",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://taskrouter.com",
+    "description": "Taskrouter is a newly discovered AI product for productivity automation. One API Learning to Choose Models per AI Task.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49935311",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "bloby",
+    "name": "Bloby",
+    "category": "video-generation",
+    "tagline": "Clippy on Steroids Chrome Extension Using Chrome AI and Ollama",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://chromewebstore.google.com/detail/bloby/afmebijmdlfldmndinggmjdjmhjjhhcd",
+    "description": "Bloby is a newly discovered AI product for video generation. Clippy on Steroids Chrome Extension Using Chrome AI and Ollama.",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-10-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49934285",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "spens",
+    "name": "Spens",
+    "category": "coding-development",
+    "tagline": "Spens is a tool created to standardized sandboxing (good enough) and observability around coding agents. It leverages docker, nono and mitmproxy to create a reproducible sandbox en",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://spens.refwd.ai",
+    "description": "Spens is a tool created to standardized sandboxing (good enough) and observability around coding agents. It leverages docker, nono and mitmproxy to create a reproducible sandbox environment for agents, that captures all traffic and helps you understand what your coding agent is doing and when. Right now pi, opencode, claude and codex are supported out of the box, with node and python - but you can configure any agent",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49933266",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "yokka",
+    "name": "Yokka",
+    "category": "coding-development",
+    "tagline": "Simple project management for coding agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://yokka.ai",
+    "description": "Yokka is a newly discovered AI product for coding development. Simple project management for coding agents.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49932260",
+    "reviewStatus": "auto-discovered"
   }
 ]
