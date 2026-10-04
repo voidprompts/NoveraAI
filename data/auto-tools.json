@@ -2951,5 +2951,181 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49932260",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "viralreel",
+    "name": "ViralReel",
+    "category": "video-generation",
+    "tagline": "Make the viral Hotel Lobby AI template video in 60 seconds",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.viralreel.app",
+    "description": "Hotel lobby AI template: upload two photos, star in the viral orange-booth video in 60 seconds. Auto lip-sync, gestures and lighting for couples, pets, babies.",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-10-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49952515",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "telegram-ai-video-generator",
+    "name": "Telegram AI Video Generator",
+    "category": "video-generation",
+    "tagline": "A Telegram bot that generates AI videos from text prompts or images. Supports 8 top models including Kling, Runway, Seedance, Veo, Wan, Hailuo, MiniMax, and Grok. No desktop softwa",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://videoall.ai/telegram-ai-video-generator",
+    "description": "A Telegram bot that generates AI videos from text prompts or images. Supports 8 top models including Kling, Runway, Seedance, Veo, Wan, Hailuo, MiniMax, and Grok. No desktop software needed - just chat with the bot and get videos in seconds.",
+    "tags": [
+      "Video",
+      "Images",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-10-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49952489",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "thirds-ai",
+    "name": "Thirds.ai",
+    "category": "image-generation",
+    "tagline": "Beautiful, on-brand images and PDFs from templates",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://thirds.ai",
+    "description": "Thirds.ai is a newly discovered AI product for image generation. Beautiful, on-brand images and PDFs from templates.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-10-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49951624",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "viralwiz",
+    "name": "ViralWiz",
+    "category": "video-generation",
+    "tagline": "AI captions, clips and thumbnails for short-form video",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://viralwiz.co",
+    "description": "ViralWiz is a newly discovered AI product for video generation. AI captions, clips and thumbnails for short-form video.",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-10-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49949190",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "revline",
+    "name": "Revline",
+    "category": "research-knowledge",
+    "tagline": "an AI web app that researches TikTok and Instagram for you",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://tryrevline.com",
+    "description": "I build revline because i was trying to figure out how viral content works across tiktok and instagram, since i am mainly developer, i was confused about how to create content that gets me users. Actually going viral requires single founder ( me ) to upload 3-4 videos a day, brainstorming all the formats was not effective to do alone, so i build the agent that does all the scrolling for me. would appreciate feedback.",
+    "tags": [
+      "Video",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-10-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49946506",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "agentlytics",
+    "name": "Agentlytics",
+    "category": "data-analytics",
+    "tagline": "cookieless analytics your AI agent can read and act on",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://measuremy.site",
+    "description": "Agentlytics is a newly discovered AI product for data analytics. cookieless analytics your AI agent can read and act on.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-10-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49945236",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "pi-pod",
+    "name": "Pi pod",
+    "category": "coding-development",
+    "tagline": "Run your pi coding agent in sandboxes on your own server",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://pipod.dev",
+    "description": "pi pod runs sessions of the pi coding agent in isolated sandboxes (\"pods\") on a server you run, in composable environments. ---- Since moving my company towards AI-native work, I have been really frustrated by the state of \"agentic engineering\" environments. Products by the labs (claude code, codex) lock you into a single provider for your tokens. Agnostic solutions (factory, devin, arguably cursor) make you pay per-",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49937304",
+    "reviewStatus": "auto-discovered"
   }
 ]

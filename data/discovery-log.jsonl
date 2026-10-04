@@ -1094,3 +1094,40 @@
 {"timestamp": "2026-10-03T09:51:27.846693+00:00", "event": "tool_staged_for_review", "slug": "bloby", "category": "video-generation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-03T09:51:27.846723+00:00", "event": "tool_staged_for_review", "slug": "spens", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-03T09:51:27.846756+00:00", "event": "tool_staged_for_review", "slug": "yokka", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-04T10:33:53.079349+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 36}
+{"timestamp": "2026-10-04T10:33:53.081290+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.081388+00:00", "event": "candidate_rejected", "name": "Solvi 1.0", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.081504+00:00", "event": "candidate_rejected", "name": "Artbucket", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.081571+00:00", "event": "candidate_rejected", "name": "Arxiv", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.081691+00:00", "event": "candidate_rejected", "name": "Agentiloop", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.081766+00:00", "event": "candidate_rejected", "name": "Aquarium", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.081830+00:00", "event": "candidate_rejected", "name": "Vetoo", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-04T10:33:53.081894+00:00", "event": "candidate_rejected", "name": "RepoGuard", "reason": "duplicate"}
+{"timestamp": "2026-10-04T10:33:53.082045+00:00", "event": "candidate_rejected", "name": "Docs", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.082153+00:00", "event": "candidate_rejected", "name": "Web2MD", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.082219+00:00", "event": "candidate_rejected", "name": "Nisuform", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.082280+00:00", "event": "candidate_rejected", "name": "GhostBench", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.082337+00:00", "event": "candidate_rejected", "name": "Usageatlas", "reason": "duplicate"}
+{"timestamp": "2026-10-04T10:33:53.082420+00:00", "event": "candidate_rejected", "name": "Collaborative AI Engineering", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.082480+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-04T10:33:53.082537+00:00", "event": "candidate_rejected", "name": "Teacher Planner", "reason": "duplicate"}
+{"timestamp": "2026-10-04T10:33:53.082599+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-04T10:33:53.082657+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.082729+00:00", "event": "candidate_rejected", "name": "Portus Gateway", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.082796+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.082944+00:00", "event": "candidate_rejected", "name": "Holderdashboard", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.083036+00:00", "event": "candidate_rejected", "name": "UseJunction", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.083098+00:00", "event": "candidate_rejected", "name": "Arda", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.083156+00:00", "event": "candidate_rejected", "name": "Agent-SDK-go", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.083217+00:00", "event": "candidate_rejected", "name": "Contextiq", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.083274+00:00", "event": "candidate_rejected", "name": "Twitter", "reason": "low_confidence"}
+{"timestamp": "2026-10-04T10:33:53.083330+00:00", "event": "candidate_rejected", "name": "Taskrouter", "reason": "duplicate"}
+{"timestamp": "2026-10-04T10:33:53.083406+00:00", "event": "candidate_rejected", "name": "Outis", "reason": "duplicate"}
+{"timestamp": "2026-10-04T10:33:53.083463+00:00", "event": "candidate_rejected", "name": "Bloby", "reason": "duplicate"}
+{"timestamp": "2026-10-04T10:33:53.085874+00:00", "event": "tool_staged_for_review", "slug": "viralreel", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-04T10:33:53.085945+00:00", "event": "tool_staged_for_review", "slug": "telegram-ai-video-generator", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-04T10:33:53.085979+00:00", "event": "tool_staged_for_review", "slug": "thirds-ai", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-04T10:33:53.086020+00:00", "event": "tool_staged_for_review", "slug": "viralwiz", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-04T10:33:53.086043+00:00", "event": "tool_staged_for_review", "slug": "revline", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-04T10:33:53.086064+00:00", "event": "tool_staged_for_review", "slug": "agentlytics", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-04T10:33:53.086084+00:00", "event": "tool_staged_for_review", "slug": "pi-pod", "category": "coding-development", "source": "Hacker News — Show HN AI"}
