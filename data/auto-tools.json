@@ -3127,5 +3127,54 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49937304",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "echopod",
+    "name": "EchoPod",
+    "category": "audio-music",
+    "tagline": "Learn Languages with Podcasts via AI Transcripts",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://echopod.clothpath.com",
+    "description": "EchoPod is a newly discovered AI product for audio music. Learn Languages with Podcasts via AI Transcripts.",
+    "tags": [
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-10-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49955585",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "bearbits",
+    "name": "Bearbits",
+    "category": "productivity-automation",
+    "tagline": "AI copilot that helps during meetings instead of only after",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://bearbits.io",
+    "description": "I built this app mainly for myself and my wife. We both work in consulting and have tons of meetings every week. I had tried many of the existing meeting copilots but never found something that actually fulfilled what I wanted. Mainly, I wanted to be able to see in real time what's being said, irrespective of the language being spoken, including when people switch languages mid-meeting, which happens a lot in my work",
+    "tags": [
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49954800",
+    "reviewStatus": "auto-discovered"
   }
 ]
