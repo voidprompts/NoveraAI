@@ -3176,5 +3176,30 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49954800",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "designobo",
+    "name": "Designobo",
+    "category": "design-ux",
+    "tagline": "AI prototyping tool in 40kb of js",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://designobo.com",
+    "description": "Designobo is a newly discovered AI product for design ux. AI prototyping tool in 40kb of js.",
+    "tags": [
+      "Design",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-10-06",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49966733",
+    "reviewStatus": "auto-discovered"
   }
 ]

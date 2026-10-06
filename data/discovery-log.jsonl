@@ -1166,3 +1166,33 @@
 {"timestamp": "2026-10-05T11:27:07.941583+00:00", "event": "candidate_rejected", "name": "Agentlytics", "reason": "duplicate"}
 {"timestamp": "2026-10-05T11:27:07.944476+00:00", "event": "tool_staged_for_review", "slug": "echopod", "category": "audio-music", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-05T11:27:07.944530+00:00", "event": "tool_staged_for_review", "slug": "bearbits", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-06T11:15:23.793123+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 29}
+{"timestamp": "2026-10-06T11:15:23.794575+00:00", "event": "candidate_rejected", "name": "Tofu", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.794667+00:00", "event": "candidate_rejected", "name": "Aifomoindex", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.794739+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.794790+00:00", "event": "candidate_rejected", "name": "Thyme", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.794852+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.794897+00:00", "event": "candidate_rejected", "name": "Moching", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.794950+00:00", "event": "candidate_rejected", "name": "AI Agents", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.794994+00:00", "event": "candidate_rejected", "name": "Headline Arena", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795054+00:00", "event": "candidate_rejected", "name": "Halo", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795189+00:00", "event": "candidate_rejected", "name": "Rashomon", "reason": "duplicate"}
+{"timestamp": "2026-10-06T11:15:23.795252+00:00", "event": "candidate_rejected", "name": "Self-bench", "reason": "duplicate"}
+{"timestamp": "2026-10-06T11:15:23.795326+00:00", "event": "candidate_rejected", "name": "Playgama", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795506+00:00", "event": "candidate_rejected", "name": "Leftovers", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795571+00:00", "event": "candidate_rejected", "name": "Seylo", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795618+00:00", "event": "candidate_rejected", "name": "AcruxCore", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795677+00:00", "event": "candidate_rejected", "name": "Reright.it", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795744+00:00", "event": "candidate_rejected", "name": "Colineberhardt", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795800+00:00", "event": "candidate_rejected", "name": "Aieventsworld", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795870+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795914+00:00", "event": "candidate_rejected", "name": "Moching", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.795961+00:00", "event": "candidate_rejected", "name": "Poteto Frontier", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.796011+00:00", "event": "candidate_rejected", "name": "Redactpdf.ai", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.796055+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-06T11:15:23.796098+00:00", "event": "candidate_rejected", "name": "Recly", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.796147+00:00", "event": "candidate_rejected", "name": "Magic File Renamer 8", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.796195+00:00", "event": "candidate_rejected", "name": "Anchorterminal", "reason": "low_confidence"}
+{"timestamp": "2026-10-06T11:15:23.796255+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-06T11:15:23.796303+00:00", "event": "candidate_rejected", "name": "EchoPod", "reason": "duplicate"}
+{"timestamp": "2026-10-06T11:15:23.798428+00:00", "event": "tool_staged_for_review", "slug": "designobo", "category": "design-ux", "source": "Hacker News — Show HN AI"}
