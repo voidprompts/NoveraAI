@@ -3201,5 +3201,154 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49966733",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "slopguesser",
+    "name": "Slopguesser",
+    "category": "coding-development",
+    "tagline": "can you tell if code was written by AI or a human?",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://slopguesser.dev",
+    "description": "Slopguesser is a newly discovered AI product for coding development. can you tell if code was written by AI or a human?.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-07",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49989186",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "hieraticbench",
+    "name": "HieraticBench",
+    "category": "text-writing",
+    "tagline": "Can AI read ancient Egyptian handwriting?",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://hieraticbench.vercel.app",
+    "description": "I'm obsessed with Egyptology. During covid, I wanted to get a hieratic tattoo. For those who don't know, hieratic is the cursive form of hieroglyphs that was used in day-to-day life in ancient Egypt. It's as old as hieroglyphs. I then went on a mission to have a sentence translated into hieratic. Luckily, in 2022, I was able to commission an Oxford Egyptologist to write it for me. After that, I took it to a hieratic.",
+    "tags": [
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-10-07",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49982822",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "prevo",
+    "name": "Prevo",
+    "category": "audio-music",
+    "tagline": "AI voice interviewer for visa, citizenship, job and pitch prep",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.prevoapp.com",
+    "description": "Prevo is a newly discovered AI product for audio music. AI voice interviewer for visa, citizenship, job and pitch prep.",
+    "tags": [
+      "Voice",
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-10-07",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49982299",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "delegator",
+    "name": "Delegator",
+    "category": "coding-development",
+    "tagline": "Stop juggling coding-agent sessions",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://alcubi.ai/delegator",
+    "description": "I wanted to share Delegator with the HN community. delegator gives you a personal inbox to manage your tasks that is completely local to your machine. Backstory: Like everyone else, I've been experimenting with different AI-assisted development workflows. I realized I was having difficulty with all the context switching between tasks. Asking agents to develop code ends up taking about 5-10 minutes usually for well-sc",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-07",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49981900",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "orbtile",
+    "name": "Orbtile",
+    "category": "coding-development",
+    "tagline": "See which AI coding agent needs you, on a Logitech keypad",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://orbtile.com",
+    "description": "Orbtile is a newly discovered AI product for coding development. See which AI coding agent needs you, on a Logitech keypad.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-07",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49978997",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "genjutsu-ai",
+    "name": "Genjutsu AI",
+    "category": "video-generation",
+    "tagline": "Replace objects in existing videos",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://genjutsuai.net",
+    "description": "Genjutsu AI is a newly discovered AI product for video generation. Replace objects in existing videos.",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-10-07",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49978361",
+    "reviewStatus": "auto-discovered"
   }
 ]

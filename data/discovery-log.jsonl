@@ -1196,3 +1196,31 @@
 {"timestamp": "2026-10-06T11:15:23.796255+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
 {"timestamp": "2026-10-06T11:15:23.796303+00:00", "event": "candidate_rejected", "name": "EchoPod", "reason": "duplicate"}
 {"timestamp": "2026-10-06T11:15:23.798428+00:00", "event": "tool_staged_for_review", "slug": "designobo", "category": "design-ux", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-07T11:03:33.777055+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 27}
+{"timestamp": "2026-10-07T11:03:33.779118+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-07T11:03:33.779406+00:00", "event": "candidate_rejected", "name": "NanoMuse", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.779557+00:00", "event": "candidate_rejected", "name": "Easiest", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.779669+00:00", "event": "candidate_rejected", "name": "AgentOS", "reason": "duplicate"}
+{"timestamp": "2026-10-07T11:03:33.779785+00:00", "event": "candidate_rejected", "name": "Agentability", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-07T11:03:33.779967+00:00", "event": "candidate_rejected", "name": "Hiddencontent", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.780084+00:00", "event": "candidate_rejected", "name": "Sendwithsam", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.780315+00:00", "event": "candidate_rejected", "name": "Sprav Jobai", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.780418+00:00", "event": "candidate_rejected", "name": "AI Circuit Breaker", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.780541+00:00", "event": "candidate_rejected", "name": "OpenChart", "reason": "duplicate"}
+{"timestamp": "2026-10-07T11:03:33.780651+00:00", "event": "candidate_rejected", "name": "ProjectTodo", "reason": "duplicate"}
+{"timestamp": "2026-10-07T11:03:33.780753+00:00", "event": "candidate_rejected", "name": "Aether", "reason": "duplicate"}
+{"timestamp": "2026-10-07T11:03:33.780854+00:00", "event": "candidate_rejected", "name": "Scrbbl", "reason": "duplicate"}
+{"timestamp": "2026-10-07T11:03:33.780951+00:00", "event": "candidate_rejected", "name": "Langgraph-harness", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.781046+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-07T11:03:33.781142+00:00", "event": "candidate_rejected", "name": "Twitter", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.781296+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.781426+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.781549+00:00", "event": "candidate_rejected", "name": "Sealkeeper", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.781720+00:00", "event": "candidate_rejected", "name": "Aldo Coach", "reason": "low_confidence"}
+{"timestamp": "2026-10-07T11:03:33.781829+00:00", "event": "candidate_rejected", "name": "Snapplings", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-07T11:03:33.784869+00:00", "event": "tool_staged_for_review", "slug": "slopguesser", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-07T11:03:33.784922+00:00", "event": "tool_staged_for_review", "slug": "hieraticbench", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-07T11:03:33.784963+00:00", "event": "tool_staged_for_review", "slug": "prevo", "category": "audio-music", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-07T11:03:33.784999+00:00", "event": "tool_staged_for_review", "slug": "delegator", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-07T11:03:33.785051+00:00", "event": "tool_staged_for_review", "slug": "orbtile", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-07T11:03:33.785108+00:00", "event": "tool_staged_for_review", "slug": "genjutsu-ai", "category": "video-generation", "source": "Hacker News — Show HN AI"}
