@@ -13,6 +13,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "agentlytics": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "ai-hack-watch": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-30",
@@ -53,6 +60,13 @@
     "lastReviewedAt": "2026-09-30",
     "nextReviewAt": "2026-10-14",
     "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "bearbits": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "insufficient_official_text",
     "state": "deferred"
   },
   "bitroad": {
@@ -118,6 +132,13 @@
     "reason": "ambiguous_category",
     "state": "deferred"
   },
+  "delegator": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "delightful-cells": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-30",
@@ -130,6 +151,20 @@
     "lastReviewedAt": "2026-10-02",
     "nextReviewAt": "2026-10-16",
     "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "designobo": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "echopod": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "edify": {
@@ -272,6 +307,13 @@
     "reason": "fetch_or_parse_error:HTTPError",
     "state": "deferred"
   },
+  "pi-pod": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "pixelsniff": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-30",
@@ -305,6 +347,13 @@
     "lastReviewedAt": "2026-09-30",
     "nextReviewAt": "2026-10-14",
     "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
+  "revline": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
   "search2o": {
@@ -370,6 +419,20 @@
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
+  "telegram-ai-video-generator": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "thirds-ai": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "truescribe": {
     "attempts": 1,
     "lastReviewedAt": "2026-10-05",
@@ -412,11 +475,32 @@
     "reason": "product_name_not_verified",
     "state": "deferred"
   },
+  "viralreel": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "viralwiz": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "ambiguous_category",
+    "state": "deferred"
+  },
   "voicecursor": {
     "attempts": 1,
     "lastReviewedAt": "2026-10-02",
     "nextReviewAt": "2026-10-16",
     "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "yokka": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-07",
+    "nextReviewAt": "2026-10-21",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   }
 }
