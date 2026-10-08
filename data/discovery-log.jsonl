@@ -1224,3 +1224,33 @@
 {"timestamp": "2026-10-07T11:03:33.784999+00:00", "event": "tool_staged_for_review", "slug": "delegator", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-07T11:03:33.785051+00:00", "event": "tool_staged_for_review", "slug": "orbtile", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-07T11:03:33.785108+00:00", "event": "tool_staged_for_review", "slug": "genjutsu-ai", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-08T11:21:05.102505+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 29}
+{"timestamp": "2026-10-08T11:21:05.104367+00:00", "event": "candidate_rejected", "name": "Blog", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.104493+00:00", "event": "candidate_rejected", "name": "LLMSchema", "reason": "duplicate"}
+{"timestamp": "2026-10-08T11:21:05.104550+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.104600+00:00", "event": "candidate_rejected", "name": "Pacer", "reason": "duplicate"}
+{"timestamp": "2026-10-08T11:21:05.104658+00:00", "event": "candidate_rejected", "name": "agentc", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.104759+00:00", "event": "candidate_rejected", "name": "Chloejs", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.104807+00:00", "event": "candidate_rejected", "name": "SheetRelay", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.104868+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-08T11:21:05.104925+00:00", "event": "candidate_rejected", "name": "Voicegremlin", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105006+00:00", "event": "candidate_rejected", "name": "Pypi", "reason": "duplicate"}
+{"timestamp": "2026-10-08T11:21:05.105055+00:00", "event": "candidate_rejected", "name": "Babacad", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105124+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105170+00:00", "event": "candidate_rejected", "name": "Planlock", "reason": "duplicate"}
+{"timestamp": "2026-10-08T11:21:05.105219+00:00", "event": "candidate_rejected", "name": "ARSA AI Box", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105267+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-08T11:21:05.105325+00:00", "event": "candidate_rejected", "name": "Chromewebstore", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105369+00:00", "event": "candidate_rejected", "name": "InBrief", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105422+00:00", "event": "candidate_rejected", "name": "Clawock", "reason": "duplicate"}
+{"timestamp": "2026-10-08T11:21:05.105468+00:00", "event": "candidate_rejected", "name": "Attestlane", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105512+00:00", "event": "candidate_rejected", "name": "Huggingface", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105576+00:00", "event": "candidate_rejected", "name": "Pranavworks100", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105639+00:00", "event": "candidate_rejected", "name": "Leaks.md", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105702+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-08T11:21:05.105755+00:00", "event": "candidate_rejected", "name": "CloudGrip", "reason": "low_confidence"}
+{"timestamp": "2026-10-08T11:21:05.105797+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-08T11:21:05.110033+00:00", "event": "tool_staged_for_review", "slug": "quady3d", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-08T11:21:05.110089+00:00", "event": "tool_staged_for_review", "slug": "wiyomi", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-08T11:21:05.110115+00:00", "event": "tool_staged_for_review", "slug": "stayleet", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-08T11:21:05.110137+00:00", "event": "tool_staged_for_review", "slug": "agent-reviews", "category": "text-writing", "source": "Hacker News — Show HN AI"}

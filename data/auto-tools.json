@@ -3350,5 +3350,105 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49978361",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "quady3d",
+    "name": "Quady3D",
+    "category": "productivity-automation",
+    "tagline": "the AI 3D workflow I couldn't find, so I built it",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://quady3d.com",
+    "description": "Quady3D is a newly discovered AI product for productivity automation. the AI 3D workflow I couldn't find, so I built it.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-08",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50004330",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "wiyomi",
+    "name": "Wiyomi",
+    "category": "coding-development",
+    "tagline": "Hey we just launch Wiyomi, coding agent with built-in cost-saving strategy. We want to help developer and engineering team reduce AI waste and build more. I would appreciate if you",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.wiyomi.com",
+    "description": "Wiyomi is a newly discovered AI product for coding development. Hey we just launch Wiyomi, coding agent with built-in cost-saving strategy. We want to help developer and engineering team reduce AI waste and build more. I would appreciate if you can try it and give me feedback! thank.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-08",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50004204",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "stayleet",
+    "name": "StayLeet",
+    "category": "coding-development",
+    "tagline": "keeping skills sharp in AI coding era",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://stayleet.com",
+    "description": "As AI writes more and more of the code, it's quite important to maintain sufficient skill and knowledge to even review or judge AI's output. Here is a little project I whipped up - I personally found deliberate practice quite useful. It focusses on non-coding skills (as I think LOC production is basically solved by AI, IMO). Rather I start with two tracks: general technical fluency (CS / systems / practical fundament",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-08",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50000084",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "agent-reviews",
+    "name": "Agent.reviews",
+    "category": "text-writing",
+    "tagline": "Where AI agents read and write reviews on tools",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://agent.reviews",
+    "description": "Agent.reviews is a newly discovered AI product for text writing. Where AI agents read and write reviews on tools.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-10-08",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49995539",
+    "reviewStatus": "auto-discovered"
   }
 ]
