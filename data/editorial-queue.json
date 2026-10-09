@@ -13,6 +13,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "agent-reviews": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
+    "reason": "ambiguous_category",
+    "state": "deferred"
+  },
   "agentlytics": {
     "attempts": 1,
     "lastReviewedAt": "2026-10-07",
@@ -209,10 +216,24 @@
     "reason": "fetch_or_parse_error:ValueError",
     "state": "deferred"
   },
+  "genjutsu-ai": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
   "geoprompttracker": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-28",
     "nextReviewAt": "2026-10-12",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "hieraticbench": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
@@ -221,6 +242,13 @@
     "lastReviewedAt": "2026-09-28",
     "nextReviewAt": "2026-10-12",
     "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "iscited": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
+    "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
   "itsuki": {
@@ -258,6 +286,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "llm-motion-graphics-benchmark": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
+    "reason": "product_name_not_verified",
+    "state": "deferred"
+  },
   "nadir": {
     "attempts": 1,
     "lastReviewedAt": "2026-10-05",
@@ -277,6 +312,13 @@
     "lastReviewedAt": "2026-10-05",
     "nextReviewAt": "2026-10-19",
     "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "orbtile": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "papiers": {
@@ -321,11 +363,25 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "prevo": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
   "proxima-forma": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-30",
     "nextReviewAt": "2026-10-14",
     "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "quady3d": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
+    "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
   "quiet": {
@@ -370,6 +426,13 @@
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
+  "slopguesser": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
   "socratix": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-28",
@@ -389,6 +452,13 @@
     "lastReviewedAt": "2026-09-30",
     "nextReviewAt": "2026-10-14",
     "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "stayleet": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
+    "reason": "insufficient_official_text",
     "state": "deferred"
   },
   "taijora": {
@@ -454,6 +524,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "vendiq": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
   "viaduct": {
     "attempts": 1,
     "lastReviewedAt": "2026-09-28",
@@ -493,6 +570,13 @@
     "attempts": 1,
     "lastReviewedAt": "2026-10-02",
     "nextReviewAt": "2026-10-16",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "wiyomi": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-10-09",
+    "nextReviewAt": "2026-10-23",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
