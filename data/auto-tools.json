@@ -3450,5 +3450,82 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49995539",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "vendiq",
+    "name": "VendIQ",
+    "category": "productivity-automation",
+    "tagline": "AI agent for vendor follow-ups and ops automation",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://vendiq.rishailabs.com",
+    "description": "VendIQ is a newly discovered AI product for productivity automation. AI agent for vendor follow-ups and ops automation.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-09",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50018161",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "llm-motion-graphics-benchmark",
+    "name": "LLM Motion Graphics Benchmark",
+    "category": "video-generation",
+    "tagline": "Given that agents are getting good at generating motion graphics I wanted to understand what the differences are in cost and time using say Opus 5.5 and the cheaper models. Let me",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://cliphou.se/benchmark",
+    "description": "Given that agents are getting good at generating motion graphics I wanted to understand what the differences are in cost and time using say Opus 5.5 and the cheaper models. Let me know if you want other LLMs added and feel free to click around the rest of the website. All videos are editable in place and aim to give engineers a simple way of discovering and remixing motion graphics without spending too much on comput",
+    "tags": [
+      "Video",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-10-09",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50011813",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "iscited",
+    "name": "IsCited",
+    "category": "productivity-automation",
+    "tagline": "find out if AI assistants cite your website",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://iscited-enzovezzaros-projects.vercel.app",
+    "description": "IsCited is a newly discovered AI product for productivity automation. find out if AI assistants cite your website.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-09",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50004493",
+    "reviewStatus": "auto-discovered"
   }
 ]
