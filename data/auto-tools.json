@@ -3527,5 +3527,79 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50004493",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "open-components",
+    "name": "Open Components",
+    "category": "design-ux",
+    "tagline": "UI Components standard for people, devs and AI agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://opencomponents.dev",
+    "description": "Open Components is a newly discovered AI product for design ux. UI Components standard for people, devs and AI agents.",
+    "tags": [
+      "Design",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-10-10",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50030849",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "circleit",
+    "name": "CircleIt",
+    "category": "coding-development",
+    "tagline": "Circle something on a web page, your coding agent fixes it",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://circleit.ai",
+    "description": "CircleIt is a newly discovered AI product for coding development. Circle something on a web page, your coding agent fixes it.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-10",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50020545",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "arcadium3d",
+    "name": "Arcadium3D",
+    "category": "design-ux",
+    "tagline": "I loved the stunning 3D designs created with Astra but they typically require a decent knowledge of Blender or Unreal engine which made it inaccessible. It also generated something",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://arcadium3d.com/create-with-ai",
+    "description": "I loved the stunning 3D designs created with Astra but they typically require a decent knowledge of Blender or Unreal engine which made it inaccessible. It also generated something you couldn't edit which is tricky for the design process where you typically need to try different ideas out. This is especially painful if each series of Astra loop's took 4 hours to complete. So... using Arcadium's online house editor to",
+    "tags": [
+      "Design",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-10-10",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50019488",
+    "reviewStatus": "auto-discovered"
   }
 ]
