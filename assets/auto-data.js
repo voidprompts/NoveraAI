@@ -1245,6 +1245,1206 @@ window.NOVERA_AUTO_TOOLS = [
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=49803059",
     "reviewStatus": "editorially-corrected"
+  },
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "category": "text-writing",
+    "tagline": "A versatile assistant for writing, analysis, and everyday ideas.",
+    "pricing": "Freemium",
+    "featured": true,
+    "website": "https://chatgpt.com",
+    "description": "ChatGPT helps people think, write, learn, and create through a natural conversational interface.",
+    "tags": [
+      "Writing",
+      "Assistant",
+      "Ideas"
+    ],
+    "features": [
+      "Draft and refine content in seconds",
+      "Analyze documents and structured information",
+      "Brainstorm ideas through natural conversation",
+      "Work across text, images, and files"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://chatgpt.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "claude",
+    "name": "Claude",
+    "category": "text-writing",
+    "tagline": "A thoughtful AI collaborator for deep work and clear writing.",
+    "pricing": "Freemium",
+    "featured": true,
+    "website": "https://claude.ai",
+    "description": "Claude is an AI assistant built for careful reasoning, nuanced writing, and working with long documents.",
+    "tags": [
+      "Long-form",
+      "Analysis",
+      "Assistant"
+    ],
+    "features": [
+      "Write with a natural, adaptable voice",
+      "Work through long documents and context",
+      "Summarize and explain complex material",
+      "Collaborate on structured projects"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://claude.ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "jasper",
+    "name": "Jasper",
+    "category": "text-writing",
+    "tagline": "On-brand content creation for modern marketing teams.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.jasper.ai",
+    "description": "Jasper gives marketing teams an AI workspace for creating consistent, on-brand content at scale.",
+    "tags": [
+      "Marketing copy",
+      "Brand voice",
+      "Teams"
+    ],
+    "features": [
+      "Create content from campaign briefs",
+      "Maintain a consistent brand voice",
+      "Collaborate across marketing teams",
+      "Repurpose content for new channels"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.jasper.ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "category": "text-writing",
+    "tagline": "Improve clarity, tone, and confidence wherever you write.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://www.grammarly.com",
+    "description": "Grammarly is an AI writing partner that helps improve clarity, correctness, tone, and impact.",
+    "tags": [
+      "Editing",
+      "Grammar",
+      "Tone"
+    ],
+    "features": [
+      "Correct grammar and spelling",
+      "Rewrite sentences for clarity",
+      "Adjust tone for your audience",
+      "Generate drafts from short prompts"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.grammarly.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "category": "image-generation",
+    "tagline": "Create richly detailed images from natural language prompts.",
+    "pricing": "Paid",
+    "featured": true,
+    "website": "https://www.midjourney.com",
+    "description": "Midjourney is a creative image generation platform known for expressive, polished visual output.",
+    "tags": [
+      "Art",
+      "Concepts",
+      "Illustration"
+    ],
+    "features": [
+      "Generate high-quality concept imagery",
+      "Explore visual styles and variations",
+      "Refine compositions through prompting",
+      "Create cohesive visual directions"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.midjourney.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "dall-e",
+    "name": "DALL·E",
+    "category": "image-generation",
+    "tagline": "Translate everyday language into imaginative original images.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://openai.com/index/dall-e-3/",
+    "description": "DALL·E creates and edits images from natural-language descriptions with strong prompt understanding.",
+    "tags": [
+      "Image creation",
+      "Editing",
+      "Prompting"
+    ],
+    "features": [
+      "Generate images from detailed prompts",
+      "Edit selected areas with instructions",
+      "Render text within visual compositions",
+      "Quickly explore multiple directions"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://openai.com/index/dall-e-3/",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "category": "image-generation",
+    "tagline": "Generative creative tools designed for everyday workflows.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://firefly.adobe.com",
+    "description": "Adobe Firefly brings generative image tools into a familiar creative workflow for designers and teams.",
+    "tags": [
+      "Creative suite",
+      "Editing",
+      "Commercial"
+    ],
+    "features": [
+      "Create images and text effects",
+      "Generatively fill and expand artwork",
+      "Explore style and color variations",
+      "Connect with Adobe creative workflows"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://firefly.adobe.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "ideogram",
+    "name": "Ideogram",
+    "category": "image-generation",
+    "tagline": "Generate expressive visuals with especially strong typography.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://ideogram.ai",
+    "description": "Ideogram is an image generator focused on creative compositions, graphic design, and reliable typography.",
+    "tags": [
+      "Typography",
+      "Posters",
+      "Graphics"
+    ],
+    "features": [
+      "Create graphic compositions from prompts",
+      "Render readable text in images",
+      "Remix and refine visual ideas",
+      "Build posters and social graphics"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://ideogram.ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "runway",
+    "name": "Runway",
+    "category": "video-generation",
+    "tagline": "A creative suite for generating and transforming video.",
+    "pricing": "Freemium",
+    "featured": true,
+    "website": "https://runwayml.com",
+    "description": "Runway gives filmmakers and creators a powerful set of AI video generation and editing tools.",
+    "tags": [
+      "Filmmaking",
+      "Video editing",
+      "Generation"
+    ],
+    "features": [
+      "Generate video from text or images",
+      "Transform footage with creative controls",
+      "Remove and replace scene elements",
+      "Build shots through an iterative workflow"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://runwayml.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "synthesia",
+    "name": "Synthesia",
+    "category": "video-generation",
+    "tagline": "Create polished presenter videos without cameras or studios.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.synthesia.io",
+    "description": "Synthesia turns scripts into professional videos using AI avatars, voice, and reusable templates.",
+    "tags": [
+      "Avatars",
+      "Training",
+      "Business"
+    ],
+    "features": [
+      "Turn scripts into presenter videos",
+      "Choose from diverse AI avatars",
+      "Translate content into many languages",
+      "Keep team videos on brand"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.synthesia.io",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "pika",
+    "name": "Pika",
+    "category": "video-generation",
+    "tagline": "Bring still images and playful concepts to life in motion.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://pika.art",
+    "description": "Pika is an approachable creative platform for generating and modifying short-form video.",
+    "tags": [
+      "Motion",
+      "Effects",
+      "Social video"
+    ],
+    "features": [
+      "Generate short video from prompts",
+      "Animate still images",
+      "Apply imaginative video effects",
+      "Modify scenes with simple commands"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://pika.art",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "luma-dream-machine",
+    "name": "Luma Dream Machine",
+    "category": "video-generation",
+    "tagline": "Build cinematic video ideas from prompts and images.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://lumalabs.ai/dream-machine",
+    "description": "Dream Machine creates fluid, cinematic video from text descriptions and source images.",
+    "tags": [
+      "Cinematic",
+      "Text to video",
+      "Motion"
+    ],
+    "features": [
+      "Generate cinematic short clips",
+      "Animate a source image",
+      "Explore natural camera motion",
+      "Iterate from prompt variations"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://lumalabs.ai/dream-machine",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "category": "audio-music",
+    "tagline": "Natural AI voices for stories, products, and global audiences.",
+    "pricing": "Freemium",
+    "featured": true,
+    "website": "https://elevenlabs.io",
+    "description": "ElevenLabs offers expressive text-to-speech and voice tools for creators, teams, and products.",
+    "tags": [
+      "Voice",
+      "Narration",
+      "Localization"
+    ],
+    "features": [
+      "Generate expressive spoken audio",
+      "Create consistent custom voices",
+      "Translate and dub content",
+      "Build voice into products via API"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://elevenlabs.io",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "suno",
+    "name": "Suno",
+    "category": "audio-music",
+    "tagline": "Turn a simple idea into a complete, original song.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://suno.com",
+    "description": "Suno is an AI music creation platform for turning prompts and lyrics into full musical tracks.",
+    "tags": [
+      "Music",
+      "Songs",
+      "Creative"
+    ],
+    "features": [
+      "Create complete songs from prompts",
+      "Generate vocals and instrumentation",
+      "Explore genres and musical moods",
+      "Extend and refine song ideas"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://suno.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "descript",
+    "name": "Descript",
+    "category": "audio-music",
+    "tagline": "Edit audio and video as naturally as editing a document.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://www.descript.com",
+    "description": "Descript combines transcription, audio cleanup, screen recording, and text-based editing.",
+    "tags": [
+      "Podcasting",
+      "Editing",
+      "Transcription"
+    ],
+    "features": [
+      "Edit recordings through a transcript",
+      "Remove filler words and noise",
+      "Capture screen and webcam",
+      "Create clips and captions quickly"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.descript.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "aiva",
+    "name": "AIVA",
+    "category": "audio-music",
+    "tagline": "Compose original background music in a range of styles.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://www.aiva.ai",
+    "description": "AIVA helps creators compose original music for videos, games, podcasts, and personal projects.",
+    "tags": [
+      "Composition",
+      "Soundtracks",
+      "Instrumental"
+    ],
+    "features": [
+      "Compose music in varied styles",
+      "Create tracks for visual media",
+      "Edit generated musical structures",
+      "Export compositions for production"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.aiva.ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "category": "coding-development",
+    "tagline": "An AI pair programmer that stays close to your code.",
+    "pricing": "Paid",
+    "featured": true,
+    "website": "https://github.com/features/copilot",
+    "description": "GitHub Copilot brings code completion, chat, and contextual assistance into developer workflows.",
+    "tags": [
+      "Code completion",
+      "Developer",
+      "GitHub"
+    ],
+    "features": [
+      "Suggest code inside your editor",
+      "Explain unfamiliar code and patterns",
+      "Generate tests and documentation",
+      "Answer questions with repository context"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://github.com/features/copilot",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "category": "coding-development",
+    "tagline": "A code editor designed around fast, contextual AI assistance.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://cursor.com",
+    "description": "Cursor is an AI-first code editor for understanding, changing, and navigating software projects.",
+    "tags": [
+      "Editor",
+      "Codebase",
+      "Pair programming"
+    ],
+    "features": [
+      "Edit code with natural instructions",
+      "Ask questions across a codebase",
+      "Predict useful multi-line changes",
+      "Apply coordinated updates across files"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://cursor.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "replit",
+    "name": "Replit",
+    "category": "coding-development",
+    "tagline": "Build, collaborate, and deploy software from one workspace.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://replit.com",
+    "description": "Replit is a browser-based development platform with AI support from first idea to deployment.",
+    "tags": [
+      "App builder",
+      "Cloud IDE",
+      "Deploy"
+    ],
+    "features": [
+      "Create applications from prompts",
+      "Code collaboratively in the browser",
+      "Debug with contextual assistance",
+      "Deploy projects from one workspace"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://replit.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "windsurf",
+    "name": "Windsurf",
+    "category": "coding-development",
+    "tagline": "A flowing AI development environment for complex projects.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://windsurf.com",
+    "description": "Windsurf is an AI coding environment designed for deep context and multi-step development work.",
+    "tags": [
+      "IDE",
+      "Agentic coding",
+      "Developer"
+    ],
+    "features": [
+      "Plan and execute coding tasks",
+      "Understand context across files",
+      "Generate and refactor code",
+      "Run terminal-assisted workflows"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://windsurf.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "notion-ai",
+    "name": "Notion AI",
+    "category": "productivity-automation",
+    "tagline": "Write, find, and organize knowledge inside your workspace.",
+    "pricing": "Paid",
+    "featured": true,
+    "website": "https://www.notion.so/product/ai",
+    "description": "Notion AI helps teams search, draft, summarize, and work with knowledge without leaving Notion.",
+    "tags": [
+      "Workspace",
+      "Knowledge",
+      "Notes"
+    ],
+    "features": [
+      "Find answers across team knowledge",
+      "Draft and refine documents",
+      "Summarize meetings and projects",
+      "Turn notes into clear action items"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.notion.so/product/ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "zapier-ai",
+    "name": "Zapier AI",
+    "category": "productivity-automation",
+    "tagline": "Connect apps and automate repeatable work with plain language.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://zapier.com/ai",
+    "description": "Zapier AI helps people build and run automated workflows across thousands of connected apps.",
+    "tags": [
+      "Automation",
+      "Integrations",
+      "Workflows"
+    ],
+    "features": [
+      "Build automations with plain language",
+      "Connect thousands of work apps",
+      "Extract and transform information",
+      "Create reusable automated processes"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://zapier.com/ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "make",
+    "name": "Make",
+    "category": "productivity-automation",
+    "tagline": "Visually design powerful automations across your favorite apps.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://www.make.com",
+    "description": "Make is a visual automation platform for designing, building, and monitoring connected workflows.",
+    "tags": [
+      "Visual automation",
+      "No-code",
+      "Operations"
+    ],
+    "features": [
+      "Build workflows on a visual canvas",
+      "Connect apps, APIs, and data",
+      "Add intelligent processing steps",
+      "Monitor automation from end to end"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.make.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "motion",
+    "name": "Motion",
+    "category": "productivity-automation",
+    "tagline": "An intelligent calendar that plans work around real priorities.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.usemotion.com",
+    "description": "Motion combines tasks, projects, and calendars to automatically shape a focused daily plan.",
+    "tags": [
+      "Planning",
+      "Calendar",
+      "Tasks"
+    ],
+    "features": [
+      "Plan tasks into open calendar time",
+      "Reprioritize work automatically",
+      "Coordinate team projects and capacity",
+      "Protect focus time as plans change"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.usemotion.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "hubspot-breeze",
+    "name": "HubSpot Breeze",
+    "category": "marketing-sales",
+    "tagline": "AI assistance woven into customer and growth workflows.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://www.hubspot.com/products/artificial-intelligence",
+    "description": "HubSpot Breeze helps marketing, sales, and service teams work with customer context and AI assistance.",
+    "tags": [
+      "CRM",
+      "Content",
+      "Growth"
+    ],
+    "features": [
+      "Create content from CRM context",
+      "Research companies and prospects",
+      "Summarize customer activity",
+      "Automate repetitive growth work"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.hubspot.com/products/artificial-intelligence",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "copy-ai",
+    "name": "Copy.ai",
+    "category": "marketing-sales",
+    "tagline": "Turn go-to-market processes into repeatable AI workflows.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://www.copy.ai",
+    "description": "Copy.ai is a go-to-market platform for content, prospecting, and repeatable revenue workflows.",
+    "tags": [
+      "GTM",
+      "Copywriting",
+      "Workflows"
+    ],
+    "features": [
+      "Build repeatable marketing workflows",
+      "Create and repurpose campaign copy",
+      "Research prospects and accounts",
+      "Coordinate content across a team"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.copy.ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "adcreative-ai",
+    "name": "AdCreative.ai",
+    "category": "marketing-sales",
+    "tagline": "Generate conversion-minded ad creative for every campaign.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.adcreative.ai",
+    "description": "AdCreative.ai helps teams generate advertising visuals and copy shaped for campaign performance.",
+    "tags": [
+      "Advertising",
+      "Creative",
+      "Campaigns"
+    ],
+    "features": [
+      "Generate ad visuals and copy",
+      "Create platform-ready variations",
+      "Apply brand colors and guidelines",
+      "Test multiple campaign directions"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.adcreative.ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "clay",
+    "name": "Clay",
+    "category": "marketing-sales",
+    "tagline": "Enrich, research, and reach the right prospects thoughtfully.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://www.clay.com",
+    "description": "Clay combines data providers, research, and AI messaging in a flexible go-to-market workspace.",
+    "tags": [
+      "Prospecting",
+      "Enrichment",
+      "Sales"
+    ],
+    "features": [
+      "Research accounts from many sources",
+      "Enrich lead and company records",
+      "Draft personalized outreach",
+      "Build flexible prospecting workflows"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.clay.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "category": "research-knowledge",
+    "tagline": "Explore the web through clear answers and cited sources.",
+    "pricing": "Freemium",
+    "featured": true,
+    "website": "https://www.perplexity.ai",
+    "description": "Perplexity is an answer engine that searches the web and synthesizes information with citations.",
+    "tags": [
+      "Search",
+      "Citations",
+      "Answers"
+    ],
+    "features": [
+      "Research questions with cited sources",
+      "Ask useful follow-up questions",
+      "Compare perspectives across the web",
+      "Organize findings into focused threads"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.perplexity.ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "elicit",
+    "name": "Elicit",
+    "category": "research-knowledge",
+    "tagline": "Find and synthesize academic evidence more efficiently.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://elicit.com",
+    "description": "Elicit supports literature review workflows by finding papers and extracting structured insights.",
+    "tags": [
+      "Academic",
+      "Literature review",
+      "Evidence"
+    ],
+    "features": [
+      "Find papers related to a question",
+      "Summarize methods and findings",
+      "Extract details into structured tables",
+      "Compare evidence across studies"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://elicit.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "consensus",
+    "name": "Consensus",
+    "category": "research-knowledge",
+    "tagline": "Search scientific research and understand where evidence leads.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://consensus.app",
+    "description": "Consensus is an academic search engine that helps people understand findings across scientific research.",
+    "tags": [
+      "Science",
+      "Evidence",
+      "Search"
+    ],
+    "features": [
+      "Search peer-reviewed research",
+      "See concise evidence-based answers",
+      "Review supporting paper details",
+      "Explore areas of research agreement"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://consensus.app",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "notebooklm",
+    "name": "NotebookLM",
+    "category": "research-knowledge",
+    "tagline": "Understand your own sources with an AI research companion.",
+    "pricing": "Free",
+    "featured": false,
+    "website": "https://notebooklm.google.com",
+    "description": "NotebookLM grounds AI assistance in the source material you choose, from documents to notes.",
+    "tags": [
+      "Sources",
+      "Study",
+      "Synthesis"
+    ],
+    "features": [
+      "Ask questions grounded in sources",
+      "Create summaries and study guides",
+      "Trace answers back to citations",
+      "Explore themes across documents"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://notebooklm.google.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "figma-ai",
+    "name": "Figma AI",
+    "category": "design-ux",
+    "tagline": "Move from first idea to polished interface with less friction.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.figma.com/ai/",
+    "description": "Figma AI brings intelligent creation and editing tools into collaborative product design.",
+    "tags": [
+      "UI design",
+      "Collaboration",
+      "Prototyping"
+    ],
+    "features": [
+      "Generate initial interface directions",
+      "Rename and organize design layers",
+      "Create and refine visual assets",
+      "Work inside a collaborative design file"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.figma.com/ai/",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "framer-ai",
+    "name": "Framer AI",
+    "category": "design-ux",
+    "tagline": "Design and publish expressive websites from a simple brief.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://www.framer.com/ai",
+    "description": "Framer AI helps designers move from a prompt to an editable, responsive, published website.",
+    "tags": [
+      "Web design",
+      "No-code",
+      "Publishing"
+    ],
+    "features": [
+      "Generate page layouts from prompts",
+      "Edit responsive designs visually",
+      "Rewrite and translate web copy",
+      "Publish with integrated hosting"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.framer.com/ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "uizard",
+    "name": "Uizard",
+    "category": "design-ux",
+    "tagline": "Turn rough product ideas into editable interface mockups.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://uizard.io",
+    "description": "Uizard is a collaborative design tool for generating and editing product screens and prototypes.",
+    "tags": [
+      "Wireframes",
+      "Mockups",
+      "Product"
+    ],
+    "features": [
+      "Generate interfaces from descriptions",
+      "Turn sketches into editable screens",
+      "Create clickable prototypes",
+      "Collaborate on product concepts"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://uizard.io",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "galileo-ai",
+    "name": "Galileo AI",
+    "category": "design-ux",
+    "tagline": "Generate editable UI concepts from natural language ideas.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.usegalileo.ai",
+    "description": "Galileo AI helps product designers explore polished interface concepts from short text prompts.",
+    "tags": [
+      "UI concepts",
+      "Product design",
+      "Generation"
+    ],
+    "features": [
+      "Generate mobile and web UI concepts",
+      "Explore multiple visual directions",
+      "Create screens from product prompts",
+      "Export designs into an editable workflow"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.usegalileo.ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "julius-ai",
+    "name": "Julius AI",
+    "category": "data-analytics",
+    "tagline": "Chat with files and turn raw data into clear insight.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://julius.ai",
+    "description": "Julius lets people analyze spreadsheets and datasets through natural-language questions.",
+    "tags": [
+      "Analysis",
+      "Spreadsheets",
+      "Charts"
+    ],
+    "features": [
+      "Ask questions about uploaded data",
+      "Create charts and clear visualizations",
+      "Run statistical analysis",
+      "Explain findings in accessible language"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://julius.ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "tableau-pulse",
+    "name": "Tableau Pulse",
+    "category": "data-analytics",
+    "tagline": "Personalized, plain-language insights for important metrics.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.tableau.com/products/tableau-pulse",
+    "description": "Tableau Pulse brings concise, contextual metric insights into the flow of work.",
+    "tags": [
+      "BI",
+      "Metrics",
+      "Insights"
+    ],
+    "features": [
+      "Track personalized business metrics",
+      "Receive plain-language summaries",
+      "Understand changes and key drivers",
+      "Share insights across teams"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.tableau.com/products/tableau-pulse",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "akkio",
+    "name": "Akkio",
+    "category": "data-analytics",
+    "tagline": "Explore, predict, and report on business data without code.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.akkio.com",
+    "description": "Akkio is a generative business intelligence platform for analyzing and presenting operational data.",
+    "tags": [
+      "Predictive",
+      "No-code",
+      "Business"
+    ],
+    "features": [
+      "Chat with business data",
+      "Build predictive models without code",
+      "Generate reports and dashboards",
+      "Prepare and enrich datasets"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.akkio.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "polymer",
+    "name": "Polymer",
+    "category": "data-analytics",
+    "tagline": "Transform spreadsheets into clear, interactive data stories.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.polymersearch.com",
+    "description": "Polymer turns tabular data into accessible dashboards and interactive visual analysis.",
+    "tags": [
+      "Dashboards",
+      "Visualization",
+      "Spreadsheets"
+    ],
+    "features": [
+      "Create dashboards from spreadsheets",
+      "Generate useful visualizations",
+      "Explore data with interactive filters",
+      "Share clear data stories"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.polymersearch.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "intercom-fin",
+    "name": "Intercom Fin",
+    "category": "customer-support",
+    "tagline": "A conversational AI agent grounded in your support content.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.intercom.com/fin",
+    "description": "Fin is an AI customer service agent designed to resolve questions using a company’s support knowledge.",
+    "tags": [
+      "AI agent",
+      "Help center",
+      "Resolution"
+    ],
+    "features": [
+      "Answer questions from support content",
+      "Hand off nuanced issues to people",
+      "Work across several support channels",
+      "Track resolution quality and coverage"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.intercom.com/fin",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "zendesk-ai",
+    "name": "Zendesk AI",
+    "category": "customer-support",
+    "tagline": "Intelligent service tools for agents and support operations.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.zendesk.com/ai/",
+    "description": "Zendesk AI supports automated resolution, agent productivity, and customer service operations.",
+    "tags": [
+      "Service",
+      "Agents",
+      "Automation"
+    ],
+    "features": [
+      "Automate common customer requests",
+      "Suggest replies and helpful actions",
+      "Summarize complex conversations",
+      "Route work with intent detection"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.zendesk.com/ai/",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "ada",
+    "name": "Ada",
+    "category": "customer-support",
+    "tagline": "Automate helpful, personalized service across channels.",
+    "pricing": "Enterprise",
+    "featured": false,
+    "website": "https://www.ada.cx",
+    "description": "Ada is an AI customer service platform for building automated, personalized support experiences.",
+    "tags": [
+      "Automation",
+      "Omnichannel",
+      "Enterprise"
+    ],
+    "features": [
+      "Resolve common support inquiries",
+      "Personalize with customer context",
+      "Deploy across digital channels",
+      "Monitor and improve answer quality"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.ada.cx",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "tidio",
+    "name": "Tidio",
+    "category": "customer-support",
+    "tagline": "Live chat and AI support made approachable for growing teams.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://www.tidio.com",
+    "description": "Tidio combines live chat, helpdesk workflows, and an AI support agent for growing businesses.",
+    "tags": [
+      "Live chat",
+      "SMB",
+      "Helpdesk"
+    ],
+    "features": [
+      "Answer common questions automatically",
+      "Manage live customer conversations",
+      "Route conversations to the right team",
+      "Review support performance"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.tidio.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "khanmigo",
+    "name": "Khanmigo",
+    "category": "education-learning",
+    "tagline": "A patient AI tutor and teaching assistant from Khan Academy.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.khanmigo.ai",
+    "description": "Khanmigo supports learners with guided tutoring and helps educators prepare engaging instruction.",
+    "tags": [
+      "Tutoring",
+      "Teachers",
+      "Learning"
+    ],
+    "features": [
+      "Guide learners without giving away answers",
+      "Support writing and problem solving",
+      "Help teachers plan lessons",
+      "Practice through conversational activities"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.khanmigo.ai",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "quizlet",
+    "name": "Quizlet",
+    "category": "education-learning",
+    "tagline": "Adaptive study help built around your own learning material.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://quizlet.com",
+    "description": "Quizlet helps learners study through flashcards, practice tests, explanations, and adaptive activities.",
+    "tags": [
+      "Study",
+      "Flashcards",
+      "Practice"
+    ],
+    "features": [
+      "Create study sets from class material",
+      "Practice with adaptive questions",
+      "Generate helpful explanations",
+      "Review with games and test modes"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://quizlet.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "duolingo-max",
+    "name": "Duolingo Max",
+    "category": "education-learning",
+    "tagline": "Practice languages through personalized roleplay and feedback.",
+    "pricing": "Paid",
+    "featured": false,
+    "website": "https://www.duolingo.com",
+    "description": "Duolingo Max adds AI-powered roleplay and answer explanations to an approachable language curriculum.",
+    "tags": [
+      "Languages",
+      "Roleplay",
+      "Practice"
+    ],
+    "features": [
+      "Practice realistic conversations",
+      "Receive feedback on responses",
+      "Understand mistakes with explanations",
+      "Build daily language habits"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.duolingo.com",
+    "reviewStatus": "directory-only"
+  },
+  {
+    "slug": "magicschool",
+    "name": "MagicSchool",
+    "category": "education-learning",
+    "tagline": "Practical AI assistance designed around educators’ work.",
+    "pricing": "Freemium",
+    "featured": false,
+    "website": "https://www.magicschool.ai",
+    "description": "MagicSchool gives educators purpose-built tools for planning, differentiation, communication, and more.",
+    "tags": [
+      "Educators",
+      "Planning",
+      "Classroom"
+    ],
+    "features": [
+      "Create lesson and unit plans",
+      "Differentiate material for learners",
+      "Draft rubrics and assessments",
+      "Improve family and student communication"
+    ],
+    "updatedAt": "2026-10-12",
+    "sourceName": "Novera Editorial curated set",
+    "sourceUrl": "https://www.magicschool.ai",
+    "reviewStatus": "directory-only"
   }
 ];
 if (window.NOVERA_DATA) {

@@ -108,7 +108,7 @@
 
   function toolCard(t) {
     const c = bySlug(t.category);
-    return `<a class="tool-card" href="/tools/${t.slug}/" data-pricing="${t.pricing}" data-category="${t.category}" data-rating="${t.rating}" data-name="${t.name.toLowerCase()}">
+    return `<a class="tool-card" href="/tools/${t.slug}/" data-pricing="${t.pricing}" data-category="${t.category}" data-name="${t.name.toLowerCase()}">
       <span class="tool-card-top"><span class="tool-logo" style="--logo-bg:${logoColor(t.category)}">${initials(t.name)}</span><span class="pricing-badge" data-price="${t.pricing}">${t.pricing}</span></span>
       <h3>${t.name}</h3><p class="tagline">${t.tagline}</p>
       <span class="tool-card-bottom"><span class="tool-cat">${c.name}</span><span class="visit-link">View tool ${arrow()}</span></span>
