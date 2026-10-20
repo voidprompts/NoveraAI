@@ -4605,5 +4605,29 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50151466",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "xiaolan-assistant-bluedoai",
+    "name": "Xiaolan Assistant (BlueDoAI)",
+    "category": "productivity-automation",
+    "tagline": "Windows desktop assistant for multi-step work tasks.",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.bluedoai.com/tools",
+    "description": "Xiaolan Assistant is a Windows desktop assistant for handling multi-step work tasks. BlueDoAI offers optional metered access to hosted Chinese AI models alongside the desktop tool.",
+    "tags": [
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-20",
+    "sourceName": "Submission inbox",
+    "sourceUrl": "https://www.bluedoai.com/tools/",
+    "reviewStatus": "auto-discovered"
   }
 ]
