@@ -84,9 +84,9 @@
     "state": "deferred"
   },
   "bloby": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -133,9 +133,9 @@
     "state": "deferred"
   },
   "datastory": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "ambiguous_category",
     "state": "deferred"
   },
@@ -293,9 +293,9 @@
     "state": "deferred"
   },
   "nadir": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
@@ -307,9 +307,9 @@
     "state": "deferred"
   },
   "nixm": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
@@ -384,9 +384,9 @@
     "state": "deferred"
   },
   "quiet": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
@@ -440,9 +440,9 @@
     "state": "deferred"
   },
   "spens": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -461,16 +461,16 @@
     "state": "deferred"
   },
   "taijora": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
   "taskrouter": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -482,9 +482,9 @@
     "state": "deferred"
   },
   "teacher-planner": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
@@ -503,16 +503,16 @@
     "state": "deferred"
   },
   "truescribe": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
   "usageatlas": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -545,9 +545,9 @@
     "state": "deferred"
   },
   "vietnam-tender-intelligence": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-05",
-    "nextReviewAt": "2026-10-19",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-21",
+    "nextReviewAt": "2026-11-04",
     "reason": "product_name_not_verified",
     "state": "deferred"
   },
