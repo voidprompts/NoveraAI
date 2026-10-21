@@ -4605,5 +4605,79 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50151466",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "not-quite-my-tempo",
+    "name": "Not Quite My Tempo",
+    "category": "coding-development",
+    "tagline": "A Whiplash-Style AI Reviewer for GitHub PRs",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://notmytempo.dev",
+    "description": "Not Quite My Tempo is a newly discovered AI product for coding development. A Whiplash-Style AI Reviewer for GitHub PRs.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-21",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50169092",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "asktori",
+    "name": "Asktori",
+    "category": "customer-support",
+    "tagline": "Hey everyone! Joshua and Egbert from TalkJS here. Today we're launching Tori, an AI support agent built for difficult product questions. Other tools we tried struggled with the tec",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://asktori.ai",
+    "description": "Asktori is a newly discovered AI product for customer support. Hey everyone! Joshua and Egbert from TalkJS here. Today we're launching Tori, an AI support agent built for difficult product questions. Other tools we tried struggled with the technical questions we get at TalkJS, so we.",
+    "tags": [
+      "Customer support",
+      "Customer Support"
+    ],
+    "features": [
+      "Answer common customer questions",
+      "Assist human support workflows",
+      "Organize and route conversations",
+      "Improve service response time"
+    ],
+    "discoveredAt": "2026-10-21",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50166358",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "markitdown-ai",
+    "name": "MarkItDown AI",
+    "category": "text-writing",
+    "tagline": "Convert documents to Markdown locally in the browser",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://markitdownai.org",
+    "description": "MarkItDown AI is a newly discovered AI product for text writing. Convert documents to Markdown locally in the browser.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-10-21",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50165343",
+    "reviewStatus": "auto-discovered"
   }
 ]
