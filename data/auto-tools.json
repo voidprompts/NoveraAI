@@ -4679,5 +4679,30 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50165343",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "hn-sieve",
+    "name": "HN Sieve",
+    "category": "text-writing",
+    "tagline": "every Show HN scored and summarized by AI",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://hnsieve.com",
+    "description": "HN Sieve is a newly discovered AI product for text writing. every Show HN scored and summarized by AI.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-10-22",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50190403",
+    "reviewStatus": "auto-discovered"
   }
 ]
