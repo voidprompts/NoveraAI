@@ -21,10 +21,10 @@
     "state": "deferred"
   },
   "agentlytics": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
-    "reason": "fewer_than_three_product_specific_capabilities",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
+    "reason": "product_name_not_verified",
     "state": "deferred"
   },
   "ai-hack-watch": {
@@ -70,9 +70,9 @@
     "state": "deferred"
   },
   "bearbits": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
     "reason": "insufficient_official_text",
     "state": "deferred"
   },
@@ -140,9 +140,9 @@
     "state": "deferred"
   },
   "delegator": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -161,16 +161,16 @@
     "state": "deferred"
   },
   "designobo": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "echopod": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -349,9 +349,9 @@
     "state": "deferred"
   },
   "pi-pod": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -405,10 +405,10 @@
     "state": "deferred"
   },
   "revline": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
-    "reason": "official_pages_lack_product_evidence",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
+    "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
   "search2o": {
@@ -489,16 +489,16 @@
     "state": "deferred"
   },
   "telegram-ai-video-generator": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "thirds-ai": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -552,16 +552,16 @@
     "state": "deferred"
   },
   "viralreel": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
   "viralwiz": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
     "reason": "ambiguous_category",
     "state": "deferred"
   },
@@ -580,9 +580,9 @@
     "state": "deferred"
   },
   "yokka": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-07",
-    "nextReviewAt": "2026-10-21",
+    "attempts": 2,
+    "lastReviewedAt": "2026-10-23",
+    "nextReviewAt": "2026-11-06",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   }
