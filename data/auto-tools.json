@@ -4704,5 +4704,80 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50190403",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "audimind",
+    "name": "Audimind",
+    "category": "audio-music",
+    "tagline": "Create audiobooks in one AI-powered workspace",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.audimind.ai",
+    "description": "Audimind is a newly discovered AI product for audio music. Create audiobooks in one AI-powered workspace.",
+    "tags": [
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-10-23",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50205393",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "ai-prompt-chain-builder",
+    "name": "AI Prompt Chain Builder",
+    "category": "productivity-automation",
+    "tagline": "offline multi-step prompt workflows",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://theaioperatorstore.gumroad.com/l/kjxamb",
+    "description": "AI Prompt Chain Builder is a newly discovered AI product for productivity automation. offline multi-step prompt workflows.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-23",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50201281",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "halv",
+    "name": "Halv",
+    "category": "coding-development",
+    "tagline": "open-source agent coding software that reduces your usage",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://halv.ai",
+    "description": "Halv is a newly discovered AI product for coding development. open-source agent coding software that reduces your usage.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-23",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50198250",
+    "reviewStatus": "auto-discovered"
   }
 ]
