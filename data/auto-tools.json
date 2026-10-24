@@ -4779,5 +4779,31 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50198250",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "kavela",
+    "name": "Kavela",
+    "category": "productivity-automation",
+    "tagline": "AI Automations that do not fail silently",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://kavela.ai",
+    "description": "Kavela’s closed beta is out. AI agent automations that do not fail silently. There are now 216 unique users in our closed-beta tests! It is my belief that Kavela will be a winner in the vertical of scaling the consumption of artificial intelligence. Most of our workflows today are manual, in Claude/Codex CLIs. Every workflow that works deserves a harness that can consume the intricacies, rulebooks and guidance it req",
+    "tags": [
+      "Developer",
+      "Automation",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-24",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50209500",
+    "reviewStatus": "auto-discovered"
   }
 ]
