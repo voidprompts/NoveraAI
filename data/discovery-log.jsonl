@@ -1773,3 +1773,37 @@
 {"timestamp": "2026-10-24T08:51:38.077415+00:00", "event": "candidate_rejected", "name": "Forked", "reason": "low_confidence"}
 {"timestamp": "2026-10-24T08:51:38.077497+00:00", "event": "candidate_rejected", "name": "Mnemolith", "reason": "duplicate"}
 {"timestamp": "2026-10-24T08:51:38.080926+00:00", "event": "tool_staged_for_review", "slug": "kavela", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-25T09:08:12.016994+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 33}
+{"timestamp": "2026-10-25T09:08:12.019376+00:00", "event": "candidate_rejected", "name": "Ai", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.019551+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.019924+00:00", "event": "candidate_rejected", "name": "AI Senate", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.020046+00:00", "event": "candidate_rejected", "name": "ADRs for AI", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.020154+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.020367+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-25T09:08:12.020512+00:00", "event": "candidate_rejected", "name": "Narro", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.020622+00:00", "event": "candidate_rejected", "name": "AI Trend Video", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.020753+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.020863+00:00", "event": "candidate_rejected", "name": "AI agent swarms test if new CVEs are exploitable in your env", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.020964+00:00", "event": "candidate_rejected", "name": "TenseMem", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.021064+00:00", "event": "candidate_rejected", "name": "Shotstash", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.021164+00:00", "event": "candidate_rejected", "name": "Mantid", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.021261+00:00", "event": "candidate_rejected", "name": "Kouh", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.021376+00:00", "event": "candidate_rejected", "name": "Sideos", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-25T09:08:12.021512+00:00", "event": "candidate_rejected", "name": "Aicitewho", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-25T09:08:12.021613+00:00", "event": "candidate_rejected", "name": "Console", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.021728+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-25T09:08:12.021827+00:00", "event": "candidate_rejected", "name": "Latch", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.021921+00:00", "event": "candidate_rejected", "name": "Pilely", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.022020+00:00", "event": "candidate_rejected", "name": "Inference Cooperative, user-governed AI", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.022142+00:00", "event": "candidate_rejected", "name": "AI Crash Debugging Gauntlet", "reason": "article_not_product"}
+{"timestamp": "2026-10-25T09:08:12.022242+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.022337+00:00", "event": "candidate_rejected", "name": "Kouh", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.022476+00:00", "event": "candidate_rejected", "name": "Argus", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.022587+00:00", "event": "candidate_rejected", "name": "Instant", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.022689+00:00", "event": "candidate_rejected", "name": "Lcc", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.022793+00:00", "event": "candidate_rejected", "name": "AI Data Footprint Tracker", "reason": "duplicate"}
+{"timestamp": "2026-10-25T09:08:12.022893+00:00", "event": "candidate_rejected", "name": "UPA", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.022999+00:00", "event": "candidate_rejected", "name": "Ai News", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-25T09:08:12.023099+00:00", "event": "candidate_rejected", "name": "Koala", "reason": "low_confidence"}
+{"timestamp": "2026-10-25T09:08:12.027369+00:00", "event": "tool_staged_for_review", "slug": "npmjs", "category": "design-ux", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-25T09:08:12.027444+00:00", "event": "tool_staged_for_review", "slug": "perchfocus", "category": "coding-development", "source": "Hacker News — Show HN AI"}
