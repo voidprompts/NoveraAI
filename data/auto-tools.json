@@ -4853,5 +4853,81 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50225233",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "frontier-log",
+    "name": "Frontier Log",
+    "category": "data-analytics",
+    "tagline": "Database of AI events, models and benchmarks",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://frontierlog.ai",
+    "description": "Frontier Log is a newly discovered AI product for data analytics. Database of AI events, models and benchmarks.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-10-26",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50239697",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "uipalooza",
+    "name": "UIPalooza",
+    "category": "design-ux",
+    "tagline": "Do AI models have a recognizable design taste?",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://uipalooza.ai",
+    "description": "This question has been bugging me for a while: do different AI models have a different design sense? Does it matter which one I pick? I built UI Palooza to explore that. I gave models the same four frontend briefs, with enough room to choose their own typography, colors, layouts, and interactions. Then I repeated the runs with different design skills and sample directions. The public collection has 1,784 designs. You",
+    "tags": [
+      "Design",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-10-26",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50238943",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "optio",
+    "name": "Optio",
+    "category": "productivity-automation",
+    "tagline": "A self-hosted orchestration platform for AI agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://optio.host",
+    "description": "Optio is a newly discovered AI product for productivity automation. A self-hosted orchestration platform for AI agents.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-26",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50234643",
+    "reviewStatus": "auto-discovered"
   }
 ]

@@ -1807,3 +1807,35 @@
 {"timestamp": "2026-10-25T09:08:12.023099+00:00", "event": "candidate_rejected", "name": "Koala", "reason": "low_confidence"}
 {"timestamp": "2026-10-25T09:08:12.027369+00:00", "event": "tool_staged_for_review", "slug": "npmjs", "category": "design-ux", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-25T09:08:12.027444+00:00", "event": "tool_staged_for_review", "slug": "perchfocus", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-26T10:05:32.105090+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 31}
+{"timestamp": "2026-10-26T10:05:32.107429+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.107659+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-26T10:05:32.107795+00:00", "event": "candidate_rejected", "name": "Chromewebstore", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.107945+00:00", "event": "candidate_rejected", "name": "pw-repl", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.108053+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.108401+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-26T10:05:32.108511+00:00", "event": "candidate_rejected", "name": "Depono", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.108617+00:00", "event": "candidate_rejected", "name": "Glitchrupt", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.108723+00:00", "event": "candidate_rejected", "name": "Opensparta", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-26T10:05:32.108825+00:00", "event": "candidate_rejected", "name": "AgentTrust", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.108957+00:00", "event": "candidate_rejected", "name": "AI Data Footprint Tracker", "reason": "duplicate"}
+{"timestamp": "2026-10-26T10:05:32.109071+00:00", "event": "candidate_rejected", "name": "Hycli", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.109246+00:00", "event": "candidate_rejected", "name": "Open Accountant", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.109345+00:00", "event": "candidate_rejected", "name": "Junior", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.109443+00:00", "event": "candidate_rejected", "name": "Worldofbuilders", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.109539+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.109635+00:00", "event": "candidate_rejected", "name": "Kolo", "reason": "duplicate"}
+{"timestamp": "2026-10-26T10:05:32.109734+00:00", "event": "candidate_rejected", "name": "Medium", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.109874+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-26T10:05:32.109988+00:00", "event": "candidate_rejected", "name": "Jevontane", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-26T10:05:32.110089+00:00", "event": "candidate_rejected", "name": "AI", "reason": "generic_product_name"}
+{"timestamp": "2026-10-26T10:05:32.110187+00:00", "event": "candidate_rejected", "name": "Ai", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.110304+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.110402+00:00", "event": "candidate_rejected", "name": "Npmjs", "reason": "duplicate"}
+{"timestamp": "2026-10-26T10:05:32.110501+00:00", "event": "candidate_rejected", "name": "AI Senate", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.110613+00:00", "event": "candidate_rejected", "name": "ADRs for AI", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.110713+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-26T10:05:32.110823+00:00", "event": "candidate_rejected", "name": "Perchfocus", "reason": "duplicate"}
+{"timestamp": "2026-10-26T10:05:32.115237+00:00", "event": "tool_staged_for_review", "slug": "frontier-log", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-26T10:05:32.115291+00:00", "event": "tool_staged_for_review", "slug": "uipalooza", "category": "design-ux", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-26T10:05:32.115332+00:00", "event": "tool_staged_for_review", "slug": "optio", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
