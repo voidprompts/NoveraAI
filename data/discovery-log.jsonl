@@ -1839,3 +1839,35 @@
 {"timestamp": "2026-10-26T10:05:32.115237+00:00", "event": "tool_staged_for_review", "slug": "frontier-log", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-26T10:05:32.115291+00:00", "event": "tool_staged_for_review", "slug": "uipalooza", "category": "design-ux", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-26T10:05:32.115332+00:00", "event": "tool_staged_for_review", "slug": "optio", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-27T09:47:52.817877+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 31}
+{"timestamp": "2026-10-27T09:47:52.819972+00:00", "event": "candidate_rejected", "name": "Aroha", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.820107+00:00", "event": "candidate_rejected", "name": "Claudeslop", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.820287+00:00", "event": "candidate_rejected", "name": "Kashkeshet", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.820397+00:00", "event": "candidate_rejected", "name": "Humansignal", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-27T09:47:52.820520+00:00", "event": "candidate_rejected", "name": "Unicornfork", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.820641+00:00", "event": "candidate_rejected", "name": "Covenant Common", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.820756+00:00", "event": "candidate_rejected", "name": "pw-repl", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.820854+00:00", "event": "candidate_rejected", "name": "Mainplane", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.820949+00:00", "event": "candidate_rejected", "name": "Hob", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.821055+00:00", "event": "candidate_rejected", "name": "Make0", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.821180+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.821355+00:00", "event": "candidate_rejected", "name": "ToiletBench", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.821544+00:00", "event": "candidate_rejected", "name": "Graph-MIND", "reason": "duplicate"}
+{"timestamp": "2026-10-27T09:47:52.821650+00:00", "event": "candidate_rejected", "name": "Geekyants", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.821748+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.821846+00:00", "event": "candidate_rejected", "name": "Ankita v2.7.1", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.821943+00:00", "event": "candidate_rejected", "name": "Retro AI Concept", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.822043+00:00", "event": "candidate_rejected", "name": "Griyd", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-27T09:47:52.822147+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.822241+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-27T09:47:52.822386+00:00", "event": "candidate_rejected", "name": "Chromewebstore", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.822553+00:00", "event": "candidate_rejected", "name": "pw-repl", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.822664+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-27T09:47:52.822759+00:00", "event": "candidate_rejected", "name": "Frontier Log", "reason": "duplicate"}
+{"timestamp": "2026-10-27T09:47:52.822870+00:00", "event": "candidate_rejected", "name": "UIPalooza", "reason": "duplicate"}
+{"timestamp": "2026-10-27T09:47:52.822989+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-27T09:47:52.827383+00:00", "event": "tool_staged_for_review", "slug": "limma", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-27T09:47:52.827437+00:00", "event": "tool_staged_for_review", "slug": "marlow", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-27T09:47:52.827510+00:00", "event": "tool_staged_for_review", "slug": "hugonot", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-27T09:47:52.827560+00:00", "event": "tool_staged_for_review", "slug": "alchemy-ai", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-27T09:47:52.827594+00:00", "event": "tool_staged_for_review", "slug": "image-or-ai", "category": "image-generation", "source": "Hacker News — Show HN AI"}

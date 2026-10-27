@@ -4929,5 +4929,130 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50234643",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "limma",
+    "name": "Limma",
+    "category": "data-analytics",
+    "tagline": "MCP for total recall and precision in data retrieval for agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://limma.ai",
+    "description": "Limma is a newly discovered AI product for data analytics. MCP for total recall and precision in data retrieval for agents.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-10-27",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50254187",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "marlow",
+    "name": "Marlow",
+    "category": "coding-development",
+    "tagline": "Build full-stack apps with AI and own your code",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://marlow.app/beta",
+    "description": "Marlow is a newly discovered AI product for coding development. Build full-stack apps with AI and own your code.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-27",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50253426",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "hugonot",
+    "name": "Hugonot",
+    "category": "text-writing",
+    "tagline": "Sponsor a Dedicated AI Blogger",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.hugonot.com",
+    "description": "Hugonot is a newly discovered AI product for text writing. Sponsor a Dedicated AI Blogger.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-10-27",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50252486",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "alchemy-ai",
+    "name": "Alchemy AI",
+    "category": "text-writing",
+    "tagline": "Turn one idea into platform-ready content",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://alchemy-ai-amber.vercel.app",
+    "description": "Alchemy AI is a newly discovered AI product for text writing. Turn one idea into platform-ready content.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-10-27",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50245247",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "image-or-ai",
+    "name": "Image or AI",
+    "category": "image-generation",
+    "tagline": "an AI image detector that shows which evidence it used",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://imageorai.com",
+    "description": "Image or AI is a newly discovered AI product for image generation. an AI image detector that shows which evidence it used.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-10-27",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50242833",
+    "reviewStatus": "auto-discovered"
   }
 ]
