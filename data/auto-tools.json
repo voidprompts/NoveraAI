@@ -5054,5 +5054,81 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50242833",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "ki-song-erstellen",
+    "name": "KI Song erstellen",
+    "category": "audio-music",
+    "tagline": "German AI music from prompts and lyrics",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://kisongerstellen.com",
+    "description": "KI Song erstellen is a newly discovered AI product for audio music. German AI music from prompts and lyrics.",
+    "tags": [
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-10-28",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50270568",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "hackerscad",
+    "name": "Hackerscad",
+    "category": "coding-development",
+    "tagline": "Code-first CAD with MCP server for AI agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://hackerscad.com",
+    "description": "Hackerscad is a newly discovered AI product for coding development. Code-first CAD with MCP server for AI agents.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-28",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50270203",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "everygen-ai",
+    "name": "EveryGen AI",
+    "category": "text-writing",
+    "tagline": "AI images, short videos and copy rewrites in one tab",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://everygenai.app",
+    "description": "EveryGen AI is a newly discovered AI product for text writing. AI images, short videos and copy rewrites in one tab.",
+    "tags": [
+      "Video",
+      "Images",
+      "Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-10-28",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50260209",
+    "reviewStatus": "auto-discovered"
   }
 ]
