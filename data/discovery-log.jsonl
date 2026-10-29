@@ -1906,3 +1906,34 @@
 {"timestamp": "2026-10-28T10:33:29.761646+00:00", "event": "tool_staged_for_review", "slug": "ki-song-erstellen", "category": "audio-music", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-28T10:33:29.761689+00:00", "event": "tool_staged_for_review", "slug": "hackerscad", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-28T10:33:29.761715+00:00", "event": "tool_staged_for_review", "slug": "everygen-ai", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-29T10:52:40.292865+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 30}
+{"timestamp": "2026-10-29T10:52:40.294032+00:00", "event": "candidate_rejected", "name": "Endlesstokens", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.294196+00:00", "event": "candidate_rejected", "name": "Checker", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-29T10:52:40.294261+00:00", "event": "candidate_rejected", "name": "Ai News", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.294306+00:00", "event": "candidate_rejected", "name": "Supermhel", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.294349+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.294393+00:00", "event": "candidate_rejected", "name": "ThreadShelf", "reason": "duplicate"}
+{"timestamp": "2026-10-29T10:52:40.294469+00:00", "event": "candidate_rejected", "name": "Claude", "reason": "duplicate"}
+{"timestamp": "2026-10-29T10:52:40.294513+00:00", "event": "candidate_rejected", "name": "AI Zen Garden", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.294553+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-29T10:52:40.294620+00:00", "event": "candidate_rejected", "name": "42Loop", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.294677+00:00", "event": "candidate_rejected", "name": "Blockchainiq", "reason": "article_not_product"}
+{"timestamp": "2026-10-29T10:52:40.294781+00:00", "event": "candidate_rejected", "name": "WOML", "reason": "duplicate"}
+{"timestamp": "2026-10-29T10:52:40.294821+00:00", "event": "candidate_rejected", "name": "Pullboard", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.294886+00:00", "event": "candidate_rejected", "name": "Coding agent spots your AI practices and the ones you're missing", "reason": "non_product_title"}
+{"timestamp": "2026-10-29T10:52:40.294936+00:00", "event": "candidate_rejected", "name": "Lab", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.295002+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.295043+00:00", "event": "candidate_rejected", "name": "Ai Resume Reviewer Nine Drab", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.295082+00:00", "event": "candidate_rejected", "name": "Agent Bv", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.295138+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.295177+00:00", "event": "candidate_rejected", "name": "ReplySlip", "reason": "duplicate"}
+{"timestamp": "2026-10-29T10:52:40.295215+00:00", "event": "candidate_rejected", "name": "Veqen", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.295281+00:00", "event": "candidate_rejected", "name": "Toolmaker", "reason": "low_confidence"}
+{"timestamp": "2026-10-29T10:52:40.295322+00:00", "event": "candidate_rejected", "name": "Nuvrail", "reason": "duplicate"}
+{"timestamp": "2026-10-29T10:52:40.295359+00:00", "event": "candidate_rejected", "name": "Apps", "reason": "blocked_or_invalid_url"}
+{"timestamp": "2026-10-29T10:52:40.295396+00:00", "event": "candidate_rejected", "name": "KI Song erstellen", "reason": "duplicate"}
+{"timestamp": "2026-10-29T10:52:40.298109+00:00", "event": "tool_staged_for_review", "slug": "race-radar", "category": "customer-support", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-29T10:52:40.298138+00:00", "event": "tool_staged_for_review", "slug": "vu", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-29T10:52:40.298155+00:00", "event": "tool_staged_for_review", "slug": "files-magic-ai", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-29T10:52:40.298169+00:00", "event": "tool_staged_for_review", "slug": "bugtape", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-29T10:52:40.298183+00:00", "event": "tool_staged_for_review", "slug": "ai-workflows", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}

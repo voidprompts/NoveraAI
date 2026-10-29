@@ -5130,5 +5130,130 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50260209",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "race-radar",
+    "name": "Race Radar",
+    "category": "customer-support",
+    "tagline": "HYROX ticket alerts, run day to day by an AI CEO",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://raceradar.fit",
+    "description": "Race Radar is a newly discovered AI product for customer support. HYROX ticket alerts, run day to day by an AI CEO.",
+    "tags": [
+      "Customer support",
+      "Customer Support"
+    ],
+    "features": [
+      "Answer common customer questions",
+      "Assist human support workflows",
+      "Organize and route conversations",
+      "Improve service response time"
+    ],
+    "discoveredAt": "2026-10-29",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50280244",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "vu",
+    "name": "Vu",
+    "category": "coding-development",
+    "tagline": "a new programming language designed for AI. Rust speeds, Py syntax",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://vulang.org",
+    "description": "Vu is a newly discovered AI product for coding development. a new programming language designed for AI. Rust speeds, Py syntax.",
+    "tags": [
+      "Design",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-29",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50276431",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "files-magic-ai",
+    "name": "Files Magic AI",
+    "category": "text-writing",
+    "tagline": "Organize and rename files via content with undo on Mac",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://1dot.ai/files-magic-ai",
+    "description": "Files Magic AI is a newly discovered AI product for text writing. Organize and rename files via content with undo on Mac.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-10-29",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50275994",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "bugtape",
+    "name": "BugTape",
+    "category": "coding-development",
+    "tagline": "production bugs your coding agent can read and fix over MCP",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://bugtape.ai",
+    "description": "BugTape is a newly discovered AI product for coding development. production bugs your coding agent can read and fix over MCP.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-29",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50274943",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "ai-workflows",
+    "name": "AI Workflows",
+    "category": "productivity-automation",
+    "tagline": "32 step-by-step workflows built from 146 AI tools",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://aiworkflows.tools/workflows",
+    "description": "AI Workflows is a newly discovered AI product for productivity automation. 32 step-by-step workflows built from 146 AI tools.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-10-29",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50272242",
+    "reviewStatus": "auto-discovered"
   }
 ]
