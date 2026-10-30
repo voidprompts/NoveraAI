@@ -1937,3 +1937,32 @@
 {"timestamp": "2026-10-29T10:52:40.298155+00:00", "event": "tool_staged_for_review", "slug": "files-magic-ai", "category": "text-writing", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-29T10:52:40.298169+00:00", "event": "tool_staged_for_review", "slug": "bugtape", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-29T10:52:40.298183+00:00", "event": "tool_staged_for_review", "slug": "ai-workflows", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-30T10:50:59.215625+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-10-30T10:50:59.217449+00:00", "event": "candidate_rejected", "name": "Send21", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.217620+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.217835+00:00", "event": "candidate_rejected", "name": "Breatic", "reason": "duplicate"}
+{"timestamp": "2026-10-30T10:50:59.218133+00:00", "event": "candidate_rejected", "name": "AI Knows Us", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.218247+00:00", "event": "candidate_rejected", "name": "Kinoloom", "reason": "duplicate"}
+{"timestamp": "2026-10-30T10:50:59.218352+00:00", "event": "candidate_rejected", "name": "phpClaw", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.218466+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-30T10:50:59.218561+00:00", "event": "candidate_rejected", "name": "Apgar", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.218659+00:00", "event": "candidate_rejected", "name": "EarnDraft", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.218883+00:00", "event": "candidate_rejected", "name": "Statebase", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.218991+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.219090+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.219192+00:00", "event": "candidate_rejected", "name": "Apargon", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.219351+00:00", "event": "candidate_rejected", "name": "SpaceApp", "reason": "duplicate"}
+{"timestamp": "2026-10-30T10:50:59.219455+00:00", "event": "candidate_rejected", "name": "ROAL", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.219550+00:00", "event": "candidate_rejected", "name": "Vibecheck", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.219701+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.219816+00:00", "event": "candidate_rejected", "name": "Trooperloops", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.219938+00:00", "event": "candidate_rejected", "name": "Spotlytt", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.220036+00:00", "event": "candidate_rejected", "name": "Endlesstokens", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.220139+00:00", "event": "candidate_rejected", "name": "Checker", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-30T10:50:59.220235+00:00", "event": "candidate_rejected", "name": "Ai News", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.220330+00:00", "event": "candidate_rejected", "name": "Supermhel", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.220426+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-30T10:50:59.224986+00:00", "event": "tool_staged_for_review", "slug": "hipath-ai", "category": "education-learning", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-30T10:50:59.225038+00:00", "event": "tool_staged_for_review", "slug": "wavefunction", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-30T10:50:59.225078+00:00", "event": "tool_staged_for_review", "slug": "kin", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-30T10:50:59.225113+00:00", "event": "tool_staged_for_review", "slug": "pidgeon", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
