@@ -1966,3 +1966,34 @@
 {"timestamp": "2026-10-30T10:50:59.225038+00:00", "event": "tool_staged_for_review", "slug": "wavefunction", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-30T10:50:59.225078+00:00", "event": "tool_staged_for_review", "slug": "kin", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-10-30T10:50:59.225113+00:00", "event": "tool_staged_for_review", "slug": "pidgeon", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-31T10:22:34.193662+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 30}
+{"timestamp": "2026-10-31T10:22:34.195837+00:00", "event": "candidate_rejected", "name": "Mundi", "reason": "generic_fallback_description"}
+{"timestamp": "2026-10-31T10:22:34.195977+00:00", "event": "candidate_rejected", "name": "Archwhere", "reason": "duplicate"}
+{"timestamp": "2026-10-31T10:22:34.196082+00:00", "event": "candidate_rejected", "name": "Apps", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.196168+00:00", "event": "candidate_rejected", "name": "Ghost in the Log", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.196263+00:00", "event": "candidate_rejected", "name": "Bsvkey Governor Demo", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.196354+00:00", "event": "candidate_rejected", "name": "Fastbrowse", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.196429+00:00", "event": "candidate_rejected", "name": "mobile-agent", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.196567+00:00", "event": "candidate_rejected", "name": "Sketch Stadium", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.196643+00:00", "event": "candidate_rejected", "name": "Omneum", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.196725+00:00", "event": "candidate_rejected", "name": "Nexus", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.196796+00:00", "event": "candidate_rejected", "name": "Wram", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.196891+00:00", "event": "candidate_rejected", "name": "Nomorehappypath", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.196977+00:00", "event": "candidate_rejected", "name": "Opencommerce", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.197097+00:00", "event": "candidate_rejected", "name": "Navital Gym", "reason": "duplicate"}
+{"timestamp": "2026-10-31T10:22:34.197271+00:00", "event": "candidate_rejected", "name": "Molfar", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.197354+00:00", "event": "candidate_rejected", "name": "Send21", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.197426+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.197498+00:00", "event": "candidate_rejected", "name": "Breatic", "reason": "duplicate"}
+{"timestamp": "2026-10-31T10:22:34.197567+00:00", "event": "candidate_rejected", "name": "HiPath AI", "reason": "duplicate"}
+{"timestamp": "2026-10-31T10:22:34.197640+00:00", "event": "candidate_rejected", "name": "AI Knows Us", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.197714+00:00", "event": "candidate_rejected", "name": "Kinoloom", "reason": "duplicate"}
+{"timestamp": "2026-10-31T10:22:34.197786+00:00", "event": "candidate_rejected", "name": "phpClaw", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.197872+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-10-31T10:22:34.197939+00:00", "event": "candidate_rejected", "name": "Apgar", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.198007+00:00", "event": "candidate_rejected", "name": "EarnDraft", "reason": "low_confidence"}
+{"timestamp": "2026-10-31T10:22:34.198100+00:00", "event": "candidate_rejected", "name": "Wavefunction", "reason": "duplicate"}
+{"timestamp": "2026-10-31T10:22:34.202757+00:00", "event": "tool_staged_for_review", "slug": "jj-suna-ai", "category": "audio-music", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-31T10:22:34.202808+00:00", "event": "tool_staged_for_review", "slug": "nktg-ai", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-31T10:22:34.202838+00:00", "event": "tool_staged_for_review", "slug": "beolis", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-10-31T10:22:34.202879+00:00", "event": "tool_staged_for_review", "slug": "specdeck", "category": "coding-development", "source": "Hacker News — Show HN AI"}

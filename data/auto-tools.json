@@ -5356,5 +5356,105 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50288172",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "jj-suna-ai",
+    "name": "JJ Suna AI",
+    "category": "audio-music",
+    "tagline": "Open 5B Flow-Matching DiT for 48 KHz Music Synthesis",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://suna.jjcoders.com",
+    "description": "JJ Suna AI is a newly discovered AI product for audio music. Open 5B Flow-Matching DiT for 48 KHz Music Synthesis.",
+    "tags": [
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-10-31",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50314522",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "nktg-ai",
+    "name": "NKTg AI",
+    "category": "coding-development",
+    "tagline": "An LLM that decodes text before generating",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://nktg.org",
+    "description": "NKTg AI is a newly discovered AI product for coding development. An LLM that decodes text before generating.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-31",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50306424",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "beolis",
+    "name": "Beolis",
+    "category": "coding-development",
+    "tagline": "Manage your coding AI agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://beolis.com",
+    "description": "Beolis is a newly discovered AI product for coding development. Manage your coding AI agents.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-31",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50304351",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "specdeck",
+    "name": "SpecDeck",
+    "category": "coding-development",
+    "tagline": "Bring coding agent decisions back into the spec",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://specdeck.ai",
+    "description": "Writing good specs is hard. You don’t know everything upfront and it’s impossible to write every little detail in the spec. Much of my job as a developer has been to treat specs as intent, and fill out the blanks in the code and use the code reviews as a way to question those decisions. But as coding agents have started to produce much more code, the decisions that actually affect the product are getting harder to fi",
+    "tags": [
+      "Developer",
+      "Writing",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-10-31",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50303157",
+    "reviewStatus": "auto-discovered"
   }
 ]
