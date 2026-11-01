@@ -5456,5 +5456,55 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50303157",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "anchorgit",
+    "name": "AnchorGit",
+    "category": "coding-development",
+    "tagline": "Hardware-signed Git decision ledger for AI code",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.anchorgit.com",
+    "description": "AnchorGit is a newly discovered AI product for coding development. Hardware-signed Git decision ledger for AI code.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-01",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50323310",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "citellm",
+    "name": "CiteLLM",
+    "category": "research-knowledge",
+    "tagline": "Verify AI Answers in PDFs",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://citellm.com",
+    "description": "CiteLLM is a newly discovered AI product for research knowledge. Verify AI Answers in PDFs.",
+    "tags": [
+      "Research",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-11-01",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50317589",
+    "reviewStatus": "auto-discovered"
   }
 ]
