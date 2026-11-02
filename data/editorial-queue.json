@@ -49,9 +49,9 @@
     "state": "deferred"
   },
   "algebrix-identity": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "insufficient_official_text",
     "state": "deferred"
   },
@@ -154,9 +154,9 @@
     "state": "deferred"
   },
   "deltareview": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
@@ -182,9 +182,9 @@
     "state": "deferred"
   },
   "fata": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "insufficient_official_text",
     "state": "deferred"
   },
@@ -203,9 +203,9 @@
     "state": "deferred"
   },
   "finderysearch": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "insufficient_official_text",
     "state": "deferred"
   },
@@ -258,9 +258,9 @@
     "state": "deferred"
   },
   "jylus": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -272,10 +272,10 @@
     "state": "deferred"
   },
   "layout": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
-    "reason": "fewer_than_three_product_specific_capabilities",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
+    "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
   "legion": {
@@ -300,9 +300,9 @@
     "state": "deferred"
   },
   "netherite": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
@@ -328,9 +328,9 @@
     "state": "deferred"
   },
   "parkournote": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "missing_pricing_evidence",
     "state": "deferred"
   },
@@ -342,9 +342,9 @@
     "state": "deferred"
   },
   "pewresearch": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
@@ -391,9 +391,9 @@
     "state": "deferred"
   },
   "relay": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "ambiguous_category",
     "state": "deferred"
   },
@@ -412,9 +412,9 @@
     "state": "deferred"
   },
   "search2o": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "insufficient_official_text",
     "state": "deferred"
   },
@@ -566,9 +566,9 @@
     "state": "deferred"
   },
   "voicecursor": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-19",
-    "nextReviewAt": "2026-11-02",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-02",
+    "nextReviewAt": "2026-12-02",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
