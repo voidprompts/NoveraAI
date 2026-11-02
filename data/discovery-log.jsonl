@@ -2033,3 +2033,32 @@
 {"timestamp": "2026-11-01T11:14:57.342938+00:00", "event": "candidate_rejected", "name": "AI Knows Us", "reason": "low_confidence"}
 {"timestamp": "2026-11-01T11:14:57.346958+00:00", "event": "tool_staged_for_review", "slug": "anchorgit", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-01T11:14:57.346998+00:00", "event": "tool_staged_for_review", "slug": "citellm", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-02T12:21:20.643119+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-11-02T12:21:20.644445+00:00", "event": "candidate_rejected", "name": "AgentTM", "reason": "duplicate"}
+{"timestamp": "2026-11-02T12:21:20.644524+00:00", "event": "candidate_rejected", "name": "Shipvo", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.644580+00:00", "event": "candidate_rejected", "name": "AI System Design Primer", "reason": "duplicate"}
+{"timestamp": "2026-11-02T12:21:20.644628+00:00", "event": "candidate_rejected", "name": "Arken", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.644760+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.644807+00:00", "event": "candidate_rejected", "name": "Better Together", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.644851+00:00", "event": "candidate_rejected", "name": "Nonce", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.644903+00:00", "event": "candidate_rejected", "name": "Kilasec", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.644978+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.645022+00:00", "event": "candidate_rejected", "name": "AIOps Cockpit", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.645074+00:00", "event": "candidate_rejected", "name": "OpenProject Agent Engine", "reason": "duplicate"}
+{"timestamp": "2026-11-02T12:21:20.645127+00:00", "event": "candidate_rejected", "name": "AnchorGit", "reason": "duplicate"}
+{"timestamp": "2026-11-02T12:21:20.645170+00:00", "event": "candidate_rejected", "name": "LinkedIn-ops", "reason": "duplicate"}
+{"timestamp": "2026-11-02T12:21:20.645212+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-02T12:21:20.645250+00:00", "event": "candidate_rejected", "name": "Castov", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.645290+00:00", "event": "candidate_rejected", "name": "Getpublishub", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.645327+00:00", "event": "candidate_rejected", "name": "CiteLLM", "reason": "duplicate"}
+{"timestamp": "2026-11-02T12:21:20.645370+00:00", "event": "candidate_rejected", "name": "InBox Wall", "reason": "duplicate"}
+{"timestamp": "2026-11-02T12:21:20.645409+00:00", "event": "candidate_rejected", "name": "NullPrime", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.645460+00:00", "event": "candidate_rejected", "name": "Uncracked", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.645499+00:00", "event": "candidate_rejected", "name": "JJ Suna AI", "reason": "duplicate"}
+{"timestamp": "2026-11-02T12:21:20.645543+00:00", "event": "candidate_rejected", "name": "Mundi", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-02T12:21:20.645594+00:00", "event": "candidate_rejected", "name": "Archwhere", "reason": "duplicate"}
+{"timestamp": "2026-11-02T12:21:20.645634+00:00", "event": "candidate_rejected", "name": "Apps", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.645675+00:00", "event": "candidate_rejected", "name": "Ghost in the Log", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.645716+00:00", "event": "candidate_rejected", "name": "Bsvkey Governor Demo", "reason": "low_confidence"}
+{"timestamp": "2026-11-02T12:21:20.648721+00:00", "event": "tool_staged_for_review", "slug": "skep", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-02T12:21:20.648754+00:00", "event": "tool_staged_for_review", "slug": "castov", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
