@@ -2062,3 +2062,32 @@
 {"timestamp": "2026-11-02T12:21:20.645716+00:00", "event": "candidate_rejected", "name": "Bsvkey Governor Demo", "reason": "low_confidence"}
 {"timestamp": "2026-11-02T12:21:20.648721+00:00", "event": "tool_staged_for_review", "slug": "skep", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-02T12:21:20.648754+00:00", "event": "tool_staged_for_review", "slug": "castov", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-03T11:54:52.002309+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-11-03T11:54:52.004225+00:00", "event": "candidate_rejected", "name": "Sentrint", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.004352+00:00", "event": "candidate_rejected", "name": "Pixoate", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.004459+00:00", "event": "candidate_rejected", "name": "Proof", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.004813+00:00", "event": "candidate_rejected", "name": "Trifecta Checker", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.005005+00:00", "event": "candidate_rejected", "name": "PhoneUse", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.005109+00:00", "event": "candidate_rejected", "name": "HiveOS", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.005219+00:00", "event": "candidate_rejected", "name": "CpuTopBars and devTopBars", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.005341+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-03T11:54:52.005438+00:00", "event": "candidate_rejected", "name": "Cloudbrowser", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.005535+00:00", "event": "candidate_rejected", "name": "ArchDocs", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.005631+00:00", "event": "candidate_rejected", "name": "aido", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.005726+00:00", "event": "candidate_rejected", "name": "Duplex", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.005858+00:00", "event": "candidate_rejected", "name": "Hanging Context", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.006019+00:00", "event": "candidate_rejected", "name": "Agent Drift Game", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.006129+00:00", "event": "candidate_rejected", "name": "Mind Made Many", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.006225+00:00", "event": "candidate_rejected", "name": "AgentTrafficCop", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.006319+00:00", "event": "candidate_rejected", "name": "Nomos", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.006413+00:00", "event": "candidate_rejected", "name": "Venkatpabolu", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.006508+00:00", "event": "candidate_rejected", "name": "Maat", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.006601+00:00", "event": "candidate_rejected", "name": "Aigenos Flow", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.006697+00:00", "event": "candidate_rejected", "name": "AgentTM", "reason": "duplicate"}
+{"timestamp": "2026-11-03T11:54:52.006813+00:00", "event": "candidate_rejected", "name": "Shipvo", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.006918+00:00", "event": "candidate_rejected", "name": "AI System Design Primer", "reason": "duplicate"}
+{"timestamp": "2026-11-03T11:54:52.007015+00:00", "event": "candidate_rejected", "name": "Arken", "reason": "low_confidence"}
+{"timestamp": "2026-11-03T11:54:52.007101+00:00", "event": "candidate_rejected", "name": "Skep", "reason": "duplicate"}
+{"timestamp": "2026-11-03T11:54:52.011874+00:00", "event": "tool_staged_for_review", "slug": "clarpex", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-03T11:54:52.011928+00:00", "event": "tool_staged_for_review", "slug": "cheapgpt", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-03T11:54:52.011968+00:00", "event": "tool_staged_for_review", "slug": "prepd", "category": "design-ux", "source": "Hacker News — Show HN AI"}

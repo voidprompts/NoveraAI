@@ -5556,5 +5556,81 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50329149",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "clarpex",
+    "name": "Clarpex",
+    "category": "image-generation",
+    "tagline": "Free AI photo fixer, no sign-up needed",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://clarpex.ai",
+    "description": "Clarpex is a newly discovered AI product for image generation. Free AI photo fixer, no sign-up needed.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-11-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50349339",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "cheapgpt",
+    "name": "CheapGPT",
+    "category": "productivity-automation",
+    "tagline": "a free local AI assistant powered by Chrome's Gemini Nano",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.predatorray.me/CheapGPT",
+    "description": "CheapGPT is a newly discovered AI product for productivity automation. a free local AI assistant powered by Chrome's Gemini Nano.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50347777",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "prepd",
+    "name": "Prepd",
+    "category": "design-ux",
+    "tagline": "System design interview practice with AI mock interviews",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://prepd.tech",
+    "description": "Prepd is a newly discovered AI product for design ux. System design interview practice with AI mock interviews.",
+    "tags": [
+      "Design",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-11-03",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50339790",
+    "reviewStatus": "auto-discovered"
   }
 ]
