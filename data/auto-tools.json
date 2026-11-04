@@ -5632,5 +5632,81 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50339790",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "recto",
+    "name": "Recto",
+    "category": "design-ux",
+    "tagline": "A desktop app where you can design with AI, edit with your mouse",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://recto.design",
+    "description": "Recto is a newly discovered AI product for design ux. A desktop app where you can design with AI, edit with your mouse.",
+    "tags": [
+      "Design",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-11-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50357042",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "slopgrid",
+    "name": "Slopgrid",
+    "category": "coding-development",
+    "tagline": "create your own AI model benchmarks without code",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://slopgrid.com",
+    "description": "Slopgrid is a newly discovered AI product for coding development. create your own AI model benchmarks without code.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50355020",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "hn-hiring-2019-2026",
+    "name": "Hn Hiring 2019 2026",
+    "category": "data-analytics",
+    "tagline": "After seeing Andrej's HackerTube post (and given my sons are both junior-mid developers) I decided to point Codex at 8 years of \"Who's hiring?\" posts and rip through some tokens on",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://hn-hiring-2019-2026.lancecj.chatgpt.site",
+    "description": "After seeing Andrej's HackerTube post (and given my sons are both junior-mid developers) I decided to point Codex at 8 years of \"Who's hiring?\" posts and rip through some tokens on semantic analysis of all that content. I started pre-COVID, thru October 2026, and the data was retrieved via HN API data. 5 things that stand out: 1. AI is now in half the posts. AI or machine learning appeared in 50% of 2026 posts, up fr",
+    "tags": [
+      "Developer",
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-04",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50353773",
+    "reviewStatus": "auto-discovered"
   }
 ]
