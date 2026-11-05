@@ -5708,5 +5708,107 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50353773",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "mooring",
+    "name": "Mooring",
+    "category": "coding-development",
+    "tagline": "Hi HN, we’ve created Mooring, an agentic development environment for Claude Code. We are really keen to get some thoughts and feedback from the community who are currently building",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://mooring.sh/download",
+    "description": "Mooring is a newly discovered AI product for coding development. Hi HN, we’ve created Mooring, an agentic development environment for Claude Code. We are really keen to get some thoughts and feedback from the community who are currently building with Claude Code. An ADE is where you r.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50377798",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "linum",
+    "name": "Linum",
+    "category": "image-generation",
+    "tagline": "My brother and I run a 2-person lab that trains our own generative video models from scratch. The ultimate goal is a set of creative tools that make it easier for anyone to make an",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.linum.ai/field-notes/pjit-21k",
+    "description": "My brother and I run a 2-person lab that trains our own generative video models from scratch. The ultimate goal is a set of creative tools that make it easier for anyone to make animation. Video models today are too slow/expensive and lack sufficient controls. Creativity is an iterative process. You make, you tweak, you get better. In our opinion, they're not usable yet for storytelling. When we set out to build Linu",
+    "tags": [
+      "Video",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-11-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50368208",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "rapavatar",
+    "name": "RapAvatar",
+    "category": "image-generation",
+    "tagline": "Turn any photo into a lip-synced rap video with AI",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://rapavatar.com",
+    "description": "RapAvatar is a newly discovered AI product for image generation. Turn any photo into a lip-synced rap video with AI.",
+    "tags": [
+      "Video",
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-11-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50367205",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "rivermark",
+    "name": "Rivermark",
+    "category": "design-ux",
+    "tagline": "Hi HN, Agents can nowadays design UI very competently, but the wider question of graphic design is largely unsolved. On one side, you have image models like ChatGPT images, which a",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://rivermark.ai",
+    "description": "Rivermark is a newly discovered AI product for design ux. Hi HN, Agents can nowadays design UI very competently, but the wider question of graphic design is largely unsolved. On one side, you have image models like ChatGPT images, which are high-quality but recognizable and bar.",
+    "tags": [
+      "Images",
+      "Design",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-11-05",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50364525",
+    "reviewStatus": "auto-discovered"
   }
 ]

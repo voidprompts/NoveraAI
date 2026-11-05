@@ -2126,3 +2126,38 @@
 {"timestamp": "2026-11-04T12:06:08.031077+00:00", "event": "tool_staged_for_review", "slug": "recto", "category": "design-ux", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-04T12:06:08.031115+00:00", "event": "tool_staged_for_review", "slug": "slopgrid", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-04T12:06:08.031143+00:00", "event": "tool_staged_for_review", "slug": "hn-hiring-2019-2026", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-05T12:17:45.160062+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 34}
+{"timestamp": "2026-11-05T12:17:45.162020+00:00", "event": "candidate_rejected", "name": "Nico", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.162429+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.162560+00:00", "event": "candidate_rejected", "name": "Mailbox.bot", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.162668+00:00", "event": "candidate_rejected", "name": "Cinnamon", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.162774+00:00", "event": "candidate_rejected", "name": "BrowserForge", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.162872+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.162974+00:00", "event": "candidate_rejected", "name": "Amigent", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.163076+00:00", "event": "candidate_rejected", "name": "Host0", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.163199+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.163304+00:00", "event": "candidate_rejected", "name": "Jinna", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.163401+00:00", "event": "candidate_rejected", "name": "Fount", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.163500+00:00", "event": "candidate_rejected", "name": "Atlas", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.163596+00:00", "event": "candidate_rejected", "name": "Renor", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.163692+00:00", "event": "candidate_rejected", "name": "Umwelt", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.163875+00:00", "event": "candidate_rejected", "name": "Continuum Verifier", "reason": "duplicate"}
+{"timestamp": "2026-11-05T12:17:45.163976+00:00", "event": "candidate_rejected", "name": "GTMshortlist", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.164210+00:00", "event": "candidate_rejected", "name": "AI Gude", "reason": "duplicate"}
+{"timestamp": "2026-11-05T12:17:45.164325+00:00", "event": "candidate_rejected", "name": "Id Le", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.164425+00:00", "event": "candidate_rejected", "name": "SpaceApp", "reason": "duplicate"}
+{"timestamp": "2026-11-05T12:17:45.164528+00:00", "event": "candidate_rejected", "name": "Pacibook", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.164640+00:00", "event": "candidate_rejected", "name": "Swarm World", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.164739+00:00", "event": "candidate_rejected", "name": "Scan-to-vector", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.164833+00:00", "event": "candidate_rejected", "name": "Gradevibes", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.164936+00:00", "event": "candidate_rejected", "name": "Samewindow", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.165034+00:00", "event": "candidate_rejected", "name": "Shield KYA", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.165222+00:00", "event": "candidate_rejected", "name": "Helius Olo", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.165337+00:00", "event": "candidate_rejected", "name": "Hardcount", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.165443+00:00", "event": "candidate_rejected", "name": "Show HN", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.165542+00:00", "event": "candidate_rejected", "name": "Umbra", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.165637+00:00", "event": "candidate_rejected", "name": "Mcp", "reason": "low_confidence"}
+{"timestamp": "2026-11-05T12:17:45.170652+00:00", "event": "tool_staged_for_review", "slug": "mooring", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-05T12:17:45.170707+00:00", "event": "tool_staged_for_review", "slug": "linum", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-05T12:17:45.170748+00:00", "event": "tool_staged_for_review", "slug": "rapavatar", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-05T12:17:45.170783+00:00", "event": "tool_staged_for_review", "slug": "rivermark", "category": "design-ux", "source": "Hacker News — Show HN AI"}
