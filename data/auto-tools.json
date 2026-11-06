@@ -5810,5 +5810,131 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50364525",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "stitch-ai",
+    "name": "Stitch.ai",
+    "category": "productivity-automation",
+    "tagline": "New all-in-one workspace with Stitchy the AI assistant",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://app.stitch.ai/auth/signup",
+    "description": "Our team is excited to launch Stitch.ai this week. We've been working hard to bring knowledge workers, freelancers and founders a workspace that doesn't require hopping between apps and tabs; everything is in one app. The Stitch.ai app includes mail, calendar, contacts, tasks, notes, sheets, slides, files, boards and forms. We sort of still can't believe we managed to build so many tools! We use auto-generated Knots.",
+    "tags": [
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-06",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50388519",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "tokenome",
+    "name": "Tokenome",
+    "category": "coding-development",
+    "tagline": "code provenance for AI-assisted work, on your machine",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://tokenome.ai",
+    "description": "Tokenome is a newly discovered AI product for coding development. code provenance for AI-assisted work, on your machine.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-06",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50382892",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "gpt-live-and-gpt-realtime",
+    "name": "GPT-Live and GPT-Realtime",
+    "category": "audio-music",
+    "tagline": "Arch Trade-Offs Behind Continuous Voice AI",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://agentunicorn.ai/research/gpt-live-voice-ai-tradeoffs",
+    "description": "GPT-Live and GPT-Realtime is a newly discovered AI product for audio music. Arch Trade-Offs Behind Continuous Voice AI.",
+    "tags": [
+      "Voice",
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-11-06",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50382567",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "magertron",
+    "name": "Magertron",
+    "category": "productivity-automation",
+    "tagline": "AI Orchestrator for agents' tools, APIs, LLMs and streams",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://magertron.com",
+    "description": "Magertron is a newly discovered AI product for productivity automation. AI Orchestrator for agents' tools, APIs, LLMs and streams.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-06",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50382344",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "postraid",
+    "name": "Postraid",
+    "category": "text-writing",
+    "tagline": "Hey HN! I'm an indie hacker, and one thing I've always struggled with is consistently creating content to promote my projects on social media. an of course i found it not fun todo",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.postraid.com",
+    "description": "Postraid is a newly discovered AI product for text writing. Hey HN! I'm an indie hacker, and one thing I've always struggled with is consistently creating content to promote my projects on social media. an of course i found it not fun todo as a developer. Building the product is.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-11-06",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50380154",
+    "reviewStatus": "auto-discovered"
   }
 ]
