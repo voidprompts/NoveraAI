@@ -2188,3 +2188,34 @@
 {"timestamp": "2026-11-06T12:04:50.007093+00:00", "event": "tool_staged_for_review", "slug": "gpt-live-and-gpt-realtime", "category": "audio-music", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-06T12:04:50.007126+00:00", "event": "tool_staged_for_review", "slug": "magertron", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-06T12:04:50.007149+00:00", "event": "tool_staged_for_review", "slug": "postraid", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-07T11:02:00.137303+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 30}
+{"timestamp": "2026-11-07T11:02:00.139262+00:00", "event": "candidate_rejected", "name": "Rungrid", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.139390+00:00", "event": "candidate_rejected", "name": "Mcp", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.139666+00:00", "event": "candidate_rejected", "name": "Id Le", "reason": "outside_directory_scope"}
+{"timestamp": "2026-11-07T11:02:00.139780+00:00", "event": "candidate_rejected", "name": "Backwords", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.139893+00:00", "event": "candidate_rejected", "name": "Getaiphotoeditor", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-07T11:02:00.139997+00:00", "event": "candidate_rejected", "name": "Select", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.140095+00:00", "event": "candidate_rejected", "name": "Goethe", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.140215+00:00", "event": "candidate_rejected", "name": "Cinnamon", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.140312+00:00", "event": "candidate_rejected", "name": "AJX", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.140420+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.140597+00:00", "event": "candidate_rejected", "name": "AegisKernel", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.140697+00:00", "event": "candidate_rejected", "name": "Infinity", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.140794+00:00", "event": "candidate_rejected", "name": "Current", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.140913+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.141013+00:00", "event": "candidate_rejected", "name": "EasyRunCraft", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.141125+00:00", "event": "candidate_rejected", "name": "Grid", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.141227+00:00", "event": "candidate_rejected", "name": "Antidraw", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.141323+00:00", "event": "candidate_rejected", "name": "Mantis", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.141425+00:00", "event": "candidate_rejected", "name": "Stitch.ai", "reason": "duplicate"}
+{"timestamp": "2026-11-07T11:02:00.141522+00:00", "event": "candidate_rejected", "name": "Lab Canary", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.141630+00:00", "event": "candidate_rejected", "name": "Eremoterra", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.141729+00:00", "event": "candidate_rejected", "name": "Ritualdev", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-07T11:02:00.141843+00:00", "event": "candidate_rejected", "name": "Blog", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.141931+00:00", "event": "candidate_rejected", "name": "Tokenome", "reason": "duplicate"}
+{"timestamp": "2026-11-07T11:02:00.142037+00:00", "event": "candidate_rejected", "name": "Getopposable", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.142147+00:00", "event": "candidate_rejected", "name": "GPT-Live and GPT-Realtime", "reason": "duplicate"}
+{"timestamp": "2026-11-07T11:02:00.142248+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.142341+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-07T11:02:00.142429+00:00", "event": "candidate_rejected", "name": "Magertron", "reason": "duplicate"}
+{"timestamp": "2026-11-07T11:02:00.147419+00:00", "event": "tool_staged_for_review", "slug": "makoda", "category": "coding-development", "source": "Hacker News — Show HN AI"}

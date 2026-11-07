@@ -5936,5 +5936,30 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50380154",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "makoda",
+    "name": "Makoda",
+    "category": "coding-development",
+    "tagline": "reuse your Codex or Claude subscriptions as API",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://makoda.ai",
+    "description": "Already paying for ChatGPT or Claude? You should not need a second, per-token bill just to test your app(local or remote). I was paying ~$120/mo in API bills just to test my own app, on top of my ChatGPT and Claude plans. So, I built Makoda: a free app that reuses your Codex's/Claude's compute on your machine as a local & remote API. available for mac & ubuntu.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-07",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50396871",
+    "reviewStatus": "auto-discovered"
   }
 ]
