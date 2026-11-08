@@ -5961,5 +5961,131 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50396871",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "rxcode",
+    "name": "Rxcode",
+    "category": "coding-development",
+    "tagline": "I built an open-source AI code editor for team collaboration, featuring a built-in sprint board and the ability to assign tasks to different agents. I’d love to get your feedback a",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.rxcode.dev",
+    "description": "I built an open-source AI code editor for team collaboration, featuring a built-in sprint board and the ability to assign tasks to different agents. I’d love to get your feedback and suggestions! PR and issues are very welcome.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-08",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50410855",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "codend",
+    "name": "Codend",
+    "category": "coding-development",
+    "tagline": "Build and publish web apps with AI agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://codend.dev",
+    "description": "Codend is a newly discovered AI product for coding development. Build and publish web apps with AI agents.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-08",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50410758",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "reges-code",
+    "name": "Reges Code",
+    "category": "coding-development",
+    "tagline": "a free AI code editor that runs on local models",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://regescode.com",
+    "description": "Reges Code is a newly discovered AI product for coding development. a free AI code editor that runs on local models.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-08",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50410429",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "renderpixels",
+    "name": "RenderPixels",
+    "category": "image-generation",
+    "tagline": "Generate images from any AI via MCP, 50 free renders",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://renderpixels.com",
+    "description": "RenderPixels is a newly discovered AI product for image generation. Generate images from any AI via MCP, 50 free renders.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-11-08",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50409628",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "nosaka",
+    "name": "Nosaka",
+    "category": "coding-development",
+    "tagline": "after working quite rigorously for a few months with claude code, I found out that I was blindly approving permission requests for the sake of progressing my projects, this led me",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://nosaka.ai/sentient",
+    "description": "after working quite rigorously for a few months with claude code, I found out that I was blindly approving permission requests for the sake of progressing my projects, this led me to realize that coding agents generate hundreds of commands underneath the covers which is necessary, but quite scary if you ask me. you've probably seen news recently about agents deleting databases or environments in production by acciden",
+    "tags": [
+      "Developer",
+      "Data",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-08",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50409020",
+    "reviewStatus": "auto-discovered"
   }
 ]
