@@ -14,10 +14,10 @@
     "state": "deferred"
   },
   "agent-reviews": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-09",
-    "nextReviewAt": "2026-10-23",
-    "reason": "ambiguous_category",
+    "attempts": 2,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "agentlytics": {
@@ -53,6 +53,13 @@
     "lastReviewedAt": "2026-11-02",
     "nextReviewAt": "2026-12-02",
     "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
+  "arcadium3d": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "autoshade": {
@@ -140,9 +147,9 @@
     "state": "deferred"
   },
   "delegator": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-23",
-    "nextReviewAt": "2026-11-06",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-12-09",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -244,9 +251,9 @@
     "state": "deferred"
   },
   "iscited": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-09",
-    "nextReviewAt": "2026-10-23",
+    "attempts": 2,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
@@ -286,9 +293,9 @@
     "state": "deferred"
   },
   "llm-motion-graphics-benchmark": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-09",
-    "nextReviewAt": "2026-10-23",
+    "attempts": 2,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
     "reason": "product_name_not_verified",
     "state": "deferred"
   },
@@ -314,9 +321,9 @@
     "state": "deferred"
   },
   "orbtile": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-09",
-    "nextReviewAt": "2026-10-23",
+    "attempts": 2,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -363,9 +370,9 @@
     "state": "deferred"
   },
   "prevo": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-09",
-    "nextReviewAt": "2026-10-23",
+    "attempts": 2,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
@@ -377,9 +384,9 @@
     "state": "deferred"
   },
   "quady3d": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-09",
-    "nextReviewAt": "2026-10-23",
+    "attempts": 2,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
@@ -426,9 +433,9 @@
     "state": "deferred"
   },
   "slopguesser": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-09",
-    "nextReviewAt": "2026-10-23",
+    "attempts": 2,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
@@ -454,9 +461,9 @@
     "state": "deferred"
   },
   "stayleet": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-09",
-    "nextReviewAt": "2026-10-23",
+    "attempts": 2,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
     "reason": "insufficient_official_text",
     "state": "deferred"
   },
@@ -524,9 +531,9 @@
     "state": "deferred"
   },
   "vendiq": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-09",
-    "nextReviewAt": "2026-10-23",
+    "attempts": 2,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
     "reason": "insufficient_official_text",
     "state": "deferred"
   },
@@ -573,9 +580,9 @@
     "state": "deferred"
   },
   "wiyomi": {
-    "attempts": 1,
-    "lastReviewedAt": "2026-10-09",
-    "nextReviewAt": "2026-10-23",
+    "attempts": 2,
+    "lastReviewedAt": "2026-11-09",
+    "nextReviewAt": "2026-11-23",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
