@@ -2248,3 +2248,32 @@
 {"timestamp": "2026-11-08T11:15:56.636903+00:00", "event": "tool_staged_for_review", "slug": "reges-code", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-08T11:15:56.636921+00:00", "event": "tool_staged_for_review", "slug": "renderpixels", "category": "image-generation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-08T11:15:56.636936+00:00", "event": "tool_staged_for_review", "slug": "nosaka", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-09T12:50:13.180700+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-11-09T12:50:13.182274+00:00", "event": "candidate_rejected", "name": "Elviovicosa", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.182458+00:00", "event": "candidate_rejected", "name": "Open-source customer-facing agents", "reason": "duplicate"}
+{"timestamp": "2026-11-09T12:50:13.182549+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-09T12:50:13.182621+00:00", "event": "candidate_rejected", "name": "Company", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.182796+00:00", "event": "candidate_rejected", "name": "Midgarth", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.182870+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.182926+00:00", "event": "candidate_rejected", "name": "APC Playground", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.182990+00:00", "event": "candidate_rejected", "name": "Vynyo", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183042+00:00", "event": "candidate_rejected", "name": "Slopcalculator", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183110+00:00", "event": "candidate_rejected", "name": "Plannotator", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183169+00:00", "event": "candidate_rejected", "name": "Psicode", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-09T12:50:13.183220+00:00", "event": "candidate_rejected", "name": "ModelRefs", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183270+00:00", "event": "candidate_rejected", "name": "Cinnamon AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183319+00:00", "event": "candidate_rejected", "name": "Jurex in House", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183366+00:00", "event": "candidate_rejected", "name": "Aircheck", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183413+00:00", "event": "candidate_rejected", "name": "OfflineVault", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183463+00:00", "event": "candidate_rejected", "name": "aiport", "reason": "duplicate"}
+{"timestamp": "2026-11-09T12:50:13.183513+00:00", "event": "candidate_rejected", "name": "Ramen", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183576+00:00", "event": "candidate_rejected", "name": "Rxcode", "reason": "duplicate"}
+{"timestamp": "2026-11-09T12:50:13.183620+00:00", "event": "candidate_rejected", "name": "Codend", "reason": "duplicate"}
+{"timestamp": "2026-11-09T12:50:13.183665+00:00", "event": "candidate_rejected", "name": "Reges Code", "reason": "duplicate"}
+{"timestamp": "2026-11-09T12:50:13.183715+00:00", "event": "candidate_rejected", "name": "Reges Town", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183759+00:00", "event": "candidate_rejected", "name": "RenderPixels", "reason": "duplicate"}
+{"timestamp": "2026-11-09T12:50:13.183820+00:00", "event": "candidate_rejected", "name": "Nosaka", "reason": "duplicate"}
+{"timestamp": "2026-11-09T12:50:13.183868+00:00", "event": "candidate_rejected", "name": "Trendalyse", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183930+00:00", "event": "candidate_rejected", "name": "Image to Image AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-09T12:50:13.183998+00:00", "event": "candidate_rejected", "name": "Maildignity", "reason": "outside_directory_scope"}
+{"timestamp": "2026-11-09T12:50:13.187865+00:00", "event": "tool_staged_for_review", "slug": "airlock", "category": "coding-development", "source": "Hacker News — Show HN AI"}
