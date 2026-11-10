@@ -2277,3 +2277,33 @@
 {"timestamp": "2026-11-09T12:50:13.183930+00:00", "event": "candidate_rejected", "name": "Image to Image AI", "reason": "low_confidence"}
 {"timestamp": "2026-11-09T12:50:13.183998+00:00", "event": "candidate_rejected", "name": "Maildignity", "reason": "outside_directory_scope"}
 {"timestamp": "2026-11-09T12:50:13.187865+00:00", "event": "tool_staged_for_review", "slug": "airlock", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-10T12:37:09.875183+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 29}
+{"timestamp": "2026-11-10T12:37:09.877344+00:00", "event": "candidate_rejected", "name": "VoxaDub", "reason": "duplicate"}
+{"timestamp": "2026-11-10T12:37:09.877481+00:00", "event": "candidate_rejected", "name": "Cosh", "reason": "duplicate"}
+{"timestamp": "2026-11-10T12:37:09.877601+00:00", "event": "candidate_rejected", "name": "AI Hustle Team", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.877742+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.877851+00:00", "event": "candidate_rejected", "name": "Chatty", "reason": "duplicate"}
+{"timestamp": "2026-11-10T12:37:09.877952+00:00", "event": "candidate_rejected", "name": "Grai", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.878051+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.878235+00:00", "event": "candidate_rejected", "name": "Modelfold", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-10T12:37:09.878344+00:00", "event": "candidate_rejected", "name": "ZTHR", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.878445+00:00", "event": "candidate_rejected", "name": "Frothiness", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.878558+00:00", "event": "candidate_rejected", "name": "Physicsbase", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.878685+00:00", "event": "candidate_rejected", "name": "Nibiashara", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-10T12:37:09.878813+00:00", "event": "candidate_rejected", "name": "Emma, a real-time AI video persona from Nuance Labs", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.878916+00:00", "event": "candidate_rejected", "name": "Airgap-check", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.879015+00:00", "event": "candidate_rejected", "name": "Markolis", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.879121+00:00", "event": "candidate_rejected", "name": "STE80 Humanizer", "reason": "duplicate"}
+{"timestamp": "2026-11-10T12:37:09.879310+00:00", "event": "candidate_rejected", "name": "Venzx", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.879412+00:00", "event": "candidate_rejected", "name": "Traccia", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.879526+00:00", "event": "candidate_rejected", "name": "Kiosk", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.879628+00:00", "event": "candidate_rejected", "name": "TraderWAI", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.879748+00:00", "event": "candidate_rejected", "name": "ISBN Books in Claude", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.879847+00:00", "event": "candidate_rejected", "name": "Askaboard", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.879945+00:00", "event": "candidate_rejected", "name": "Elviovicosa", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.880062+00:00", "event": "candidate_rejected", "name": "Open-source customer-facing agents", "reason": "duplicate"}
+{"timestamp": "2026-11-10T12:37:09.880183+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-10T12:37:09.880296+00:00", "event": "candidate_rejected", "name": "Company", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.880404+00:00", "event": "candidate_rejected", "name": "Airlock", "reason": "duplicate"}
+{"timestamp": "2026-11-10T12:37:09.880515+00:00", "event": "candidate_rejected", "name": "Midgarth", "reason": "low_confidence"}
+{"timestamp": "2026-11-10T12:37:09.885605+00:00", "event": "tool_staged_for_review", "slug": "usecodela", "category": "coding-development", "source": "Hacker News — Show HN AI"}
