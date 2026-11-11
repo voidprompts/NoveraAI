@@ -34,6 +34,20 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "ai-hub": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "ai-interview-index": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
   "aidcrew-v0-3": {
     "attempts": 3,
     "lastReviewedAt": "2026-10-26",
@@ -59,6 +73,20 @@
     "attempts": 1,
     "lastReviewedAt": "2026-11-09",
     "nextReviewAt": "2026-11-23",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "atlas-runa": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "autograph": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -104,6 +132,13 @@
     "reason": "ambiguous_category",
     "state": "deferred"
   },
+  "burning-bridges-ai": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
   "calprep": {
     "attempts": 3,
     "lastReviewedAt": "2026-10-26",
@@ -130,6 +165,13 @@
     "lastReviewedAt": "2026-10-26",
     "nextReviewAt": "2026-11-25",
     "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "circleit": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "critic": {
@@ -222,6 +264,20 @@
     "reason": "strict_official_evidence_gate_passed",
     "state": "approved"
   },
+  "freeaiwiper": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "frontierroles": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
   "genjutsu-ai": {
     "attempts": 2,
     "lastReviewedAt": "2026-10-30",
@@ -264,6 +320,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "jruva": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
   "jylus": {
     "attempts": 3,
     "lastReviewedAt": "2026-11-02",
@@ -299,6 +362,13 @@
     "reason": "product_name_not_verified",
     "state": "deferred"
   },
+  "mana": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "nadir": {
     "attempts": 3,
     "lastReviewedAt": "2026-11-04",
@@ -318,6 +388,13 @@
     "lastReviewedAt": "2026-11-04",
     "nextReviewAt": "2026-12-04",
     "reason": "ambiguous_category",
+    "state": "deferred"
+  },
+  "open-components": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
   "orbtile": {
@@ -346,6 +423,13 @@
     "lastReviewedAt": "2026-10-26",
     "nextReviewAt": "2026-11-25",
     "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "parsimony": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-11",
+    "nextReviewAt": "2026-11-25",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "pewresearch": {
