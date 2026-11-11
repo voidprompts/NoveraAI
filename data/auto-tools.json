@@ -6136,5 +6136,30 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50428670",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "uplumo",
+    "name": "Uplumo",
+    "category": "research-knowledge",
+    "tagline": "See which pages AI answers cite",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://uplumo.com",
+    "description": "I built Uplumo after working on hotel SEO. It shows which hotels AI recommends and whether it links to their own websites or booking platforms.",
+    "tags": [
+      "SEO",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-11-11",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50444480",
+    "reviewStatus": "auto-discovered"
   }
 ]
