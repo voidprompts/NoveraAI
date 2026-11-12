@@ -6161,5 +6161,131 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50444480",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "etherpk",
+    "name": "EtherPK",
+    "category": "productivity-automation",
+    "tagline": "Fast Markdown Notes with Agent Integrated Task Kanban Board",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.etherpk.com/home",
+    "description": "EtherPK is first a personal notes app, with fast information capture and task management. A headless client and MCP server facilitates handing tasks and rich context (include images, assets) etc to AI agents. With versioning, PDF and Ebook reading, EtherPK aims to be the single place where software engineers and knowledge workers can manage their thoughts and ideas (second brain).",
+    "tags": [
+      "Images",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-12",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50466094",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "nova-buddy-ai",
+    "name": "Nova Buddy AI",
+    "category": "productivity-automation",
+    "tagline": "a friendly AI assistant for everyday people",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://novabuddyai.com",
+    "description": "Nova Buddy AI is a newly discovered AI product for productivity automation. a friendly AI assistant for everyday people.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-12",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50463049",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "zumungo",
+    "name": "Zumungo",
+    "category": "productivity-automation",
+    "tagline": "AI-driven home automation",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://zumungo.com/get-started.html",
+    "description": "Just released Zumungo AI driven Home Automation zumungo.com. Zumungo uses the power and flexibility of well established open source projects such as HomeAssitant, Frigate, Whisper, go2rtc, Piper, Open AI, Ollama, etc. It wraps everything in easy to use user interface for non professional users. In addition Zumungo allows users to add their own devices that are not part of the catalog. Of course Zumungo is full blown.",
+    "tags": [
+      "Automation",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-12",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50459255",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "ai-code-rating",
+    "name": "AI Code Rating",
+    "category": "coding-development",
+    "tagline": "a 3 character disclosure of how AI was used in a repo",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://aicoderating.com",
+    "description": "AI Code Rating is a newly discovered AI product for coding development. a 3 character disclosure of how AI was used in a repo.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-12",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50454286",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "blobcap",
+    "name": "Blobcap",
+    "category": "data-analytics",
+    "tagline": "The data market is exploding And only brokers know the fair price... until now Introducing BlobCap See what companies actually got paid for their data Never negotiate blind again",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://blobcap.com",
+    "description": "The data market is exploding And only brokers know the fair price... until now Introducing BlobCap See what companies actually got paid for their data Never negotiate blind again.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-12",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50454170",
+    "reviewStatus": "auto-discovered"
   }
 ]
