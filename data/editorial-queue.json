@@ -139,6 +139,13 @@
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
+  "busymail": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-11-27",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
   "calprep": {
     "attempts": 3,
     "lastReviewedAt": "2026-10-26",
@@ -160,6 +167,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "checkobot": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-11-27",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
   "choosecompute": {
     "attempts": 3,
     "lastReviewedAt": "2026-10-26",
@@ -171,6 +185,13 @@
     "attempts": 1,
     "lastReviewedAt": "2026-11-11",
     "nextReviewAt": "2026-11-25",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "citeproof": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-11-27",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -279,9 +300,9 @@
     "state": "deferred"
   },
   "genjutsu-ai": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-10-30",
-    "nextReviewAt": "2026-11-13",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-12-13",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
@@ -292,11 +313,32 @@
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
+  "ghx": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-11-27",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "guess-the-llm": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-11-27",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
   "hieraticbench": {
     "attempts": 2,
     "lastReviewedAt": "2026-11-06",
     "nextReviewAt": "2026-11-20",
     "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "hotel-lobby-ai": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-11-27",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "imageaicraft": {
@@ -368,6 +410,26 @@
     "nextReviewAt": "2026-11-25",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
+  },
+  "mark": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-11-27",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
+  "mediaguesser": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-11-27",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
+  "meet-cedric": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "reason": "strict_official_evidence_gate_passed",
+    "state": "approved"
   },
   "nadir": {
     "attempts": 3,
@@ -478,6 +540,13 @@
     "attempts": 3,
     "lastReviewedAt": "2026-11-04",
     "nextReviewAt": "2026-12-04",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "real-design-benchmark": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-11-27",
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
@@ -604,6 +673,13 @@
     "attempts": 3,
     "lastReviewedAt": "2026-11-04",
     "nextReviewAt": "2026-12-04",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "usemerlin": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-13",
+    "nextReviewAt": "2026-11-27",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },

@@ -1273,6 +1273,34 @@ window.NOVERA_AUTO_TOOLS = [
     "reviewStatus": "automatically-reviewed",
     "reviewedAt": "2026-10-16",
     "reviewMethod": "strict-deterministic-v1"
+  },
+  {
+    "slug": "meet-cedric",
+    "name": "Meet Cedric",
+    "category": "productivity-automation",
+    "tagline": "Connect steps into repeatable automated workflows.",
+    "pricing": "Paid",
+    "rating": 0,
+    "featured": false,
+    "website": "https://meet-cedric.com",
+    "description": "Meet Cedric is an AI productivity and automation tool for workflow automation. Official product materials also document calendar automation and automated meeting notes. Users can access the product through Web app and MCP. Novera classified its pricing as Paid from the provider’s published plan or licensing information. Capabilities, limits, and prices can change, so confirm current details on the official website.",
+    "tags": [
+      "Workflow automation",
+      "Calendar automation",
+      "Meeting notes",
+      "Web app"
+    ],
+    "features": [
+      "Connect steps into repeatable automated workflows",
+      "Prepare, schedule, or update calendar events",
+      "Capture and organize notes or actions from meetings"
+    ],
+    "discoveredAt": "2026-10-16",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50103931",
+    "reviewStatus": "automatically-reviewed",
+    "reviewedAt": "2026-11-13",
+    "reviewMethod": "strict-deterministic-v1"
   }
 ];
 if (window.NOVERA_DATA) {
