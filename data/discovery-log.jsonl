@@ -2371,3 +2371,35 @@
 {"timestamp": "2026-11-12T12:40:59.731213+00:00", "event": "tool_staged_for_review", "slug": "zumungo", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-12T12:40:59.731237+00:00", "event": "tool_staged_for_review", "slug": "ai-code-rating", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-12T12:40:59.731257+00:00", "event": "tool_staged_for_review", "slug": "blobcap", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-13T12:10:28.268398+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 31}
+{"timestamp": "2026-11-13T12:10:28.270705+00:00", "event": "candidate_rejected", "name": "AI-drop project", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.270946+00:00", "event": "candidate_rejected", "name": "Floxolab", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.271117+00:00", "event": "candidate_rejected", "name": "Zipzi", "reason": "duplicate"}
+{"timestamp": "2026-11-13T12:10:28.271307+00:00", "event": "candidate_rejected", "name": "Grow Bonsai", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.271501+00:00", "event": "candidate_rejected", "name": "AI Math Kit", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.271819+00:00", "event": "candidate_rejected", "name": "Neon and Mubit", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.271931+00:00", "event": "candidate_rejected", "name": "Buildout", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.272032+00:00", "event": "candidate_rejected", "name": "Headwig", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.272146+00:00", "event": "candidate_rejected", "name": "AgentRun", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.272246+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-13T12:10:28.272439+00:00", "event": "candidate_rejected", "name": "Cinnamon AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.272570+00:00", "event": "candidate_rejected", "name": "Heysenku", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.272784+00:00", "event": "candidate_rejected", "name": "Indie Signals", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.272884+00:00", "event": "candidate_rejected", "name": "Mudgym", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.272981+00:00", "event": "candidate_rejected", "name": "Closed", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-13T12:10:28.273080+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-13T12:10:28.273176+00:00", "event": "candidate_rejected", "name": "Vibetime", "reason": "duplicate"}
+{"timestamp": "2026-11-13T12:10:28.273272+00:00", "event": "candidate_rejected", "name": "Deprecation", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.273398+00:00", "event": "candidate_rejected", "name": "Wram", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.273507+00:00", "event": "candidate_rejected", "name": "EtherPK", "reason": "duplicate"}
+{"timestamp": "2026-11-13T12:10:28.273602+00:00", "event": "candidate_rejected", "name": "Wings", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.273704+00:00", "event": "candidate_rejected", "name": "Cro", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.273806+00:00", "event": "candidate_rejected", "name": "Taster", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.273904+00:00", "event": "candidate_rejected", "name": "MetaArena", "reason": "low_confidence"}
+{"timestamp": "2026-11-13T12:10:28.279302+00:00", "event": "tool_staged_for_review", "slug": "muzegen-ai", "category": "audio-music", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-13T12:10:28.279384+00:00", "event": "tool_staged_for_review", "slug": "chap", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-13T12:10:28.279448+00:00", "event": "tool_staged_for_review", "slug": "axiomstory", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-13T12:10:28.279502+00:00", "event": "tool_staged_for_review", "slug": "bugsy", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-13T12:10:28.279547+00:00", "event": "tool_staged_for_review", "slug": "lessonfolk", "category": "education-learning", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-13T12:10:28.279582+00:00", "event": "tool_staged_for_review", "slug": "ai-red-lines", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-13T12:10:28.279612+00:00", "event": "tool_staged_for_review", "slug": "datatomcp", "category": "data-analytics", "source": "Hacker News — Show HN AI"}

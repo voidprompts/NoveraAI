@@ -6287,5 +6287,181 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50454170",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "muzegen-ai",
+    "name": "MuzeGen AI",
+    "category": "audio-music",
+    "tagline": "Generate AI music with stem separation and MIDI export",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://muzegen.ai",
+    "description": "MuzeGen AI is a newly discovered AI product for audio music. Generate AI music with stem separation and MIDI export.",
+    "tags": [
+      "Music",
+      "Audio Music"
+    ],
+    "features": [
+      "Create or enhance spoken and musical audio",
+      "Work through a simple creative interface",
+      "Export audio for common workflows",
+      "Iterate on sound and voice ideas"
+    ],
+    "discoveredAt": "2026-11-13",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50481083",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "chap",
+    "name": "Chap",
+    "category": "productivity-automation",
+    "tagline": "Meeting notes from live captions (no bot) with any LLM or agent",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://chatpanel.net",
+    "description": "Chap is an AI Agent that is botless in capturing meeting notes (zoom, google meet, teams, webex) and a linked notebook (AI note taking), on any model or agent (claude code, codex and any CLI agents(opencode, hermes etc.), works with even apple intelligence models or webllm or local/remote models. its much more once you start looking into it.",
+    "tags": [
+      "Developer",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-13",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50479186",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "axiomstory",
+    "name": "AxiomStory",
+    "category": "video-generation",
+    "tagline": "Keep stories consistent across AI text, images, video",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://axiomstory.com",
+    "description": "AxiomStory is a newly discovered AI product for video generation. Keep stories consistent across AI text, images, video.",
+    "tags": [
+      "Video",
+      "Images",
+      "Video Generation"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-11-13",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50476219",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "bugsy",
+    "name": "Bugsy",
+    "category": "productivity-automation",
+    "tagline": "AI automation which runs my company",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://skavish.github.io/bugsy-map",
+    "description": "It started as a simple sentry ai triager and grew into a system which powers a lot of day-to-day operations in our company (~20 people). We use it for reporting and fixing bugs, code review, metrics, answer all kinds of questions and it is available from slack and our forum and channels. It is now such a big part of our life that I decided to map it out and share.",
+    "tags": [
+      "Developer",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-13",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50475507",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "lessonfolk",
+    "name": "LessonFolk",
+    "category": "education-learning",
+    "tagline": "Learn AI from an AI tutor, through MCP (open source)",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://lessonfolk.com",
+    "description": "LessonFolk is a newly discovered AI product for education learning. Learn AI from an AI tutor, through MCP (open source).",
+    "tags": [
+      "Education",
+      "Education Learning"
+    ],
+    "features": [
+      "Create guided learning experiences",
+      "Personalize practice and explanations",
+      "Support educators and learners",
+      "Turn material into study activities"
+    ],
+    "discoveredAt": "2026-11-13",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50470315",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "ai-red-lines",
+    "name": "AI Red Lines",
+    "category": "text-writing",
+    "tagline": "write down what would make you act on AI",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://yourairedlines.com",
+    "description": "AI Red Lines is a newly discovered AI product for text writing. write down what would make you act on AI.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-11-13",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50467880",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "datatomcp",
+    "name": "Datatomcp",
+    "category": "data-analytics",
+    "tagline": "AI agents propose business definitions, a person approves",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://datatomcp.com",
+    "description": "Datatomcp is a newly discovered AI product for data analytics. AI agents propose business definitions, a person approves.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-13",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50467571",
+    "reviewStatus": "auto-discovered"
   }
 ]
