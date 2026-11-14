@@ -6467,5 +6467,103 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50467571",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "leetsys",
+    "name": "Leetsys",
+    "category": "design-ux",
+    "tagline": "Practice system design interviews with an AI interviewer",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.leetsys.dev",
+    "description": "Leetsys is a newly discovered AI product for design ux. Practice system design interviews with an AI interviewer.",
+    "tags": [
+      "Design",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-11-14",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50484902",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "getairdash",
+    "name": "Getairdash",
+    "category": "data-analytics",
+    "tagline": "I've been setting up more and more scheduled tasks with Claude (I think I have about 30 now), and I was also an early Airtable fan and user. And in a bunch of ways when I am buildi",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://getairdash.com",
+    "description": "I've been setting up more and more scheduled tasks with Claude (I think I have about 30 now), and I was also an early Airtable fan and user. And in a bunch of ways when I am building with Claude, I'm always trying to visualize a mental model of how it's put together. And finally, Cloudflare has been putting out some incredible primitives this year. So I put it all together and built this tool for myself: connect the.",
+    "tags": [
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-14",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50483632",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "algocademy",
+    "name": "Algocademy",
+    "category": "coding-development",
+    "tagline": "I run AlgoCademy and we've just built what we think can become the LeetCode for AI Coding / Engineering. Would love to hear your feedback! First task is free and doesn't need an ac",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://algocademy.com/ai-coding-practice",
+    "description": "I run AlgoCademy and we've just built what we think can become the LeetCode for AI Coding / Engineering. Would love to hear your feedback! First task is free and doesn't need an account.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-14",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50483279",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "cloudhike",
+    "name": "CloudHike",
+    "category": "coding-development",
+    "tagline": "A backend your AI coding agent can set up over MCP",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://cloudhike.dev",
+    "description": "CloudHike is a newly discovered AI product for coding development. A backend your AI coding agent can set up over MCP.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-14",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50483111",
+    "reviewStatus": "auto-discovered"
   }
 ]

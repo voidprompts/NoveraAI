@@ -2403,3 +2403,30 @@
 {"timestamp": "2026-11-13T12:10:28.279547+00:00", "event": "tool_staged_for_review", "slug": "lessonfolk", "category": "education-learning", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-13T12:10:28.279582+00:00", "event": "tool_staged_for_review", "slug": "ai-red-lines", "category": "text-writing", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-13T12:10:28.279612+00:00", "event": "tool_staged_for_review", "slug": "datatomcp", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-14T11:26:52.628893+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 26}
+{"timestamp": "2026-11-14T11:26:52.630322+00:00", "event": "candidate_rejected", "name": "Orty", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.630413+00:00", "event": "candidate_rejected", "name": "Autoeditor", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.630481+00:00", "event": "candidate_rejected", "name": "Gamma PDF", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.630533+00:00", "event": "candidate_rejected", "name": "EDNA", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.630580+00:00", "event": "candidate_rejected", "name": "Browserr", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.630627+00:00", "event": "candidate_rejected", "name": "Open-Source Version of Cyclon", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.630671+00:00", "event": "candidate_rejected", "name": "Portal2Bench", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.630781+00:00", "event": "candidate_rejected", "name": "Memro", "reason": "duplicate"}
+{"timestamp": "2026-11-14T11:26:52.630891+00:00", "event": "candidate_rejected", "name": "Free AI Image Gallery", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-14T11:26:52.630946+00:00", "event": "candidate_rejected", "name": "AI Juggler", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.630995+00:00", "event": "candidate_rejected", "name": "Newly Startup", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.631054+00:00", "event": "candidate_rejected", "name": "Blink", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.631099+00:00", "event": "candidate_rejected", "name": "Dodaiso", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.631144+00:00", "event": "candidate_rejected", "name": "Viral Video AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.631246+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.631308+00:00", "event": "candidate_rejected", "name": "Skylands", "reason": "duplicate"}
+{"timestamp": "2026-11-14T11:26:52.631357+00:00", "event": "candidate_rejected", "name": "Harness Tuner", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.631417+00:00", "event": "candidate_rejected", "name": "Djangocontrolroom", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.631514+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.631598+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.631687+00:00", "event": "candidate_rejected", "name": "AI News Agg", "reason": "low_confidence"}
+{"timestamp": "2026-11-14T11:26:52.631731+00:00", "event": "candidate_rejected", "name": "MuzeGen AI", "reason": "duplicate"}
+{"timestamp": "2026-11-14T11:26:52.635828+00:00", "event": "tool_staged_for_review", "slug": "leetsys", "category": "design-ux", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-14T11:26:52.635870+00:00", "event": "tool_staged_for_review", "slug": "getairdash", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-14T11:26:52.635887+00:00", "event": "tool_staged_for_review", "slug": "algocademy", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-14T11:26:52.635900+00:00", "event": "tool_staged_for_review", "slug": "cloudhike", "category": "coding-development", "source": "Hacker News — Show HN AI"}
