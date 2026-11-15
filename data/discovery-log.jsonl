@@ -2430,3 +2430,32 @@
 {"timestamp": "2026-11-14T11:26:52.635870+00:00", "event": "tool_staged_for_review", "slug": "getairdash", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-14T11:26:52.635887+00:00", "event": "tool_staged_for_review", "slug": "algocademy", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-14T11:26:52.635900+00:00", "event": "tool_staged_for_review", "slug": "cloudhike", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-15T11:56:07.806309+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-11-15T11:56:07.808388+00:00", "event": "candidate_rejected", "name": "Vantage-V-AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.808659+00:00", "event": "candidate_rejected", "name": "ShadowDiff", "reason": "duplicate"}
+{"timestamp": "2026-11-15T11:56:07.808781+00:00", "event": "candidate_rejected", "name": "Brainsaver", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.808886+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.808993+00:00", "event": "candidate_rejected", "name": "AI Time Estimator", "reason": "duplicate"}
+{"timestamp": "2026-11-15T11:56:07.809257+00:00", "event": "candidate_rejected", "name": "Agentcommand", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.809360+00:00", "event": "candidate_rejected", "name": "Scatter", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.809520+00:00", "event": "candidate_rejected", "name": "Shotoku", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.809654+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.809773+00:00", "event": "candidate_rejected", "name": "Orty", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.809869+00:00", "event": "candidate_rejected", "name": "Autoeditor", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.809977+00:00", "event": "candidate_rejected", "name": "Gamma PDF", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.810074+00:00", "event": "candidate_rejected", "name": "EDNA", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.810166+00:00", "event": "candidate_rejected", "name": "Browserr", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.810265+00:00", "event": "candidate_rejected", "name": "Open-Source Version of Cyclon", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.810359+00:00", "event": "candidate_rejected", "name": "Portal2Bench", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.810452+00:00", "event": "candidate_rejected", "name": "Memro", "reason": "duplicate"}
+{"timestamp": "2026-11-15T11:56:07.810554+00:00", "event": "candidate_rejected", "name": "Free AI Image Gallery", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-15T11:56:07.810670+00:00", "event": "candidate_rejected", "name": "AI Juggler", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.810767+00:00", "event": "candidate_rejected", "name": "Newly Startup", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.810874+00:00", "event": "candidate_rejected", "name": "Blink", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.810968+00:00", "event": "candidate_rejected", "name": "Dodaiso", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.811062+00:00", "event": "candidate_rejected", "name": "Viral Video AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.811148+00:00", "event": "candidate_rejected", "name": "Leetsys", "reason": "duplicate"}
+{"timestamp": "2026-11-15T11:56:07.811266+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-15T11:56:07.811374+00:00", "event": "candidate_rejected", "name": "Skylands", "reason": "duplicate"}
+{"timestamp": "2026-11-15T11:56:07.817013+00:00", "event": "tool_staged_for_review", "slug": "yvd", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-15T11:56:07.817068+00:00", "event": "tool_staged_for_review", "slug": "sunsetlint", "category": "coding-development", "source": "Hacker News — Show HN AI"}

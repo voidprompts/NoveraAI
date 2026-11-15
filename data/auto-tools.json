@@ -6565,5 +6565,55 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50483111",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "yvd",
+    "name": "YVD",
+    "category": "image-generation",
+    "tagline": "Generate videos, images, and music in seconds with AI",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://yvd.io",
+    "description": "YVD is an AI studio for creating videos, images, and music. Features include text-to-video, text-to-image, AI music generation, and PNG background removal. Built with Seedance and GPT image models. Free tier with 20 welcome credits + 10 daily credits.",
+    "tags": [
+      "Video",
+      "Images",
+      "Music"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-11-15",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50499089",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "sunsetlint",
+    "name": "SunsetLint",
+    "category": "coding-development",
+    "tagline": "find retiring AI model IDs in your GitHub repos",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.sunsetlint.com",
+    "description": "SunsetLint is a newly discovered AI product for coding development. find retiring AI model IDs in your GitHub repos.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-15",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50496956",
+    "reviewStatus": "auto-discovered"
   }
 ]
