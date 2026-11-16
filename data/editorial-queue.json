@@ -118,6 +118,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "bitty": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "bloby": {
     "attempts": 3,
     "lastReviewedAt": "2026-11-04",
@@ -195,6 +202,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "cr34te-it": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "critic": {
     "attempts": 3,
     "lastReviewedAt": "2026-10-30",
@@ -234,6 +248,13 @@
     "attempts": 3,
     "lastReviewedAt": "2026-11-06",
     "nextReviewAt": "2026-12-06",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "documemory": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -277,6 +298,20 @@
     "lastReviewedAt": "2026-11-02",
     "nextReviewAt": "2026-12-02",
     "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
+  "flashpapers": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "flying-car-ai": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
   "forkbench": {
@@ -431,6 +466,13 @@
     "reason": "strict_official_evidence_gate_passed",
     "state": "approved"
   },
+  "meetcap": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "nadir": {
     "attempts": 3,
     "lastReviewedAt": "2026-11-04",
@@ -571,6 +613,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "rstation": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "search2o": {
     "attempts": 3,
     "lastReviewedAt": "2026-11-02",
@@ -606,6 +655,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "sphinx": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
   "stackreplay": {
     "attempts": 3,
     "lastReviewedAt": "2026-10-30",
@@ -618,6 +674,27 @@
     "lastReviewedAt": "2026-11-09",
     "nextReviewAt": "2026-11-23",
     "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
+  "stream-reducer": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "stylebot-4": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "sys2txt": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
   "taijora": {
@@ -744,6 +821,13 @@
     "lastReviewedAt": "2026-11-09",
     "nextReviewAt": "2026-11-23",
     "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "wp-replai": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-16",
+    "nextReviewAt": "2026-11-30",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "yokka": {
