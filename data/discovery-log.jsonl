@@ -2459,3 +2459,34 @@
 {"timestamp": "2026-11-15T11:56:07.811374+00:00", "event": "candidate_rejected", "name": "Skylands", "reason": "duplicate"}
 {"timestamp": "2026-11-15T11:56:07.817013+00:00", "event": "tool_staged_for_review", "slug": "yvd", "category": "image-generation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-15T11:56:07.817068+00:00", "event": "tool_staged_for_review", "slug": "sunsetlint", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-16T12:43:02.527767+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 30}
+{"timestamp": "2026-11-16T12:43:02.529915+00:00", "event": "candidate_rejected", "name": "Blue-harness", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.530032+00:00", "event": "candidate_rejected", "name": "Codecainehq", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-16T12:43:02.530118+00:00", "event": "candidate_rejected", "name": "OpenButterfly", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.530184+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-16T12:43:02.530248+00:00", "event": "candidate_rejected", "name": "Toolifyhub", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.530308+00:00", "event": "candidate_rejected", "name": "Memeo", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.530389+00:00", "event": "candidate_rejected", "name": "AquarIum", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.530450+00:00", "event": "candidate_rejected", "name": "LiveWire", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.530514+00:00", "event": "candidate_rejected", "name": "Perfectclone", "reason": "duplicate"}
+{"timestamp": "2026-11-16T12:43:02.530574+00:00", "event": "candidate_rejected", "name": "Aegis", "reason": "duplicate"}
+{"timestamp": "2026-11-16T12:43:02.530631+00:00", "event": "candidate_rejected", "name": "Attest", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.530709+00:00", "event": "candidate_rejected", "name": "Local AI Video Agent", "reason": "duplicate"}
+{"timestamp": "2026-11-16T12:43:02.530801+00:00", "event": "candidate_rejected", "name": "Pocket Garden", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.530887+00:00", "event": "candidate_rejected", "name": "New Model- NCM Model", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.530945+00:00", "event": "candidate_rejected", "name": "Pizza", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.531057+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.531118+00:00", "event": "candidate_rejected", "name": "db-branch", "reason": "duplicate"}
+{"timestamp": "2026-11-16T12:43:02.531178+00:00", "event": "candidate_rejected", "name": "Aurora GeoXAI", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.531232+00:00", "event": "candidate_rejected", "name": "Vantage-V-AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.531289+00:00", "event": "candidate_rejected", "name": "ShadowDiff", "reason": "duplicate"}
+{"timestamp": "2026-11-16T12:43:02.531343+00:00", "event": "candidate_rejected", "name": "Brainsaver", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.531402+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.531468+00:00", "event": "candidate_rejected", "name": "AI Time Estimator", "reason": "duplicate"}
+{"timestamp": "2026-11-16T12:43:02.531530+00:00", "event": "candidate_rejected", "name": "YVD", "reason": "duplicate"}
+{"timestamp": "2026-11-16T12:43:02.531602+00:00", "event": "candidate_rejected", "name": "Agentcommand", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.531656+00:00", "event": "candidate_rejected", "name": "Scatter", "reason": "low_confidence"}
+{"timestamp": "2026-11-16T12:43:02.531710+00:00", "event": "candidate_rejected", "name": "SunsetLint", "reason": "duplicate"}
+{"timestamp": "2026-11-16T12:43:02.536747+00:00", "event": "tool_staged_for_review", "slug": "otus", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-16T12:43:02.536837+00:00", "event": "tool_staged_for_review", "slug": "artificialliabilities", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-16T12:43:02.536859+00:00", "event": "tool_staged_for_review", "slug": "flaient", "category": "coding-development", "source": "Hacker News — Show HN AI"}

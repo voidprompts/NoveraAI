@@ -6615,5 +6615,79 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50496956",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "otus",
+    "name": "Otus",
+    "category": "data-analytics",
+    "tagline": "EU web analytics with a Mistral powered AI analyst",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://otusanalytics.com",
+    "description": "Otus is a newly discovered AI product for data analytics. EU web analytics with a Mistral powered AI analyst.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-16",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50516749",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "artificialliabilities",
+    "name": "Artificialliabilities",
+    "category": "data-analytics",
+    "tagline": "Auto-updating tracker of the financial situation of the AI infra build out. Based on a ton of publicly available data like FRED, SEC filings, etc",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://artificialliabilities.com",
+    "description": "Auto-updating tracker of the financial situation of the AI infra build out. Based on a ton of publicly available data like FRED, SEC filings, etc.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-16",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50516713",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "flaient",
+    "name": "FlAIent",
+    "category": "coding-development",
+    "tagline": "Learn interactive AI coding with real agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://flaient.com",
+    "description": "FlAIent is a newly discovered AI product for coding development. Learn interactive AI coding with real agents.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-16",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50507883",
+    "reviewStatus": "auto-discovered"
   }
 ]
