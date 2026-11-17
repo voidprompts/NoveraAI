@@ -6689,5 +6689,106 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50507883",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "standard-support",
+    "name": "Standard Support",
+    "category": "customer-support",
+    "tagline": "a convention for AI agents to file support tickets",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://standardsupport.dev",
+    "description": "Standard Support is a newly discovered AI product for customer support. a convention for AI agents to file support tickets.",
+    "tags": [
+      "Customer support",
+      "Customer Support"
+    ],
+    "features": [
+      "Answer common customer questions",
+      "Assist human support workflows",
+      "Organize and route conversations",
+      "Improve service response time"
+    ],
+    "discoveredAt": "2026-11-17",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50524768",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "coderbaba",
+    "name": "CoderBaba",
+    "category": "coding-development",
+    "tagline": "An open-source AI Coding Agent with security scanning",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://coderbaba.si",
+    "description": "CoderBaba is a newly discovered AI product for coding development. An open-source AI Coding Agent with security scanning.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-17",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50518918",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "claktor",
+    "name": "Claktor",
+    "category": "coding-development",
+    "tagline": "a refactoring CLI for coding agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://claktor.com",
+    "description": "I've been working on Claktor ever since I got frustrated with some 'code smells' AI Agents have been producing while writing Rust. Claktor is a refactoring tool that leverages custom AST parsing and processing to produce ranked 'leads' on what in the codebase should be looked into to reduce logic duplication. When I started out, it was mostly an opinionated 'how code should be written' detector, after attempting to f",
+    "tags": [
+      "Developer",
+      "Writing",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-17",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50517415",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "prettywhale-ai",
+    "name": "Prettywhale.ai",
+    "category": "data-analytics",
+    "tagline": "Generate data pipelines from data samples",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://marketplace.visualstudio.com/items",
+    "description": "Prettywhale.ai is a newly discovered AI product for data analytics. Generate data pipelines from data samples.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-17",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50517255",
+    "reviewStatus": "auto-discovered"
   }
 ]
