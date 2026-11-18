@@ -2529,3 +2529,40 @@
 {"timestamp": "2026-11-17T13:22:14.187837+00:00", "event": "tool_staged_for_review", "slug": "coderbaba", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-17T13:22:14.187873+00:00", "event": "tool_staged_for_review", "slug": "claktor", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-17T13:22:14.187920+00:00", "event": "tool_staged_for_review", "slug": "prettywhale-ai", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-18T13:01:05.465930+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 36}
+{"timestamp": "2026-11-18T13:01:05.467730+00:00", "event": "candidate_rejected", "name": "Hallucination-as-a-service", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.467826+00:00", "event": "candidate_rejected", "name": "Comepass", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.467898+00:00", "event": "candidate_rejected", "name": "Satoshi Interface", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468148+00:00", "event": "candidate_rejected", "name": "Qpilot", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468221+00:00", "event": "candidate_rejected", "name": "College Essay Grader", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468284+00:00", "event": "candidate_rejected", "name": "Murer AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468359+00:00", "event": "candidate_rejected", "name": "Mdkit", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468419+00:00", "event": "candidate_rejected", "name": "Shard", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468532+00:00", "event": "candidate_rejected", "name": "R3", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468597+00:00", "event": "candidate_rejected", "name": "Arnov", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468654+00:00", "event": "candidate_rejected", "name": "Whiz.pub", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468727+00:00", "event": "candidate_rejected", "name": "Free AI Agent Lab", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468800+00:00", "event": "candidate_rejected", "name": "Moai", "reason": "article_not_product"}
+{"timestamp": "2026-11-18T13:01:05.468865+00:00", "event": "candidate_rejected", "name": "Taster", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468936+00:00", "event": "candidate_rejected", "name": "Lumberjack", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.468991+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-18T13:01:05.469087+00:00", "event": "candidate_rejected", "name": "Solarian", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469157+00:00", "event": "candidate_rejected", "name": "Atlas", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469215+00:00", "event": "candidate_rejected", "name": "Hissingkitty", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469269+00:00", "event": "candidate_rejected", "name": "Barnacle", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469336+00:00", "event": "candidate_rejected", "name": "Keralabotanics", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469391+00:00", "event": "candidate_rejected", "name": "TrnRT", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469498+00:00", "event": "candidate_rejected", "name": "Plinth", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469555+00:00", "event": "candidate_rejected", "name": "Atli", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469610+00:00", "event": "candidate_rejected", "name": "Agav", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469665+00:00", "event": "candidate_rejected", "name": "Revix AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469743+00:00", "event": "candidate_rejected", "name": "Flat", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469799+00:00", "event": "candidate_rejected", "name": "Solipsist", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.469861+00:00", "event": "candidate_rejected", "name": "AI Data Brokerage", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-18T13:01:05.469922+00:00", "event": "candidate_rejected", "name": "Agentsinthewild", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-18T13:01:05.469983+00:00", "event": "candidate_rejected", "name": "AI Data Licensing Datasets", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-18T13:01:05.470038+00:00", "event": "candidate_rejected", "name": "Toolmaker", "reason": "low_confidence"}
+{"timestamp": "2026-11-18T13:01:05.515411+00:00", "event": "tool_staged_for_review", "slug": "featurestream-prototype", "category": "design-ux", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-18T13:01:05.515493+00:00", "event": "tool_staged_for_review", "slug": "sikemux", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-18T13:01:05.515539+00:00", "event": "tool_staged_for_review", "slug": "modelrefs", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-18T13:01:05.515569+00:00", "event": "tool_staged_for_review", "slug": "ai-spar", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}

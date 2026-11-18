@@ -6790,5 +6790,105 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50517255",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "featurestream-prototype",
+    "name": "Featurestream Prototype",
+    "category": "design-ux",
+    "tagline": "Hi HN, I'm a solo founder. Teams building AI agents in a specific domain (legal, healthcare, etc.) have to piece together customer, product and market signals to decide which featu",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://featurestream-prototype.vercel.app",
+    "description": "Featurestream Prototype is a newly discovered AI product for design ux. Hi HN, I'm a solo founder. Teams building AI agents in a specific domain (legal, healthcare, etc.) have to piece together customer, product and market signals to decide which features to build next for their agent. This.",
+    "tags": [
+      "Design",
+      "Customer support",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-11-18",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50544566",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "sikemux",
+    "name": "Sikemux",
+    "category": "coding-development",
+    "tagline": "a whole team of AI coders in one window (Rust, MIT)",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://sikemux.com",
+    "description": "Here's why I started building Sikemux: At first I was using Cursor. The problem with it was, I had to open a new window for each project. That's when Zed came along. It was good and fast. But I didn't like its project switching much, it took me like 2 clicks instead of 1. I had tried Cursor's agent-first feature as well, but didn't like it much, as I had to see files as well and do git ops with a good layout. I had e",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-18",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50539180",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "modelrefs",
+    "name": "ModelRefs",
+    "category": "data-analytics",
+    "tagline": "AI model data where every number must cite a source",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://modelrefs.com",
+    "description": "ModelRefs is a newly discovered AI product for data analytics. AI model data where every number must cite a source.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-18",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50535094",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "ai-spar",
+    "name": "AI Spar",
+    "category": "research-knowledge",
+    "tagline": "Turn conflicting AI answers into a structured debate",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://aispar.app",
+    "description": "Over the last couple of years, I have observed many people (including myself) researching tricky topics by asking the same question to multiple AI's. If those answers conflict, we manually copy the answers back-and-forth between the AI apps to make them debate each other, to get a fuller picture of the topic. I developed AI Spar to organize and automate this debate process. When the user asks a question: 1) Multiple.",
+    "tags": [
+      "Research",
+      "Research Knowledge"
+    ],
+    "features": [
+      "Find and synthesize useful information",
+      "Explore questions through natural language",
+      "Organize research into clear outputs",
+      "Move from sources to understanding"
+    ],
+    "discoveredAt": "2026-11-18",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50532699",
+    "reviewStatus": "auto-discovered"
   }
 ]
