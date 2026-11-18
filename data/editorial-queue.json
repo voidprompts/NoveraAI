@@ -48,6 +48,13 @@
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
+  "ai-prompt-chain-builder": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
   "aidcrew-v0-3": {
     "attempts": 3,
     "lastReviewedAt": "2026-10-26",
@@ -74,6 +81,13 @@
     "lastReviewedAt": "2026-11-09",
     "nextReviewAt": "2026-11-23",
     "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "asktori": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
   "atlas-runa": {
@@ -174,6 +188,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "chai-ui": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "ambiguous_category",
+    "state": "deferred"
+  },
   "checkobot": {
     "attempts": 1,
     "lastReviewedAt": "2026-11-13",
@@ -206,6 +227,13 @@
     "attempts": 1,
     "lastReviewedAt": "2026-11-16",
     "nextReviewAt": "2026-11-30",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "craig": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -369,6 +397,13 @@
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
+  "hn-sieve": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
   "hotel-lobby-ai": {
     "attempts": 1,
     "lastReviewedAt": "2026-11-13",
@@ -446,11 +481,25 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "marcus": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "product_name_not_verified",
+    "state": "deferred"
+  },
   "mark": {
     "attempts": 1,
     "lastReviewedAt": "2026-11-13",
     "nextReviewAt": "2026-11-27",
     "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
+  "markitdown-ai": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "mediaguesser": {
@@ -492,6 +541,13 @@
     "lastReviewedAt": "2026-11-04",
     "nextReviewAt": "2026-12-04",
     "reason": "ambiguous_category",
+    "state": "deferred"
+  },
+  "not-quite-my-tempo": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
   "open-components": {
@@ -620,6 +676,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "sandkiln": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
   "search2o": {
     "attempts": 3,
     "lastReviewedAt": "2026-11-02",
@@ -746,6 +809,13 @@
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
+  "uidesigneditor": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "fetch_or_parse_error:ValueError",
+    "state": "deferred"
+  },
   "usageatlas": {
     "attempts": 3,
     "lastReviewedAt": "2026-11-04",
@@ -816,6 +886,13 @@
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
+  "wisp": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "insufficient_official_text",
+    "state": "deferred"
+  },
   "wiyomi": {
     "attempts": 2,
     "lastReviewedAt": "2026-11-09",
@@ -828,6 +905,13 @@
     "lastReviewedAt": "2026-11-16",
     "nextReviewAt": "2026-11-30",
     "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "xtract-production-2efc": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-18",
+    "nextReviewAt": "2026-12-02",
+    "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
   "yokka": {
