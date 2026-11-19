@@ -2566,3 +2566,34 @@
 {"timestamp": "2026-11-18T13:01:05.515493+00:00", "event": "tool_staged_for_review", "slug": "sikemux", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-18T13:01:05.515539+00:00", "event": "tool_staged_for_review", "slug": "modelrefs", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-18T13:01:05.515569+00:00", "event": "tool_staged_for_review", "slug": "ai-spar", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-19T13:01:37.483923+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 30}
+{"timestamp": "2026-11-19T13:01:37.485695+00:00", "event": "candidate_rejected", "name": "Cyravo SecureBuild AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.485784+00:00", "event": "candidate_rejected", "name": "Disposable", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.485838+00:00", "event": "candidate_rejected", "name": "Walkthisplan", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.485909+00:00", "event": "candidate_rejected", "name": "Frontier Observatory", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.485961+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-19T13:01:37.486008+00:00", "event": "candidate_rejected", "name": "RailCall", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486061+00:00", "event": "candidate_rejected", "name": "Intrusive.ai", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486104+00:00", "event": "candidate_rejected", "name": "KradleBench", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486148+00:00", "event": "candidate_rejected", "name": "SourcePost", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486210+00:00", "event": "candidate_rejected", "name": "Waku", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486255+00:00", "event": "candidate_rejected", "name": "WebCraft Pro", "reason": "duplicate"}
+{"timestamp": "2026-11-19T13:01:37.486384+00:00", "event": "candidate_rejected", "name": "Cloudish", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486440+00:00", "event": "candidate_rejected", "name": "Assess", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486497+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486539+00:00", "event": "candidate_rejected", "name": "Dez", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486583+00:00", "event": "candidate_rejected", "name": "Space Core", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486634+00:00", "event": "candidate_rejected", "name": "RockDesk", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486711+00:00", "event": "candidate_rejected", "name": "Grand Treasure Island", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486754+00:00", "event": "candidate_rejected", "name": "Project-M", "reason": "duplicate"}
+{"timestamp": "2026-11-19T13:01:37.486795+00:00", "event": "candidate_rejected", "name": "Reflektor", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486836+00:00", "event": "candidate_rejected", "name": "Indexed_bzip2 2.0", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.486889+00:00", "event": "candidate_rejected", "name": "Werkbank", "reason": "duplicate"}
+{"timestamp": "2026-11-19T13:01:37.486931+00:00", "event": "candidate_rejected", "name": "Sidekick AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.487020+00:00", "event": "candidate_rejected", "name": "Hallucination-as-a-service", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.487064+00:00", "event": "candidate_rejected", "name": "Comepass", "reason": "low_confidence"}
+{"timestamp": "2026-11-19T13:01:37.491413+00:00", "event": "tool_staged_for_review", "slug": "kibi", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-19T13:01:37.491450+00:00", "event": "tool_staged_for_review", "slug": "show-hn", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-19T13:01:37.491471+00:00", "event": "tool_staged_for_review", "slug": "klistra", "category": "video-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-19T13:01:37.491488+00:00", "event": "tool_staged_for_review", "slug": "cmdbook", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-19T13:01:37.491504+00:00", "event": "tool_staged_for_review", "slug": "vi-engine", "category": "marketing-sales", "source": "Hacker News — Show HN AI"}

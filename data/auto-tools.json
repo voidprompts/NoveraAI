@@ -6890,5 +6890,131 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50532699",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "kibi",
+    "name": "Kibi",
+    "category": "coding-development",
+    "tagline": "requirements framework for AI coding agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://looted.github.io/kibi",
+    "description": "Kibi is a newly discovered AI product for coding development. requirements framework for AI coding agents.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-19",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50557481",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "show-hn",
+    "name": "Show HN",
+    "category": "text-writing",
+    "tagline": "Relay – Share documents with context for the recipient's AI",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://relayto.ai",
+    "description": "Show HN is a newly discovered AI product for text writing. Relay – Share documents with context for the recipient's AI.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-11-19",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50548914",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "klistra",
+    "name": "Klistra",
+    "category": "video-generation",
+    "tagline": "A complete studio for spec-driven AI motion design and video",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://klistra.ai",
+    "description": "As a solo-dev with a lot of projects going on, I found myself needing to make short promos or explainer videos. Not being familiar with animation software, I had the idea to use Claude to code up those videos and export them as video files. Note that this was before AI-coded music videos went viral, back in the early days when the models were just getting good enough to make the result actually look good. In the proc",
+    "tags": [
+      "Video",
+      "Music",
+      "Developer"
+    ],
+    "features": [
+      "Create video concepts with AI assistance",
+      "Speed up editing and production",
+      "Repurpose content for new formats",
+      "Build shareable visual stories"
+    ],
+    "discoveredAt": "2026-11-19",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50548740",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "cmdbook",
+    "name": "Cmdbook",
+    "category": "text-writing",
+    "tagline": "a home for the scripts you (or your AI) keep rewriting",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://printf.app/cmdbook",
+    "description": "Cmdbook is a newly discovered AI product for text writing. a home for the scripts you (or your AI) keep rewriting.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-11-19",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50546862",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "vi-engine",
+    "name": "VI Engine",
+    "category": "marketing-sales",
+    "tagline": "MCP-connected AI marketing workspace with approval gates",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://viengine.social",
+    "description": "VI Engine is a newly discovered AI product for marketing sales. MCP-connected AI marketing workspace with approval gates.",
+    "tags": [
+      "Marketing",
+      "Sales",
+      "Marketing Sales"
+    ],
+    "features": [
+      "Create campaign-ready material",
+      "Support prospect and customer research",
+      "Personalize outreach at scale",
+      "Improve repeatable growth workflows"
+    ],
+    "discoveredAt": "2026-11-19",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50545691",
+    "reviewStatus": "auto-discovered"
   }
 ]
