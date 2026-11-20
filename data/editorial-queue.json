@@ -69,6 +69,13 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "alchemy-ai": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
+    "reason": "fetch_or_parse_error:HTTPError",
+    "state": "deferred"
+  },
   "algebrix-identity": {
     "attempts": 3,
     "lastReviewedAt": "2026-11-02",
@@ -95,6 +102,13 @@
     "lastReviewedAt": "2026-11-11",
     "nextReviewAt": "2026-11-25",
     "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "audimind": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
+    "reason": "ambiguous_category",
     "state": "deferred"
   },
   "autograph": {
@@ -355,6 +369,13 @@
     "reason": "official_pages_lack_explicit_ai_evidence",
     "state": "deferred"
   },
+  "frontier-log": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
+    "reason": "ambiguous_category",
+    "state": "deferred"
+  },
   "frontierroles": {
     "attempts": 1,
     "lastReviewedAt": "2026-11-11",
@@ -390,10 +411,17 @@
     "reason": "insufficient_official_text",
     "state": "deferred"
   },
+  "halv": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
   "hieraticbench": {
-    "attempts": 2,
-    "lastReviewedAt": "2026-11-06",
-    "nextReviewAt": "2026-11-20",
+    "attempts": 3,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-20",
     "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
@@ -409,6 +437,20 @@
     "lastReviewedAt": "2026-11-13",
     "nextReviewAt": "2026-11-27",
     "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "hugonot": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
+    "reason": "official_pages_lack_explicit_ai_evidence",
+    "state": "deferred"
+  },
+  "image-or-ai": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
+    "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
   "imageaicraft": {
@@ -444,6 +486,13 @@
     "lastReviewedAt": "2026-11-02",
     "nextReviewAt": "2026-12-02",
     "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "kavela": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
+    "reason": "fetch_or_parse_error:HTTPError",
     "state": "deferred"
   },
   "kuvu": {
@@ -550,11 +599,25 @@
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
+  "npmjs": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
+    "reason": "fetch_or_parse_error:HTTPError",
+    "state": "deferred"
+  },
   "open-components": {
     "attempts": 1,
     "lastReviewedAt": "2026-11-11",
     "nextReviewAt": "2026-11-25",
     "reason": "official_pages_lack_product_evidence",
+    "state": "deferred"
+  },
+  "optio": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
+    "reason": "official_evidence_conflicts_with_staged_category",
     "state": "deferred"
   },
   "orbtile": {
@@ -589,6 +652,13 @@
     "attempts": 1,
     "lastReviewedAt": "2026-11-11",
     "nextReviewAt": "2026-11-25",
+    "reason": "fewer_than_three_product_specific_capabilities",
+    "state": "deferred"
+  },
+  "perchfocus": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
     "reason": "fewer_than_three_product_specific_capabilities",
     "state": "deferred"
   },
@@ -814,6 +884,13 @@
     "lastReviewedAt": "2026-11-18",
     "nextReviewAt": "2026-12-02",
     "reason": "fetch_or_parse_error:ValueError",
+    "state": "deferred"
+  },
+  "uipalooza": {
+    "attempts": 1,
+    "lastReviewedAt": "2026-11-20",
+    "nextReviewAt": "2026-12-04",
+    "reason": "official_pages_lack_product_evidence",
     "state": "deferred"
   },
   "usageatlas": {
