@@ -2597,3 +2597,36 @@
 {"timestamp": "2026-11-19T13:01:37.491471+00:00", "event": "tool_staged_for_review", "slug": "klistra", "category": "video-generation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-19T13:01:37.491488+00:00", "event": "tool_staged_for_review", "slug": "cmdbook", "category": "text-writing", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-19T13:01:37.491504+00:00", "event": "tool_staged_for_review", "slug": "vi-engine", "category": "marketing-sales", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-20T12:51:58.660406+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 32}
+{"timestamp": "2026-11-20T12:51:58.662798+00:00", "event": "candidate_rejected", "name": "Interviewer assistant", "reason": "duplicate"}
+{"timestamp": "2026-11-20T12:51:58.662934+00:00", "event": "candidate_rejected", "name": "NostrPulse", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.663062+00:00", "event": "candidate_rejected", "name": "Agentproofchain", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.663171+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.663288+00:00", "event": "candidate_rejected", "name": "Sandscale", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.663396+00:00", "event": "candidate_rejected", "name": "BSWorld", "reason": "duplicate"}
+{"timestamp": "2026-11-20T12:51:58.663507+00:00", "event": "candidate_rejected", "name": "AiTz", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.663749+00:00", "event": "candidate_rejected", "name": "GhostFleet", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.663869+00:00", "event": "candidate_rejected", "name": "Zeus", "reason": "article_not_product"}
+{"timestamp": "2026-11-20T12:51:58.663985+00:00", "event": "candidate_rejected", "name": "Chromewebstore", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.664115+00:00", "event": "candidate_rejected", "name": "Mozolite", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-20T12:51:58.664222+00:00", "event": "candidate_rejected", "name": "Fizzler", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.664385+00:00", "event": "candidate_rejected", "name": "AdversaryPR", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.664485+00:00", "event": "candidate_rejected", "name": "Contextflo", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.664641+00:00", "event": "candidate_rejected", "name": "Lintsure", "reason": "duplicate"}
+{"timestamp": "2026-11-20T12:51:58.664734+00:00", "event": "candidate_rejected", "name": "AgentMall", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.664830+00:00", "event": "candidate_rejected", "name": "Project-M", "reason": "duplicate"}
+{"timestamp": "2026-11-20T12:51:58.664927+00:00", "event": "candidate_rejected", "name": "AI Usage Ball", "reason": "duplicate"}
+{"timestamp": "2026-11-20T12:51:58.665021+00:00", "event": "candidate_rejected", "name": "Dayfile.app", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.665149+00:00", "event": "candidate_rejected", "name": "AI Kitchen Designer", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-20T12:51:58.665249+00:00", "event": "candidate_rejected", "name": "Agentest", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.665346+00:00", "event": "candidate_rejected", "name": "Purple Flow", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.665496+00:00", "event": "candidate_rejected", "name": "Kibi", "reason": "duplicate"}
+{"timestamp": "2026-11-20T12:51:58.665596+00:00", "event": "candidate_rejected", "name": "Cyravo SecureBuild AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.665708+00:00", "event": "candidate_rejected", "name": "Disposable", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.665805+00:00", "event": "candidate_rejected", "name": "Walkthisplan", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.665916+00:00", "event": "candidate_rejected", "name": "Frontier Observatory", "reason": "low_confidence"}
+{"timestamp": "2026-11-20T12:51:58.666015+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-20T12:51:58.672420+00:00", "event": "tool_staged_for_review", "slug": "soundbench", "category": "audio-music", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-20T12:51:58.672483+00:00", "event": "tool_staged_for_review", "slug": "taskthread", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-20T12:51:58.672524+00:00", "event": "tool_staged_for_review", "slug": "relic", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-20T12:51:58.672560+00:00", "event": "tool_staged_for_review", "slug": "iceshore", "category": "research-knowledge", "source": "Hacker News — Show HN AI"}
