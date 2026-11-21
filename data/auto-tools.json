@@ -7117,5 +7117,80 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50559736",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "saturnsql",
+    "name": "Saturnsql",
+    "category": "data-analytics",
+    "tagline": "I've seen a rising demand for context when AI queries data from different places, so I built a way to provide it. You basically describe the tables, write free-form markdown notes",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://saturnsql.com/context-layer",
+    "description": "I've seen a rising demand for context when AI queries data from different places, so I built a way to provide it. You basically describe the tables, write free-form markdown notes and set definitions (e.g. the SQL for how to calculate an active user, so everyone in the company calculates it the same way). It support Apache Ossie and the context can live in your codebase or my service or both.",
+    "tags": [
+      "Developer",
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-21",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50583881",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "sandscale",
+    "name": "Sandscale",
+    "category": "coding-development",
+    "tagline": "Firecracker microVMs for AI coding agents",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://sandscale.dev",
+    "description": "Sandscale is a newly discovered AI product for coding development. Firecracker microVMs for AI coding agents.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-21",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50576141",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "greatai-review",
+    "name": "Greatai Review",
+    "category": "coding-development",
+    "tagline": "free AI and human code review for open source",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://greatai.dev/clinic",
+    "description": "Greatai Review is a newly discovered AI product for coding development. free AI and human code review for open source.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-21",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50575270",
+    "reviewStatus": "auto-discovered"
   }
 ]
