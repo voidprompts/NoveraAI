@@ -7192,5 +7192,106 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50575270",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "agent-doctor",
+    "name": "Agent Doctor",
+    "category": "coding-development",
+    "tagline": "let domain experts tune your agent without code changes",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://theagentdoctor.com",
+    "description": "Agent Doctor is a newly discovered AI product for coding development. let domain experts tune your agent without code changes.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-22",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50598128",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "prompt-upgrader",
+    "name": "Prompt Upgrader",
+    "category": "text-writing",
+    "tagline": "a no-signup tool that scores and rewrites AI prompts",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://madgpt1.github.io/prompt-upgrader",
+    "description": "Prompt Upgrader is a newly discovered AI product for text writing. a no-signup tool that scores and rewrites AI prompts.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-11-22",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50596909",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "vouch",
+    "name": "Vouch",
+    "category": "productivity-automation",
+    "tagline": "See what AI assistants say about your brand mid-conversation",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://vouchgeo.com",
+    "description": "Vouch is a newly discovered AI product for productivity automation. See what AI assistants say about your brand mid-conversation.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-22",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50596218",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "worldfoundry",
+    "name": "WorldFoundry",
+    "category": "data-analytics",
+    "tagline": "AI agents need experience, not just training data",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://worldfoundry-demo.vercel.app",
+    "description": "WorldFoundry is a newly discovered AI product for data analytics. AI agents need experience, not just training data.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-22",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50594826",
+    "reviewStatus": "auto-discovered"
   }
 ]

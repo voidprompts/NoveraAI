@@ -2665,3 +2665,38 @@
 {"timestamp": "2026-11-21T12:36:55.543642+00:00", "event": "tool_staged_for_review", "slug": "saturnsql", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-21T12:36:55.543680+00:00", "event": "tool_staged_for_review", "slug": "sandscale", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-21T12:36:55.543706+00:00", "event": "tool_staged_for_review", "slug": "greatai-review", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-22T12:33:42.578047+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 34}
+{"timestamp": "2026-11-22T12:33:42.580336+00:00", "event": "candidate_rejected", "name": "Codeint", "reason": "duplicate"}
+{"timestamp": "2026-11-22T12:33:42.580851+00:00", "event": "candidate_rejected", "name": "Keepplain", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-22T12:33:42.580965+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.581071+00:00", "event": "candidate_rejected", "name": "Nistivo", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.581176+00:00", "event": "candidate_rejected", "name": "Gemini-Based Agent for Households", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.581286+00:00", "event": "candidate_rejected", "name": "Klistra", "reason": "duplicate"}
+{"timestamp": "2026-11-22T12:33:42.581386+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.581486+00:00", "event": "candidate_rejected", "name": "Agentest", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.581609+00:00", "event": "candidate_rejected", "name": "Unmark", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.581730+00:00", "event": "candidate_rejected", "name": "ClawVet", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.581835+00:00", "event": "candidate_rejected", "name": "Huggingface", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.581936+00:00", "event": "candidate_rejected", "name": "RMRFBench", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.582040+00:00", "event": "candidate_rejected", "name": "Waffuru", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-22T12:33:42.582137+00:00", "event": "candidate_rejected", "name": "Sniffy", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.582269+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-22T12:33:42.582384+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.582496+00:00", "event": "candidate_rejected", "name": "Saturnsql", "reason": "duplicate"}
+{"timestamp": "2026-11-22T12:33:42.582599+00:00", "event": "candidate_rejected", "name": "Xsquads", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.582715+00:00", "event": "candidate_rejected", "name": "Luminol", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.582812+00:00", "event": "candidate_rejected", "name": "ArkViz", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.582912+00:00", "event": "candidate_rejected", "name": "Out of Policy", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.583012+00:00", "event": "candidate_rejected", "name": "AIVory Code", "reason": "duplicate"}
+{"timestamp": "2026-11-22T12:33:42.583127+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-22T12:33:42.583228+00:00", "event": "candidate_rejected", "name": "Cookedyet", "reason": "outside_directory_scope"}
+{"timestamp": "2026-11-22T12:33:42.583316+00:00", "event": "candidate_rejected", "name": "Sandscale", "reason": "duplicate"}
+{"timestamp": "2026-11-22T12:33:42.583414+00:00", "event": "candidate_rejected", "name": "Preflight-agent", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.583506+00:00", "event": "candidate_rejected", "name": "Greatai Review", "reason": "duplicate"}
+{"timestamp": "2026-11-22T12:33:42.583611+00:00", "event": "candidate_rejected", "name": "AI Inference for Beginners", "reason": "duplicate"}
+{"timestamp": "2026-11-22T12:33:42.583727+00:00", "event": "candidate_rejected", "name": "Agent Guard", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.583826+00:00", "event": "candidate_rejected", "name": "TheGeoPot", "reason": "low_confidence"}
+{"timestamp": "2026-11-22T12:33:42.589830+00:00", "event": "tool_staged_for_review", "slug": "agent-doctor", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-22T12:33:42.589899+00:00", "event": "tool_staged_for_review", "slug": "prompt-upgrader", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-22T12:33:42.589942+00:00", "event": "tool_staged_for_review", "slug": "vouch", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-22T12:33:42.589977+00:00", "event": "tool_staged_for_review", "slug": "worldfoundry", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
