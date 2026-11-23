@@ -2700,3 +2700,32 @@
 {"timestamp": "2026-11-22T12:33:42.589899+00:00", "event": "tool_staged_for_review", "slug": "prompt-upgrader", "category": "text-writing", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-22T12:33:42.589942+00:00", "event": "tool_staged_for_review", "slug": "vouch", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-22T12:33:42.589977+00:00", "event": "tool_staged_for_review", "slug": "worldfoundry", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-23T14:35:31.985378+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-11-23T14:35:31.987585+00:00", "event": "candidate_rejected", "name": "Tilen", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.987836+00:00", "event": "candidate_rejected", "name": "CodeOtter", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.987954+00:00", "event": "candidate_rejected", "name": "Mopyfish", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.988060+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.988168+00:00", "event": "candidate_rejected", "name": "Apex verify", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.988300+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.988401+00:00", "event": "candidate_rejected", "name": "Symbiocit", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.988501+00:00", "event": "candidate_rejected", "name": "Slipmark", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.988596+00:00", "event": "candidate_rejected", "name": "KradleBench", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.988686+00:00", "event": "candidate_rejected", "name": "Marketplace", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.988785+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.988911+00:00", "event": "candidate_rejected", "name": "Kavach AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.989009+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.989108+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.989348+00:00", "event": "candidate_rejected", "name": "Thegit", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.989467+00:00", "event": "candidate_rejected", "name": "Taskless", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.989586+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.989686+00:00", "event": "candidate_rejected", "name": "ReallySimpleDocs", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.989785+00:00", "event": "candidate_rejected", "name": "Codeint", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.989899+00:00", "event": "candidate_rejected", "name": "Agent Doctor", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.989992+00:00", "event": "candidate_rejected", "name": "Prompt Upgrader", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.990084+00:00", "event": "candidate_rejected", "name": "Vouch", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.990172+00:00", "event": "candidate_rejected", "name": "WorldFoundry", "reason": "duplicate"}
+{"timestamp": "2026-11-23T14:35:31.990275+00:00", "event": "candidate_rejected", "name": "Keepplain", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-23T14:35:31.990372+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.990468+00:00", "event": "candidate_rejected", "name": "Nistivo", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.990569+00:00", "event": "candidate_rejected", "name": "Gemini-Based Agent for Households", "reason": "low_confidence"}
+{"timestamp": "2026-11-23T14:35:31.996712+00:00", "event": "tool_staged_for_review", "slug": "trix", "category": "coding-development", "source": "Hacker News — Show HN AI"}

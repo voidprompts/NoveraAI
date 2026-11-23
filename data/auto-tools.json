@@ -7293,5 +7293,29 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50594826",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "trix",
+    "name": "Trix",
+    "category": "coding-development",
+    "tagline": "A terminal workspace that shows which coding agent needs you",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://trixapp.ai",
+    "description": "Trix is a newly discovered AI product for coding development. A terminal workspace that shows which coding agent needs you.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-23",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50605218",
+    "reviewStatus": "auto-discovered"
   }
 ]
