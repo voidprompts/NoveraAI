@@ -7317,5 +7317,79 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50605218",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "authoric-ai",
+    "name": "Authoric AI",
+    "category": "text-writing",
+    "tagline": "All-in-one AI book writing and publishing platform",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://authoricai.com",
+    "description": "Authoric AI is a newly discovered AI product for text writing. All-in-one AI book writing and publishing platform.",
+    "tags": [
+      "Writing",
+      "Text Writing"
+    ],
+    "features": [
+      "Create and refine written content",
+      "Summarize and restructure text",
+      "Adapt voice for different audiences",
+      "Move from prompt to draft quickly"
+    ],
+    "discoveredAt": "2026-11-24",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50626388",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "harny",
+    "name": "Harny",
+    "category": "coding-development",
+    "tagline": "AI coding agent for VSCodium/VS Code tuned for small/local LLMs",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://harny.dev",
+    "description": "Harny is a newly discovered AI product for coding development. AI coding agent for VSCodium/VS Code tuned for small/local LLMs.",
+    "tags": [
+      "Developer",
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-24",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50625336",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "clai",
+    "name": "Clai",
+    "category": "coding-development",
+    "tagline": "AI multitool for terminal powerusers",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.clai.chat",
+    "description": "Clai is a newly discovered AI product for coding development. AI multitool for terminal powerusers.",
+    "tags": [
+      "Coding Development"
+    ],
+    "features": [
+      "Accelerate common development tasks",
+      "Work with contextual code assistance",
+      "Explain and improve technical work",
+      "Move from idea to working software"
+    ],
+    "discoveredAt": "2026-11-24",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50614201",
+    "reviewStatus": "auto-discovered"
   }
 ]

@@ -2729,3 +2729,30 @@
 {"timestamp": "2026-11-23T14:35:31.990468+00:00", "event": "candidate_rejected", "name": "Nistivo", "reason": "low_confidence"}
 {"timestamp": "2026-11-23T14:35:31.990569+00:00", "event": "candidate_rejected", "name": "Gemini-Based Agent for Households", "reason": "low_confidence"}
 {"timestamp": "2026-11-23T14:35:31.996712+00:00", "event": "tool_staged_for_review", "slug": "trix", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-24T14:51:00.530344+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 26}
+{"timestamp": "2026-11-24T14:51:00.531924+00:00", "event": "candidate_rejected", "name": "status", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532008+00:00", "event": "candidate_rejected", "name": "Qufei1993", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532067+00:00", "event": "candidate_rejected", "name": "Advent Of Ai Security", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532178+00:00", "event": "candidate_rejected", "name": "Costcatch", "reason": "duplicate"}
+{"timestamp": "2026-11-24T14:51:00.532273+00:00", "event": "candidate_rejected", "name": "Chartsenseai", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-24T14:51:00.532323+00:00", "event": "candidate_rejected", "name": "OctoCheck", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532368+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-24T14:51:00.532416+00:00", "event": "candidate_rejected", "name": "Maverickbuilds", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-24T14:51:00.532506+00:00", "event": "candidate_rejected", "name": "Benchmarkrouter", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532589+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532633+00:00", "event": "candidate_rejected", "name": "Gal", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532676+00:00", "event": "candidate_rejected", "name": "Judge-audit", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532717+00:00", "event": "candidate_rejected", "name": "Offthread", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532759+00:00", "event": "candidate_rejected", "name": "Truce", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532802+00:00", "event": "candidate_rejected", "name": "Dayora", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-24T14:51:00.532846+00:00", "event": "candidate_rejected", "name": "Rokan", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-24T14:51:00.532886+00:00", "event": "candidate_rejected", "name": "RailCall", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532944+00:00", "event": "candidate_rejected", "name": "MCPfolio", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.532992+00:00", "event": "candidate_rejected", "name": "Agentclock", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.533033+00:00", "event": "candidate_rejected", "name": "Verfy", "reason": "duplicate"}
+{"timestamp": "2026-11-24T14:51:00.533082+00:00", "event": "candidate_rejected", "name": "Codeyam", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.533147+00:00", "event": "candidate_rejected", "name": "Wyrd (OSS)", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.533188+00:00", "event": "candidate_rejected", "name": "Ryanpark", "reason": "low_confidence"}
+{"timestamp": "2026-11-24T14:51:00.537072+00:00", "event": "tool_staged_for_review", "slug": "authoric-ai", "category": "text-writing", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-24T14:51:00.537104+00:00", "event": "tool_staged_for_review", "slug": "harny", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-24T14:51:00.537123+00:00", "event": "tool_staged_for_review", "slug": "clai", "category": "coding-development", "source": "Hacker News — Show HN AI"}
