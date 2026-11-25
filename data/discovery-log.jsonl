@@ -2756,3 +2756,32 @@
 {"timestamp": "2026-11-24T14:51:00.537072+00:00", "event": "tool_staged_for_review", "slug": "authoric-ai", "category": "text-writing", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-24T14:51:00.537104+00:00", "event": "tool_staged_for_review", "slug": "harny", "category": "coding-development", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-24T14:51:00.537123+00:00", "event": "tool_staged_for_review", "slug": "clai", "category": "coding-development", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-25T14:19:07.120839+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 28}
+{"timestamp": "2026-11-25T14:19:07.123433+00:00", "event": "candidate_rejected", "name": "Viewtower", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-25T14:19:07.123578+00:00", "event": "candidate_rejected", "name": "Avva", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.123778+00:00", "event": "candidate_rejected", "name": "Agent Debugger", "reason": "duplicate"}
+{"timestamp": "2026-11-25T14:19:07.123911+00:00", "event": "candidate_rejected", "name": "Lightscale AI", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.124025+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.124159+00:00", "event": "candidate_rejected", "name": "Sightline", "reason": "duplicate"}
+{"timestamp": "2026-11-25T14:19:07.124267+00:00", "event": "candidate_rejected", "name": "Carry", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.124382+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.124481+00:00", "event": "candidate_rejected", "name": "Chakra", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.124578+00:00", "event": "candidate_rejected", "name": "Enduser", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.124679+00:00", "event": "candidate_rejected", "name": "Youtube", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.124785+00:00", "event": "candidate_rejected", "name": "Cerulion", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.124902+00:00", "event": "candidate_rejected", "name": "ModelXare", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.125017+00:00", "event": "candidate_rejected", "name": "Wakeshift", "reason": "duplicate"}
+{"timestamp": "2026-11-25T14:19:07.125149+00:00", "event": "candidate_rejected", "name": "Growpython", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-25T14:19:07.125259+00:00", "event": "candidate_rejected", "name": "Plugins", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.125373+00:00", "event": "candidate_rejected", "name": "Joonoo", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.125529+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-25T14:19:07.125657+00:00", "event": "candidate_rejected", "name": "Moonbooth", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.125759+00:00", "event": "candidate_rejected", "name": "Agentbadge", "reason": "duplicate"}
+{"timestamp": "2026-11-25T14:19:07.125860+00:00", "event": "candidate_rejected", "name": "PII Guard", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.125956+00:00", "event": "candidate_rejected", "name": "Somaai", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.126052+00:00", "event": "candidate_rejected", "name": "VibeVigil", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.126175+00:00", "event": "candidate_rejected", "name": "Daydream", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.126287+00:00", "event": "candidate_rejected", "name": "status", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.126383+00:00", "event": "candidate_rejected", "name": "Qufei1993", "reason": "low_confidence"}
+{"timestamp": "2026-11-25T14:19:07.132646+00:00", "event": "tool_staged_for_review", "slug": "plexisai", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-25T14:19:07.132713+00:00", "event": "tool_staged_for_review", "slug": "byname", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}

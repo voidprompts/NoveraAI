@@ -7391,5 +7391,56 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50614201",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "plexisai",
+    "name": "Plexisai",
+    "category": "data-analytics",
+    "tagline": "hey everyone really want a feedback hey guys i built an ai powered data intelligence called plexis here you can upload your dataset , analyze it with plain english and view the cha",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://plexisai.vercel.app",
+    "description": "Plexisai is a newly discovered AI product for data analytics. hey everyone really want a feedback hey guys i built an ai powered data intelligence called plexis here you can upload your dataset , analyze it with plain english and view the charts , spreadsheet try it now really want.",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-25",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50641526",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "byname",
+    "name": "Byname",
+    "category": "productivity-automation",
+    "tagline": "open-source tool to see when AI assistants name your product",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://byname.dev",
+    "description": "Byname is a newly discovered AI product for productivity automation. open-source tool to see when AI assistants name your product.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-25",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50631364",
+    "reviewStatus": "auto-discovered"
   }
 ]
