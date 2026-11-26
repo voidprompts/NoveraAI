@@ -7442,5 +7442,30 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50631364",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "aigarchy",
+    "name": "AIgarchy",
+    "category": "data-analytics",
+    "tagline": "A satirical AI datacenter tycoon in vanilla JavaScript",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://aigarchy.samuelberton.com",
+    "description": "I built a short satirical browser game where you run an AI datacenter empire starting in November 2022. You scout power pockets and build clusters across the US, Silicon Valley, the EU, China, and eventually Low Earth Orbit — while chasing compute demand, taking circular financing from NVIDIA, lobbying Washington and Brussels, funding PACs in elections, and watching an in-game social feed react to every move. Can you",
+    "tags": [
+      "Data",
+      "Data Analytics"
+    ],
+    "features": [
+      "Ask natural-language questions of data",
+      "Find patterns and useful signals",
+      "Create clear charts and summaries",
+      "Share insights with a wider team"
+    ],
+    "discoveredAt": "2026-11-26",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50643650",
+    "reviewStatus": "auto-discovered"
   }
 ]
