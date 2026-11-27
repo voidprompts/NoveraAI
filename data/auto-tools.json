@@ -7467,5 +7467,80 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50643650",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "telegram-image-bot",
+    "name": "Telegram image bot",
+    "category": "image-generation",
+    "tagline": "3 free AI images a day, 1 USDT = 10",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://alexchen-imgbot-sales.containers.snapdeploy.app",
+    "description": "Telegram image bot is a newly discovered AI product for image generation. 3 free AI images a day, 1 USDT = 10.",
+    "tags": [
+      "Images",
+      "Image Generation"
+    ],
+    "features": [
+      "Generate visual concepts from prompts",
+      "Explore style and composition options",
+      "Create reusable creative assets",
+      "Iterate on visual directions quickly"
+    ],
+    "discoveredAt": "2026-11-27",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50663124",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "ashuteacher",
+    "name": "AshuTeacher",
+    "category": "education-learning",
+    "tagline": "Free AI tutor, voice blackboard and thesis studio",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://ashuteacher.vercel.app",
+    "description": "AshuTeacher is a newly discovered AI product for education learning. Free AI tutor, voice blackboard and thesis studio.",
+    "tags": [
+      "Voice",
+      "Education",
+      "Education Learning"
+    ],
+    "features": [
+      "Create guided learning experiences",
+      "Personalize practice and explanations",
+      "Support educators and learners",
+      "Turn material into study activities"
+    ],
+    "discoveredAt": "2026-11-27",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50662700",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "scolast",
+    "name": "Scolast",
+    "category": "education-learning",
+    "tagline": "AI tutor for autodidacts inspired by Bloom's 2 sigma problem",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://scolast.com",
+    "description": "I was using Claude to learn physics and I was getting a bit frustrated with the interface (I kept interrupting the conversation to get a quick explainer on something, and there was no good interface for Claude to ask me questions) so I built Scolast! It's an AI tutor that follows Bloom's findings ( https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem ) that 1 to 1 tutoring, using mastery learning (basically only m",
+    "tags": [
+      "Education Learning"
+    ],
+    "features": [
+      "Create guided learning experiences",
+      "Personalize practice and explanations",
+      "Support educators and learners",
+      "Turn material into study activities"
+    ],
+    "discoveredAt": "2026-11-27",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50661473",
+    "reviewStatus": "auto-discovered"
   }
 ]

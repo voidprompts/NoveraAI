@@ -2816,3 +2816,31 @@
 {"timestamp": "2026-11-26T13:52:08.590429+00:00", "event": "candidate_rejected", "name": "Chakra", "reason": "low_confidence"}
 {"timestamp": "2026-11-26T13:52:08.590466+00:00", "event": "candidate_rejected", "name": "Enduser", "reason": "low_confidence"}
 {"timestamp": "2026-11-26T13:52:08.594307+00:00", "event": "tool_staged_for_review", "slug": "aigarchy", "category": "data-analytics", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-27T13:49:51.566059+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 27}
+{"timestamp": "2026-11-27T13:49:51.567998+00:00", "event": "candidate_rejected", "name": "Recap Ux", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-27T13:49:51.568121+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.568197+00:00", "event": "candidate_rejected", "name": "Slashanywhere", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.568275+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.568497+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.568570+00:00", "event": "candidate_rejected", "name": "Dailydev", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.568633+00:00", "event": "candidate_rejected", "name": "Kaju", "reason": "duplicate"}
+{"timestamp": "2026-11-27T13:49:51.568692+00:00", "event": "candidate_rejected", "name": "Dev-Mem", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.568751+00:00", "event": "candidate_rejected", "name": "Swarm", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.568800+00:00", "event": "candidate_rejected", "name": "Dev-Mem", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.568870+00:00", "event": "candidate_rejected", "name": "Graphvein", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.568938+00:00", "event": "candidate_rejected", "name": "Neui", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.568996+00:00", "event": "candidate_rejected", "name": "Clockwork", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.569054+00:00", "event": "candidate_rejected", "name": "Lockward", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.569109+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.569180+00:00", "event": "candidate_rejected", "name": "Inferedge Ai", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.569241+00:00", "event": "candidate_rejected", "name": "Truce", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.569298+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-27T13:49:51.569354+00:00", "event": "candidate_rejected", "name": "Memora", "reason": "duplicate"}
+{"timestamp": "2026-11-27T13:49:51.569413+00:00", "event": "candidate_rejected", "name": "Open Deal Kit", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.569468+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.569540+00:00", "event": "candidate_rejected", "name": "Talira", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.569604+00:00", "event": "candidate_rejected", "name": "Wordspies", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.569660+00:00", "event": "candidate_rejected", "name": "Tryanvil", "reason": "low_confidence"}
+{"timestamp": "2026-11-27T13:49:51.574921+00:00", "event": "tool_staged_for_review", "slug": "telegram-image-bot", "category": "image-generation", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-27T13:49:51.574964+00:00", "event": "tool_staged_for_review", "slug": "ashuteacher", "category": "education-learning", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-27T13:49:51.574993+00:00", "event": "tool_staged_for_review", "slug": "scolast", "category": "education-learning", "source": "Hacker News — Show HN AI"}
