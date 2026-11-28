@@ -2844,3 +2844,31 @@
 {"timestamp": "2026-11-27T13:49:51.574921+00:00", "event": "tool_staged_for_review", "slug": "telegram-image-bot", "category": "image-generation", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-27T13:49:51.574964+00:00", "event": "tool_staged_for_review", "slug": "ashuteacher", "category": "education-learning", "source": "Hacker News — Show HN AI"}
 {"timestamp": "2026-11-27T13:49:51.574993+00:00", "event": "tool_staged_for_review", "slug": "scolast", "category": "education-learning", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-28T12:57:40.028668+00:00", "event": "source_ok", "source": "Hacker News — Show HN AI", "candidates": 27}
+{"timestamp": "2026-11-28T12:57:40.030854+00:00", "event": "candidate_rejected", "name": "Folio", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.030987+00:00", "event": "candidate_rejected", "name": "Agentic Signal", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.031095+00:00", "event": "candidate_rejected", "name": "Turbotap", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.031168+00:00", "event": "candidate_rejected", "name": "Voicehook", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.031233+00:00", "event": "candidate_rejected", "name": "Fleetlayer", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.031303+00:00", "event": "candidate_rejected", "name": "Atlas Compiler", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.031577+00:00", "event": "candidate_rejected", "name": "Github", "reason": "duplicate"}
+{"timestamp": "2026-11-28T12:57:40.031666+00:00", "event": "candidate_rejected", "name": "Usecodela", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.031743+00:00", "event": "candidate_rejected", "name": "Machine-load", "reason": "duplicate"}
+{"timestamp": "2026-11-28T12:57:40.031826+00:00", "event": "candidate_rejected", "name": "Flowmaps", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.031905+00:00", "event": "candidate_rejected", "name": "GPT Plays Civilization", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.032058+00:00", "event": "candidate_rejected", "name": "Onair", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.032127+00:00", "event": "candidate_rejected", "name": "CoDesignFlo", "reason": "duplicate"}
+{"timestamp": "2026-11-28T12:57:40.032186+00:00", "event": "candidate_rejected", "name": "Folio Eta Bay 59", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.032256+00:00", "event": "candidate_rejected", "name": "Youraitimelines", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.032319+00:00", "event": "candidate_rejected", "name": "Recap Ux", "reason": "generic_fallback_description"}
+{"timestamp": "2026-11-28T12:57:40.032397+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.032455+00:00", "event": "candidate_rejected", "name": "Slashanywhere", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.032511+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.032568+00:00", "event": "candidate_rejected", "name": "Telegram image bot", "reason": "duplicate"}
+{"timestamp": "2026-11-28T12:57:40.032621+00:00", "event": "candidate_rejected", "name": "AshuTeacher", "reason": "duplicate"}
+{"timestamp": "2026-11-28T12:57:40.032685+00:00", "event": "candidate_rejected", "name": "Scolast", "reason": "duplicate"}
+{"timestamp": "2026-11-28T12:57:40.032746+00:00", "event": "candidate_rejected", "name": "Github", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.032812+00:00", "event": "candidate_rejected", "name": "Dailydev", "reason": "low_confidence"}
+{"timestamp": "2026-11-28T12:57:40.032873+00:00", "event": "candidate_rejected", "name": "Kaju", "reason": "duplicate"}
+{"timestamp": "2026-11-28T12:57:40.049847+00:00", "event": "tool_staged_for_review", "slug": "beardstylesformen", "category": "design-ux", "source": "Hacker News — Show HN AI"}
+{"timestamp": "2026-11-28T12:57:40.049911+00:00", "event": "tool_staged_for_review", "slug": "bobebot", "category": "productivity-automation", "source": "Hacker News — Show HN AI"}

@@ -7542,5 +7542,54 @@
     "sourceName": "Hacker News — Show HN AI",
     "sourceUrl": "https://news.ycombinator.com/item?id=50661473",
     "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "beardstylesformen",
+    "name": "Beardstylesformen",
+    "category": "design-ux",
+    "tagline": "You can get your best beard styles which suits your face shape",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://beardstylesformen.org/beard-design",
+    "description": "Beardstylesformen is a newly discovered AI product for design ux. You can get your best beard styles which suits your face shape.",
+    "tags": [
+      "Design",
+      "Design UX"
+    ],
+    "features": [
+      "Generate and refine interface ideas",
+      "Explore multiple design directions",
+      "Create editable product concepts",
+      "Shorten early design workflows"
+    ],
+    "discoveredAt": "2026-11-28",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50673844",
+    "reviewStatus": "auto-discovered"
+  },
+  {
+    "slug": "bobebot",
+    "name": "Bobebot",
+    "category": "productivity-automation",
+    "tagline": "Here is a fun project if you want to make an open-source Meta Muse Charm. It is a cheap ESP32-S3 talking toy from Shanghai talking to my Mac/Linux desktop app (BoBe), with zero API",
+    "pricing": "Freemium",
+    "rating": 0.0,
+    "featured": false,
+    "website": "https://www.bobebot.com/body",
+    "description": "Here is a fun project if you want to make an open-source Meta Muse Charm. It is a cheap ESP32-S3 talking toy from Shanghai talking to my Mac/Linux desktop app (BoBe), with zero API keys on the chip. I mapped the screen, audio and power-latch pins with no schematic, and wired a Raspberry Pi Pico 2 to press its physical buttons automatically behind a packet-loss router to test bad Wi-Fi. Not selling anything, just a ho",
+    "tags": [
+      "Productivity Automation"
+    ],
+    "features": [
+      "Reduce repetitive manual work",
+      "Connect tasks into clear workflows",
+      "Organize information and priorities",
+      "Save time across everyday operations"
+    ],
+    "discoveredAt": "2026-11-28",
+    "sourceName": "Hacker News — Show HN AI",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50668024",
+    "reviewStatus": "auto-discovered"
   }
 ]
